@@ -42,51 +42,61 @@ jobs:
           test -f clean-upload/index.html
           test -d clean-upload/_next
 
-      - name: Probe FTP endpoint (port 21)
+      - name: Install lftp
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lftp
+
+      - name: Deploy via exhaustive host/protocol attempts
         env:
           CPANEL_FTP_HOST: ${{ secrets.CPANEL_FTP_HOST }}
+          CPANEL_FTP_USER: ${{ secrets.CPANEL_FTP_USER }}
+          CPANEL_FTP_PASSWORD: ${{ secrets.CPANEL_FTP_PASSWORD }}
         run: |
-          echo "Checking TCP connection to $CPANEL_FTP_HOST:21"
-          timeout 10 bash -c "</dev/tcp/$CPANEL_FTP_HOST/21" && echo "TCP_OK" || (echo "::error::Cannot reach FTP endpoint on port 21" && exit 1)
+          set -euo pipefail
 
-      - name: Deploy via FTP (attempt 1)
-        id: deploy_ftp
-        continue-on-error: true
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.CPANEL_FTP_HOST }}
-          username: ${{ secrets.CPANEL_FTP_USER }}
-          password: ${{ secrets.CPANEL_FTP_PASSWORD }}
-          protocol: ftp
-          port: 21
-          local-dir: clean-upload/
-          server-dir: /public_html/
-          dangerous-clean-slate: false
+          hosts=(
+            "$CPANEL_FTP_HOST"
+            "34motokuryeistanbul.com"
+            "www.34motokuryeistanbul.com"
+            "ftp.34motokuryeistanbul.com"
+            "panel.34motokuryeistanbul.com"
+            "api.34motokuryeistanbul.com"
+          )
 
-      - name: Deploy via FTPS (attempt 2)
-        id: deploy_ftps
-        if: steps.deploy_ftp.outcome != 'success'
-        continue-on-error: true
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.CPANEL_FTP_HOST }}
-          username: ${{ secrets.CPANEL_FTP_USER }}
-          password: ${{ secrets.CPANEL_FTP_PASSWORD }}
-          protocol: ftps
-          port: 21
-          local-dir: clean-upload/
-          server-dir: /public_html/
-          dangerous-clean-slate: false
+          protocols=(ftp ftps)
+          ports=(21 22)
 
-      - name: Check deployment result
-        run: |
-          ftp_outcome="${{ steps.deploy_ftp.outcome }}"
-          ftps_outcome="${{ steps.deploy_ftps.outcome }}"
+          # Remove empty/duplicate hosts while preserving order.
+          uniq_hosts=()
+          for h in "${hosts[@]}"; do
+            [ -z "$h" ] && continue
+            skip=0
+            for uh in "${uniq_hosts[@]}"; do
+              [ "$uh" = "$h" ] && skip=1 && break
+            done
+            [ "$skip" -eq 0 ] && uniq_hosts+=("$h")
+          done
 
-          if [ "$ftp_outcome" = "success" ] || [ "$ftps_outcome" = "success" ]; then
-            echo "Deployment succeeded. ftp=$ftp_outcome ftps=$ftps_outcome"
-            exit 0
-          fi
+          attempt=0
+          for host in "${uniq_hosts[@]}"; do
+            for protocol in "${protocols[@]}"; do
+              for port in "${ports[@]}"; do
+                attempt=$((attempt + 1))
+                echo "Attempt #$attempt -> $protocol://$host:$port"
 
-          echo "::error::Both FTP and FTPS deploy attempts failed. Check CPANEL_FTP_HOST / CPANEL_FTP_USER / CPANEL_FTP_PASSWORD values and FTP account permissions."
+                set +e
+                lftp -u "$CPANEL_FTP_USER","$CPANEL_FTP_PASSWORD" "$protocol://$host:$port" -e "set net:timeout 8; set net:max-retries 1; set ssl:verify-certificate no; mirror -R --delete --verbose=1 clean-upload /public_html; bye"
+                code=$?
+                set -e
+
+                if [ "$code" -eq 0 ]; then
+                  echo "Deployment succeeded on $protocol://$host:$port"
+                  exit 0
+                fi
+              done
+            done
+          done
+
+          echo "::error::All host/protocol/port deployment attempts failed. cPanel server hostname is required in CPANEL_FTP_HOST."
           exit 1
