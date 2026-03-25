@@ -70,7 +70,7 @@ jobs:
           )
 
           protocols=(ftp ftps)
-          ports=(21 22)
+          ports=(21)
 
           # Remove empty/duplicate hosts while preserving order.
           uniq_hosts=()
@@ -91,7 +91,7 @@ jobs:
                 echo "Attempt #$attempt -> $protocol://$host:$port"
 
                 set +e
-                lftp -u "$CPANEL_FTP_USER","$CPANEL_FTP_PASSWORD" "$protocol://$host:$port" -e "set net:timeout 8; set net:max-retries 1; set ssl:verify-certificate no; mirror -R --delete --verbose=1 clean-upload /public_html; bye"
+                timeout 25s lftp -u "$CPANEL_FTP_USER","$CPANEL_FTP_PASSWORD" "$protocol://$host:$port" -e "set net:timeout 6; set net:max-retries 1; set net:reconnect-interval-base 2; set ssl:verify-certificate no; mirror -R --delete --verbose=1 clean-upload /public_html; bye"
                 code=$?
                 set -e
 
