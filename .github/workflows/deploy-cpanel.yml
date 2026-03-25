@@ -13,10 +13,29 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Validate required secrets
+        env:
+          CPANEL_FTP_HOST: ${{ secrets.CPANEL_FTP_HOST }}
+          CPANEL_FTP_USER: ${{ secrets.CPANEL_FTP_USER }}
+          CPANEL_FTP_PASSWORD: ${{ secrets.CPANEL_FTP_PASSWORD }}
+        run: |
+          missing=0
+          for key in CPANEL_FTP_HOST CPANEL_FTP_USER CPANEL_FTP_PASSWORD; do
+            if [ -z "${!key}" ]; then
+              echo "::error::$key is missing in repository secrets"
+              missing=1
+            fi
+          done
+
+          if [ "$missing" -eq 1 ]; then
+            exit 1
+          fi
 
       - name: Verify deploy folder
         run: |
@@ -33,4 +52,4 @@ jobs:
           port: 21
           local-dir: clean-upload/
           server-dir: /public_html/
-          dangerous-clean-slate: true
+          dangerous-clean-slate: false
