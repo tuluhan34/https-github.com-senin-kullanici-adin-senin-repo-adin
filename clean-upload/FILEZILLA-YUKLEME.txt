@@ -1,0 +1,29 @@
+FILEZILLA ILE TEMIZ YUKLEME (34kurye statik site)
+================================================
+
+Bu klasor (clean-upload) icindekilerin TAMAMINI sunucuya yukleyeceksiniz.
+
+1) FileZilla ile baglanin (SFTP tercih: port 22, veya FTP 21).
+
+2) UZAK KLASOR (cPanel):
+   /public_html
+   (Bazi hesaplarda ana domain dogrudan public_html'e bakar.)
+
+3) ONEMLI:
+   - clean-upload KLASORUNUN KENDISINI DEGIL, icindekileri yukleyin.
+   - public_html icinde su dosyalar gorunmeli:
+     - index.html  (kokte)
+     - _next/      (klasor)
+     - galeri/     (klasor)
+     - robots.txt, sitemap.xml vb.
+
+4) "defaultwebpage.cgi" / "Uzgunum" sayfasi goruyorsaniz:
+   - Dosyalar yanlis yerde (or. sadece alt klasore) veya
+   - public_html bos / eski cache
+   Cozum: public_html icini temizleyip bu klasordeki dosyalari tekrar yukleyin.
+
+5) Galeri resimleri: /gallery/ altinda yerel dosyalar (sunucu dis link engellemez).
+
+6) SSL: cPanel > SSL/TLS Status > AutoSSL (opsiyonel).
+
+Olusturma: npm run prepare:upload

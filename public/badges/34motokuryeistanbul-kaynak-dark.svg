@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="96" viewBox="0 0 320 96" role="img" aria-labelledby="title desc">
+  <title id="title">34 Moto Kurye İstanbul Resmi Kaynak Rozeti</title>
+  <desc id="desc">Yayinlar icin resmi kaynak rozetidir.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="316" height="92" rx="18" fill="url(#bg)" stroke="#facc15" stroke-width="3"/>
+  <text x="22" y="39" fill="#facc15" font-size="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="1">RESMI KAYNAK</text>
+  <text x="22" y="62" fill="#ffffff" font-size="21" font-family="Arial, Helvetica, sans-serif" font-weight="700">34 MOTO KURYE</text>
+  <text x="22" y="82" fill="#e4e4e7" font-size="16" font-family="Arial, Helvetica, sans-serif" font-weight="700">ISTANBUL</text>
+  <circle cx="278" cy="48" r="26" fill="#facc15"/>
+  <text x="262" y="56" fill="#111827" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700">7/24</text>
+</svg>

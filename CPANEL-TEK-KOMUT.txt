@@ -1,0 +1,28 @@
+ZIP HAZIR DOSYA:
+admin-panel-live-20260325-2136.zip
+
+DOMAIN:
+www.34motokuryeistanbul.com
+
+ONERILEN YAPI:
+- Panel: panel.34motokuryeistanbul.com
+- API: api.34motokuryeistanbul.com
+
+cPanel adimlari:
+1) Bu zip'i cPanel File Manager ile home dizinine yukle
+2) Extract et
+3) cPanel Terminal ac
+4) Asagidaki komutu tek seferde calistir
+
+cd ~/admin-panel-live-20260325-2136 && chmod +x deploy/cpanel-auto-setup.sh && PANEL_URL="https://panel.34motokuryeistanbul.com" API_URL="https://api.34motokuryeistanbul.com/api" CORS_ORIGIN="https://panel.34motokuryeistanbul.com" bash deploy/cpanel-auto-setup.sh
+
+Kurulum tamamlaninca:
+- Node.js App startup file: src/server.js
+- App root: admin-panel-live-20260325-2136/backend
+- App URL: api.34motokuryeistanbul.com
+- App restart yap
+- Frontend dosyalari: admin-panel-live-20260325-2136/frontend/dist
+- Frontend'i panel.34motokuryeistanbul.com document root'una yukle
+
+NOT:
+Eger subdomain acamiyorsan haber ver, tek domain altinda (/panel ve /api) ayarini ayrica hazirlayayim.

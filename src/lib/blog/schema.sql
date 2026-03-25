@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS blog_posts (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  title TEXT NOT NULL,
+  slug TEXT NOT NULL UNIQUE,
+  content TEXT NOT NULL,
+  metaTitle TEXT NOT NULL,
+  metaDescription TEXT NOT NULL,
+  createdAt TEXT NOT NULL,
+  publishedAt TEXT NOT NULL
+);

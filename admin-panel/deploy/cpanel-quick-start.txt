@@ -1,0 +1,10 @@
+cPanel terminalde tek komut:
+
+cd ~/admin-panel-live-YYYYMMDD-HHMM
+chmod +x deploy/cpanel-auto-setup.sh
+PANEL_URL="https://panel.senin-domainin.com" API_URL="https://api.senin-domainin.com/api" CORS_ORIGIN="https://panel.senin-domainin.com" bash deploy/cpanel-auto-setup.sh
+
+Not:
+- API_URL sonuna /api eklenmeli.
+- Script backend/.env ve frontend/.env dosyalarini otomatik olusturur.
+- Script migration + seed + frontend build yapar.

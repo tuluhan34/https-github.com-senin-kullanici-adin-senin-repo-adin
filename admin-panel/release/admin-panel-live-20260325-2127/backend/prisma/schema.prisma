@@ -1,0 +1,85 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  USER
+}
+
+enum RecordStatus {
+  PENDING
+  ACTIVE
+  ARCHIVED
+}
+
+model User {
+  id           Int          @id @default(autoincrement())
+  name         String
+  email        String       @unique
+  passwordHash String
+  role         Role         @default(USER)
+  isActive     Boolean      @default(true)
+  lastLoginAt  DateTime?
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+  settings     Setting[]
+  logs         LogEntry[]
+  records      DataRecord[]
+
+  @@index([email])
+  @@index([role])
+}
+
+model Setting {
+  id          Int      @id @default(autoincrement())
+  key         String   @unique
+  value       String
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  updatedById Int?
+  updatedBy   User?    @relation(fields: [updatedById], references: [id], onDelete: SetNull)
+
+  @@index([key])
+}
+
+model DataRecord {
+  id          Int          @id @default(autoincrement())
+  title       String
+  category    String
+  status      RecordStatus @default(PENDING)
+  amount      Float        @default(0)
+  description String?
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+  createdById Int
+  createdBy   User         @relation(fields: [createdById], references: [id], onDelete: Restrict)
+
+  @@index([category])
+  @@index([status])
+  @@index([createdAt])
+}
+
+model LogEntry {
+  id        Int      @id @default(autoincrement())
+  level     String
+  action    String
+  entity    String
+  entityId  String?
+  message   String
+  metadata  String?
+  createdAt DateTime @default(now())
+  userId    Int?
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([level])
+  @@index([action])
+  @@index([entity])
+  @@index([createdAt])
+}

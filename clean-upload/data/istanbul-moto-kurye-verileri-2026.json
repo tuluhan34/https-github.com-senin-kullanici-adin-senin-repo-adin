@@ -1,0 +1,22 @@
+{
+  "source": "34 Moto Kurye İstanbul operasyonel örnek veri seti",
+  "lastUpdated": "2026-03-22",
+  "city": "Istanbul",
+  "metrics": {
+    "serviceCoverageDistrictCount": 39,
+    "estimatedPeakHours": ["08:00-10:30", "12:00-14:00", "17:00-20:30"],
+    "serviceModels": [
+      "Moto Kurye",
+      "Acil Kurye",
+      "VIP Kurye",
+      "Gece Kurye",
+      "Aracli Kurye"
+    ]
+  },
+  "attribution": {
+    "name": "34 Moto Kurye İstanbul",
+    "website": "https://34motokuryeistanbul.com",
+    "contactEmail": "bilgi@34kurye.com"
+  },
+  "license": "Kaynak belirtilerek alinti yapilabilir"
+}

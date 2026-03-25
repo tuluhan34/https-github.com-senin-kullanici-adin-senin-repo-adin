@@ -1,0 +1,26 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /*?*utm_*
+
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: ChatGPT-User
+Allow: /
+
+User-Agent: OAI-SearchBot
+Allow: /
+
+User-Agent: Google-Extended
+Allow: /
+
+User-Agent: ClaudeBot
+Allow: /
+
+User-Agent: PerplexityBot
+Allow: /
+
+Host: 34motokuryeistanbul.com
+Sitemap: https://34motokuryeistanbul.com/sitemap.xml
