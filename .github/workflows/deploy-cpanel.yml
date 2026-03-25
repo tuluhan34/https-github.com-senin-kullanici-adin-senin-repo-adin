@@ -42,14 +42,46 @@ jobs:
           test -f clean-upload/index.html
           test -d clean-upload/_next
 
+      - name: Resolve FTP config
+        id: ftp_cfg
+        env:
+          FTP_PROTOCOL_VAR: ${{ vars.CPANEL_FTP_PROTOCOL }}
+          FTP_PORT_VAR: ${{ vars.CPANEL_FTP_PORT }}
+        run: |
+          protocol="${FTP_PROTOCOL_VAR}"
+          port="${FTP_PORT_VAR}"
+
+          if [ -z "$protocol" ]; then
+            protocol="ftp"
+          fi
+
+          if [ -z "$port" ]; then
+            if [ "$protocol" = "ftps" ]; then
+              port="21"
+            else
+              port="21"
+            fi
+          fi
+
+          echo "protocol=$protocol" >> "$GITHUB_OUTPUT"
+          echo "port=$port" >> "$GITHUB_OUTPUT"
+
+      - name: Probe FTP endpoint
+        env:
+          CPANEL_FTP_HOST: ${{ secrets.CPANEL_FTP_HOST }}
+          FTP_PORT: ${{ steps.ftp_cfg.outputs.port }}
+        run: |
+          echo "Checking TCP connection to $CPANEL_FTP_HOST:$FTP_PORT"
+          timeout 10 bash -c "</dev/tcp/$CPANEL_FTP_HOST/$FTP_PORT" && echo "TCP_OK" || (echo "::error::Cannot reach FTP endpoint on configured host/port" && exit 1)
+
       - name: Deploy to cPanel via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.CPANEL_FTP_HOST }}
           username: ${{ secrets.CPANEL_FTP_USER }}
           password: ${{ secrets.CPANEL_FTP_PASSWORD }}
-          protocol: ftp
-          port: 21
+          protocol: ${{ steps.ftp_cfg.outputs.protocol }}
+          port: ${{ steps.ftp_cfg.outputs.port }}
           local-dir: clean-upload/
           server-dir: /public_html/
           dangerous-clean-slate: false
