@@ -42,46 +42,51 @@ jobs:
           test -f clean-upload/index.html
           test -d clean-upload/_next
 
-      - name: Resolve FTP config
-        id: ftp_cfg
-        env:
-          FTP_PROTOCOL_VAR: ${{ vars.CPANEL_FTP_PROTOCOL }}
-          FTP_PORT_VAR: ${{ vars.CPANEL_FTP_PORT }}
-        run: |
-          protocol="${FTP_PROTOCOL_VAR}"
-          port="${FTP_PORT_VAR}"
-
-          if [ -z "$protocol" ]; then
-            protocol="ftp"
-          fi
-
-          if [ -z "$port" ]; then
-            if [ "$protocol" = "ftps" ]; then
-              port="21"
-            else
-              port="21"
-            fi
-          fi
-
-          echo "protocol=$protocol" >> "$GITHUB_OUTPUT"
-          echo "port=$port" >> "$GITHUB_OUTPUT"
-
-      - name: Probe FTP endpoint
+      - name: Probe FTP endpoint (port 21)
         env:
           CPANEL_FTP_HOST: ${{ secrets.CPANEL_FTP_HOST }}
-          FTP_PORT: ${{ steps.ftp_cfg.outputs.port }}
         run: |
-          echo "Checking TCP connection to $CPANEL_FTP_HOST:$FTP_PORT"
-          timeout 10 bash -c "</dev/tcp/$CPANEL_FTP_HOST/$FTP_PORT" && echo "TCP_OK" || (echo "::error::Cannot reach FTP endpoint on configured host/port" && exit 1)
+          echo "Checking TCP connection to $CPANEL_FTP_HOST:21"
+          timeout 10 bash -c "</dev/tcp/$CPANEL_FTP_HOST/21" && echo "TCP_OK" || (echo "::error::Cannot reach FTP endpoint on port 21" && exit 1)
 
-      - name: Deploy to cPanel via FTP
+      - name: Deploy via FTP (attempt 1)
+        id: deploy_ftp
+        continue-on-error: true
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.CPANEL_FTP_HOST }}
           username: ${{ secrets.CPANEL_FTP_USER }}
           password: ${{ secrets.CPANEL_FTP_PASSWORD }}
-          protocol: ${{ steps.ftp_cfg.outputs.protocol }}
-          port: ${{ steps.ftp_cfg.outputs.port }}
+          protocol: ftp
+          port: 21
           local-dir: clean-upload/
           server-dir: /public_html/
           dangerous-clean-slate: false
+
+      - name: Deploy via FTPS (attempt 2)
+        id: deploy_ftps
+        if: steps.deploy_ftp.outcome != 'success'
+        continue-on-error: true
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.CPANEL_FTP_HOST }}
+          username: ${{ secrets.CPANEL_FTP_USER }}
+          password: ${{ secrets.CPANEL_FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          local-dir: clean-upload/
+          server-dir: /public_html/
+          dangerous-clean-slate: false
+
+      - name: Check deployment result
+        run: |
+          ftp_outcome="${{ steps.deploy_ftp.outcome }}"
+          ftps_outcome="${{ steps.deploy_ftps.outcome }}"
+
+          if [ "$ftp_outcome" = "success" ] || [ "$ftps_outcome" = "success" ]; then
+            echo "Deployment succeeded. ftp=$ftp_outcome ftps=$ftps_outcome"
+            exit 0
+          fi
+
+          echo "::error::Both FTP and FTPS deploy attempts failed. Check CPANEL_FTP_HOST / CPANEL_FTP_USER / CPANEL_FTP_PASSWORD values and FTP account permissions."
+          exit 1
