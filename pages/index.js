@@ -82,11 +82,28 @@ const trackingTimeline = [
   },
 ];
 
-const buildWhatsappUrl = (pickupAddress, dropoffAddress, courierType) => {
+const buildWhatsappUrl = (
+  pickupAddress,
+  senderName,
+  senderPhone,
+  dropoffAddress,
+  recipientName,
+  recipientPhone,
+  courierType,
+) => {
   const message = [
     "Merhaba, acil moto kurye talebi oluşturmak istiyorum.",
-    `Alış Noktası: ${pickupAddress || "Belirtilecektir"}`,
-    `Teslimat Noktası: ${dropoffAddress || "Belirtilecektir"}`,
+    "",
+    "ALIS NOKTASI",
+    `Adres: ${pickupAddress || "Belirtilecektir"}`,
+    `Gonderen Ad Soyad: ${senderName || "Belirtilecektir"}`,
+    `Gonderen Telefon: ${senderPhone || "Belirtilecektir"}`,
+    "",
+    "TESLIM NOKTASI",
+    `Adres: ${dropoffAddress || "Belirtilecektir"}`,
+    `Alici Ad Soyad: ${recipientName || "Belirtilecektir"}`,
+    `Alici Telefon: ${recipientPhone || "Belirtilecektir"}`,
+    "",
     `Hizmet Seviyesi: ${courierType}`,
     "Müsait kurye ve fiyat bilgisi ile dönüş rica ederim.",
   ].join("\n");
@@ -114,7 +131,11 @@ const PhoneIcon = () => (
 
 export default function Home() {
   const [pickupAddress, setPickupAddress] = useState("");
+  const [senderName, setSenderName] = useState("");
+  const [senderPhone, setSenderPhone] = useState("");
   const [dropoffAddress, setDropoffAddress] = useState("");
+  const [recipientName, setRecipientName] = useState("");
+  const [recipientPhone, setRecipientPhone] = useState("");
   const [courierType, setCourierType] = useState("Özel VIP Kurye");
   const [trackingStep, setTrackingStep] = useState(0);
   const [notificationState, setNotificationState] = useState("default");
@@ -158,8 +179,16 @@ export default function Home() {
   };
 
   const whatsappUrl = useMemo(() => {
-    return buildWhatsappUrl(pickupAddress, dropoffAddress, courierType);
-  }, [pickupAddress, dropoffAddress, courierType]);
+    return buildWhatsappUrl(
+      pickupAddress,
+      senderName,
+      senderPhone,
+      dropoffAddress,
+      recipientName,
+      recipientPhone,
+      courierType,
+    );
+  }, [pickupAddress, senderName, senderPhone, dropoffAddress, recipientName, recipientPhone, courierType]);
 
   const trackingProgress = ((trackingStep + 1) / trackingTimeline.length) * 100;
 
@@ -190,8 +219,11 @@ export default function Home() {
 
         <section className="container hero hero-split" id="top">
           <div className="hero-copy">
-            <p className="eyebrow">İstanbul genelinde 7/24 acil moto kurye hizmeti</p>
-            <h1>Hızlı Kurye. Güvenli Teslimat. Anlık Durum Bilgisi.</h1>
+            <p className="eyebrow">1 Dakikada Teklif Al</p>
+            <h1>Vakit Kaybetme. Hemen Kurye Çağır.</h1>
+            <p className="lead">
+              Hızlı Kurye. Güvenli Teslimat. Anlık Durum Bilgisi.
+            </p>
             <p className="lead">
               Evrak, paket, numune ve değerli gönderilerinizi İstanbul trafiğine takılmadan
               adresten adrese taşıyoruz. Aynı gün teslimat, şeffaf süreç ve güçlü operasyon
@@ -199,25 +231,69 @@ export default function Home() {
             </p>
 
             <div className="hero-form">
-              <label className="field">
-                <span>Alış Noktası</span>
-                <input
-                  type="text"
-                  value={pickupAddress}
-                  onChange={(event) => setPickupAddress(event.target.value)}
-                  placeholder="Örn. Levent Finans Merkezi"
-                />
-              </label>
+              <div className="location-split">
+                <section className="location-card">
+                  <h3>Alış Noktası</h3>
+                  <label className="field">
+                    <span>Adres</span>
+                    <input
+                      type="text"
+                      value={pickupAddress}
+                      onChange={(event) => setPickupAddress(event.target.value)}
+                      placeholder="Örn. Levent Finans Merkezi"
+                    />
+                  </label>
+                  <label className="field">
+                    <span>Gönderen Ad Soyad</span>
+                    <input
+                      type="text"
+                      value={senderName}
+                      onChange={(event) => setSenderName(event.target.value)}
+                      placeholder="Örn. Ahmet Yılmaz"
+                    />
+                  </label>
+                  <label className="field">
+                    <span>Gönderen Telefon</span>
+                    <input
+                      type="tel"
+                      value={senderPhone}
+                      onChange={(event) => setSenderPhone(event.target.value)}
+                      placeholder="Örn. 05xx xxx xx xx"
+                    />
+                  </label>
+                </section>
 
-              <label className="field">
-                <span>Teslimat Noktası</span>
-                <input
-                  type="text"
-                  value={dropoffAddress}
-                  onChange={(event) => setDropoffAddress(event.target.value)}
-                  placeholder="Örn. Nişantaşı Kurumsal Ofis"
-                />
-              </label>
+                <section className="location-card">
+                  <h3>Teslim Noktası</h3>
+                  <label className="field">
+                    <span>Adres</span>
+                    <input
+                      type="text"
+                      value={dropoffAddress}
+                      onChange={(event) => setDropoffAddress(event.target.value)}
+                      placeholder="Örn. Nişantaşı Kurumsal Ofis"
+                    />
+                  </label>
+                  <label className="field">
+                    <span>Alıcı Ad Soyad</span>
+                    <input
+                      type="text"
+                      value={recipientName}
+                      onChange={(event) => setRecipientName(event.target.value)}
+                      placeholder="Örn. Elif Kaya"
+                    />
+                  </label>
+                  <label className="field">
+                    <span>Alıcı Telefon</span>
+                    <input
+                      type="tel"
+                      value={recipientPhone}
+                      onChange={(event) => setRecipientPhone(event.target.value)}
+                      placeholder="Örn. 05xx xxx xx xx"
+                    />
+                  </label>
+                </section>
+              </div>
 
               <label className="field">
                 <span>Hizmet Seviyesi</span>
@@ -255,7 +331,7 @@ export default function Home() {
 
             <div className="trust-strip">
               <span>Aynı Gün Teslimat</span>
-              <span>Canlı Kurye Takibi</span>
+              <span>Anlık Durum Bildirimi</span>
               <span>39 İlçeye 7/24 Hizmet</span>
             </div>
           </div>
