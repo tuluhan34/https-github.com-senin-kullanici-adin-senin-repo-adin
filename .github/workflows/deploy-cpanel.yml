@@ -73,12 +73,19 @@ jobs:
           protocols=(ftp ftps)
           ports=(21)
           remote_paths=(
+            "/"
+            "."
+            "/www"
+            "/httpdocs"
+            "/htdocs"
             "/public_html"
             "/public_html/34motokuryeistanbul.com"
             "/public_html/www.34motokuryeistanbul.com"
             "/domains/34motokuryeistanbul.com/public_html"
             "/domains/www.34motokuryeistanbul.com/public_html"
           )
+          verify_url="https://34motokuryeistanbul.com/"
+          verify_marker="Hemen Kurye Cagir"
 
           # Remove empty/duplicate hosts while preserving order.
           uniq_hosts=()
@@ -108,6 +115,19 @@ jobs:
 
                   if [ "$code" -eq 0 ]; then
                     any_path_ok=1
+
+                    # Only accept success if public domain serves the expected marker.
+                    set +e
+                    live_html="$(curl -k -L --max-time 20 -s "$verify_url")"
+                    verify_code=$?
+                    set -e
+
+                    if [ "$verify_code" -eq 0 ] && echo "$live_html" | grep -q "$verify_marker"; then
+                      echo "Deployment verified on $protocol://$host:$port $remote_path"
+                      exit 0
+                    fi
+
+                    echo "Upload worked but live verify failed for path $remote_path; trying next path..."
                   fi
                 done
 
