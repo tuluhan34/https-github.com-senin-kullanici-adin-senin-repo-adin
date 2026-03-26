@@ -1,6 +1,10 @@
 ZIP DOSYASI (ANA SITE):
 cpanel-clean-upload-latest.zip
 
+KURAL:
+- Production canli yayin sadece cPanel `public_html` uzerinden yapilir.
+- Tunnel URL'leri (`localhost.run`, `ngrok`, `localtunnel`, `bore`) gecici test icindir, canli kabul edilmez.
+
 DOMAIN:
 www.34motokuryeistanbul.com
 

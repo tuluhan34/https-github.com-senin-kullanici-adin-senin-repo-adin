@@ -4,6 +4,10 @@ admin-panel-live-20260325-2136.zip
 DOMAIN:
 www.34motokuryeistanbul.com
 
+KURAL:
+- Production canli yayin sadece cPanel `public_html` uzerinden yapilir.
+- Tunnel URL'leri (`localhost.run`, `ngrok`, `localtunnel`, `bore`) gecici test icindir, canli kabul edilmez.
+
 ONERILEN YAPI:
 - Panel: panel.34motokuryeistanbul.com
 - API: api.34motokuryeistanbul.com

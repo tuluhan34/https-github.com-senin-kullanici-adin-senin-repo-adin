@@ -11,9 +11,7 @@ concurrency:
   cancel-in-progress: true
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: read
 
 jobs:
   deploy_cpanel:
@@ -228,47 +226,3 @@ jobs:
           echo "::error::All cPanel host/protocol attempts failed."
           exit 1
 
-  deploy_github_pages:
-    needs: deploy_cpanel
-    if: always()
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build static export
-        run: npm run build
-
-      - name: Prepare GitHub Pages subpath build
-        run: |
-          set -e
-          REPO_NAME="${GITHUB_REPOSITORY#*/}"
-          DIST_DIR=".gh-pages-dist"
-
-          rm -rf "$DIST_DIR"
-          cp -a out "$DIST_DIR"
-
-          find "$DIST_DIR" -type f -name '*.html' -print0 | xargs -0 sed -i \
-            -e "s|href=\"/|href=\"/${REPO_NAME}/|g" \
-            -e "s|src=\"/|src=\"/${REPO_NAME}/|g" \
-            -e "s|\"/_next/|\"/${REPO_NAME}/_next/|g" \
-            -e "s|\"/manifest.webmanifest|\"/${REPO_NAME}/manifest.webmanifest|g" \
-            -e "s|\"/favicon.ico|\"/${REPO_NAME}/favicon.ico|g"
-
-      - name: Publish out to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .gh-pages-dist
-          publish_branch: gh-pages
-          force_orphan: true

@@ -96,6 +96,8 @@ npm run start
 
 Bu repo artik canliya cikarken dogrudan kaynak koddan build alir.
 
+KURAL (zorunlu): Canli yayin tunnel/temporary URL uzerinden yapilmaz. `localhost.run`, `ngrok`, `localtunnel`, `bore` gibi gecici tunnel cozumleri production kabul edilmez. Tek gecerli canli hedef cPanel uzerindeki gercek domaindir (`34motokuryeistanbul.com` / `www.34motokuryeistanbul.com`).
+
 - Kaynak: `pages/`, `components/`, `styles/`, `lib/`
 - Uretim cikisi: `out/`
 - Canli deploy tetikleyici: `main` branch'e push
