@@ -138,7 +138,6 @@ export default function Home() {
   const [recipientPhone, setRecipientPhone] = useState("");
   const [courierType, setCourierType] = useState("Özel VIP Kurye");
   const [trackingStep, setTrackingStep] = useState(0);
-  const [notificationState, setNotificationState] = useState("default");
 
   useEffect(() => {
     const stepTimer = window.setInterval(() => {
@@ -147,36 +146,6 @@ export default function Home() {
 
     return () => window.clearInterval(stepTimer);
   }, []);
-
-  useEffect(() => {
-    if (typeof window !== "undefined" && "Notification" in window) {
-      setNotificationState(Notification.permission);
-    }
-  }, []);
-
-  const requestPushPermission = async () => {
-    if (typeof window === "undefined" || !("Notification" in window) || !("serviceWorker" in navigator)) {
-      return;
-    }
-
-    try {
-      await navigator.serviceWorker.register("/sw.js");
-      const permission = await Notification.requestPermission();
-      setNotificationState(permission);
-
-      if (permission === "granted") {
-        const registration = await navigator.serviceWorker.ready;
-        await registration.showNotification("Öncelikli Bildirimler Aktif", {
-          body: "Gerçek zamanlı premium kurye durum bildirimleri etkinleştirildi.",
-          icon: "/favicon.ico",
-          badge: "/favicon.ico",
-          data: { url: "/" },
-        });
-      }
-    } catch (_error) {
-      setNotificationState("denied");
-    }
-  };
 
   const whatsappUrl = useMemo(() => {
     return buildWhatsappUrl(
@@ -213,7 +182,7 @@ export default function Home() {
           </a>
           <div className="topbar-actions">
             <a className="mini-cta mini-cta-wa" href="https://wa.me/905303219004" target="_blank" rel="noreferrer">WhatsApp Destek</a>
-            <a className="mini-cta" href="tel:05303219004">Öncelikli Arama</a>
+            <a className="mini-cta" href="tel:05303219004">Arama Yap</a>
           </div>
         </header>
 
@@ -309,24 +278,13 @@ export default function Home() {
               <div className="cta-row">
                 <a className="btn btn-primary" href={whatsappUrl} target="_blank" rel="noreferrer">
                   <span className="btn-icon"><WhatsAppIcon /></span>
-                  Hemen Kurye Çağır
+                  WhatsApp
                 </a>
                 <a className="btn btn-whatsapp" href="tel:05303219004">
                   <span className="btn-icon"><PhoneIcon /></span>
-                  Öncelikli Hattı Ara
+                  Arama Yap
                 </a>
               </div>
-
-              <button
-                type="button"
-                className="btn btn-notify"
-                onClick={requestPushPermission}
-              >
-                Bildirimleri Etkinleştir
-              </button>
-              <p className="notify-status">
-                Bildirim İzin Durumu: <strong>{notificationState}</strong>
-              </p>
             </div>
 
             <div className="trust-strip">
@@ -419,7 +377,7 @@ export default function Home() {
         </a>
         <a className="fab fab-call" href="tel:05303219004">
           <span className="btn-icon"><PhoneIcon /></span>
-          Öncelikli Arama
+          Arama Yap
         </a>
       </div>
     </>

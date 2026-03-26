@@ -230,9 +230,9 @@ p {
 }
 
 .cta-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.45rem;
-  flex-wrap: wrap;
 }
 
 .btn {
@@ -240,6 +240,7 @@ p {
   align-items: center;
   justify-content: center;
   gap: 0.44rem;
+  width: 100%;
   border-radius: 999px;
   padding: 0.9rem 1.2rem;
   font-weight: 600;
@@ -271,14 +272,8 @@ p {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
 }
 
-.btn-notify {
-  border: 1px solid rgba(212, 175, 55, 0.45);
-  background: rgba(212, 175, 55, 0.1);
-  color: #f0dc9d;
-}
-
-.notify-status {
-  font-size: 0.84rem;
+.hero-copy h1 {
+  max-width: 22ch;
 }
 
 .trust-strip {
@@ -588,6 +583,10 @@ p {
   }
 
   .location-split {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-row {
     grid-template-columns: 1fr;
   }
 
