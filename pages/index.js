@@ -217,6 +217,7 @@ export default function Home() {
         mapRef.current = new maps.Map(mapCanvasRef.current, {
           center: { lat: 41.015137, lng: 28.97953 },
           zoom: 11,
+          zoomControl: true,
           mapTypeControl: false,
           streetViewControl: false,
           fullscreenControl: false,
@@ -461,39 +462,31 @@ export default function Home() {
                 Evrak kurye, koli kurye, protez diş kurye ve vize evrak kurye talepleriniz için
                 süre ve operasyon planlaması bu formdan hızlıca yapılır.
               </p>
-            </div>
 
-            <div className="trust-strip">
-              <span>Aynı Gün Teslimat</span>
-              <span>Anlık Durum Bildirimi</span>
-              <span>39 İlçeye 7/24 Hizmet</span>
+              <div className="route-live-wrap">
+                <div className="route-km-panel" role="status" aria-live="polite">
+                  <strong>{routeKm}</strong>
+                  <span>Google Maps En Kısa Sürüş Mesafesi</span>
+                </div>
+                <p className="route-info">{routeInfo}</p>
+                <div ref={mapCanvasRef} className="route-map-canvas" />
+                <a className="btn btn-whatsapp route-map-button" href={mapsDirectionUrl} target="_blank" rel="noreferrer">
+                  Google Maps'ten Bakabilirsiniz
+                </a>
+                <div className="cta-row route-cta-row">
+                  <a className="btn btn-primary" href={whatsappUrl} target="_blank" rel="noreferrer">
+                    <span className="btn-icon"><WhatsAppIcon /></span>
+                    WhatsApp
+                  </a>
+                  <a className="btn btn-whatsapp" href="tel:05303219004">
+                    <span className="btn-icon"><PhoneIcon /></span>
+                    Arama Yap
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
-        </section>
-
-        <section className="container section-block tracking-shell">
-          <article className="tracking-card route-live-wrap">
-            <div className="route-km-panel" role="status" aria-live="polite">
-              <strong>{routeKm}</strong>
-              <span>Google Maps En Kısa Sürüş Mesafesi</span>
-            </div>
-            <p className="route-info">{routeInfo}</p>
-            <div ref={mapCanvasRef} className="route-map-canvas" />
-            <a className="btn btn-whatsapp route-map-button" href={mapsDirectionUrl} target="_blank" rel="noreferrer">
-              Google Maps'ten Bakabilirsiniz
-            </a>
-            <div className="cta-row route-cta-row">
-              <a className="btn btn-primary" href={whatsappUrl} target="_blank" rel="noreferrer">
-                <span className="btn-icon"><WhatsAppIcon /></span>
-                WhatsApp
-              </a>
-              <a className="btn btn-whatsapp" href="tel:05303219004">
-                <span className="btn-icon"><PhoneIcon /></span>
-                Arama Yap
-              </a>
-            </div>
-          </article>
         </section>
 
         <section className="container section-block">
