@@ -2,29 +2,9 @@ import Head from "next/head";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { districts } from "../lib/district-data";
+import { servicesCatalog } from "../lib/services-catalog";
 
-const courierServices = [
-  {
-    value: "Executive Moto Kurye",
-    title: "Acil Moto Kurye",
-    desc: "İstanbul içi yoğun trafikte dahi hızlı alım ve aynı gün güvenli teslimat.",
-  },
-  {
-    value: "Öncelikli Express Kurye",
-    title: "Express Kurye",
-    desc: "Zaman kritik gönderiler için öncelikli rota, hızlı kurye ataması ve anlık bilgilendirme.",
-  },
-  {
-    value: "Özel VIP Kurye",
-    title: "VIP Kurye",
-    desc: "Tek müşteri odaklı, gizlilik öncelikli ve hassas gönderiler için özel teslimat süreci.",
-  },
-  {
-    value: "Executive Araçlı Kurye",
-    title: "Araçlı Kurye",
-    desc: "Büyük paket, numune ve çok duraklı operasyonlar için güvenli araçlı kurye çözümü.",
-  },
-];
+const courierServices = servicesCatalog;
 
 const shipmentTypes = [
   "Evrak Kurye",
@@ -350,6 +330,7 @@ export default function Home() {
             <span className="brand-text">34 Moto Kurye İstanbul</span>
           </a>
           <div className="topbar-actions">
+            <Link className="mini-cta" href="/hizmetlerimiz">Hizmet Sayfaları</Link>
             <a className="mini-cta mini-cta-wa" href="https://wa.me/905303219004" target="_blank" rel="noreferrer">WhatsApp Destek</a>
             <a className="mini-cta" href="tel:05303219004">Arama Yap</a>
           </div>
@@ -542,10 +523,13 @@ export default function Home() {
           </div>
           <div className="service-grid">
             {courierServices.map((service) => (
-              <article key={service.value} className="service-card">
-                <h3>{service.title}</h3>
-                <p>{service.desc}</p>
-              </article>
+              <Link key={service.slug} href={`/hizmetler/${service.slug}`} className="service-card-link">
+                <article className="service-card">
+                  <img className="service-card-media" src={service.image} alt={service.imageAlt} loading="lazy" />
+                  <h3>{service.title}</h3>
+                  <p>{service.desc}</p>
+                </article>
+              </Link>
             ))}
           </div>
         </section>
