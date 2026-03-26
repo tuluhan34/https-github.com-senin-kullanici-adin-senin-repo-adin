@@ -1,9 +1,11 @@
 ﻿import Head from "next/head";
 import Link from "next/link";
+import { getNeighborhoodsByDistrictName } from "../lib/location-pages-data";
 
 export default function DistrictPage({ district }) {
   const title = `${district.name} Moto Kurye | Hizli ve Guvenli Teslimat`;
   const description = `${district.name} icinde acil moto kurye, ayni gun teslimat, evrak ve paket transferi. 05303219004 ile aninda kurye cagirabilirsiniz.`;
+  const neighborhoods = getNeighborhoodsByDistrictName(district.name);
 
   return (
     <>
@@ -60,6 +62,26 @@ export default function DistrictPage({ district }) {
           {district.longParagraphs.slice(18).map((paragraph, idx) => (
             <p key={`h2-c-${idx}`}>{paragraph}</p>
           ))}
+        </section>
+
+        <section>
+          {neighborhoods.length > 0 ? (
+            <>
+              <h2>{district.name} Mahalle Sayfalari</h2>
+              <div className="district-grid">
+                {neighborhoods.map((item) => (
+                  <Link
+                    key={`${item.districtSlug}-${item.neighborhoodSlug}`}
+                    href={`/ilceler/${item.districtSlug}/${item.neighborhoodSlug}`}
+                    className="district-card"
+                  >
+                    <h3>{item.neighborhood} Mahallesi</h3>
+                    <p>{item.description || `${item.neighborhood} mahallesi kurye hizmet detayi`}</p>
+                  </Link>
+                ))}
+              </div>
+            </>
+          ) : null}
         </section>
 
         <section>

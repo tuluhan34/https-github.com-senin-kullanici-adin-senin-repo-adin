@@ -556,7 +556,7 @@ export default function Home() {
             {districts.map((district) => (
               <Link key={district.slug} href={`/${district.slug}/`} className="district-card">
                 <h3>{district.name} Moto Kurye</h3>
-                <p>{district.shortText}</p>
+                <p>{district.name} ilçesinde evrak, paket ve kurumsal gönderiler için planlı ve hızlı moto kurye hizmeti.</p>
               </Link>
             ))}
           </div>
