@@ -1,8 +1,0 @@
-site: https://34motokuryeistanbul.com/
-name: 34 Moto Kurye İstanbul
-language: tr-TR
-description: Istanbul genelinde 7/24 moto kurye, acil kurye, VIP kurye ve aracli kurye hizmetleri.
-sitemap: https://34motokuryeistanbul.com/sitemap.xml
-llms: https://34motokuryeistanbul.com/llms.txt
-contact_phone: +905303219004
-contact_whatsapp: https://wa.me/905303219004

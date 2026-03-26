@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Kurye hizmetleri nasıl çalışır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Royal Kurye ile tek tıkla sipariş verilir, moto, VIP, ekspress veya araçlı kurye ile hızlı ve güvenli teslimat sağlanır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Belgeler ve başvuru süreci nasıl işler?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Başvuru için kimlik, ehliyet, SRC, sigorta, ruhsat, adli sicil ve ikametgah belgeleri eksiksiz yüklenir. Yasal kontrol ve onay sonrası iş başvurusu tamamlanır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "WhatsApp ile sipariş ve takip mümkün mü?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet, WhatsApp ile sipariş verilebilir ve canlı takip sağlanır."
+      }
+    }
+  ]
+}

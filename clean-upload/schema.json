@@ -1,0 +1,13 @@
+# schema.json
+{
+  "@context": "https://schema.org",
+  "@type": "CourierService",
+  "name": "Royal Kurye",
+  "areaServed": "Istanbul",
+  "url": "https://royalkurye.com",
+  "sameAs": [
+    "https://www.instagram.com/royalkurye",
+    "https://www.facebook.com/royalkurye",
+    "https://www.twitter.com/royalkurye"
+  ]
+}

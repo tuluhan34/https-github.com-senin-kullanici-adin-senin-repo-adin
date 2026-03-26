@@ -1,0 +1,12 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Royal Kurye",
+  "url": "https://royalkurye.com",
+  "logo": "https://royalkurye.com/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+905303219004",
+    "contactType": "customer service"
+  }
+}

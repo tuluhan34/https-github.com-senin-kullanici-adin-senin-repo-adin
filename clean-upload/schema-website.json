@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Royal Kurye",
+  "url": "https://royalkurye.com",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://royalkurye.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
