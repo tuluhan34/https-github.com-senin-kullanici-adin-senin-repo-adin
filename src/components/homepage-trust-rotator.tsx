@@ -2,13 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
-import {
-  businessProofItems,
-  getDisplayBusinessPhotos,
-  getGalleryTimeSlot,
-  homepageTrustMetrics,
-  realBusinessPhotos,
-} from "@/lib/site-data";
+import { businessProofItems, homepageTrustMetrics, realBusinessPhotos } from "@/lib/site-data";
 
 type TimeSlot = "morning" | "afternoon" | "evening" | "night";
 
@@ -78,6 +72,40 @@ const sectionVariants: Record<
   ],
 };
 
+const getTimeSlot = (date: Date): TimeSlot => {
+  const hour = date.getHours();
+
+  if (hour >= 6 && hour < 12) {
+    return "morning";
+  }
+
+  if (hour >= 12 && hour < 18) {
+    return "afternoon";
+  }
+
+  if (hour >= 18 && hour < 24) {
+    return "evening";
+  }
+
+  return "night";
+};
+
+const getDayOfYear = (date: Date) => {
+  const start = new Date(date.getFullYear(), 0, 0);
+  const diff = date.getTime() - start.getTime();
+  return Math.floor(diff / 86400000);
+};
+
+const rotateItems = <T,>(items: readonly T[], start: number, count: number) => {
+  if (items.length <= count) {
+    return [...items];
+  }
+
+  const normalizedStart = ((start % items.length) + items.length) % items.length;
+  const rotated = [...items.slice(normalizedStart), ...items.slice(0, normalizedStart)];
+  return rotated.slice(0, count);
+};
+
 export function HomepageTrustRotator() {
   const [now, setNow] = useState<Date | null>(null);
 
@@ -85,46 +113,31 @@ export function HomepageTrustRotator() {
     const updateNow = () => setNow(new Date());
 
     updateNow();
-    const intervalId = window.setInterval(updateNow, 900000);
+    const intervalId = window.setInterval(updateNow, 15000);
     return () => window.clearInterval(intervalId);
   }, []);
 
   const currentDate = now ?? new Date(2026, 0, 1, 10, 0, 0);
 
   const { variant, visibleMetrics, visibleProofItems, visiblePhotos } = useMemo(() => {
-    const hour = currentDate.getHours();
-    const day = currentDate.getDate();
-    const timeSlot = getGalleryTimeSlot(currentDate);
-    const timeKey: TimeSlot =
-      timeSlot === "sabah"
-        ? "morning"
-        : timeSlot === "ogle"
-          ? "afternoon"
-          : timeSlot === "aksam"
-            ? "evening"
-            : "night";
-    const variants = sectionVariants[timeKey];
-    const metricStart = (day + hour) % homepageTrustMetrics.length;
-    const proofStart = (day + hour * 2) % businessProofItems.length;
-    const rotatedMetrics = [
-      ...homepageTrustMetrics.slice(metricStart),
-      ...homepageTrustMetrics.slice(0, metricStart),
-    ];
-    const rotatedProofItems = [
-      ...businessProofItems.slice(proofStart),
-      ...businessProofItems.slice(0, proofStart),
-    ];
+    const slot = getTimeSlot(currentDate);
+    const day = getDayOfYear(currentDate);
+    const cycle = Math.floor(currentDate.getTime() / 15000);
+
+    const variantsForSlot = sectionVariants[slot];
+    const variant = variantsForSlot[(day + cycle) % variantsForSlot.length];
 
     return {
-      variant: variants[day % variants.length],
-      visibleMetrics: rotatedMetrics.slice(0, 6),
-      visibleProofItems: rotatedProofItems.slice(0, 3),
-      visiblePhotos: getDisplayBusinessPhotos(realBusinessPhotos, timeSlot, currentDate).slice(0, 4),
+      variant,
+      visibleMetrics: rotateItems(homepageTrustMetrics, day + cycle, 6),
+      visibleProofItems: rotateItems(businessProofItems, day + cycle * 2, 3),
+      visiblePhotos: rotateItems(realBusinessPhotos, day + cycle * 3, 4),
     };
   }, [currentDate]);
 
   return (
-    <div className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm md:p-8">
+    <section className="section-shell deferred-section pb-14">
+      <div className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm md:p-8">
         <div className="max-w-3xl">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500">
             {variant.eyebrow}
@@ -180,6 +193,7 @@ export function HomepageTrustRotator() {
             </article>
           ))}
         </div>
-    </div>
+      </div>
+    </section>
   );
 }

@@ -16,14 +16,28 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Verify publish folder
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static export
+        run: npm run build
+
+      - name: Verify build output
         run: |
-          test -f clean-upload/index.html
-          test -d clean-upload/_next
+          test -f out/index.html
+          test -d out/_next
 
       - name: Prepare GitHub Pages subpath build
         run: |
@@ -32,9 +46,8 @@ jobs:
           DIST_DIR=".gh-pages-dist"
 
           rm -rf "$DIST_DIR"
-          cp -a clean-upload "$DIST_DIR"
+          cp -a out "$DIST_DIR"
 
-          # Convert root-relative URLs to repo-relative URLs for project pages.
           find "$DIST_DIR" -type f -name '*.html' -print0 | xargs -0 sed -i \
             -e "s|href=\"/|href=\"/${REPO_NAME}/|g" \
             -e "s|src=\"/|src=\"/${REPO_NAME}/|g" \
@@ -42,7 +55,7 @@ jobs:
             -e "s|\"/manifest.webmanifest|\"/${REPO_NAME}/manifest.webmanifest|g" \
             -e "s|\"/favicon.ico|\"/${REPO_NAME}/favicon.ico|g"
 
-      - name: Publish clean-upload to gh-pages branch
+      - name: Publish out to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

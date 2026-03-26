@@ -4,7 +4,7 @@ Uber, Banabikurye ve 34kurye referans hissini birlestiren; yuksek donusum odakli
 
 ## Ozellikler
 
-- Next.js App Router altyapisi
+- Next.js Pages Router altyapisi
 - Tailwind CSS v4 ile mobil-first arayuz
 - WhatsApp hizli siparis ve telefon CTA entegrasyonu
 - 5 ayri hizmet detayi sayfasi
@@ -16,25 +16,15 @@ Uber, Banabikurye ve 34kurye referans hissini birlestiren; yuksek donusum odakli
 
 ```text
 web/
+	components/
+	lib/
+	pages/
+		_app.js
+		index.js
+		*-moto-kurye.js
+	styles/
+		globals.css
 	public/
-		hero-city.svg
-	src/
-		app/
-			[slug]/page.tsx
-			globals.css
-			hizmetler/
-				[slug]/page.tsx
-				page.tsx
-			layout.tsx
-			page.tsx
-			robots.ts
-			sitemap.ts
-		components/
-			floating-actions.tsx
-			quick-order-box.tsx
-			site-footer.tsx
-		lib/
-			site-data.ts
 	.env.example
 	package.json
 ```
@@ -101,3 +91,43 @@ Production build:
 npm run build
 npm run start
 ```
+
+## Canli Kalici Yayin Akisi (Pages Router)
+
+Bu repo artik canliya cikarken dogrudan kaynak koddan build alir.
+
+- Kaynak: `pages/`, `components/`, `styles/`, `lib/`
+- Uretim cikisi: `out/`
+- Canli deploy tetikleyici: `main` branch'e push
+
+### Neden bu yapi?
+
+- Burada yaptigin degisiklikler kalici olur.
+- Sonradan kolayca degistirilebilir ve gelistirilebilir.
+- `clean-upload` elle guncelleme zorunlulugu ortadan kalkar.
+
+### Deploy Workflow Dosyalari
+
+- `.github/workflows/deploy-cpanel.yml`
+- `.github/workflows/deploy-pages.yml`
+
+Iki workflow da su akisi kullanir:
+
+1. `npm ci`
+2. `npm run build`
+3. `out/` klasorunu deploy et
+
+### Gerekli GitHub Secrets (cPanel)
+
+- `CPANEL_FTP_HOST`
+- `CPANEL_FTP_USER`
+- `CPANEL_FTP_PASSWORD`
+
+### Onerilen Gelistirme Akisi
+
+1. Ozelligi localde gelistir (`npm run dev`)
+2. Build kontrolu yap (`npm run build`)
+3. `main` branch'e push et
+4. GitHub Actions otomatik canliya ciksin
+
+Bu proje Pages Router ile devam eder; App Router kullanmak zorunlu degildir.
