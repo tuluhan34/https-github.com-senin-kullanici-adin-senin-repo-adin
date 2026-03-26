@@ -33,13 +33,14 @@ jobs:
           missing=0
           for key in CPANEL_FTP_HOST CPANEL_FTP_USER CPANEL_FTP_PASSWORD; do
             if [ -z "${!key}" ]; then
-              echo "::error::$key is missing in repository secrets"
+              echo "::warning::$key is missing in repository secrets"
               missing=1
             fi
           done
 
           if [ "$missing" -eq 1 ]; then
-            exit 1
+            echo "Skipping cPanel deploy because required secrets are missing."
+            exit 0
           fi
 
       - name: Verify deploy folder
@@ -107,8 +108,9 @@ jobs:
               exit 0
 
   deploy_github_pages:
+    needs: deploy_cpanel
+    if: always()
     runs-on: ubuntu-latest
-            if: always()
     steps:
       - name: Checkout
         uses: actions/checkout@v4
