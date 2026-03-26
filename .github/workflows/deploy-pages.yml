@@ -25,10 +25,27 @@ jobs:
           test -f clean-upload/index.html
           test -d clean-upload/_next
 
+      - name: Prepare GitHub Pages subpath build
+        run: |
+          set -e
+          REPO_NAME="${GITHUB_REPOSITORY#*/}"
+          DIST_DIR=".gh-pages-dist"
+
+          rm -rf "$DIST_DIR"
+          cp -a clean-upload "$DIST_DIR"
+
+          # Convert root-relative URLs to repo-relative URLs for project pages.
+          find "$DIST_DIR" -type f -name '*.html' -print0 | xargs -0 sed -i \
+            -e "s|href=\"/|href=\"/${REPO_NAME}/|g" \
+            -e "s|src=\"/|src=\"/${REPO_NAME}/|g" \
+            -e "s|\"/_next/|\"/${REPO_NAME}/_next/|g" \
+            -e "s|\"/manifest.webmanifest|\"/${REPO_NAME}/manifest.webmanifest|g" \
+            -e "s|\"/favicon.ico|\"/${REPO_NAME}/favicon.ico|g"
+
       - name: Publish clean-upload to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: clean-upload
+          publish_dir: .gh-pages-dist
           publish_branch: gh-pages
           force_orphan: true

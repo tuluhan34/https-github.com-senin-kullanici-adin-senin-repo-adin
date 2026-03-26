@@ -1,15 +1,15 @@
 ZIP DOSYASI (ANA SITE):
-cpanel-clean-upload-20260326.zip
+cpanel-clean-upload-latest.zip
 
 DOMAIN:
 www.34motokuryeistanbul.com
 
 CPANEL FILE MANAGER:
-1) cpanel-clean-upload-20260326.zip dosyasini /home/<cpanel_kullanici>/ dizinine yukle.
+1) cpanel-clean-upload-latest.zip dosyasini /home/<cpanel_kullanici>/ dizinine yukle.
 2) cPanel Terminal ac.
 3) Asagidaki komutu tek seferde calistir.
 
-cd ~ && TS="$(date +%Y%m%d-%H%M%S)" && mkdir -p "$HOME/backup-public_html-$TS" && if [ -d "$HOME/public_html" ]; then cp -a "$HOME/public_html/." "$HOME/backup-public_html-$TS/"; fi && rm -rf "$HOME/public_html"/* && unzip -o "$HOME/cpanel-clean-upload-20260326.zip" -d "$HOME/public_html" && ls -la "$HOME/public_html" | head
+cd ~ && TS="$(date +%Y%m%d-%H%M%S)" && mkdir -p "$HOME/backup-public_html-$TS" && if [ -d "$HOME/public_html" ]; then cp -a "$HOME/public_html/." "$HOME/backup-public_html-$TS/"; fi && rm -rf "$HOME/public_html"/* && unzip -o "$HOME/cpanel-clean-upload-latest.zip" -d "$HOME/public_html" && ls -la "$HOME/public_html" | head
 
 SONRASI KONTROL:
 - index.html kokte olmali: /home/<cpanel_kullanici>/public_html/index.html
