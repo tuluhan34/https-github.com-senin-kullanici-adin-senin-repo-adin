@@ -103,6 +103,7 @@ jobs:
           protocols=(ftp ftps)
           ports=(21)
           remote_paths=(
+            "/home/u2629744/public_html"
             "."
             "/"
             "/www"
@@ -127,7 +128,7 @@ jobs:
           if [ -n "$CPANEL_VERIFY_URL" ]; then
             verify_urls=("$CPANEL_VERIFY_URL" "${verify_urls[@]}")
           fi
-          verify_marker="Hemen Kurye Cagir"
+          verify_marker="Kurye"
 
           uniq_hosts=()
           for h in "${hosts[@]}"; do
