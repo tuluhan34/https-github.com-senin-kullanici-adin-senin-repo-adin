@@ -226,7 +226,7 @@ export default function Home() {
           map: mapRef.current,
           suppressMarkers: false,
           polylineOptions: {
-            strokeColor: "#D4AF37",
+            strokeColor: "#2B7BFF",
             strokeOpacity: 0.95,
             strokeWeight: 6,
           },
@@ -461,17 +461,6 @@ export default function Home() {
                 Evrak kurye, koli kurye, protez diş kurye ve vize evrak kurye talepleriniz için
                 süre ve operasyon planlaması bu formdan hızlıca yapılır.
               </p>
-
-              <div className="cta-row">
-                <a className="btn btn-primary" href={whatsappUrl} target="_blank" rel="noreferrer">
-                  <span className="btn-icon"><WhatsAppIcon /></span>
-                  WhatsApp
-                </a>
-                <a className="btn btn-whatsapp" href="tel:05303219004">
-                  <span className="btn-icon"><PhoneIcon /></span>
-                  Arama Yap
-                </a>
-              </div>
             </div>
 
             <div className="trust-strip">
@@ -484,10 +473,6 @@ export default function Home() {
         </section>
 
         <section className="container section-block tracking-shell">
-          <div className="section-head">
-            <p className="eyebrow">Google Maps Canlı Rota</p>
-            <h2>En Kısa Rota ve KM Bilgisi</h2>
-          </div>
           <article className="tracking-card route-live-wrap">
             <div className="route-km-panel" role="status" aria-live="polite">
               <strong>{routeKm}</strong>
@@ -498,6 +483,16 @@ export default function Home() {
             <a className="btn btn-whatsapp route-map-button" href={mapsDirectionUrl} target="_blank" rel="noreferrer">
               Google Maps'ten Bakabilirsiniz
             </a>
+            <div className="cta-row route-cta-row">
+              <a className="btn btn-primary" href={whatsappUrl} target="_blank" rel="noreferrer">
+                <span className="btn-icon"><WhatsAppIcon /></span>
+                WhatsApp
+              </a>
+              <a className="btn btn-whatsapp" href="tel:05303219004">
+                <span className="btn-icon"><PhoneIcon /></span>
+                Arama Yap
+              </a>
+            </div>
           </article>
         </section>
 
