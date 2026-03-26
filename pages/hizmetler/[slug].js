@@ -22,7 +22,7 @@ export default function ServiceDetailPage({ service }) {
             <p className="lead">{service.longDescription}</p>
           </div>
 
-          <article className="service-card">
+          <article className="service-card service-detail-card">
             <img className="service-card-media" src={service.image} alt={service.imageAlt} loading="lazy" />
             <h3>Hizmet Özeti</h3>
             <p>{service.desc}</p>
@@ -30,7 +30,24 @@ export default function ServiceDetailPage({ service }) {
               Bu hizmet, İstanbul içi kurumsal operasyonlarda zaman yönetimi ve teslim güvenliği
               odaklı planlanır. Talep türüne göre ekip, rota ve araç profili dinamik olarak belirlenir.
             </p>
-            <Link href="/" className="btn btn-primary">Ana Sayfaya Dön</Link>
+
+            <h3>Kurumsal Operasyon Avantajları</h3>
+            <ul className="service-highlights">
+              {service.highlights.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+
+            <div className="services-bottom-cta">
+              <a className="btn btn-primary" href="https://wa.me/905303219004" target="_blank" rel="noreferrer">
+                WhatsApp Destek
+              </a>
+              <a className="btn btn-whatsapp" href="tel:05303219004">
+                Arama Yap
+              </a>
+            </div>
+
+            <Link href="/hizmetlerimiz" className="btn btn-whatsapp">Tüm Hizmetlere Dön</Link>
           </article>
         </section>
       </main>

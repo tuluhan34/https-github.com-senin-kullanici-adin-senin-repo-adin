@@ -427,7 +427,7 @@ select:-webkit-autofill {
 
 .service-card-media {
   width: 100%;
-  height: 170px;
+  height: 220px;
   object-fit: cover;
   border-radius: 0.8rem;
   border: 1px solid #34343a;
@@ -467,6 +467,24 @@ select:-webkit-autofill {
 .service-card-link:hover .service-card {
   border-color: rgba(212, 175, 55, 0.45);
   box-shadow: 0 0 0 1px rgba(212, 175, 55, 0.22), 0 16px 34px rgba(212, 175, 55, 0.12);
+}
+
+.service-detail-card {
+  gap: 0.8rem;
+}
+
+.service-highlights {
+  margin: 0;
+  padding-left: 1.15rem;
+  color: #cfcfd4;
+  display: grid;
+  gap: 0.38rem;
+}
+
+.services-bottom-cta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
 }
 
 .steps-grid {
@@ -675,6 +693,10 @@ select:-webkit-autofill {
   }
 
   .time-split {
+    grid-template-columns: 1fr;
+  }
+
+  .services-bottom-cta {
     grid-template-columns: 1fr;
   }
 
