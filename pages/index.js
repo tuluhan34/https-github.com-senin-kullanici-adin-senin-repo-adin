@@ -55,7 +55,7 @@ const loadGoogleMapsScript = () => {
 
   window.__gmapsPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}`;
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}&libraries=places`;
     script.async = true;
     script.defer = true;
     script.onload = () => resolve(window.google?.maps || null);
@@ -174,6 +174,10 @@ export default function Home() {
   const mapCanvasRef = useRef(null);
   const mapRef = useRef(null);
   const directionsRendererRef = useRef(null);
+  const pickupInputRef = useRef(null);
+  const dropoffInputRef = useRef(null);
+  const pickupAutocompleteRef = useRef(null);
+  const dropoffAutocompleteRef = useRef(null);
 
   const whatsappUrl = useMemo(() => {
     return buildWhatsappUrl(
@@ -236,6 +240,46 @@ export default function Home() {
       .catch(() => {
         setRouteInfo("Google Maps yüklenemedi. API ayarlarını kontrol edin.");
       });
+
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!GOOGLE_MAPS_API_KEY) {
+      return;
+    }
+
+    let active = true;
+
+    loadGoogleMapsScript().then((maps) => {
+      if (!active || !maps?.places) {
+        return;
+      }
+
+      const options = {
+        componentRestrictions: { country: "tr" },
+        fields: ["formatted_address", "name"],
+        types: ["address"],
+      };
+
+      if (pickupInputRef.current && !pickupAutocompleteRef.current) {
+        pickupAutocompleteRef.current = new maps.places.Autocomplete(pickupInputRef.current, options);
+        pickupAutocompleteRef.current.addListener("place_changed", () => {
+          const place = pickupAutocompleteRef.current.getPlace();
+          setPickupAddress(place?.formatted_address || place?.name || pickupInputRef.current.value || "");
+        });
+      }
+
+      if (dropoffInputRef.current && !dropoffAutocompleteRef.current) {
+        dropoffAutocompleteRef.current = new maps.places.Autocomplete(dropoffInputRef.current, options);
+        dropoffAutocompleteRef.current.addListener("place_changed", () => {
+          const place = dropoffAutocompleteRef.current.getPlace();
+          setDropoffAddress(place?.formatted_address || place?.name || dropoffInputRef.current.value || "");
+        });
+      }
+    });
 
     return () => {
       active = false;
@@ -331,6 +375,7 @@ export default function Home() {
                   <label className="field">
                     <span>Adres</span>
                     <input
+                      ref={pickupInputRef}
                       type="text"
                       value={pickupAddress}
                       onChange={(event) => setPickupAddress(event.target.value)}
@@ -362,6 +407,7 @@ export default function Home() {
                   <label className="field">
                     <span>Adres</span>
                     <input
+                      ref={dropoffInputRef}
                       type="text"
                       value={dropoffAddress}
                       onChange={(event) => setDropoffAddress(event.target.value)}
