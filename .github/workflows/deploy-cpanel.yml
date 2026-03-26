@@ -108,6 +108,10 @@ jobs:
             "34motokuryeistanbul.com"
             "www.34motokuryeistanbul.com"
             "ftp.34motokuryeistanbul.com"
+            "cpanel.34motokuryeistanbul.com"
+            "panel.34motokuryeistanbul.com"
+            "mail.34motokuryeistanbul.com"
+            "94.73.148.10"
           )
 
           user_candidates=(
