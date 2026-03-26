@@ -87,9 +87,16 @@ jobs:
           protocols=(ftp ftps)
           ports=(21)
           remote_paths=(
+            "."
+            "/"
+            "/www"
+            "/httpdocs"
+            "/htdocs"
             "/public_html"
             "/public_html/34motokuryeistanbul.com"
+            "/public_html/www.34motokuryeistanbul.com"
             "/domains/34motokuryeistanbul.com/public_html"
+            "/domains/www.34motokuryeistanbul.com/public_html"
           )
           verify_urls=(
             "https://34motokuryeistanbul.com/"
