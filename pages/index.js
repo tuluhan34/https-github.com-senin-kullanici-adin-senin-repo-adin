@@ -26,6 +26,18 @@ const courierServices = [
   },
 ];
 
+const shipmentTypes = [
+  "Evrak Kurye",
+  "Koli / Paket Kurye",
+  "Protez Diş Kurye",
+  "Vize Evrak Kurye",
+  "Numune Kurye",
+  "Sözleşme / Dosya Kurye",
+  "Diğer",
+];
+
+const deliverySpeeds = ["Acil", "Hemen", "1 Saat", "2 Saat", "3 Saat", "4 Saat", "Süre Belirle"];
+
 const serviceFlow = [
   {
     no: "01",
@@ -90,6 +102,9 @@ const buildWhatsappUrl = (
   recipientName,
   recipientPhone,
   courierType,
+  shipmentType,
+  deliverySpeed,
+  customDuration,
 ) => {
   const message = [
     "Merhaba, acil moto kurye talebi oluşturmak istiyorum.",
@@ -104,7 +119,10 @@ const buildWhatsappUrl = (
     `Alici Ad Soyad: ${recipientName || "Belirtilecektir"}`,
     `Alici Telefon: ${recipientPhone || "Belirtilecektir"}`,
     "",
+    `Gonderilecek Urun: ${shipmentType}`,
     `Hizmet Seviyesi: ${courierType}`,
+    `Teslimat Suresi: ${deliverySpeed}`,
+    `Musteri Belirttigi Sure: ${customDuration || "Belirtilmedi"}`,
     "Müsait kurye ve fiyat bilgisi ile dönüş rica ederim.",
   ].join("\n");
 
@@ -137,6 +155,9 @@ export default function Home() {
   const [recipientName, setRecipientName] = useState("");
   const [recipientPhone, setRecipientPhone] = useState("");
   const [courierType, setCourierType] = useState("Özel VIP Kurye");
+  const [shipmentType, setShipmentType] = useState("Evrak Kurye");
+  const [deliverySpeed, setDeliverySpeed] = useState("Acil");
+  const [customDuration, setCustomDuration] = useState("");
   const [trackingStep, setTrackingStep] = useState(0);
 
   useEffect(() => {
@@ -156,8 +177,11 @@ export default function Home() {
       recipientName,
       recipientPhone,
       courierType,
+      shipmentType,
+      deliverySpeed,
+      customDuration,
     );
-  }, [pickupAddress, senderName, senderPhone, dropoffAddress, recipientName, recipientPhone, courierType]);
+  }, [pickupAddress, senderName, senderPhone, dropoffAddress, recipientName, recipientPhone, courierType, shipmentType, deliverySpeed, customDuration]);
 
   const trackingProgress = ((trackingStep + 1) / trackingTimeline.length) * 100;
 
@@ -167,7 +191,7 @@ export default function Home() {
         <title>34 Moto Kurye İstanbul | Acil, Express ve VIP Kurye</title>
         <meta
           name="description"
-          content="İstanbul moto kurye hizmeti: acil, express ve VIP kurye seçenekleriyle 7/24 hızlı, güvenli ve anlık durum bilgili teslimat."
+          content="İstanbul moto kurye hizmeti: evrak kurye, koli kurye, protez diş kurye ve vize evrak kurye seçenekleriyle acil, express ve VIP teslimat."
         />
         <meta name="theme-color" content="#0B0B0C" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -274,6 +298,45 @@ export default function Home() {
                   ))}
                 </select>
               </label>
+
+              <label className="field">
+                <span>Gönderilecek Ürün / İşlem Türü</span>
+                <select value={shipmentType} onChange={(event) => setShipmentType(event.target.value)}>
+                  {shipmentTypes.map((item) => (
+                    <option key={item} value={item}>
+                      {item}
+                    </option>
+                  ))}
+                </select>
+              </label>
+
+              <div className="time-split">
+                <label className="field">
+                  <span>Teslimat Süresi</span>
+                  <select value={deliverySpeed} onChange={(event) => setDeliverySpeed(event.target.value)}>
+                    {deliverySpeeds.map((item) => (
+                      <option key={item} value={item}>
+                        {item}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+
+                <label className="field">
+                  <span>Süre Belirle (Müşteri Girişi)</span>
+                  <input
+                    type="text"
+                    value={customDuration}
+                    onChange={(event) => setCustomDuration(event.target.value)}
+                    placeholder="Örn. 90 dk / 2.5 saat"
+                  />
+                </label>
+              </div>
+
+              <p className="form-note">
+                Evrak kurye, koli kurye, protez diş kurye ve vize evrak kurye talepleriniz için
+                süre ve operasyon planlaması bu formdan hızlıca yapılır.
+              </p>
 
               <div className="cta-row">
                 <a className="btn btn-primary" href={whatsappUrl} target="_blank" rel="noreferrer">

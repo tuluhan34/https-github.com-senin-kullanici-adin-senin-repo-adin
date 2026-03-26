@@ -162,7 +162,7 @@ p {
 }
 
 .lead {
-  max-width: 58ch;
+  max-width: 100%;
   font-size: 1.01rem;
 }
 
@@ -229,6 +229,18 @@ p {
   box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2);
 }
 
+.time-split {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.form-note {
+  font-size: 0.82rem;
+  color: #b5b5bb;
+  line-height: 1.55;
+}
+
 .cta-row {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -273,7 +285,7 @@ p {
 }
 
 .hero-copy h1 {
-  max-width: 22ch;
+  max-width: 100%;
 }
 
 .trust-strip {
@@ -587,6 +599,10 @@ p {
   }
 
   .cta-row {
+    grid-template-columns: 1fr;
+  }
+
+  .time-split {
     grid-template-columns: 1fr;
   }
 
