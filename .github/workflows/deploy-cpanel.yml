@@ -46,6 +46,8 @@ jobs:
           CPANEL_FTP_HOST: ${{ secrets.CPANEL_FTP_HOST }}
           CPANEL_FTP_USER: ${{ secrets.CPANEL_FTP_USER }}
           CPANEL_FTP_PASSWORD: ${{ secrets.CPANEL_FTP_PASSWORD }}
+          CPANEL_FTP_REMOTE_PATH: ${{ secrets.CPANEL_FTP_REMOTE_PATH }}
+          CPANEL_VERIFY_URL: ${{ secrets.CPANEL_VERIFY_URL }}
         run: |
           missing=0
           for key in CPANEL_FTP_HOST CPANEL_FTP_USER CPANEL_FTP_PASSWORD; do
@@ -60,6 +62,18 @@ jobs:
             exit 1
           fi
 
+          if [ -n "$CPANEL_FTP_REMOTE_PATH" ]; then
+            echo "Using explicit remote path from CPANEL_FTP_REMOTE_PATH"
+          else
+            echo "::warning::CPANEL_FTP_REMOTE_PATH is not set; workflow will try common docroot paths."
+          fi
+
+          if [ -n "$CPANEL_VERIFY_URL" ]; then
+            echo "Using explicit verify URL from CPANEL_VERIFY_URL"
+          else
+            echo "::warning::CPANEL_VERIFY_URL is not set; workflow will verify both apex and www."
+          fi
+
       - name: Install lftp
         run: |
           sudo apt-get update
@@ -70,6 +84,8 @@ jobs:
           CPANEL_FTP_HOST: ${{ secrets.CPANEL_FTP_HOST }}
           CPANEL_FTP_USER: ${{ secrets.CPANEL_FTP_USER }}
           CPANEL_FTP_PASSWORD: ${{ secrets.CPANEL_FTP_PASSWORD }}
+          CPANEL_FTP_REMOTE_PATH: ${{ secrets.CPANEL_FTP_REMOTE_PATH }}
+          CPANEL_VERIFY_URL: ${{ secrets.CPANEL_VERIFY_URL }}
         run: |
           set -euo pipefail
 
@@ -98,10 +114,19 @@ jobs:
             "/domains/34motokuryeistanbul.com/public_html"
             "/domains/www.34motokuryeistanbul.com/public_html"
           )
+
+          if [ -n "$CPANEL_FTP_REMOTE_PATH" ]; then
+            remote_paths=("$CPANEL_FTP_REMOTE_PATH" "${remote_paths[@]}")
+          fi
+
           verify_urls=(
             "https://34motokuryeistanbul.com/"
             "https://www.34motokuryeistanbul.com/"
           )
+
+          if [ -n "$CPANEL_VERIFY_URL" ]; then
+            verify_urls=("$CPANEL_VERIFY_URL" "${verify_urls[@]}")
+          fi
           verify_marker="Hemen Kurye Cagir"
 
           uniq_hosts=()
