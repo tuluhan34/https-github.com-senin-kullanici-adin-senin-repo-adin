@@ -1,70 +1,94 @@
 import Head from "next/head";
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { districts } from "../lib/district-data";
 
 const courierServices = [
   {
-    value: "Moto kurye",
-    title: "Moto Kurye",
-    desc: "Istanbul ici ayni gun teslimatlarda hizli ve dengeli operasyon modeli.",
+    value: "Executive Moto Courier",
+    title: "Executive Moto Courier",
+    desc: "High-speed same-day dispatch with strict service precision for urban routes.",
   },
   {
-    value: "Acil kurye",
-    title: "Acil Kurye",
-    desc: "Dakika bazli aciliyet gerektiren gonderilerde oncelikli yonlendirme.",
+    value: "Priority Express Courier",
+    title: "Priority Express Courier",
+    desc: "Priority routing for time-sensitive shipments with immediate operator assignment.",
   },
   {
-    value: "VIP kurye",
-    title: "VIP Kurye",
-    desc: "Tek gonderiye odakli, beklemesiz ve dogrudan teslimat akisi.",
+    value: "Private VIP Courier",
+    title: "Private VIP Courier",
+    desc: "Dedicated premium lane with one-client focus and confidential handling.",
   },
   {
-    value: "Aracli kurye",
-    title: "Aracli Kurye",
-    desc: "Hacimli urun ve coklu paket dagitimlari icin guclu tasima secenegi.",
+    value: "Executive Vehicle Courier",
+    title: "Executive Vehicle Courier",
+    desc: "Premium vehicle dispatch for larger packages and multi-stop missions.",
   },
 ];
 
 const serviceFlow = [
   {
     no: "01",
-    title: "Adresleri Belirle",
-    text: "Alim ve teslimat noktalarini girerek operasyonun ilk adimini olustur.",
+    title: "Define Locations",
+    text: "Enter pickup and destination details with precision in less than 10 seconds.",
   },
   {
     no: "02",
-    title: "Kurye Tipi Sec",
-    text: "Gonderinin aciliyetine gore moto, acil, VIP veya aracli modeli belirle.",
+    title: "Select Service Tier",
+    text: "Choose the level of speed, discretion, and vehicle profile your shipment requires.",
   },
   {
     no: "03",
-    title: "Aninda Baslat",
-    text: "WhatsApp uzerinden siparisi ac, saha ekibi en uygun yonlendirmeyi yapsin.",
+    title: "Initiate Instantly",
+    text: "Confirm once and your premium courier request is immediately initiated.",
   },
 ];
 
 const faqs = [
   {
-    q: "Kurye ne kadar surede gelir?",
-    a: "Ilce ve yogunluga gore degisir; cogu talepte uygun ekip dakikalar icinde atanir.",
+    q: "How quickly is a courier assigned?",
+    a: "Most premium requests are assigned within minutes, based on route density and live availability.",
   },
   {
-    q: "Fiyat neye gore belirleniyor?",
-    a: "Mesafe, gonderi tipi, aciliyet ve secilen hizmet modeline gore netlestirilir.",
+    q: "How is pricing determined?",
+    a: "Pricing reflects distance, handling priority, service tier, and mission complexity.",
   },
   {
-    q: "Gece saatlerinde hizmet var mi?",
-    a: "Evet, 7/24 operasyonla gece saatlerinde de kurye yonlendirmesi yapilir.",
+    q: "Is premium service available 24/7?",
+    a: "Yes. Our operations team runs continuously for executive and urgent shipments.",
+  },
+];
+
+const trackingTimeline = [
+  {
+    title: "Request Confirmed",
+    detail: "Your courier request has been successfully initiated.",
+    eta: "ETA 22 min",
+  },
+  {
+    title: "Priority Assignment",
+    detail: "Your shipment is being handled with priority and precision.",
+    eta: "ETA 16 min",
+  },
+  {
+    title: "In Secure Transit",
+    detail: "Courier is on route with real-time precision monitoring enabled.",
+    eta: "ETA 8 min",
+  },
+  {
+    title: "Near Destination",
+    detail: "Final approach initiated. Delivery confirmation will follow shortly.",
+    eta: "ETA 3 min",
   },
 ];
 
 const buildWhatsappUrl = (pickupAddress, dropoffAddress, courierType) => {
   const message = [
-    "Merhaba, kurye talebi olusturmak istiyorum.",
-    `Alinacak adres: ${pickupAddress || "-"}`,
-    `Teslim edilecek adres: ${dropoffAddress || "-"}`,
-    `Kurye tipi: ${courierType}`,
+    "Good day, I would like to initiate a premium courier request.",
+    `Pickup Location: ${pickupAddress || "To be confirmed"}`,
+    `Destination: ${dropoffAddress || "To be confirmed"}`,
+    `Service Tier: ${courierType}`,
+    "Please proceed with priority handling and confirmation.",
   ].join("\n");
 
   return `https://wa.me/905303219004?text=${encodeURIComponent(message)}`;
@@ -91,65 +115,112 @@ const PhoneIcon = () => (
 export default function Home() {
   const [pickupAddress, setPickupAddress] = useState("");
   const [dropoffAddress, setDropoffAddress] = useState("");
-  const [courierType, setCourierType] = useState("Moto kurye");
+  const [courierType, setCourierType] = useState("Private VIP Courier");
+  const [trackingStep, setTrackingStep] = useState(0);
+  const [notificationState, setNotificationState] = useState("default");
+
+  useEffect(() => {
+    const stepTimer = window.setInterval(() => {
+      setTrackingStep((prev) => (prev + 1) % trackingTimeline.length);
+    }, 6000);
+
+    return () => window.clearInterval(stepTimer);
+  }, []);
+
+  useEffect(() => {
+    if (typeof window !== "undefined" && "Notification" in window) {
+      setNotificationState(Notification.permission);
+    }
+  }, []);
+
+  const requestPushPermission = async () => {
+    if (typeof window === "undefined" || !("Notification" in window) || !("serviceWorker" in navigator)) {
+      return;
+    }
+
+    try {
+      await navigator.serviceWorker.register("/sw.js");
+      const permission = await Notification.requestPermission();
+      setNotificationState(permission);
+
+      if (permission === "granted") {
+        const registration = await navigator.serviceWorker.ready;
+        await registration.showNotification("Priority Alert Enabled", {
+          body: "Real-time premium courier status notifications are now active.",
+          icon: "/favicon.ico",
+          badge: "/favicon.ico",
+          data: { url: "/" },
+        });
+      }
+    } catch (_error) {
+      setNotificationState("denied");
+    }
+  };
 
   const whatsappUrl = useMemo(() => {
     return buildWhatsappUrl(pickupAddress, dropoffAddress, courierType);
   }, [pickupAddress, dropoffAddress, courierType]);
 
+  const trackingProgress = ((trackingStep + 1) / trackingTimeline.length) * 100;
+
   return (
     <>
       <Head>
-        <title>34 Moto Kurye Istanbul | Hemen Kurye Cagir</title>
+        <title>34 Executive Courier | Premium Private Delivery</title>
         <meta
           name="description"
-          content="Istanbul genelinde profesyonel moto kurye, acil kurye, VIP kurye ve aracli kurye hizmetleri. Adresini yaz, kurye tipini sec, siparisi aninda baslat."
+          content="A luxury courier experience designed for trust, speed, and exclusivity. Premium request initiation, elegant real-time tracking, and precise operational control."
         />
+        <meta name="theme-color" content="#0B0B0C" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <link rel="manifest" href="/manifest.webmanifest" />
       </Head>
       <main className="home-shell">
         <header className="topbar container">
           <a href="#top" className="brand">
             <span className="brand-mark">34</span>
-            <span className="brand-text">Moto Kurye Istanbul</span>
+            <span className="brand-text">Executive Courier Istanbul</span>
           </a>
           <div className="topbar-actions">
-            <a className="mini-cta mini-cta-wa" href="https://wa.me/905303219004" target="_blank" rel="noreferrer">WhatsApp</a>
-            <a className="mini-cta" href="tel:05303219004">Ara</a>
+            <a className="mini-cta mini-cta-wa" href="https://wa.me/905303219004" target="_blank" rel="noreferrer">WhatsApp Concierge</a>
+            <a className="mini-cta" href="tel:05303219004">Priority Call</a>
           </div>
         </header>
 
         <section className="container hero hero-split" id="top">
           <div className="hero-copy">
-            <p className="eyebrow">Istanbul genelinde profesyonel kurye agi</p>
-            <h1>Hemen Kurye Cagir</h1>
+            <p className="eyebrow">Private-grade logistics for high-value missions</p>
+            <h1>Premium Courier. Precision Without Compromise.</h1>
             <p className="lead">
-              Uber benzeri hizli akis ile alim ve teslimat bilgilerini gir,
-              ihtiyacina uygun kurye tipini sec ve operasyonu aninda baslat.
+              Built for executives, financial teams, and sensitive operations.
+              Every shipment is handled with discreet priority, measurable speed, and
+              elite operational discipline.
             </p>
 
             <div className="hero-form">
               <label className="field">
-                <span>Alinacak adres</span>
+                <span>Pickup Location</span>
                 <input
                   type="text"
                   value={pickupAddress}
                   onChange={(event) => setPickupAddress(event.target.value)}
-                  placeholder="Ornek: Kadikoy, Moda"
+                  placeholder="e.g. Levent Financial District"
                 />
               </label>
 
               <label className="field">
-                <span>Teslim edilecek adres</span>
+                <span>Destination</span>
                 <input
                   type="text"
                   value={dropoffAddress}
                   onChange={(event) => setDropoffAddress(event.target.value)}
-                  placeholder="Ornek: Sisli, Mecidiyekoy"
+                  placeholder="e.g. Nisantasi Corporate Office"
                 />
               </label>
 
               <label className="field">
-                <span>Kurye tipi</span>
+                <span>Service Tier</span>
                 <select value={courierType} onChange={(event) => setCourierType(event.target.value)}>
                   {courierServices.map((service) => (
                     <option key={service.value} value={service.value}>
@@ -162,19 +233,30 @@ export default function Home() {
               <div className="cta-row">
                 <a className="btn btn-primary" href={whatsappUrl} target="_blank" rel="noreferrer">
                   <span className="btn-icon"><WhatsAppIcon /></span>
-                  Kurye Cagir
+                  Initiate Premium Courier Request
                 </a>
                 <a className="btn btn-whatsapp" href="tel:05303219004">
                   <span className="btn-icon"><PhoneIcon /></span>
-                  Hemen Ara: 0530 321 90 04
+                  Contact Priority Desk
                 </a>
               </div>
+
+              <button
+                type="button"
+                className="btn btn-notify"
+                onClick={requestPushPermission}
+              >
+                Enable Push Notifications
+              </button>
+              <p className="notify-status">
+                Notification Access Status: <strong>{notificationState}</strong>
+              </p>
             </div>
 
             <div className="trust-strip">
-              <span>7/24 Operasyon</span>
-              <span>39 Ilce Kapsam</span>
-              <span>Kurumsal ve Bireysel</span>
+              <span>Priority Protected Handling</span>
+              <span>Real-Time Precision Monitoring</span>
+              <span>24/7 Executive Operations</span>
             </div>
           </div>
 
@@ -185,17 +267,32 @@ export default function Home() {
               <div className="route route-b" />
               <div className="dot dot-start" />
               <div className="dot dot-end" />
-              <div className="token token-moto">Moto</div>
-              <div className="token token-vip">VIP</div>
-              <div className="token token-acil">Acil</div>
+              <div className="token token-moto">Priority</div>
+              <div className="token token-vip">Private</div>
+              <div className="token token-acil">Secure</div>
             </div>
           </aside>
         </section>
 
+        <section className="container section-block tracking-shell">
+          <div className="section-head">
+            <p className="eyebrow">Real-time tracking</p>
+            <h2>Live Mission Status</h2>
+          </div>
+          <article className="tracking-card">
+            <div className="tracking-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow={trackingProgress}>
+              <span style={{ width: `${trackingProgress}%` }} />
+            </div>
+            <h3>{trackingTimeline[trackingStep].title}</h3>
+            <p>{trackingTimeline[trackingStep].detail}</p>
+            <p className="tracking-eta">{trackingTimeline[trackingStep].eta}</p>
+          </article>
+        </section>
+
         <section className="container section-block">
           <div className="section-head">
-            <p className="eyebrow">Hizmet modelleri</p>
-            <h2>Ihtiyacina gore kurye secenegini belirle</h2>
+            <p className="eyebrow">Service tiers</p>
+            <h2>Select your operational confidence level</h2>
           </div>
           <div className="service-grid">
             {courierServices.map((service) => (
@@ -209,8 +306,8 @@ export default function Home() {
 
         <section className="container section-block">
           <div className="section-head">
-            <p className="eyebrow">Nasil calisir</p>
-            <h2>3 adimda kurye yonlendirme</h2>
+            <p className="eyebrow">Operating model</p>
+            <h2>Three-step premium dispatch flow</h2>
           </div>
           <div className="steps-grid">
             {serviceFlow.map((step) => (
@@ -224,11 +321,11 @@ export default function Home() {
         </section>
 
         <section className="container section-block">
-          <h2>Ilce Sayfalari</h2>
+          <h2>District Coverage</h2>
           <div className="district-grid">
             {districts.map((district) => (
               <Link key={district.slug} href={`/${district.slug}/`} className="district-card">
-                <h3>{district.name} Moto Kurye</h3>
+                <h3>{district.name} Executive Courier</h3>
                 <p>{district.shortText}</p>
               </Link>
             ))}
@@ -237,8 +334,8 @@ export default function Home() {
 
         <section className="container section-block faq-panel">
           <div className="section-head">
-            <p className="eyebrow">Sik sorulan sorular</p>
-            <h2>Hizmet oncesi en cok merak edilenler</h2>
+            <p className="eyebrow">FAQ</p>
+            <h2>Answers for premium operations</h2>
           </div>
           <div className="faq-grid">
             {faqs.map((item) => (
@@ -254,11 +351,11 @@ export default function Home() {
       <div className="floating-actions" aria-label="Iletisim">
         <a className="fab fab-wa" href="https://wa.me/905303219004" target="_blank" rel="noreferrer">
           <span className="btn-icon"><WhatsAppIcon /></span>
-          WhatsApp
+          WhatsApp Concierge
         </a>
         <a className="fab fab-call" href="tel:05303219004">
           <span className="btn-icon"><PhoneIcon /></span>
-          Ara
+          Priority Call
         </a>
       </div>
     </>
