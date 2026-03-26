@@ -112,6 +112,12 @@ jobs:
             "ftp.34motokuryeistanbul.com"
           )
 
+          user_candidates=(
+            "$CPANEL_FTP_USER"
+            "u2629744"
+            "u2629744@34motokuryeistanbul.com"
+          )
+
           protocols=(ftp ftps sftp)
           ports=(21 22)
           if [ -n "$explicit_port" ]; then
@@ -155,10 +161,21 @@ jobs:
             [ "$skip" -eq 0 ] && uniq_hosts+=("$h")
           done
 
+          uniq_users=()
+          for u in "${user_candidates[@]}"; do
+            [ -z "$u" ] && continue
+            skip=0
+            for uu in "${uniq_users[@]}"; do
+              [ "$uu" = "$u" ] && skip=1 && break
+            done
+            [ "$skip" -eq 0 ] && uniq_users+=("$u")
+          done
+
           attempt=0
-          for host in "${uniq_hosts[@]}"; do
-            for protocol in "${protocols[@]}"; do
-              for port in "${ports[@]}"; do
+          for ftp_user in "${uniq_users[@]}"; do
+            for host in "${uniq_hosts[@]}"; do
+              for protocol in "${protocols[@]}"; do
+                for port in "${ports[@]}"; do
                 attempt=$((attempt + 1))
                 now_ts="$(date +%s)"
                 elapsed="$((now_ts - start_ts))"
@@ -167,23 +184,23 @@ jobs:
                   echo "::warning::cPanel deploy time/attempt limit reached."
                   exit 1
                 fi
-                echo "Attempt #$attempt -> $protocol://$host:$port"
+                echo "Attempt #$attempt -> user=$ftp_user $protocol://$host:$port"
 
                 # Fast preflight: if login/listing fails, skip all remote path attempts.
                 set +e
-                timeout 18s lftp -u "$CPANEL_FTP_USER","$CPANEL_FTP_PASSWORD" "$protocol://$host:$port" -e "set cmd:fail-exit yes; set net:timeout 8; set net:max-retries 1; set net:reconnect-interval-base 2; set ssl:verify-certificate no; set sftp:auto-confirm yes; cls; bye" >/dev/null 2>&1
+                timeout 18s lftp -u "$ftp_user","$CPANEL_FTP_PASSWORD" "$protocol://$host:$port" -e "set cmd:fail-exit yes; set net:timeout 8; set net:max-retries 1; set net:reconnect-interval-base 2; set ssl:verify-certificate no; set sftp:auto-confirm yes; cls; bye" >/dev/null 2>&1
                 preflight_code=$?
                 set -e
 
                 if [ "$preflight_code" -ne 0 ]; then
-                  echo "  -> Preflight login failed on $protocol://$host:$port"
+                  echo "  -> Preflight login failed with user=$ftp_user on $protocol://$host:$port"
                   continue
                 fi
 
                 for remote_path in "${remote_paths[@]}"; do
                   echo "  -> Deploying to remote path: $remote_path"
                   set +e
-                  timeout 45s lftp -u "$CPANEL_FTP_USER","$CPANEL_FTP_PASSWORD" "$protocol://$host:$port" -e "set cmd:fail-exit yes; set net:timeout 8; set net:max-retries 1; set net:reconnect-interval-base 2; set ssl:verify-certificate no; set sftp:auto-confirm yes; mkdir -p $remote_path; mirror -R --delete --verbose=1 out/ $remote_path; bye"
+                  timeout 45s lftp -u "$ftp_user","$CPANEL_FTP_PASSWORD" "$protocol://$host:$port" -e "set cmd:fail-exit yes; set net:timeout 8; set net:max-retries 1; set net:reconnect-interval-base 2; set ssl:verify-certificate no; set sftp:auto-confirm yes; mkdir -p $remote_path; mirror -R --delete --verbose=1 out/ $remote_path; bye"
                   code=$?
                   set -e
 
@@ -195,7 +212,7 @@ jobs:
                       set -e
 
                       if [ "$verify_code" -eq 0 ] && echo "$live_html" | grep -q "$verify_marker"; then
-                        echo "Deployment verified on $verify_url via $protocol://$host:$port $remote_path"
+                        echo "Deployment verified on $verify_url via user=$ftp_user $protocol://$host:$port $remote_path"
                         exit 0
                       fi
                     done
@@ -205,6 +222,7 @@ jobs:
                 done
               done
             done
+          done
           done
 
           echo "::error::All cPanel host/protocol attempts failed."
