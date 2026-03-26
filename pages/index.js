@@ -219,8 +219,8 @@ export default function Home() {
 
         <section className="container hero hero-split" id="top">
           <div className="hero-copy">
-            <p className="eyebrow">1 Dakikada Teklif Al</p>
-            <h1>Vakit Kaybetme. Hemen Kurye Çağır.</h1>
+            <p className="eyebrow">1 Dakikada En Yakın Kuryeyi Çağır</p>
+            <h1>1 Dakikada En Yakın Kuryeyi Çağır.</h1>
             <p className="lead">
               Hızlı Kurye. Güvenli Teslimat. Anlık Durum Bilgisi.
             </p>
@@ -336,18 +336,6 @@ export default function Home() {
             </div>
           </div>
 
-          <aside className="hero-visual" aria-hidden="true">
-            <div className="map-card">
-              <div className="map-grid" />
-              <div className="route route-a" />
-              <div className="route route-b" />
-              <div className="dot dot-start" />
-              <div className="dot dot-end" />
-              <div className="token token-moto">Öncelik</div>
-              <div className="token token-vip">Özel</div>
-              <div className="token token-acil">Güvenli</div>
-            </div>
-          </aside>
         </section>
 
         <section className="container section-block tracking-shell">
