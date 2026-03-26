@@ -1,6 +1,11 @@
 ZIP DOSYASI (BU SURUM):
 cpanel-clean-upload-latest.zip
 
+KURAL:
+- `http://localhost:3000/` tek kaynak kabul edilir; canli yayin bunun birebir guncel hali olmalidir.
+- Canli yayin sadece gercek domainde (`34motokuryeistanbul.com` / `www.34motokuryeistanbul.com`) kalici olarak calisir.
+- Tunnel URL'leri (`localhost.run`, `ngrok`, `localtunnel`, `bore`) canli kabul edilmez.
+
 CPANEL TERMINAL KOMUTU:
 cd ~ && TS="$(date +%Y%m%d-%H%M%S)" && mkdir -p "$HOME/backup-public_html-$TS" && if [ -d "$HOME/public_html" ]; then cp -a "$HOME/public_html/." "$HOME/backup-public_html-$TS/"; fi && rm -rf "$HOME/public_html"/* && unzip -o "$HOME/cpanel-clean-upload-latest.zip" -d "$HOME/public_html" && ls -la "$HOME/public_html" | head
 

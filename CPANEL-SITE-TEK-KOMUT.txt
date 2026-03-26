@@ -4,6 +4,7 @@ cpanel-clean-upload-latest.zip
 KURAL:
 - Production canli yayin sadece cPanel `public_html` uzerinden yapilir.
 - Tunnel URL'leri (`localhost.run`, `ngrok`, `localtunnel`, `bore`) gecici test icindir, canli kabul edilmez.
+- `http://localhost:3000/` tek kaynak kabul edilir; canli yayin bunun birebir guncel hali olmalidir.
 
 DOMAIN:
 www.34motokuryeistanbul.com

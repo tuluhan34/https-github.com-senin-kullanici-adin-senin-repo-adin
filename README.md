@@ -97,6 +97,8 @@ npm run start
 Bu repo artik canliya cikarken dogrudan kaynak koddan build alir.
 
 KURAL (zorunlu): Canli yayin tunnel/temporary URL uzerinden yapilmaz. `localhost.run`, `ngrok`, `localtunnel`, `bore` gibi gecici tunnel cozumleri production kabul edilmez. Tek gecerli canli hedef cPanel uzerindeki gercek domaindir (`34motokuryeistanbul.com` / `www.34motokuryeistanbul.com`).
+KURAL (zorunlu): `http://localhost:3000/` uzerindeki mevcut uygulama "tek kaynak" kabul edilir; canlida bunun birebir guncel hali bulunmalidir.
+KURAL (zorunlu): Projede yapilan her ekleme/cikarma/degisiklik `main` branch'e push ile aninda canli deploy surecine girer; hedef gercek domainde calisan kalici yayin almaktir.
 
 - Kaynak: `pages/`, `components/`, `styles/`, `lib/`
 - Uretim cikisi: `out/`
@@ -111,7 +113,6 @@ KURAL (zorunlu): Canli yayin tunnel/temporary URL uzerinden yapilmaz. `localhost
 ### Deploy Workflow Dosyalari
 
 - `.github/workflows/deploy-cpanel.yml`
-- `.github/workflows/deploy-pages.yml`
 
 Iki workflow da su akisi kullanir:
 
