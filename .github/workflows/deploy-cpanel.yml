@@ -88,8 +88,8 @@ jobs:
           set -euo pipefail
 
           start_ts="$(date +%s)"
-          max_seconds=900
-          max_attempts=30
+          max_seconds=1100
+          max_attempts=120
 
           host_input="$CPANEL_FTP_HOST"
           host_input="${host_input#ftp://}"
