@@ -470,6 +470,51 @@ p {
   padding-top: 1.2rem;
 }
 
+.route-live-wrap {
+  align-items: center;
+  text-align: center;
+  gap: 0.8rem;
+}
+
+.route-km-panel {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  border-radius: 1rem;
+  background: rgba(212, 175, 55, 0.08);
+  display: grid;
+  gap: 0.28rem;
+  justify-items: center;
+}
+
+.route-km-panel strong {
+  font-size: clamp(1.8rem, 3.2vw, 2.5rem);
+  color: #f2dc9a;
+  line-height: 1;
+}
+
+.route-km-panel span {
+  font-size: 0.9rem;
+  color: #d7d7dc;
+}
+
+.route-info {
+  color: #b8b8bd;
+  font-size: 0.92rem;
+}
+
+.route-map-canvas {
+  width: 100%;
+  min-height: 430px;
+  border-radius: 0.95rem;
+  border: 1px solid var(--line);
+  overflow: hidden;
+}
+
+.route-map-button {
+  max-width: 420px;
+}
+
 .tracking-progress {
   width: 100%;
   height: 0.55rem;

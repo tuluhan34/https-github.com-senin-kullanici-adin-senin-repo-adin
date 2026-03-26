@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { districts } from "../lib/district-data";
 
 const courierServices = [
@@ -38,6 +38,34 @@ const shipmentTypes = [
 
 const deliverySpeeds = ["Acil", "Hemen", "1 Saat", "2 Saat", "3 Saat", "4 Saat", "Süre Belirle"];
 
+const GOOGLE_MAPS_API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || "";
+
+const loadGoogleMapsScript = () => {
+  if (typeof window === "undefined") {
+    return Promise.resolve(null);
+  }
+
+  if (window.google?.maps) {
+    return Promise.resolve(window.google.maps);
+  }
+
+  if (window.__gmapsPromise) {
+    return window.__gmapsPromise;
+  }
+
+  window.__gmapsPromise = new Promise((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}`;
+    script.async = true;
+    script.defer = true;
+    script.onload = () => resolve(window.google?.maps || null);
+    script.onerror = () => reject(new Error("Google Maps script could not be loaded."));
+    document.head.appendChild(script);
+  });
+
+  return window.__gmapsPromise;
+};
+
 const serviceFlow = [
   {
     no: "01",
@@ -71,29 +99,6 @@ const faqs = [
   },
 ];
 
-const trackingTimeline = [
-  {
-    title: "Talep Onaylandı",
-    detail: "Kurye talebiniz alındı ve operasyona aktarıldı.",
-    eta: "Tahmini 22 dk",
-  },
-  {
-    title: "Öncelikli Atama",
-    detail: "En uygun kurye atandı, alış noktasına yönlendirildi.",
-    eta: "Tahmini 16 dk",
-  },
-  {
-    title: "Güvenli Transferde",
-    detail: "Gönderiniz yolda ve durum bilgisi anlık olarak güncelleniyor.",
-    eta: "Tahmini 8 dk",
-  },
-  {
-    title: "Teslimata Yakın",
-    detail: "Kurye teslimat noktasına yaklaştı, imza/fotoğraf onayı hazırlanıyor.",
-    eta: "Tahmini 3 dk",
-  },
-];
-
 const buildWhatsappUrl = (
   pickupAddress,
   senderName,
@@ -105,6 +110,8 @@ const buildWhatsappUrl = (
   shipmentType,
   deliverySpeed,
   customDuration,
+  weightSize,
+  photoName,
 ) => {
   const message = [
     "Merhaba, acil moto kurye talebi oluşturmak istiyorum.",
@@ -123,6 +130,8 @@ const buildWhatsappUrl = (
     `Hizmet Seviyesi: ${courierType}`,
     `Teslimat Suresi: ${deliverySpeed}`,
     `Musteri Belirttigi Sure: ${customDuration || "Belirtilmedi"}`,
+    `Agirlik / Ebat: ${weightSize || "Belirtilmedi"}`,
+    `Fotograf: ${photoName || "Yok"}`,
     "Müsait kurye ve fiyat bilgisi ile dönüş rica ederim.",
   ].join("\n");
 
@@ -158,15 +167,13 @@ export default function Home() {
   const [shipmentType, setShipmentType] = useState("Evrak Kurye");
   const [deliverySpeed, setDeliverySpeed] = useState("Acil");
   const [customDuration, setCustomDuration] = useState("");
-  const [trackingStep, setTrackingStep] = useState(0);
-
-  useEffect(() => {
-    const stepTimer = window.setInterval(() => {
-      setTrackingStep((prev) => (prev + 1) % trackingTimeline.length);
-    }, 6000);
-
-    return () => window.clearInterval(stepTimer);
-  }, []);
+  const [weightSize, setWeightSize] = useState("");
+  const [photoName, setPhotoName] = useState("");
+  const [routeKm, setRouteKm] = useState("-");
+  const [routeInfo, setRouteInfo] = useState("Alış ve teslimat adresini girin, en kısa rota ve km bilgisi burada gösterilsin.");
+  const mapCanvasRef = useRef(null);
+  const mapRef = useRef(null);
+  const directionsRendererRef = useRef(null);
 
   const whatsappUrl = useMemo(() => {
     return buildWhatsappUrl(
@@ -180,10 +187,103 @@ export default function Home() {
       shipmentType,
       deliverySpeed,
       customDuration,
+      weightSize,
+      photoName,
     );
-  }, [pickupAddress, senderName, senderPhone, dropoffAddress, recipientName, recipientPhone, courierType, shipmentType, deliverySpeed, customDuration]);
+  }, [pickupAddress, senderName, senderPhone, dropoffAddress, recipientName, recipientPhone, courierType, shipmentType, deliverySpeed, customDuration, weightSize, photoName]);
 
-  const trackingProgress = ((trackingStep + 1) / trackingTimeline.length) * 100;
+  const mapsDirectionUrl = useMemo(() => {
+    if (!pickupAddress || !dropoffAddress) {
+      return "https://www.google.com/maps";
+    }
+
+    return `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(pickupAddress)}&destination=${encodeURIComponent(dropoffAddress)}&travelmode=driving`;
+  }, [pickupAddress, dropoffAddress]);
+
+  useEffect(() => {
+    if (!GOOGLE_MAPS_API_KEY) {
+      setRouteInfo("Google Maps için NEXT_PUBLIC_GOOGLE_MAPS_API_KEY tanımlanmalı.");
+      return;
+    }
+
+    let active = true;
+
+    loadGoogleMapsScript()
+      .then((maps) => {
+        if (!active || !maps || !mapCanvasRef.current || mapRef.current) {
+          return;
+        }
+
+        mapRef.current = new maps.Map(mapCanvasRef.current, {
+          center: { lat: 41.015137, lng: 28.97953 },
+          zoom: 11,
+          mapTypeControl: false,
+          streetViewControl: false,
+          fullscreenControl: false,
+        });
+
+        directionsRendererRef.current = new maps.DirectionsRenderer({
+          map: mapRef.current,
+          suppressMarkers: false,
+          polylineOptions: {
+            strokeColor: "#D4AF37",
+            strokeOpacity: 0.95,
+            strokeWeight: 6,
+          },
+        });
+      })
+      .catch(() => {
+        setRouteInfo("Google Maps yüklenemedi. API ayarlarını kontrol edin.");
+      });
+
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!pickupAddress || !dropoffAddress || !window.google?.maps || !mapRef.current || !directionsRendererRef.current) {
+      return;
+    }
+
+    const maps = window.google.maps;
+    const directionsService = new maps.DirectionsService();
+
+    directionsService.route(
+      {
+        origin: pickupAddress,
+        destination: dropoffAddress,
+        travelMode: maps.TravelMode.DRIVING,
+        provideRouteAlternatives: true,
+      },
+      (result, status) => {
+        if (status !== "OK" || !result?.routes?.length) {
+          setRouteKm("-");
+          setRouteInfo("Rota hesaplanamadı. Adresleri daha açık yazınız.");
+          return;
+        }
+
+        let bestIndex = 0;
+        let bestDistance = Number.POSITIVE_INFINITY;
+
+        result.routes.forEach((route, index) => {
+          const distance = route.legs?.[0]?.distance?.value || Number.POSITIVE_INFINITY;
+          if (distance < bestDistance) {
+            bestDistance = distance;
+            bestIndex = index;
+          }
+        });
+
+        directionsRendererRef.current.setDirections(result);
+        directionsRendererRef.current.setRouteIndex(bestIndex);
+
+        if (Number.isFinite(bestDistance)) {
+          setRouteKm(`${(bestDistance / 1000).toFixed(1)} KM`);
+          setRouteInfo("Google Maps üzerinde en kısa rota canlı olarak gösteriliyor.");
+        }
+      },
+    );
+  }, [pickupAddress, dropoffAddress]);
 
   return (
     <>
@@ -333,6 +433,30 @@ export default function Home() {
                 </label>
               </div>
 
+              <div className="time-split">
+                <label className="field">
+                  <span>Ağırlık / Ebat</span>
+                  <input
+                    type="text"
+                    value={weightSize}
+                    onChange={(event) => setWeightSize(event.target.value)}
+                    placeholder="Örn. 3 kg / 40x30x20 cm"
+                  />
+                </label>
+
+                <label className="field">
+                  <span>Fotoğraf Yükle (İsteğe Bağlı)</span>
+                  <input
+                    type="file"
+                    accept="image/*"
+                    onChange={(event) => {
+                      const file = event.target.files?.[0];
+                      setPhotoName(file ? file.name : "");
+                    }}
+                  />
+                </label>
+              </div>
+
               <p className="form-note">
                 Evrak kurye, koli kurye, protez diş kurye ve vize evrak kurye talepleriniz için
                 süre ve operasyon planlaması bu formdan hızlıca yapılır.
@@ -361,16 +485,19 @@ export default function Home() {
 
         <section className="container section-block tracking-shell">
           <div className="section-head">
-            <p className="eyebrow">Gerçek zamanlı takip</p>
-            <h2>Anlık Kurye Durumu</h2>
+            <p className="eyebrow">Google Maps Canlı Rota</p>
+            <h2>En Kısa Rota ve KM Bilgisi</h2>
           </div>
-          <article className="tracking-card">
-            <div className="tracking-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow={trackingProgress}>
-              <span style={{ width: `${trackingProgress}%` }} />
+          <article className="tracking-card route-live-wrap">
+            <div className="route-km-panel" role="status" aria-live="polite">
+              <strong>{routeKm}</strong>
+              <span>Google Maps En Kısa Sürüş Mesafesi</span>
             </div>
-            <h3>{trackingTimeline[trackingStep].title}</h3>
-            <p>{trackingTimeline[trackingStep].detail}</p>
-            <p className="tracking-eta">{trackingTimeline[trackingStep].eta}</p>
+            <p className="route-info">{routeInfo}</p>
+            <div ref={mapCanvasRef} className="route-map-canvas" />
+            <a className="btn btn-whatsapp route-map-button" href={mapsDirectionUrl} target="_blank" rel="noreferrer">
+              Google Maps'ten Bakabilirsiniz
+            </a>
           </article>
         </section>
 
