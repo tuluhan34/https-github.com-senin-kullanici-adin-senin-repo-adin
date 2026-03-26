@@ -76,7 +76,7 @@ export default function DistrictPage({ district }) {
                     className="district-card"
                   >
                     <h3>{item.neighborhood} Mahallesi</h3>
-                    <p>{item.description || `${item.neighborhood} mahallesi kurye hizmet detayi`}</p>
+                    <p>{item.shortDescription || `${item.neighborhood} mahallesi kurye blog yazisi`}</p>
                   </Link>
                 ))}
               </div>

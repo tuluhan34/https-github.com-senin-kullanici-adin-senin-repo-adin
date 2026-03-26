@@ -23,7 +23,12 @@ export default function ServiceDetailPage({ service }) {
           </div>
 
           <article className="service-card service-detail-card">
-            <img className="service-card-media" src={service.image} alt={service.imageAlt} loading="lazy" />
+            <img
+              className="service-card-media service-detail-media"
+              src={service.image}
+              alt={service.imageAlt}
+              loading="lazy"
+            />
             <h3>Hizmet Özeti</h3>
             <p>{service.desc}</p>
             <p>

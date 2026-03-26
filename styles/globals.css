@@ -473,6 +473,13 @@ select:-webkit-autofill {
   gap: 0.8rem;
 }
 
+.service-detail-media {
+  width: 100%;
+  height: clamp(320px, 54vw, 680px);
+  object-fit: cover;
+  object-position: center;
+}
+
 .service-highlights {
   margin: 0;
   padding-left: 1.15rem;

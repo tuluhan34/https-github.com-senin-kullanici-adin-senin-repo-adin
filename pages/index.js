@@ -331,6 +331,7 @@ export default function Home() {
           </a>
           <div className="topbar-actions">
             <Link className="mini-cta" href="/hizmetlerimiz">Hizmet Sayfaları</Link>
+            <Link className="mini-cta" href="/seo-icerikler">Blog</Link>
             <a className="mini-cta mini-cta-wa" href="https://wa.me/905303219004" target="_blank" rel="noreferrer">WhatsApp Destek</a>
             <a className="mini-cta" href="tel:05303219004">Arama Yap</a>
           </div>

@@ -1,9 +1,6232 @@
 [
   {
-    "district": "Şişli",
-    "neighborhood": "Çağlayan",
-    "street": "Sinanpaşa Caddesi",
-    "number": "40A",
-    "description": "Şişli Çağlayan Mahallesi Sinanpaşa Caddesi No:40A"
+    "district": "ADALAR",
+    "neighborhood": "BURGAZADA",
+    "street": "Çınarlık Sk.",
+    "number": "11",
+    "description": "Çınarlık Sk. No:11 A BURGAZADA/ADALAR"
+  },
+  {
+    "district": "ADALAR",
+    "neighborhood": "HEYBELİADA",
+    "street": "Erbay Sk.",
+    "number": "2",
+    "description": "Erbay Sk. No:2 HEYBELİADA/ADALAR"
+  },
+  {
+    "district": "ADALAR",
+    "neighborhood": "KINALIADA",
+    "street": "Alsancak Cad.",
+    "number": "10",
+    "description": "Alsancak Cad. No:10 A KINALIADA/ADALAR"
+  },
+  {
+    "district": "ADALAR",
+    "neighborhood": "NİZAM",
+    "street": "Halikarnas Sk.",
+    "number": "1",
+    "description": "Halikarnas Sk. No:1 NİZAM/ADALAR"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "ADNAN MENDERES",
+    "street": "Egemen Cad.",
+    "number": "175",
+    "description": "Egemen Cad. No:175 ADNAN MENDERES/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "ANADOLU",
+    "street": "Mimar Sinan Cad.",
+    "number": "24",
+    "description": "Mimar Sinan Cad. No:24 A ANADOLU/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "ARNAVUTKÖY MERKEZ",
+    "street": "Eski Edirne Asfaltı Cad.",
+    "number": "1267",
+    "description": "Eski Edirne Asfaltı Cad. No:1267 ARNAVUTKÖY MERKEZ/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "ATATÜRK",
+    "street": "Leyla Sk.",
+    "number": "62",
+    "description": "Leyla Sk. No:62 ATATÜRK/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "BAKLALI",
+    "street": "Akkuzu Sk.",
+    "number": "16",
+    "description": "Akkuzu Sk. No:16 A BAKLALI/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "BALABAN",
+    "street": "Balaban Camii Sk.",
+    "number": "12",
+    "description": "Balaban Camii Sk. No:12 BALABAN/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "BOĞAZKÖY İSTİKLAL",
+    "street": "İsmet İnönü Cad.",
+    "number": "170",
+    "description": "İsmet İnönü Cad. No:170 BOĞAZKÖY İSTİKLAL/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "BOLLUCA",
+    "street": "Battalgazi Cad.",
+    "number": "14",
+    "description": "Battalgazi Cad. No:14/A BOLLUCA/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "BOYALIK",
+    "street": "Millet Cad.",
+    "number": "4",
+    "description": "Millet Cad. No:4 BOYALIK/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "ÇİLİNGİR",
+    "street": "Koca Çınar Sk.",
+    "number": "2",
+    "description": "Koca Çınar Sk. No:2 C ÇİLİNGİR/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "DELİKLİKAYA",
+    "street": "Kayabaşı Cad.",
+    "number": "13",
+    "description": "Kayabaşı Cad. No:13 DELİKLİKAYA/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "DURSUNKÖY",
+    "street": "Dursunköy-Baklalı Cad.",
+    "number": "3",
+    "description": "Dursunköy-Baklalı Cad. No:3 B DURSUNKÖY/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "DURUSU",
+    "street": "Darı Ali Sk.",
+    "number": "1",
+    "description": "Darı Ali Sk. No:1 DURUSU/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "FATİH",
+    "street": "Palmiye Sk.",
+    "number": "22",
+    "description": "Palmiye Sk. No:22 FATİH/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "HACIMAŞLI",
+    "street": "Sarıdede Sk.",
+    "number": "2",
+    "description": "Sarıdede Sk. No:2 HACIMAŞLI/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "HADIMKÖY",
+    "street": "Ayasofya Cad.",
+    "number": "6",
+    "description": "Ayasofya Cad. No:6 HADIMKÖY/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "HARAÇÇI",
+    "street": "Dolmabahçe Cad.",
+    "number": "1",
+    "description": "Dolmabahçe Cad. No:1 HARAÇÇI/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "HİCRET",
+    "street": "Kıbrıs Cad.",
+    "number": "362",
+    "description": "Kıbrıs Cad. No:362 /1 HİCRET/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "İMRAHOR",
+    "street": "Sevban Mehmet Cad.",
+    "number": "171",
+    "description": "Sevban Mehmet Cad. No:171 İMRAHOR/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "İSLAMBEY",
+    "street": "Tuğçe Sk.",
+    "number": "2",
+    "description": "Tuğçe Sk. No:2 İSLAMBEY/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "KARABURUN",
+    "street": "Tahlisiye Cad.",
+    "number": "4",
+    "description": "Tahlisiye Cad. No:4 A KARABURUN/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "KARLIBAYIR",
+    "street": "Bayrak Cad.",
+    "number": "112",
+    "description": "Bayrak Cad. No:112 KARLIBAYIR/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "MAREŞAL FEVZİ ÇAKMAK",
+    "street": "Fatih Cad.",
+    "number": "297",
+    "description": "Fatih Cad. No:297 MAREŞAL FEVZİ ÇAKMAK/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "MAVİGÖL",
+    "street": "Eyüp Sultan Cad.",
+    "number": "1",
+    "description": "Eyüp Sultan Cad. No:1 MAVİGÖL/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "MEHMET AKİF ERSOY",
+    "street": "Atatürk Cad.",
+    "number": "75",
+    "description": "Atatürk Cad. No:75 MEHMET AKİF ERSOY/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "MUSTAFA KEMAL PAŞA",
+    "street": "Beşaret Sk.",
+    "number": "1",
+    "description": "Beşaret Sk. No:1 MUSTAFA KEMAL PAŞA/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "NENEHATUN",
+    "street": "Kıbrıs Cad.",
+    "number": "58",
+    "description": "Kıbrıs Cad. No:58 NENEHATUN/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "ÖMERLİ",
+    "street": "Hadımköy-Ömerli Cad.",
+    "number": "60",
+    "description": "Hadımköy-Ömerli Cad. No:60 ÖMERLİ/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "SAZLIBOSNA",
+    "street": "Kırım Cad.",
+    "number": "19",
+    "description": "Kırım Cad. No:19 D SAZLIBOSNA/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "TAŞOLUK",
+    "street": "Egemen Cad.",
+    "number": "33",
+    "description": "Egemen Cad. No:33 TAŞOLUK/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "TAYAKADIN",
+    "street": "Tayakadın-Yassıören Cad.",
+    "number": "48",
+    "description": "Tayakadın-Yassıören Cad. No:48 TAYAKADIN/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "TERKOS",
+    "street": "Durusu-Yeniköy Cad.",
+    "number": "43",
+    "description": "Durusu-Yeniköy Cad. No:43 TERKOS/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "YASSIÖREN",
+    "street": "Eski Edirne Asfaltı Cad.",
+    "number": "1950",
+    "description": "Eski Edirne Asfaltı Cad. No:1950 B YASSIÖREN/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "YENİKÖY",
+    "street": "İğde Sk.",
+    "number": "2",
+    "description": "İğde Sk. No:2 YENİKÖY/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "YEŞİLBAYIR",
+    "street": "Cami Cad.",
+    "number": "7",
+    "description": "Cami Cad. No:7 YEŞİLBAYIR/ARNAVUTKÖY"
+  },
+  {
+    "district": "ARNAVUTKÖY",
+    "neighborhood": "YUNUS EMRE",
+    "street": "30 Ağustos Cad.",
+    "number": "81",
+    "description": "30 Ağustos Cad. No:81 YUNUS EMRE/ARNAVUTKÖY"
+  },
+  {
+    "district": "ATAŞEHİR",
+    "neighborhood": "AŞIKVEYSEL",
+    "street": "3001. Cad.",
+    "number": "116",
+    "description": "3001. Cad. No:116 B AŞIKVEYSEL/ATAŞEHİR"
+  },
+  {
+    "district": "ATAŞEHİR",
+    "neighborhood": "ATATÜRK",
+    "street": "Meriç Cad.",
+    "number": "10",
+    "description": "Meriç Cad. No:10 /13 ATATÜRK/ATAŞEHİR"
+  },
+  {
+    "district": "ATAŞEHİR",
+    "neighborhood": "BARBAROS",
+    "street": "Mimar Sinan Cad.",
+    "number": "98",
+    "description": "Mimar Sinan Cad. No:98 BARBAROS/ATAŞEHİR"
+  },
+  {
+    "district": "ATAŞEHİR",
+    "neighborhood": "ESATPAŞA",
+    "street": "Alim Sk.",
+    "number": "2",
+    "description": "Alim Sk. No:2 ESATPAŞA/ATAŞEHİR"
+  },
+  {
+    "district": "ATAŞEHİR",
+    "neighborhood": "FERHATPAŞA",
+    "street": "Yeditepe Cad.",
+    "number": "80",
+    "description": "Yeditepe Cad. No:80 FERHATPAŞA/ATAŞEHİR"
+  },
+  {
+    "district": "ATAŞEHİR",
+    "neighborhood": "FETİH",
+    "street": "Kayısı Sk.",
+    "number": "2",
+    "description": "Kayısı Sk. No:2 FETİH/ATAŞEHİR"
+  },
+  {
+    "district": "ATAŞEHİR",
+    "neighborhood": "İÇERENKÖY",
+    "street": "Uysal Sk.",
+    "number": "37",
+    "description": "Uysal Sk. No:37 İÇERENKÖY/ATAŞEHİR"
+  },
+  {
+    "district": "ATAŞEHİR",
+    "neighborhood": "İNÖNÜ",
+    "street": "Tuğ Sk.",
+    "number": "16",
+    "description": "Tuğ Sk. No:16 İNÖNÜ/ATAŞEHİR"
+  },
+  {
+    "district": "ATAŞEHİR",
+    "neighborhood": "KAYIŞDAĞI",
+    "street": "Uslu Cad.",
+    "number": "73",
+    "description": "Uslu Cad. No:73 /1 KAYIŞDAĞI/ATAŞEHİR"
+  },
+  {
+    "district": "ATAŞEHİR",
+    "neighborhood": "KÜÇÜKBAKKALKÖY",
+    "street": "Geziciler Sk.",
+    "number": "4",
+    "description": "Geziciler Sk. No:4 A KÜÇÜKBAKKALKÖY/ATAŞEHİR"
+  },
+  {
+    "district": "ATAŞEHİR",
+    "neighborhood": "MEVLANA",
+    "street": "Dursunbey Cad.",
+    "number": "6",
+    "description": "Dursunbey Cad. No:6 MEVLANA/ATAŞEHİR"
+  },
+  {
+    "district": "ATAŞEHİR",
+    "neighborhood": "MİMAR SİNAN",
+    "street": "Sakarya Cad.",
+    "number": "156",
+    "description": "Sakarya Cad. No:156 /1 MİMAR SİNAN/ATAŞEHİR"
+  },
+  {
+    "district": "ATAŞEHİR",
+    "neighborhood": "MUSTAFA KEMAL",
+    "street": "3095. Sk.",
+    "number": "4",
+    "description": "3095. Sk. No:4 MUSTAFA KEMAL/ATAŞEHİR"
+  },
+  {
+    "district": "ATAŞEHİR",
+    "neighborhood": "ÖRNEK",
+    "street": "Semerkant Cad.",
+    "number": "46",
+    "description": "Semerkant Cad. No:46 ÖRNEK/ATAŞEHİR"
+  },
+  {
+    "district": "ATAŞEHİR",
+    "neighborhood": "YENİ ÇAMLICA",
+    "street": "Yılmaz Sk.",
+    "number": "14",
+    "description": "Yılmaz Sk. No:14/1 YENİ ÇAMLICA/ATAŞEHİR"
+  },
+  {
+    "district": "ATAŞEHİR",
+    "neighborhood": "YENİSAHRA",
+    "street": "Türkaslan Sk.",
+    "number": "15",
+    "description": "Türkaslan Sk. No:15 YENİSAHRA/ATAŞEHİR"
+  },
+  {
+    "district": "ATAŞEHİR",
+    "neighborhood": "YENİŞEHİR",
+    "street": "Baraj Yolu Cad.",
+    "number": "2",
+    "description": "Baraj Yolu Cad. No:2 /2 YENİŞEHİR/ATAŞEHİR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "AMBARLI",
+    "street": "Dr. Sadık Ahmet Cad.",
+    "number": "181",
+    "description": "Dr. Sadık Ahmet Cad. No:181 AMBARLI/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "CİHANGİR",
+    "street": "Civa Cad.",
+    "number": "9",
+    "description": "Civa Cad. No:9 CİHANGİR/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "DENİZKÖŞKLER",
+    "street": "Muhtar Kazım Akgül Cad.",
+    "number": "36",
+    "description": "Muhtar Kazım Akgül Cad. No:36 DENİZKÖŞKLER/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "FİRUZKÖY",
+    "street": "Korutürk Sk.",
+    "number": "5",
+    "description": "Korutürk Sk. No:5 /2 FİRUZKÖY/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "GÜMÜŞPALA",
+    "street": "Hüseyin Özkan Sk.",
+    "number": "4",
+    "description": "Hüseyin Özkan Sk. No:4 GÜMÜŞPALA/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "MERKEZ",
+    "street": "Merkez Cami Sk.",
+    "number": "18",
+    "description": "Merkez Cami Sk. No:18 /1 MERKEZ/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "MUSTAFA KEMALPAŞA",
+    "street": "Köroğlu Sk.",
+    "number": "71",
+    "description": "Köroğlu Sk. No:71 A MUSTAFA KEMALPAŞA/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "TAHTAKALE",
+    "street": "Petrol Sk.",
+    "number": "1",
+    "description": "Petrol Sk. No:1 TAHTAKALE/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "ÜNİVERSİTE",
+    "street": "Toker Kardeşler Sk.",
+    "number": "3",
+    "description": "Toker Kardeşler Sk. No:3 /1 ÜNİVERSİTE/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "YEŞİLKENT",
+    "street": "G-614 Sk.",
+    "number": "8",
+    "description": "G-614 Sk. No:8 YEŞİLKENT/AVCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "100. YIL",
+    "street": "Kışla Cad.",
+    "number": "105",
+    "description": "Kışla Cad. No:105 100. YIL/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "15 TEMMUZ",
+    "street": "Şehit Hidayet Yılmaz Sk.",
+    "number": "6",
+    "description": "Şehit Hidayet Yılmaz Sk. No:6 15 TEMMUZ/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "BAĞLAR",
+    "street": "41. Sk.",
+    "number": "5",
+    "description": "41. Sk. No:5 BAĞLAR/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "BARBAROS",
+    "street": "180. Sk.",
+    "number": "59",
+    "description": "180. Sk. No:59 BARBAROS/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "ÇINAR",
+    "street": "856. Sk.",
+    "number": "14",
+    "description": "856. Sk. No:14 ÇINAR/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "DEMİRKAPI",
+    "street": "1706. Sk.",
+    "number": "2",
+    "description": "1706. Sk. No:2 DEMİRKAPI/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "FATİH",
+    "street": "Pazar Cad.",
+    "number": "80",
+    "description": "Pazar Cad. No:80 FATİH/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "FEVZİ ÇAKMAK",
+    "street": "2015. Sk.",
+    "number": "15",
+    "description": "2015. Sk. No:15 FEVZİ ÇAKMAK/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "GÖZTEPE",
+    "street": "2371. Sk.",
+    "number": "16",
+    "description": "2371. Sk. No:16 GÖZTEPE/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "GÜNEŞLİ",
+    "street": "1293. Sk.",
+    "number": "17",
+    "description": "1293. Sk. No:17 GÜNEŞLİ/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "HÜRRİYET",
+    "street": "160. Sk.",
+    "number": "9",
+    "description": "160. Sk. No:9 HÜRRİYET/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "İNÖNÜ",
+    "street": "434. Sk.",
+    "number": "12",
+    "description": "434. Sk. No:12 İNÖNÜ/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "KEMALPAŞA",
+    "street": "1926. Sk.",
+    "number": "13",
+    "description": "1926. Sk. No:13 KEMALPAŞA/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "KİRAZLI",
+    "street": "Kurtuluş Cad.",
+    "number": "20",
+    "description": "Kurtuluş Cad. No:20 KİRAZLI/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "MAHMUTBEY",
+    "street": "Gazi Mustafa Kemal Cad.",
+    "number": "41",
+    "description": "Gazi Mustafa Kemal Cad. No:41 B MAHMUTBEY/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "MERKEZ",
+    "street": "673. Sk.",
+    "number": "26",
+    "description": "673. Sk. No:26 MERKEZ/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "SANCAKTEPE",
+    "street": "924. Sk.",
+    "number": "17",
+    "description": "924. Sk. No:17 SANCAKTEPE/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "YAVUZ SELİM",
+    "street": "969. Sk.",
+    "number": "6",
+    "description": "969. Sk. No:6 YAVUZ SELİM/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "YENİGÜN",
+    "street": "616. Sk.",
+    "number": "9",
+    "description": "616. Sk. No:9 YENİGÜN/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "YENİMAHALLE",
+    "street": "1540. Sk.",
+    "number": "18",
+    "description": "1540. Sk. No:18 YENİMAHALLE/BAĞCILAR"
+  },
+  {
+    "district": "BAĞCILAR",
+    "neighborhood": "YILDIZTEPE",
+    "street": "538. Sk.",
+    "number": "1",
+    "description": "538. Sk. No:1 YILDIZTEPE/BAĞCILAR"
+  },
+  {
+    "district": "BAHÇELİEVLER",
+    "neighborhood": "BAHÇELİEVLER",
+    "street": "Fevzi Çakmak Cad.",
+    "number": "2",
+    "description": "Fevzi Çakmak Cad. No:2 /1 BAHÇELİEVLER/BAHÇELİEVLER"
+  },
+  {
+    "district": "BAHÇELİEVLER",
+    "neighborhood": "CUMHURİYET",
+    "street": "Kıbrıs Cad.",
+    "number": "45",
+    "description": "Kıbrıs Cad. No:45 A CUMHURİYET/BAHÇELİEVLER"
+  },
+  {
+    "district": "BAHÇELİEVLER",
+    "neighborhood": "ÇOBANÇEŞME",
+    "street": "Fatih Cad.",
+    "number": "51",
+    "description": "Fatih Cad. No:51 A ÇOBANÇEŞME/BAHÇELİEVLER"
+  },
+  {
+    "district": "BAHÇELİEVLER",
+    "neighborhood": "FEVZİ ÇAKMAK",
+    "street": "Yıldırım Beyazıt Cad.",
+    "number": "3",
+    "description": "Yıldırım Beyazıt Cad. No:3 /1 FEVZİ ÇAKMAK/BAHÇELİEVLER"
+  },
+  {
+    "district": "BAHÇELİEVLER",
+    "neighborhood": "HÜRRİYET",
+    "street": "Mahmutbey Cad.",
+    "number": "39",
+    "description": "Mahmutbey Cad. No:39 HÜRRİYET/BAHÇELİEVLER"
+  },
+  {
+    "district": "BAHÇELİEVLER",
+    "neighborhood": "KOCASİNAN MERKEZ",
+    "street": "Kocasinan Bağcılar Yolu Cad.",
+    "number": "2",
+    "description": "Kocasinan Bağcılar Yolu Cad. No:2 /2 KOCASİNAN MERKEZ/BAHÇELİEVLER"
+  },
+  {
+    "district": "BAHÇELİEVLER",
+    "neighborhood": "SOĞANLI",
+    "street": "Nevruz Sk.",
+    "number": "2",
+    "description": "Nevruz Sk. No:2 SOĞANLI/BAHÇELİEVLER"
+  },
+  {
+    "district": "BAHÇELİEVLER",
+    "neighborhood": "ŞİRİNEVLER",
+    "street": "Saray Cad.",
+    "number": "2",
+    "description": "Saray Cad. No:2 ŞİRİNEVLER/BAHÇELİEVLER"
+  },
+  {
+    "district": "BAHÇELİEVLER",
+    "neighborhood": "YENİBOSNA MERKEZ",
+    "street": "29 Ekim Cad.",
+    "number": "30",
+    "description": "29 Ekim Cad. No:30 YENİBOSNA MERKEZ/BAHÇELİEVLER"
+  },
+  {
+    "district": "BAHÇELİEVLER",
+    "neighborhood": "ZAFER",
+    "street": "Vadi Sk.",
+    "number": "2",
+    "description": "Vadi Sk. No:2 /4 ZAFER/BAHÇELİEVLER"
+  },
+  {
+    "district": "BAKIRKÖY",
+    "neighborhood": "ATAKÖY 1. KISIM",
+    "street": "Ekrem Bey Sk.",
+    "number": "1",
+    "description": "Ekrem Bey Sk. No:1 ATAKÖY 1. KISIM/BAKIRKÖY"
+  },
+  {
+    "district": "BAKIRKÖY",
+    "neighborhood": "ATAKÖY 2-5-6. KISIM",
+    "street": "Dumlupınar Sk.",
+    "number": "8",
+    "description": "Dumlupınar Sk. No:8 ATAKÖY 2-5-6. KISIM/BAKIRKÖY"
+  },
+  {
+    "district": "BAKIRKÖY",
+    "neighborhood": "ATAKÖY 3-4-11. KISIM",
+    "street": "Cevat Dursunoğlu Cad.",
+    "number": "1",
+    "description": "Cevat Dursunoğlu Cad. No:1 /2 ATAKÖY 3-4-11. KISIM/BAKIRKÖY"
+  },
+  {
+    "district": "BAKIRKÖY",
+    "neighborhood": "ATAKÖY 7-8-9-10. KISIM",
+    "street": "Karanfil Sk.",
+    "number": "1",
+    "description": "Karanfil Sk. No:1 /1 ATAKÖY 7-8-9-10. KISIM/BAKIRKÖY"
+  },
+  {
+    "district": "BAKIRKÖY",
+    "neighborhood": "BASINKÖY",
+    "street": "Ahmet Cevdet İkdam Cad.",
+    "number": "27",
+    "description": "Ahmet Cevdet İkdam Cad. No:27 /1 BASINKÖY/BAKIRKÖY"
+  },
+  {
+    "district": "BAKIRKÖY",
+    "neighborhood": "CEVİZLİK",
+    "street": "Ebuziya Cad.",
+    "number": "71",
+    "description": "Ebuziya Cad. No:71 /1A CEVİZLİK/BAKIRKÖY"
+  },
+  {
+    "district": "BAKIRKÖY",
+    "neighborhood": "KARTALTEPE",
+    "street": "Terakki Cad.",
+    "number": "1",
+    "description": "Terakki Cad. No:1 KARTALTEPE/BAKIRKÖY"
+  },
+  {
+    "district": "BAKIRKÖY",
+    "neighborhood": "OSMANİYE",
+    "street": "Sığırtmaç Sk.",
+    "number": "2",
+    "description": "Sığırtmaç Sk. No:2 OSMANİYE/BAKIRKÖY"
+  },
+  {
+    "district": "BAKIRKÖY",
+    "neighborhood": "SAKIZAĞACI",
+    "street": "Heyet Sk.",
+    "number": "11",
+    "description": "Heyet Sk. No:11 A SAKIZAĞACI/BAKIRKÖY"
+  },
+  {
+    "district": "BAKIRKÖY",
+    "neighborhood": "ŞENLİKKÖY",
+    "street": "Florya Cad.",
+    "number": "46",
+    "description": "Florya Cad. No:46 /1B ŞENLİKKÖY/BAKIRKÖY"
+  },
+  {
+    "district": "BAKIRKÖY",
+    "neighborhood": "YENİMAHALLE",
+    "street": "Mektep Arkası Sk.",
+    "number": "17",
+    "description": "Mektep Arkası Sk. No:17 B YENİMAHALLE/BAKIRKÖY"
+  },
+  {
+    "district": "BAKIRKÖY",
+    "neighborhood": "YEŞİLKÖY",
+    "street": "Serbesti Cad.",
+    "number": "12",
+    "description": "Serbesti Cad. No:12 /1 YEŞİLKÖY/BAKIRKÖY"
+  },
+  {
+    "district": "BAKIRKÖY",
+    "neighborhood": "ZUHURATBABA",
+    "street": "Bakır Sk.",
+    "number": "6",
+    "description": "Bakır Sk. No:6 /5 ZUHURATBABA/BAKIRKÖY"
+  },
+  {
+    "district": "BAŞAKŞEHİR",
+    "neighborhood": "BAHÇEŞEHİR 1. KISIM",
+    "street": "Kemal Sunal Cad.",
+    "number": "23",
+    "description": "Kemal Sunal Cad. No:23 BAHÇEŞEHİR 1. KISIM/BAŞAKŞEHİR"
+  },
+  {
+    "district": "BAŞAKŞEHİR",
+    "neighborhood": "BAHÇEŞEHİR 2. KISIM",
+    "street": "Kelebek Sk.",
+    "number": "1",
+    "description": "Kelebek Sk. No:1 BAHÇEŞEHİR 2. KISIM/BAŞAKŞEHİR"
+  },
+  {
+    "district": "BAŞAKŞEHİR",
+    "neighborhood": "BAŞAK",
+    "street": "Ertuğrul Gazi Cad.",
+    "number": "22",
+    "description": "Ertuğrul Gazi Cad. No:22 /3 BAŞAK/BAŞAKŞEHİR"
+  },
+  {
+    "district": "BAŞAKŞEHİR",
+    "neighborhood": "BAŞAKŞEHİR",
+    "street": "Prof. Dr. Necmettin Erbakan Cad.",
+    "number": "25",
+    "description": "Prof. Dr. Necmettin Erbakan Cad. No:25 /1 BAŞAKŞEHİR/BAŞAKŞEHİR"
+  },
+  {
+    "district": "BAŞAKŞEHİR",
+    "neighborhood": "GÜVERCİNTEPE",
+    "street": "Gülay Sk.",
+    "number": "71",
+    "description": "Gülay Sk. No:71 GÜVERCİNTEPE/BAŞAKŞEHİR"
+  },
+  {
+    "district": "BAŞAKŞEHİR",
+    "neighborhood": "KAYABAŞI",
+    "street": "Rabia Cad.",
+    "number": "5",
+    "description": "Rabia Cad. No:5 KAYABAŞI/BAŞAKŞEHİR"
+  },
+  {
+    "district": "BAŞAKŞEHİR",
+    "neighborhood": "ŞAHİNTEPE",
+    "street": "Kurban Sk.",
+    "number": "7",
+    "description": "Kurban Sk. No:7 ŞAHİNTEPE/BAŞAKŞEHİR"
+  },
+  {
+    "district": "BAŞAKŞEHİR",
+    "neighborhood": "ŞAMLAR",
+    "street": "23 Nisan Cad.",
+    "number": "14",
+    "description": "23 Nisan Cad. No:14 D ŞAMLAR/BAŞAKŞEHİR"
+  },
+  {
+    "district": "BAŞAKŞEHİR",
+    "neighborhood": "ZİYA GÖKALP",
+    "street": "Hürriyet Bulvarı",
+    "number": "36",
+    "description": "Hürriyet Bulvarı No:36 /1 ZİYA GÖKALP/BAŞAKŞEHİR"
+  },
+  {
+    "district": "BAYRAMPAŞA",
+    "neighborhood": "ALTINTEPSİ",
+    "street": "Kutlu Sk. ALTINTEPSİ/BAYRAMPAŞA",
+    "number": "",
+    "description": "Kutlu Sk. ALTINTEPSİ/BAYRAMPAŞA"
+  },
+  {
+    "district": "BAYRAMPAŞA",
+    "neighborhood": "CEVATPAŞA",
+    "street": "Adem Yavuz Cad.",
+    "number": "10",
+    "description": "Adem Yavuz Cad. No:10 CEVATPAŞA/BAYRAMPAŞA"
+  },
+  {
+    "district": "BAYRAMPAŞA",
+    "neighborhood": "İSMET PAŞA",
+    "street": "Muhtarlık Çıkmazı Sk.",
+    "number": "1",
+    "description": "Muhtarlık Çıkmazı Sk. No:1 A İSMET PAŞA/BAYRAMPAŞA"
+  },
+  {
+    "district": "BAYRAMPAŞA",
+    "neighborhood": "KARTALTEPE",
+    "street": "Kültür Sk.",
+    "number": "8",
+    "description": "Kültür Sk. No:8 KARTALTEPE/BAYRAMPAŞA"
+  },
+  {
+    "district": "BAYRAMPAŞA",
+    "neighborhood": "KOCATEPE",
+    "street": "28. Sk.",
+    "number": "4",
+    "description": "28. Sk. No:4 KOCATEPE/BAYRAMPAŞA"
+  },
+  {
+    "district": "BAYRAMPAŞA",
+    "neighborhood": "MURATPAŞA",
+    "street": "Kamil Cad.",
+    "number": "114",
+    "description": "Kamil Cad. No:114 A MURATPAŞA/BAYRAMPAŞA"
+  },
+  {
+    "district": "BAYRAMPAŞA",
+    "neighborhood": "ORTA",
+    "street": "Numunebağı Cad.",
+    "number": "11",
+    "description": "Numunebağı Cad. No:11 B ORTA/BAYRAMPAŞA"
+  },
+  {
+    "district": "BAYRAMPAŞA",
+    "neighborhood": "TERAZİDERE",
+    "street": "Egemen Sk.",
+    "number": "2",
+    "description": "Egemen Sk. No:2 /1A TERAZİDERE/BAYRAMPAŞA"
+  },
+  {
+    "district": "BAYRAMPAŞA",
+    "neighborhood": "VATAN",
+    "street": "Esenler Cad.",
+    "number": "22",
+    "description": "Esenler Cad. No:22 VATAN/BAYRAMPAŞA"
+  },
+  {
+    "district": "BAYRAMPAŞA",
+    "neighborhood": "YILDIRIM",
+    "street": "Şehit Kamil Balkan Cad.",
+    "number": "78",
+    "description": "Şehit Kamil Balkan Cad. No:78 YILDIRIM/BAYRAMPAŞA"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "AKAT",
+    "street": "Haydar Aliyev Cad.",
+    "number": "3",
+    "description": "Haydar Aliyev Cad. No:3 AKAT/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "ARNAVUTKÖY",
+    "street": "Satışmeydanı Sk.",
+    "number": "27",
+    "description": "Satışmeydanı Sk. No:27 ARNAVUTKÖY/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "BALMUMCU",
+    "street": "Zincirlikuyu Yolu",
+    "number": "21",
+    "description": "Zincirlikuyu Yolu No:21 BALMUMCU/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "BEBEK",
+    "street": "Bebek Hamamı Sk.",
+    "number": "8",
+    "description": "Bebek Hamamı Sk. No:8 B BEBEK/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "CİHANNÜMA",
+    "street": "Cihannüma Sk.",
+    "number": "28",
+    "description": "Cihannüma Sk. No:28 A CİHANNÜMA/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "DİKİLİTAŞ",
+    "street": "Camimeydanı Sk. DİKİLİTAŞ/BEŞİKTAŞ",
+    "number": "",
+    "description": "Camimeydanı Sk. DİKİLİTAŞ/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "ETİLER",
+    "street": "Ahular Sk.",
+    "number": "19",
+    "description": "Ahular Sk. No:19 ETİLER/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "GAYRETTEPE",
+    "street": "Fahri Gizden Sk.",
+    "number": "26",
+    "description": "Fahri Gizden Sk. No:26 GAYRETTEPE/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "KONAKLAR",
+    "street": "Faruk Nafiz Çamlıbel Sk.",
+    "number": "1",
+    "description": "Faruk Nafiz Çamlıbel Sk. No:1 KONAKLAR/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "KURUÇEŞME",
+    "street": "Kırbaç Sk.",
+    "number": "38",
+    "description": "Kırbaç Sk. No:38 KURUÇEŞME/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "KÜLTÜR",
+    "street": "Sekbanlar Cad.",
+    "number": "88",
+    "description": "Sekbanlar Cad. No:88 KÜLTÜR/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "LEVAZIM",
+    "street": "Koru Sk.",
+    "number": "7",
+    "description": "Koru Sk. No:7 /1 LEVAZIM/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "LEVENT",
+    "street": "Karanfil Sk.",
+    "number": "7",
+    "description": "Karanfil Sk. No:7 /1 LEVENT/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "MECİDİYE",
+    "street": "Ambarlıdere Yolu",
+    "number": "5",
+    "description": "Ambarlıdere Yolu No:5 MECİDİYE/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "NİSBETİYE",
+    "street": "Ahmet Adnan Saygun Cad.",
+    "number": "30",
+    "description": "Ahmet Adnan Saygun Cad. No:30 NİSBETİYE/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "ORTAKÖY",
+    "street": "Gürcükızı Sk.",
+    "number": "4",
+    "description": "Gürcükızı Sk. No:4 ORTAKÖY/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "SİNANPAŞA",
+    "street": "Kazan Sk.",
+    "number": "3",
+    "description": "Kazan Sk. No:3 SİNANPAŞA/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "TÜRKALİ",
+    "street": "Ihlamurdere Cad.",
+    "number": "140",
+    "description": "Ihlamurdere Cad. No:140 TÜRKALİ/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "ULUS",
+    "street": "Yelken Sk.",
+    "number": "2",
+    "description": "Yelken Sk. No:2 ULUS/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "VİŞNEZADE",
+    "street": "Şair Nedim Cad.",
+    "number": "53",
+    "description": "Şair Nedim Cad. No:53 VİŞNEZADE/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEŞİKTAŞ",
+    "neighborhood": "YILDIZ",
+    "street": "Çırağan Cad.",
+    "number": "17",
+    "description": "Çırağan Cad. No:17 A YILDIZ/BEŞİKTAŞ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ACARLAR",
+    "street": "Polonez Cad.",
+    "number": "18",
+    "description": "Polonez Cad. No:18 ACARLAR/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "AKBABA",
+    "street": "Maraş Cad.",
+    "number": "76",
+    "description": "Maraş Cad. No:76 AKBABA/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ALİBAHADIR",
+    "street": "Ordu Cad.",
+    "number": "5",
+    "description": "Ordu Cad. No:5 ALİBAHADIR/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ANADOLU HİSARI",
+    "street": "Körfez Cad.",
+    "number": "6",
+    "description": "Körfez Cad. No:6 ANADOLU HİSARI/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ANADOLU KAVAĞI",
+    "street": "Mirşah Hamam Sk.",
+    "number": "4",
+    "description": "Mirşah Hamam Sk. No:4 ANADOLU KAVAĞI/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ANADOLUFENERİ",
+    "street": "Hicaz Cad.",
+    "number": "6",
+    "description": "Hicaz Cad. No:6 ANADOLUFENERİ/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "BAKLACI",
+    "street": "Fatih Cad.",
+    "number": "138",
+    "description": "Fatih Cad. No:138 BAKLACI/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "BOZHANE",
+    "street": "Çarşı Cad.",
+    "number": "6",
+    "description": "Çarşı Cad. No:6 B BOZHANE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "CUMHURİYET",
+    "street": "Muttalip Yavuz Cad.",
+    "number": "43",
+    "description": "Muttalip Yavuz Cad. No:43 CUMHURİYET/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ÇAMLIBAHÇE",
+    "street": "Aydın Reis Cad.",
+    "number": "17",
+    "description": "Aydın Reis Cad. No:17 ÇAMLIBAHÇE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ÇENGELDERE",
+    "street": "Çengeldere Cad.",
+    "number": "43",
+    "description": "Çengeldere Cad. No:43 /2 ÇENGELDERE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ÇİFTLİK",
+    "street": "Çavuşbaşı Cumhuriyet Cad.",
+    "number": "142",
+    "description": "Çavuşbaşı Cumhuriyet Cad. No:142 ÇİFTLİK/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ÇUBUKLU",
+    "street": "Fırın Sk.",
+    "number": "14",
+    "description": "Fırın Sk. No:14 ÇUBUKLU/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "DERESEKİ",
+    "street": "Karakulak Cad.",
+    "number": "62",
+    "description": "Karakulak Cad. No:62 DERESEKİ/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ELMALI",
+    "street": "Keser Cad.",
+    "number": "105",
+    "description": "Keser Cad. No:105 ELMALI/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "FATİH",
+    "street": "Çamoluk Sk. FATİH/BEYKOZ",
+    "number": "",
+    "description": "Çamoluk Sk. FATİH/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "GÖKSU",
+    "street": "Göksu Cad.",
+    "number": "5",
+    "description": "Göksu Cad. No:5 GÖKSU/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "GÖLLÜ",
+    "street": "Dereboyu Yolu",
+    "number": "6",
+    "description": "Dereboyu Yolu No:6 GÖLLÜ/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "GÖRELE",
+    "street": "Bahri Yaşar Yılmaz Cad.",
+    "number": "18",
+    "description": "Bahri Yaşar Yılmaz Cad. No:18 GÖRELE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "GÖZTEPE",
+    "street": "Göksu Cad.",
+    "number": "70",
+    "description": "Göksu Cad. No:70 GÖZTEPE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "GÜMÜŞSUYU",
+    "street": "Güldeste Çıkmazı GÜMÜŞSUYU/BEYKOZ",
+    "number": "",
+    "description": "Güldeste Çıkmazı GÜMÜŞSUYU/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "İNCİRKÖY",
+    "street": "Köyönü Cad.",
+    "number": "47",
+    "description": "Köyönü Cad. No:47 İNCİRKÖY/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "İSHAKLI",
+    "street": "Balkan Cad.",
+    "number": "16",
+    "description": "Balkan Cad. No:16 İSHAKLI/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "KANLICA",
+    "street": "Halide Edip Adıvar Cad.",
+    "number": "1",
+    "description": "Halide Edip Adıvar Cad. No:1 A KANLICA/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "KAVACIK",
+    "street": "Havuzbaşı Cad.",
+    "number": "2",
+    "description": "Havuzbaşı Cad. No:2 /1 KAVACIK/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "KAYNARCA",
+    "street": "Yüzyıl Cad.",
+    "number": "14",
+    "description": "Yüzyıl Cad. No:14 C KAYNARCA/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "KILIÇLI",
+    "street": "Aşağı Mahalle Cad.",
+    "number": "88",
+    "description": "Aşağı Mahalle Cad. No:88 B KILIÇLI/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "MAHMUTŞEVKETPAŞA",
+    "street": "Prof. Dr. Aziz Sancar Cad.",
+    "number": "6",
+    "description": "Prof. Dr. Aziz Sancar Cad. No:6 /1 MAHMUTŞEVKETPAŞA/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "MERKEZ",
+    "street": "Mehmet Yavuz Cad.",
+    "number": "42",
+    "description": "Mehmet Yavuz Cad. No:42 MERKEZ/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ÖĞÜMCE",
+    "street": "Seniye İsmail Hanım Cad.",
+    "number": "44",
+    "description": "Seniye İsmail Hanım Cad. No:44 B ÖĞÜMCE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ÖRNEKKÖY",
+    "street": "Tepetarla Cad.",
+    "number": "8",
+    "description": "Tepetarla Cad. No:8 ÖRNEKKÖY/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "PAŞABAHÇE",
+    "street": "Beyaz Erguvan Cad.",
+    "number": "3",
+    "description": "Beyaz Erguvan Cad. No:3 PAŞABAHÇE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "PAŞAMANDIRA",
+    "street": "Demirkapı Cad.",
+    "number": "5",
+    "description": "Demirkapı Cad. No:5 /4 PAŞAMANDIRA/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "POLONEZKÖY",
+    "street": "Seyri Cad.",
+    "number": "2",
+    "description": "Seyri Cad. No:2 B POLONEZKÖY/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "POYRAZKÖY",
+    "street": "Canayakın Cad.",
+    "number": "2",
+    "description": "Canayakın Cad. No:2 B POYRAZKÖY/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "RİVA",
+    "street": "Şehit Mehmet Ali Şener Cad.",
+    "number": "16",
+    "description": "Şehit Mehmet Ali Şener Cad. No:16 RİVA/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "RÜZGARLIBAHÇE",
+    "street": "Seyfi Baba Sk.",
+    "number": "29",
+    "description": "Seyfi Baba Sk. No:29 A RÜZGARLIBAHÇE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "TOKATKÖY",
+    "street": "Sultan Aziz Cad.",
+    "number": "31",
+    "description": "Sultan Aziz Cad. No:31 F TOKATKÖY/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "YALIKÖY",
+    "street": "Motorcu Sk. YALIKÖY/BEYKOZ",
+    "number": "",
+    "description": "Motorcu Sk. YALIKÖY/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "YAVUZ SELİM",
+    "street": "Dutdere Cad.",
+    "number": "5",
+    "description": "Dutdere Cad. No:5 A YAVUZ SELİM/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "YENİ MAHALLE",
+    "street": "Dr.Ömer Besim Paşa Cad.",
+    "number": "57",
+    "description": "Dr.Ömer Besim Paşa Cad. No:57 YENİ MAHALLE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ZERZAVATÇI",
+    "street": "Şehit Cengiz Cad.",
+    "number": "36",
+    "description": "Şehit Cengiz Cad. No:36 B ZERZAVATÇI/BEYKOZ"
+  },
+  {
+    "district": "BEYLİKDÜZÜ",
+    "neighborhood": "ADNAN KAHVECİ",
+    "street": "Erenler Cad. ADNAN KAHVECİ/BEYLİKDÜZÜ",
+    "number": "",
+    "description": "Erenler Cad. ADNAN KAHVECİ/BEYLİKDÜZÜ"
+  },
+  {
+    "district": "BEYLİKDÜZÜ",
+    "neighborhood": "BARIŞ",
+    "street": "Sakarya Cad.",
+    "number": "21",
+    "description": "Sakarya Cad. No:21 BARIŞ/BEYLİKDÜZÜ"
+  },
+  {
+    "district": "BEYLİKDÜZÜ",
+    "neighborhood": "BÜYÜKŞEHİR",
+    "street": "Şehit K. Uğur Gürsoy Sk.",
+    "number": "4",
+    "description": "Şehit K. Uğur Gürsoy Sk. No:4 BÜYÜKŞEHİR/BEYLİKDÜZÜ"
+  },
+  {
+    "district": "BEYLİKDÜZÜ",
+    "neighborhood": "CUMHURİYET",
+    "street": "Atatürk Bulvarı",
+    "number": "11",
+    "description": "Atatürk Bulvarı No:11 CUMHURİYET/BEYLİKDÜZÜ"
+  },
+  {
+    "district": "BEYLİKDÜZÜ",
+    "neighborhood": "DEREAĞZI",
+    "street": "Güldalı Sk.",
+    "number": "8",
+    "description": "Güldalı Sk. No:8 DEREAĞZI/BEYLİKDÜZÜ"
+  },
+  {
+    "district": "BEYLİKDÜZÜ",
+    "neighborhood": "GÜRPINAR",
+    "street": "Millet Cad.",
+    "number": "19",
+    "description": "Millet Cad. No:19 C GÜRPINAR/BEYLİKDÜZÜ"
+  },
+  {
+    "district": "BEYLİKDÜZÜ",
+    "neighborhood": "KAVAKLI",
+    "street": "Çay Sk.",
+    "number": "6",
+    "description": "Çay Sk. No:6 KAVAKLI/BEYLİKDÜZÜ"
+  },
+  {
+    "district": "BEYLİKDÜZÜ",
+    "neighborhood": "MARMARA",
+    "street": "Hürriyet Bulvarı",
+    "number": "60",
+    "description": "Hürriyet Bulvarı No:60 /1 MARMARA/BEYLİKDÜZÜ"
+  },
+  {
+    "district": "BEYLİKDÜZÜ",
+    "neighborhood": "SAHİL",
+    "street": "Aktoprak Cad.",
+    "number": "67",
+    "description": "Aktoprak Cad. No:67 SAHİL/BEYLİKDÜZÜ"
+  },
+  {
+    "district": "BEYLİKDÜZÜ",
+    "neighborhood": "YAKUPLU",
+    "street": "Hakimiyet Cad.",
+    "number": "25",
+    "description": "Hakimiyet Cad. No:25 YAKUPLU/BEYLİKDÜZÜ"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "ARAP CAMİ",
+    "street": "Arap Kayyum Sk.",
+    "number": "23",
+    "description": "Arap Kayyum Sk. No:23 ARAP CAMİ/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "ASMALI MESCİT",
+    "street": "İstiklal Cad.",
+    "number": "166",
+    "description": "İstiklal Cad. No:166 ASMALI MESCİT/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "BEDRETTİN",
+    "street": "Havuz Sk.",
+    "number": "2",
+    "description": "Havuz Sk. No:2 BEDRETTİN/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "BEREKETZADE",
+    "street": "Fırçacı Sk.",
+    "number": "4",
+    "description": "Fırçacı Sk. No:4 BEREKETZADE/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "BOSTAN",
+    "street": "Fesleğen Sk.",
+    "number": "21",
+    "description": "Fesleğen Sk. No:21 BOSTAN/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "BÜLBÜL",
+    "street": "Gölbaşı Sk.",
+    "number": "18",
+    "description": "Gölbaşı Sk. No:18 BÜLBÜL/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "CAMİİKEBİR",
+    "street": "Çaydanlık Sk.",
+    "number": "6",
+    "description": "Çaydanlık Sk. No:6 CAMİİKEBİR/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "CİHANGİR",
+    "street": "Cihangir Cad.",
+    "number": "19",
+    "description": "Cihangir Cad. No:19 CİHANGİR/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "ÇATMA MESCİT",
+    "street": "Tepebaşı Cad.",
+    "number": "9",
+    "description": "Tepebaşı Cad. No:9 ÇATMA MESCİT/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "ÇUKUR",
+    "street": "Çukur Sk.",
+    "number": "37",
+    "description": "Çukur Sk. No:37 A ÇUKUR/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "EMEKYEMEZ",
+    "street": "Yüksek Minare Sk.",
+    "number": "8",
+    "description": "Yüksek Minare Sk. No:8 A EMEKYEMEZ/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "EVLİYA ÇELEBİ",
+    "street": "Refik Saydam Cad.",
+    "number": "23",
+    "description": "Refik Saydam Cad. No:23 EVLİYA ÇELEBİ/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "FETİHTEPE",
+    "street": "Cami Sk.",
+    "number": "2",
+    "description": "Cami Sk. No:2 A FETİHTEPE/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "FİRUZAĞA",
+    "street": "Kadiriler Yokuşu Sk.",
+    "number": "35",
+    "description": "Kadiriler Yokuşu Sk. No:35 A FİRUZAĞA/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "GÜMÜŞSUYU",
+    "street": "Saray Arkası Sk.",
+    "number": "45",
+    "description": "Saray Arkası Sk. No:45 GÜMÜŞSUYU/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "HACIAHMET",
+    "street": "Fadil Arif Sk.",
+    "number": "10",
+    "description": "Fadil Arif Sk. No:10 HACIAHMET/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "HACIMİMİ",
+    "street": "Karabaş Mektebi Sk.",
+    "number": "11",
+    "description": "Karabaş Mektebi Sk. No:11 HACIMİMİ/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "HALICIOĞLU",
+    "street": "Muhibban Sk.",
+    "number": "30",
+    "description": "Muhibban Sk. No:30 B HALICIOĞLU/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "HÜSEYİNAĞA",
+    "street": "Halas Sk.",
+    "number": "7",
+    "description": "Halas Sk. No:7 HÜSEYİNAĞA/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "İSTİKLAL",
+    "street": "Piyalepaşa Bulvarı",
+    "number": "14",
+    "description": "Piyalepaşa Bulvarı No:14 İSTİKLAL/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "KADIMEHMET EFENDİ",
+    "street": "Bahriye Hastanesi Arka Sk.",
+    "number": "2",
+    "description": "Bahriye Hastanesi Arka Sk. No:2 KADIMEHMET EFENDİ/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "KAMER HATUN",
+    "street": "Tarlabaşı Bulvarı",
+    "number": "270",
+    "description": "Tarlabaşı Bulvarı No:270 /1 KAMER HATUN/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "KAPTANPAŞA",
+    "street": "Yay Sk.",
+    "number": "22",
+    "description": "Yay Sk. No:22 KAPTANPAŞA/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "KATİPMUSTAFA ÇELEBİ",
+    "street": "Maç Çıkmazı",
+    "number": "1",
+    "description": "Maç Çıkmazı No:1 KATİPMUSTAFA ÇELEBİ/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "KEÇECİ PİRİ",
+    "street": "Keçeci Piri Cami Sk.",
+    "number": "30",
+    "description": "Keçeci Piri Cami Sk. No:30 A KEÇECİ PİRİ/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "KILIÇALİ PAŞA",
+    "street": "Akarsu Yokuşu",
+    "number": "45",
+    "description": "Akarsu Yokuşu No:45 B KILIÇALİ PAŞA/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "KOCATEPE",
+    "street": "Dolapdere Taksim Cad.",
+    "number": "20",
+    "description": "Dolapdere Taksim Cad. No:20 KOCATEPE/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "KULAKSIZ",
+    "street": "Kulaksız Yağhanesi Aralığı",
+    "number": "3",
+    "description": "Kulaksız Yağhanesi Aralığı No:3 A KULAKSIZ/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "KÜÇÜK PİYALE",
+    "street": "Fişekhane Deresi Cad. KÜÇÜK PİYALE/BEYOĞLU",
+    "number": "",
+    "description": "Fişekhane Deresi Cad. KÜÇÜK PİYALE/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "ÖMER AVNİ",
+    "street": "Beytülmalcı Sk.",
+    "number": "3",
+    "description": "Beytülmalcı Sk. No:3 C ÖMER AVNİ/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "ÖRNEKTEPE",
+    "street": "Papatya Sk.",
+    "number": "1",
+    "description": "Papatya Sk. No:1 ÖRNEKTEPE/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "PİRİPAŞA",
+    "street": "Keten Sk.",
+    "number": "2",
+    "description": "Keten Sk. No:2 PİRİPAŞA/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "PİYALEPAŞA",
+    "street": "Sağlık Ocağı Sk.",
+    "number": "8",
+    "description": "Sağlık Ocağı Sk. No:8 PİYALEPAŞA/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "SURURİ MEHMET EFENDİ",
+    "street": "Keramet Sk.",
+    "number": "23",
+    "description": "Keramet Sk. No:23 SURURİ MEHMET EFENDİ/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "SÜTLÜCE",
+    "street": "Tavcı Sk.",
+    "number": "35",
+    "description": "Tavcı Sk. No:35 SÜTLÜCE/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "YAHYA KAHYA",
+    "street": "Sipahi Fırını Sk.",
+    "number": "2",
+    "description": "Sipahi Fırını Sk. No:2 YAHYA KAHYA/BEYOĞLU"
+  },
+  {
+    "district": "BEYOĞLU",
+    "neighborhood": "YENİŞEHİR",
+    "street": "Babadağ Sk.",
+    "number": "1",
+    "description": "Babadağ Sk. No:1 YENİŞEHİR/BEYOĞLU"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "19 MAYIS",
+    "street": "Osmangazi Cad.",
+    "number": "19",
+    "description": "Osmangazi Cad. No:19 19 MAYIS/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "AHMEDİYE",
+    "street": "Aydın 1 Sk.",
+    "number": "4",
+    "description": "Aydın 1 Sk. No:4 /1 AHMEDİYE/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "ALKENT 2000",
+    "street": "Yeditepe Cad.",
+    "number": "1",
+    "description": "Yeditepe Cad. No:1 B ALKENT 2000/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "ATATÜRK",
+    "street": "Serinpınar Cad.",
+    "number": "6",
+    "description": "Serinpınar Cad. No:6 /1 ATATÜRK/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "BAHÇELİEVLER",
+    "street": "Aydınlar Cad.",
+    "number": "292",
+    "description": "Aydınlar Cad. No:292 BAHÇELİEVLER/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "CELALİYE",
+    "street": "Şerefbey Cad.",
+    "number": "2",
+    "description": "Şerefbey Cad. No:2 A CELALİYE/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "CUMHURİYET",
+    "street": "Şafak Sk.",
+    "number": "4",
+    "description": "Şafak Sk. No:4 /1 CUMHURİYET/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "ÇAKMAKLI",
+    "street": "Buyruk Sk.",
+    "number": "2",
+    "description": "Buyruk Sk. No:2 /1 ÇAKMAKLI/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "DİZDARİYE",
+    "street": "Çınar 1 Sk.",
+    "number": "10",
+    "description": "Çınar 1 Sk. No:10 DİZDARİYE/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "EKİNOBA",
+    "street": "Zülal Sk.",
+    "number": "6",
+    "description": "Zülal Sk. No:6 EKİNOBA/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "FATİH",
+    "street": "Cengiz Topel Cad.",
+    "number": "19",
+    "description": "Cengiz Topel Cad. No:19 FATİH/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "GÜZELCE",
+    "street": "Güneş Cad.",
+    "number": "17",
+    "description": "Güneş Cad. No:17 GÜZELCE/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "KAMİLOBA",
+    "street": "Selanik Cad.",
+    "number": "2",
+    "description": "Selanik Cad. No:2 KAMİLOBA/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "KARAAĞAÇ",
+    "street": "Dostluk Cad.",
+    "number": "38",
+    "description": "Dostluk Cad. No:38 KARAAĞAÇ/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "KUMBURGAZ",
+    "street": "Sündüz Sk.",
+    "number": "8",
+    "description": "Sündüz Sk. No:8 KUMBURGAZ/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "MİMAR SİNAN",
+    "street": "Liman Sk.",
+    "number": "6",
+    "description": "Liman Sk. No:6 MİMAR SİNAN/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "MİMAROBA",
+    "street": "Uğur Mumcu Cad.",
+    "number": "2",
+    "description": "Uğur Mumcu Cad. No:2 /1 MİMAROBA/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "MURAT ÇESME",
+    "street": "Palanga Sk.",
+    "number": "4",
+    "description": "Palanga Sk. No:4 MURAT ÇESME/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "PINARTEPE",
+    "street": "Akçadağ Sk.",
+    "number": "3",
+    "description": "Akçadağ Sk. No:3 PINARTEPE/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "SİNANOBA",
+    "street": "Mustafa Kemal Bulvarı",
+    "number": "45",
+    "description": "Mustafa Kemal Bulvarı No:45 SİNANOBA/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "TÜRKOBA",
+    "street": "Atatürk 2 Cad.",
+    "number": "258",
+    "description": "Atatürk 2 Cad. No:258 TÜRKOBA/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "ULUS",
+    "street": "Havuzaltı Sk.",
+    "number": "10",
+    "description": "Havuzaltı Sk. No:10 ULUS/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "BÜYÜKÇEKMECE",
+    "neighborhood": "YENİMAHALLE",
+    "street": "Aydınlar Cad.",
+    "number": "1",
+    "description": "Aydınlar Cad. No:1 /1 YENİMAHALLE/BÜYÜKÇEKMECE"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "AKALAN",
+    "street": "Demokrasi Cad.",
+    "number": "3",
+    "description": "Demokrasi Cad. No:3 AKALAN/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "AYDINLAR",
+    "street": "Mimar Sinan Cad.",
+    "number": "3",
+    "description": "Mimar Sinan Cad. No:3 AYDINLAR/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "BAHŞAYİŞ",
+    "street": "Çanakkale Cad.",
+    "number": "1",
+    "description": "Çanakkale Cad. No:1 BAHŞAYİŞ/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "BAŞAK",
+    "street": "Başöğretmen Cad.",
+    "number": "1",
+    "description": "Başöğretmen Cad. No:1 C BAŞAK/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "BELGRAT",
+    "street": "Mesken Sk.",
+    "number": "5",
+    "description": "Mesken Sk. No:5 D BELGRAT/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "CELEPKÖY",
+    "street": "Mimar Sk.",
+    "number": "19",
+    "description": "Mimar Sk. No:19 C CELEPKÖY/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "ÇAKIL",
+    "street": "Yunus Emre Cad.",
+    "number": "5",
+    "description": "Yunus Emre Cad. No:5 A ÇAKIL/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "ÇANAKÇA",
+    "street": "Karacaköy Cad.",
+    "number": "168",
+    "description": "Karacaköy Cad. No:168 ÇANAKÇA/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "ÇİFTLİKKÖY",
+    "street": "Ihlamur Cad.",
+    "number": "2",
+    "description": "Ihlamur Cad. No:2 ÇİFTLİKKÖY/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "DAĞYENİCE",
+    "street": "Karacaköy Cad.",
+    "number": "421",
+    "description": "Karacaköy Cad. No:421  B DAĞYENİCE/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "ELBASAN",
+    "street": "Kooperatif Cad.",
+    "number": "3",
+    "description": "Kooperatif Cad. No:3  A ELBASAN/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "FATİH",
+    "street": "Gazi Mustafa Kemal Cad.",
+    "number": "63",
+    "description": "Gazi Mustafa Kemal Cad. No:63 FATİH/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "GÖKÇEALİ",
+    "street": "Gökçeali Cad.",
+    "number": "224",
+    "description": "Gökçeali Cad. No:224 GÖKÇEALİ/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "GÜMÜŞPINAR",
+    "street": "Önder Atatürk Cad.",
+    "number": "23",
+    "description": "Önder Atatürk Cad. No:23 GÜMÜŞPINAR/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "HALLAÇLI",
+    "street": "Hacı Yılmaz Sk.",
+    "number": "4",
+    "description": "Hacı Yılmaz Sk. No:4  A HALLAÇLI/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "HİSARBEYLİ",
+    "street": "Karakartal Cad.",
+    "number": "55",
+    "description": "Karakartal Cad. No:55  B HİSARBEYLİ/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "İHSANİYE",
+    "street": "Gazi Mustafa Kemalpaşa Cad.",
+    "number": "23",
+    "description": "Gazi Mustafa Kemalpaşa Cad. No:23 A İHSANİYE/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "İNCEĞİZ",
+    "street": "Arif Nihat Asya Cad.",
+    "number": "11",
+    "description": "Arif Nihat Asya Cad. No:11 İNCEĞİZ/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "İZZETTİN",
+    "street": "Sencer Sk.",
+    "number": "9",
+    "description": "Sencer Sk. No:9 /1A İZZETTİN/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "KABAKÇA",
+    "street": "Akşemseddin Cad.",
+    "number": "5",
+    "description": "Akşemseddin Cad. No:5  A KABAKÇA/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "KALEİÇİ",
+    "street": "Cevdet Barın Cad.",
+    "number": "25",
+    "description": "Cevdet Barın Cad. No:25 KALEİÇİ/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "KALFA",
+    "street": "Başakköy Cad.",
+    "number": "5",
+    "description": "Başakköy Cad. No:5  D KALFA/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "KARACAKÖY MERKEZ",
+    "street": "Mustafa Kemalpaşa Cad.",
+    "number": "9",
+    "description": "Mustafa Kemalpaşa Cad. No:9 KARACAKÖY MERKEZ/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "KARAMANDERE",
+    "street": "Mürşit Çıkmazı",
+    "number": "2",
+    "description": "Mürşit Çıkmazı No:2 KARAMANDERE/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "KESTANELİK",
+    "street": "Karacaköy Cad.",
+    "number": "58",
+    "description": "Karacaköy Cad. No:58 KESTANELİK/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "KIZILCAALİ",
+    "street": "Orkide Sk.",
+    "number": "13",
+    "description": "Orkide Sk. No:13  C KIZILCAALİ/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "MURATBEY MERKEZ",
+    "street": "Hayrabolu Cad.",
+    "number": "76",
+    "description": "Hayrabolu Cad. No:76 A MURATBEY MERKEZ/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "NAKKAŞ",
+    "street": "Çarşı Cad.",
+    "number": "13",
+    "description": "Çarşı Cad. No:13 A NAKKAŞ/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "OKLALI",
+    "street": "Eski Edirne Asfaltı Cad.",
+    "number": "2195",
+    "description": "Eski Edirne Asfaltı Cad. No:2195  D OKLALI/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "ORMANLI",
+    "street": "Boğaçhan Sk.",
+    "number": "2",
+    "description": "Boğaçhan Sk. No:2 ORMANLI/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "OVAYENİCE",
+    "street": "Çatalca Cad.",
+    "number": "224",
+    "description": "Çatalca Cad. No:224 B OVAYENİCE/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "ÖRCÜNLÜ",
+    "street": "Özkan Sk.",
+    "number": "4",
+    "description": "Özkan Sk. No:4 C ÖRCÜNLÜ/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "ÖRENCİK",
+    "street": "Kavak Sk.",
+    "number": "2",
+    "description": "Kavak Sk. No:2 ÖRENCİK/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "SUBAŞI",
+    "street": "Gökçeali Cad.",
+    "number": "337",
+    "description": "Gökçeali Cad. No:337  H SUBAŞI/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "YALIKÖY",
+    "street": "29 Ekim Cad.",
+    "number": "1",
+    "description": "29 Ekim Cad. No:1  E YALIKÖY/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "YAYLACIK",
+    "street": "Rezene Sk.",
+    "number": "9",
+    "description": "Rezene Sk. No:9 YAYLACIK/ÇATALCA"
+  },
+  {
+    "district": "ÇATALCA",
+    "neighborhood": "YAZLIK",
+    "street": "Botanik Sk.",
+    "number": "2",
+    "description": "Botanik Sk. No:2 B YAZLIK/ÇATALCA"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "ALEMDAĞ",
+    "street": "138. Sk.",
+    "number": "3",
+    "description": "138. Sk. No:3 ALEMDAĞ/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "AYDINLAR",
+    "street": "Eylem Sk.",
+    "number": "10",
+    "description": "Eylem Sk. No:10 -12 AYDINLAR/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "CUMHURİYET",
+    "street": "Gülnar Sk.",
+    "number": "19",
+    "description": "Gülnar Sk. No:19 CUMHURİYET/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "ÇAMLIK",
+    "street": "Bilgen Sk.",
+    "number": "10",
+    "description": "Bilgen Sk. No:10 ÇAMLIK/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "ÇATALMEŞE",
+    "street": "Saray Cad.",
+    "number": "245",
+    "description": "Saray Cad. No:245 ÇATALMEŞE/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "EKŞİOĞLU",
+    "street": "Turgut Özal Cad.",
+    "number": "132",
+    "description": "Turgut Özal Cad. No:132 EKŞİOĞLU/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "GÜNGÖREN",
+    "street": "Vakar Sk.",
+    "number": "7",
+    "description": "Vakar Sk. No:7 GÜNGÖREN/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "HAMİDİYE",
+    "street": "Yıldız Sk.",
+    "number": "59",
+    "description": "Yıldız Sk. No:59 HAMİDİYE/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "HÜSEYİNLİ",
+    "street": "Mustafa Kemal Paşa Cad.",
+    "number": "1",
+    "description": "Mustafa Kemal Paşa Cad. No:1 HÜSEYİNLİ/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "KİRAZLIDERE",
+    "street": "Gümüş Sk.",
+    "number": "14",
+    "description": "Gümüş Sk. No:14 A KİRAZLIDERE/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "KOÇULLU",
+    "street": "Koçullu Cad.",
+    "number": "25",
+    "description": "Koçullu Cad. No:25 KOÇULLU/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "MEHMET AKİF",
+    "street": "Erge Sk.",
+    "number": "28",
+    "description": "Erge Sk. No:28 MEHMET AKİF/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "MERKEZ",
+    "street": "Şükrü Kaya Sk.",
+    "number": "1",
+    "description": "Şükrü Kaya Sk. No:1 /1 MERKEZ/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "MİMAR SİNAN",
+    "street": "Selim Dede Cad.",
+    "number": "47",
+    "description": "Selim Dede Cad. No:47 MİMAR SİNAN/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "NİŞANTEPE",
+    "street": "Pazar Sk.",
+    "number": "15",
+    "description": "Pazar Sk. No:15 NİŞANTEPE/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "ÖMERLİ",
+    "street": "Ömerli Cad.",
+    "number": "36",
+    "description": "Ömerli Cad. No:36 B ÖMERLİ/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "REŞADİYE",
+    "street": "Reşadiye Cad.",
+    "number": "205",
+    "description": "Reşadiye Cad. No:205 REŞADİYE/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "SIRAPINAR",
+    "street": "Beykoz Cad.",
+    "number": "67",
+    "description": "Beykoz Cad. No:67 SIRAPINAR/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "SOĞUKPINAR",
+    "street": "Canan Sk.",
+    "number": "27",
+    "description": "Canan Sk. No:27 SOĞUKPINAR/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "SULTANÇİFTLİĞİ",
+    "street": "Kemençe Sk.",
+    "number": "10",
+    "description": "Kemençe Sk. No:10 SULTANÇİFTLİĞİ/ÇEKMEKÖY"
+  },
+  {
+    "district": "ÇEKMEKÖY",
+    "neighborhood": "TAŞDELEN",
+    "street": "Şehit Kubilay Cad.",
+    "number": "3",
+    "description": "Şehit Kubilay Cad. No:3 TAŞDELEN/ÇEKMEKÖY"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "15 TEMMUZ",
+    "street": "Şehit Savaş Koyun Altgeçidi",
+    "number": "419",
+    "description": "Şehit Savaş Koyun Altgeçidi No:419 A 15 TEMMUZ/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "BİRLİK",
+    "street": "845. Sk.",
+    "number": "1",
+    "description": "845. Sk. No:1 BİRLİK/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "ÇİFTE HAVUZLAR",
+    "street": "Sebil Sk.",
+    "number": "1",
+    "description": "Sebil Sk. No:1 ÇİFTE HAVUZLAR/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "FATİH",
+    "street": "241. Sk.",
+    "number": "1",
+    "description": "241. Sk. No:1 FATİH/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "FEVZİ ÇAKMAK",
+    "street": "1118. Sk.",
+    "number": "17",
+    "description": "1118. Sk. No:17 C FEVZİ ÇAKMAK/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "HAVAALANI",
+    "street": "Taşocağı Cad.",
+    "number": "62",
+    "description": "Taşocağı Cad. No:62 A HAVAALANI/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "KEMER",
+    "street": "Şahinbey Cad.",
+    "number": "25",
+    "description": "Şahinbey Cad. No:25 A KEMER/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "MENDERES",
+    "street": "Endülüs Cad.",
+    "number": "9",
+    "description": "Endülüs Cad. No:9 A MENDERES/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "MİMAR SİNAN",
+    "street": "94. Sk.",
+    "number": "32",
+    "description": "94. Sk. No:32 MİMAR SİNAN/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "NİNE HATUN",
+    "street": "134. Sk.",
+    "number": "4",
+    "description": "134. Sk. No:4 NİNE HATUN/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "ORUÇREİS",
+    "street": "562. Sk.",
+    "number": "13",
+    "description": "562. Sk. No:13 ORUÇREİS/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "TUNA",
+    "street": "Tuna Cad.",
+    "number": "30",
+    "description": "Tuna Cad. No:30 TUNA/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "TURGUT REİS",
+    "street": "Cengiz Topel Cad.",
+    "number": "52",
+    "description": "Cengiz Topel Cad. No:52 -56 TURGUT REİS/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "YAVUZ SELİM",
+    "street": "Mehmetçik Sk.",
+    "number": "40",
+    "description": "Mehmetçik Sk. No:40 A YAVUZ SELİM/ESENLER"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "AKÇABURGAZ",
+    "street": "Halil Fahri Orman Cad.",
+    "number": "8",
+    "description": "Halil Fahri Orman Cad. No:8 AKÇABURGAZ/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "AKEVLER",
+    "street": "Fatih Sultan Mehmet Cad.",
+    "number": "89",
+    "description": "Fatih Sultan Mehmet Cad. No:89 AKEVLER/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "AKŞEMSEDDİN",
+    "street": "Aşık Mahsuni Şerif Cad.",
+    "number": "68",
+    "description": "Aşık Mahsuni Şerif Cad. No:68 /2 AKŞEMSEDDİN/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "ARDIÇLI",
+    "street": "792. Sk.",
+    "number": "20",
+    "description": "792. Sk. No:20 ARDIÇLI/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "AŞIK VEYSEL",
+    "street": "Resneli Niyazi Sk.",
+    "number": "2",
+    "description": "Resneli Niyazi Sk. No:2 A AŞIK VEYSEL/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "ATATÜRK",
+    "street": "Adnan Menderes Cad.",
+    "number": "17",
+    "description": "Adnan Menderes Cad. No:17 /1 ATATÜRK/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "BAĞLARÇEŞME",
+    "street": "1175. Sk.",
+    "number": "43",
+    "description": "1175. Sk. No:43 BAĞLARÇEŞME/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "BALIKYOLU",
+    "street": "470. Sk.",
+    "number": "1",
+    "description": "470. Sk. No:1 /1 BALIKYOLU/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "BARBAROS HAYRETTİN PAŞA",
+    "street": "2274. Sk.",
+    "number": "5",
+    "description": "2274. Sk. No:5 BARBAROS HAYRETTİN PAŞA/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "BATTALGAZİ",
+    "street": "Şubat Sk.",
+    "number": "1",
+    "description": "Şubat Sk. No:1 BATTALGAZİ/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "CUMHURİYET",
+    "street": "1986. Sk.",
+    "number": "3",
+    "description": "1986. Sk. No:3 CUMHURİYET/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "ÇINAR",
+    "street": "1462. Sk.",
+    "number": "20",
+    "description": "1462. Sk. No:20 ÇINAR/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "FATİH",
+    "street": "947. Sk.",
+    "number": "7",
+    "description": "947. Sk. No:7 /1 FATİH/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "GÖKEVLER",
+    "street": "545. Sk.",
+    "number": "1",
+    "description": "545. Sk. No:1 A GÖKEVLER/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "GÜZELYURT",
+    "street": "2113. Sk.",
+    "number": "1",
+    "description": "2113. Sk. No:1 GÜZELYURT/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "HÜRRİYET",
+    "street": "Leylek Sk.",
+    "number": "20",
+    "description": "Leylek Sk. No:20 HÜRRİYET/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "İNCİRTEPE",
+    "street": "240. Sk.",
+    "number": "44",
+    "description": "240. Sk. No:44 İNCİRTEPE/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "İNÖNÜ",
+    "street": "373. Sk.",
+    "number": "5",
+    "description": "373. Sk. No:5 İNÖNÜ/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "İSTİKLAL",
+    "street": "Sanat Sk.",
+    "number": "72",
+    "description": "Sanat Sk. No:72 İSTİKLAL/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "KOZA",
+    "street": "1638. Sk.",
+    "number": "3",
+    "description": "1638. Sk. No:3 J KOZA/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "MEHMET AKİF ERSOY",
+    "street": "2051. Sk.",
+    "number": "1",
+    "description": "2051. Sk. No:1 MEHMET AKİF ERSOY/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "MEHTERÇEŞME",
+    "street": "Hacı Bayram Veli Cad.",
+    "number": "120",
+    "description": "Hacı Bayram Veli Cad. No:120 MEHTERÇEŞME/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "MEVLANA",
+    "street": "Çelebi Mehmet Cad.",
+    "number": "21",
+    "description": "Çelebi Mehmet Cad. No:21 MEVLANA/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "NECİP FAZIL KISAKÜREK",
+    "street": "Fırtına Sk.",
+    "number": "4",
+    "description": "Fırtına Sk. No:4 NECİP FAZIL KISAKÜREK/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "ORHAN GAZİ",
+    "street": "1646. Sk.",
+    "number": "7",
+    "description": "1646. Sk. No:7 /4 ORHAN GAZİ/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "OSMANGAZİ",
+    "street": "Yeşildağ Sk. OSMANGAZİ/ESENYURT",
+    "number": "",
+    "description": "Yeşildağ Sk. OSMANGAZİ/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "PINAR",
+    "street": "1290. Sk.",
+    "number": "12",
+    "description": "1290. Sk. No:12 PINAR/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "PİRİ REİS",
+    "street": "2059. Sk.",
+    "number": "3",
+    "description": "2059. Sk. No:3 /1 PİRİ REİS/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "SAADETDERE",
+    "street": "7. Sk.",
+    "number": "35",
+    "description": "7. Sk. No:35 SAADETDERE/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "SELAHADDİN EYYUBİ",
+    "street": "1551. Sk. SELAHADDİN EYYUBİ/ESENYURT",
+    "number": "",
+    "description": "1551. Sk. SELAHADDİN EYYUBİ/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "SULTANİYE",
+    "street": "624. Sk.",
+    "number": "29",
+    "description": "624. Sk. No:29 SULTANİYE/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "SÜLEYMANİYE",
+    "street": "778. Sk.",
+    "number": "16",
+    "description": "778. Sk. No:16 SÜLEYMANİYE/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "ŞEHİTLER",
+    "street": "2610. Sk.",
+    "number": "28",
+    "description": "2610. Sk. No:28 -30 ŞEHİTLER/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "TURGUT ÖZAL",
+    "street": "Orkide Cad. TURGUT ÖZAL/ESENYURT",
+    "number": "",
+    "description": "Orkide Cad. TURGUT ÖZAL/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "ÜÇEVLER",
+    "street": "910. Sk.",
+    "number": "16",
+    "description": "910. Sk. No:16 ÜÇEVLER/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "YEŞİLKENT",
+    "street": "1880. Sk.",
+    "number": "75",
+    "description": "1880. Sk. No:75 /1 YEŞİLKENT/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "YUNUS EMRE",
+    "street": "285. Sk.",
+    "number": "14",
+    "description": "285. Sk. No:14 YUNUS EMRE/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "ZAFER",
+    "street": "115. Sk.",
+    "number": "8",
+    "description": "115. Sk. No:8 ZAFER/ESENYURT"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "AĞAÇLI",
+    "street": "Ağaçlı Köy Yolu Sk.",
+    "number": "42",
+    "description": "Ağaçlı Köy Yolu Sk. No:42 A AĞAÇLI/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "AKPINAR",
+    "street": "Manyas Sk.",
+    "number": "7",
+    "description": "Manyas Sk. No:7 D AKPINAR/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "AKŞEMSETTİN",
+    "street": "Alperen Cad.",
+    "number": "41",
+    "description": "Alperen Cad. No:41 A AKŞEMSETTİN/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "ALİBEYKÖY",
+    "street": "Namık Kemal Cad.",
+    "number": "79",
+    "description": "Namık Kemal Cad. No:79 A ALİBEYKÖY/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "ÇIRÇIR",
+    "street": "Dereiçi Sk.",
+    "number": "21",
+    "description": "Dereiçi Sk. No:21 ÇIRÇIR/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "ÇİFTALAN",
+    "street": "Yeşilova Sk.",
+    "number": "43",
+    "description": "Yeşilova Sk. No:43 ÇİFTALAN/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "DEFTERDAR",
+    "street": "Fethi Çelebi Cad.",
+    "number": "1",
+    "description": "Fethi Çelebi Cad. No:1 /1B DEFTERDAR/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "EMNİYETTEPE",
+    "street": "Topçular Yokuşu",
+    "number": "3",
+    "description": "Topçular Yokuşu No:3 EMNİYETTEPE/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "ESENTEPE",
+    "street": "Yıldıztabya Alibeyköy Cad.",
+    "number": "51",
+    "description": "Yıldıztabya Alibeyköy Cad. No:51 ESENTEPE/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "GÖKTÜRK MERKEZ",
+    "street": "Nehir Sk. GÖKTÜRK MERKEZ/EYÜPSULTAN",
+    "number": "",
+    "description": "Nehir Sk. GÖKTÜRK MERKEZ/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "GÜZELTEPE",
+    "street": "Mareşal Fevzi Çakmak Cad.",
+    "number": "106",
+    "description": "Mareşal Fevzi Çakmak Cad. No:106 GÜZELTEPE/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "IŞIKLAR",
+    "street": "Işıklar İstanbul Cad.",
+    "number": "60",
+    "description": "Işıklar İstanbul Cad. No:60 B IŞIKLAR/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "İHSANİYE",
+    "street": "Derbent Sk.",
+    "number": "7",
+    "description": "Derbent Sk. No:7 İHSANİYE/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "İSLAMBEY",
+    "street": "İslambey Bostanı Sk.",
+    "number": "11",
+    "description": "İslambey Bostanı Sk. No:11 /1 İSLAMBEY/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "KARADOLAP",
+    "street": "Çıkrık Sk. KARADOLAP/EYÜPSULTAN",
+    "number": "",
+    "description": "Çıkrık Sk. KARADOLAP/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "MERKEZ",
+    "street": "İdris Köşkü Cad.",
+    "number": "36",
+    "description": "İdris Köşkü Cad. No:36 A MERKEZ/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "MİTHATPAŞA",
+    "street": "Şehit Sinan Şen Cad.",
+    "number": "46",
+    "description": "Şehit Sinan Şen Cad. No:46 A MİTHATPAŞA/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "NİŞANCI",
+    "street": "Abdurrahman Şerefbey Cad.",
+    "number": "22",
+    "description": "Abdurrahman Şerefbey Cad. No:22 NİŞANCI/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "ODAYERİ",
+    "street": "Selçukbey Sk. ODAYERİ/EYÜPSULTAN",
+    "number": "",
+    "description": "Selçukbey Sk. ODAYERİ/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "PİRİNÇÇİ",
+    "street": "Şehit Savaş Koyun Altgeçidi",
+    "number": "4",
+    "description": "Şehit Savaş Koyun Altgeçidi No:4 C PİRİNÇÇİ/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "RAMİ CUMA",
+    "street": "Reşadiye Cad.",
+    "number": "1",
+    "description": "Reşadiye Cad. No:1 RAMİ CUMA/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "RAMİ YENİ",
+    "street": "Kuru Gıda 12. Sk.",
+    "number": "3",
+    "description": "Kuru Gıda 12. Sk. No:3 RAMİ YENİ/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "SAKARYA",
+    "street": "Türbe Cad.",
+    "number": "12",
+    "description": "Türbe Cad. No:12 SAKARYA/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "SİLAHTARAĞA",
+    "street": "Muhsin Yazıcıoğlu Cad.",
+    "number": "65",
+    "description": "Muhsin Yazıcıoğlu Cad. No:65 /1 SİLAHTARAĞA/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "TOPÇULAR",
+    "street": "Şehit Kubilay Sk.",
+    "number": "12",
+    "description": "Şehit Kubilay Sk. No:12 TOPÇULAR/EYÜPSULTAN"
+  },
+  {
+    "district": "EYÜPSULTAN",
+    "neighborhood": "YEŞİLPINAR",
+    "street": "Samsun Sk.",
+    "number": "2",
+    "description": "Samsun Sk. No:2 A YEŞİLPINAR/EYÜPSULTAN"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "AKSARAY",
+    "street": "Küçük Langa Aralığı Cad.",
+    "number": "23",
+    "description": "Küçük Langa Aralığı Cad. No:23 AKSARAY/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "AKŞEMSETTİN",
+    "street": "Sarıgüzel Cad.",
+    "number": "126",
+    "description": "Sarıgüzel Cad. No:126 AKŞEMSETTİN/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "ALEMDAR",
+    "street": "Hoca Rüstem Sk.",
+    "number": "6",
+    "description": "Hoca Rüstem Sk. No:6 /1 ALEMDAR/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "ALİ KUŞÇU",
+    "street": "Başimam Sk.",
+    "number": "17",
+    "description": "Başimam Sk. No:17 ALİ KUŞÇU/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "ATİKALİ",
+    "street": "Nişanca Aralığı Çıkmazı",
+    "number": "10",
+    "description": "Nişanca Aralığı Çıkmazı No:10 /1 ATİKALİ/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "AYVANSARAY",
+    "street": "Vaiz Sk.",
+    "number": "36",
+    "description": "Vaiz Sk. No:36 AYVANSARAY/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "BALAT",
+    "street": "Sultan Selim Cad.",
+    "number": "10",
+    "description": "Sultan Selim Cad. No:10 BALAT/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "BEYAZIT",
+    "street": "Çadırcılar Cad. BEYAZIT/FATİH",
+    "number": "",
+    "description": "Çadırcılar Cad. BEYAZIT/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "BİNBİRDİREK",
+    "street": "Piyer Loti Cad.",
+    "number": "16",
+    "description": "Piyer Loti Cad. No:16 BİNBİRDİREK/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "CANKURTARAN",
+    "street": "Cankurtaran Meydanı",
+    "number": "1",
+    "description": "Cankurtaran Meydanı No:1 CANKURTARAN/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "CERRAHPAŞA",
+    "street": "Koca Mustafapaşa Cad.",
+    "number": "62",
+    "description": "Koca Mustafapaşa Cad. No:62 CERRAHPAŞA/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "CİBALİ",
+    "street": "Esrar Dede Sk.",
+    "number": "1",
+    "description": "Esrar Dede Sk. No:1 CİBALİ/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "DEMİRTAŞ",
+    "street": "Kıble Çeşme Cad.",
+    "number": "30",
+    "description": "Kıble Çeşme Cad. No:30 DEMİRTAŞ/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "DERVİŞ ALİ",
+    "street": "Salma Tomruk Cad.",
+    "number": "6",
+    "description": "Salma Tomruk Cad. No:6 /1 DERVİŞ ALİ/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "HACI KADIN",
+    "street": "Hacı Kadın 1. Cad.",
+    "number": "5",
+    "description": "Hacı Kadın 1. Cad. No:5 HACI KADIN/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "HASEKİ SULTAN",
+    "street": "Mehter Sk.",
+    "number": "1",
+    "description": "Mehter Sk. No:1 HASEKİ SULTAN/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "HIRKA-İ ŞERİF",
+    "street": "Kabakulak 2. Çıkmazı",
+    "number": "3",
+    "description": "Kabakulak 2. Çıkmazı No:3 HIRKA-İ ŞERİF/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "HOCAPAŞA",
+    "street": "Hocapaşa Camii Sk.",
+    "number": "11",
+    "description": "Hocapaşa Camii Sk. No:11 HOCAPAŞA/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "İSKENDERPAŞA",
+    "street": "Öksüzler Sk.",
+    "number": "3",
+    "description": "Öksüzler Sk. No:3 İSKENDERPAŞA/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "KALENDERHANE",
+    "street": "Cemal Yener Tosyalı Cad.",
+    "number": "36",
+    "description": "Cemal Yener Tosyalı Cad. No:36 KALENDERHANE/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "KARAGÜMRÜK",
+    "street": "Türkistan Sk.",
+    "number": "31",
+    "description": "Türkistan Sk. No:31 KARAGÜMRÜK/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "KATİP KASIM",
+    "street": "Mermerciler Cad.",
+    "number": "2",
+    "description": "Mermerciler Cad. No:2 KATİP KASIM/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "KEMALPAŞA",
+    "street": "Park Yolu KEMALPAŞA/FATİH",
+    "number": "",
+    "description": "Park Yolu KEMALPAŞA/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "KÜÇÜK AYASOFYA",
+    "street": "Kasap Osman Sk.",
+    "number": "2",
+    "description": "Kasap Osman Sk. No:2 KÜÇÜK AYASOFYA/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "MERCAN",
+    "street": "Tacirhane Sk.",
+    "number": "16",
+    "description": "Tacirhane Sk. No:16 MERCAN/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "MEVLANAKAPI",
+    "street": "Gümüş Çayırı Sk.",
+    "number": "17",
+    "description": "Gümüş Çayırı Sk. No:17 MEVLANAKAPI/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "MİMAR HAYRETTİN",
+    "street": "Gedikpaşa Cad.",
+    "number": "27",
+    "description": "Gedikpaşa Cad. No:27 /4 MİMAR HAYRETTİN/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "MİMAR KEMALETTİN",
+    "street": "Şair Fitnat Sk.",
+    "number": "1",
+    "description": "Şair Fitnat Sk. No:1 /1 MİMAR KEMALETTİN/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "MOLLA GÜRANİ",
+    "street": "Adnan Menderes Vatan Bulvarı",
+    "number": "45",
+    "description": "Adnan Menderes Vatan Bulvarı No:45 MOLLA GÜRANİ/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "MOLLA HÜSREV",
+    "street": "Katip Çelebi Cad.",
+    "number": "36",
+    "description": "Katip Çelebi Cad. No:36 MOLLA HÜSREV/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "MUHSİNE HATUN",
+    "street": "Telli Odalar Sk.",
+    "number": "20",
+    "description": "Telli Odalar Sk. No:20 MUHSİNE HATUN/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "NİŞANCA",
+    "street": "Hemşehri Sk.",
+    "number": "40",
+    "description": "Hemşehri Sk. No:40 NİŞANCA/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "RÜSTEMPAŞA",
+    "street": "Kalçın Sk.",
+    "number": "2",
+    "description": "Kalçın Sk. No:2 RÜSTEMPAŞA/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "SARAÇ İSHAK",
+    "street": "Mithatpaşa Cad.",
+    "number": "33",
+    "description": "Mithatpaşa Cad. No:33 SARAÇ İSHAK/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "SEYYİD ÖMER",
+    "street": "Mismarcı 1. Sk.",
+    "number": "12",
+    "description": "Mismarcı 1. Sk. No:12 SEYYİD ÖMER/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "SULTAN AHMET",
+    "street": "Akbıyık Değirmeni Sk.",
+    "number": "42",
+    "description": "Akbıyık Değirmeni Sk. No:42 A SULTAN AHMET/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "SURURİ",
+    "street": "Bezciler Sk.",
+    "number": "2",
+    "description": "Bezciler Sk. No:2 SURURİ/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "SÜLEYMANİYE",
+    "street": "Avnipaşa Sk.",
+    "number": "4",
+    "description": "Avnipaşa Sk. No:4 B SÜLEYMANİYE/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "SÜMBÜL EFENDİ",
+    "street": "Koca Mustafapaşa Cad.",
+    "number": "151",
+    "description": "Koca Mustafapaşa Cad. No:151 SÜMBÜL EFENDİ/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "ŞEHREMİNİ",
+    "street": "Mimar Kasım Cad.",
+    "number": "54",
+    "description": "Mimar Kasım Cad. No:54 B ŞEHREMİNİ/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "ŞEHSUVAR BEY",
+    "street": "Kadırga Meydanı Sk.",
+    "number": "2",
+    "description": "Kadırga Meydanı Sk. No:2 ŞEHSUVAR BEY/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "TAHTAKALE",
+    "street": "Tahtakale Karakolu Sk.",
+    "number": "5",
+    "description": "Tahtakale Karakolu Sk. No:5 TAHTAKALE/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "TOPKAPI",
+    "street": "Un Değirmeni Sk.",
+    "number": "1",
+    "description": "Un Değirmeni Sk. No:1 TOPKAPI/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "YAVUZ SİNAN",
+    "street": "Tahsildar Sk.",
+    "number": "12",
+    "description": "Tahsildar Sk. No:12 YAVUZ SİNAN/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "YAVUZ SULTAN SELİM",
+    "street": "Kara Sarıklı Sk.",
+    "number": "25",
+    "description": "Kara Sarıklı Sk. No:25 A YAVUZ SULTAN SELİM/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "YEDİKULE",
+    "street": "Hacı Evhaddin Cad.",
+    "number": "69",
+    "description": "Hacı Evhaddin Cad. No:69 YEDİKULE/FATİH"
+  },
+  {
+    "district": "FATİH",
+    "neighborhood": "ZEYREK",
+    "street": "Ârifzade Sk.",
+    "number": "2",
+    "description": "Ârifzade Sk. No:2 ZEYREK/FATİH"
+  },
+  {
+    "district": "GAZİOSMANPAŞA",
+    "neighborhood": "BAĞLARBAŞI",
+    "street": "Su Çiçeği Sk.",
+    "number": "2",
+    "description": "Su Çiçeği Sk. No:2 A BAĞLARBAŞI/GAZİOSMANPAŞA"
+  },
+  {
+    "district": "GAZİOSMANPAŞA",
+    "neighborhood": "BARBAROS HAYRETTİN PAŞA",
+    "street": "Mimar Sinan Cad.",
+    "number": "3",
+    "description": "Mimar Sinan Cad. No:3 A BARBAROS HAYRETTİN PAŞA/GAZİOSMANPAŞA"
+  },
+  {
+    "district": "GAZİOSMANPAŞA",
+    "neighborhood": "FEVZİ ÇAKMAK",
+    "street": "Gebzeli Cad.",
+    "number": "18",
+    "description": "Gebzeli Cad. No:18 B FEVZİ ÇAKMAK/GAZİOSMANPAŞA"
+  },
+  {
+    "district": "GAZİOSMANPAŞA",
+    "neighborhood": "HÜRRİYET",
+    "street": "322. Sk.",
+    "number": "6",
+    "description": "322. Sk. No:6 HÜRRİYET/GAZİOSMANPAŞA"
+  },
+  {
+    "district": "GAZİOSMANPAŞA",
+    "neighborhood": "KARADENİZ",
+    "street": "Menderes Cad.",
+    "number": "1",
+    "description": "Menderes Cad. No:1 KARADENİZ/GAZİOSMANPAŞA"
+  },
+  {
+    "district": "GAZİOSMANPAŞA",
+    "neighborhood": "KARAYOLLARI",
+    "street": "Fatih Cad.",
+    "number": "2",
+    "description": "Fatih Cad. No:2 KARAYOLLARI/GAZİOSMANPAŞA"
+  },
+  {
+    "district": "GAZİOSMANPAŞA",
+    "neighborhood": "KARLITEPE",
+    "street": "Göçmenler Sk.",
+    "number": "21",
+    "description": "Göçmenler Sk. No:21 KARLITEPE/GAZİOSMANPAŞA"
+  },
+  {
+    "district": "GAZİOSMANPAŞA",
+    "neighborhood": "KAZIM KARABEKİR",
+    "street": "919. Sk.",
+    "number": "20",
+    "description": "919. Sk. No:20 KAZIM KARABEKİR/GAZİOSMANPAŞA"
+  },
+  {
+    "district": "GAZİOSMANPAŞA",
+    "neighborhood": "MERKEZ",
+    "street": "Cumhuriyet Meydanı",
+    "number": "20",
+    "description": "Cumhuriyet Meydanı No:20 E2 MERKEZ/GAZİOSMANPAŞA"
+  },
+  {
+    "district": "GAZİOSMANPAŞA",
+    "neighborhood": "MEVLANA",
+    "street": "832. Sk.",
+    "number": "30",
+    "description": "832. Sk. No:30 MEVLANA/GAZİOSMANPAŞA"
+  },
+  {
+    "district": "GAZİOSMANPAŞA",
+    "neighborhood": "SARIGÖL",
+    "street": "Nazlı Sk.",
+    "number": "16",
+    "description": "Nazlı Sk. No:16 A SARIGÖL/GAZİOSMANPAŞA"
+  },
+  {
+    "district": "GAZİOSMANPAŞA",
+    "neighborhood": "ŞEMSİPAŞA",
+    "street": "15. Sk.",
+    "number": "2",
+    "description": "15. Sk. No:2 -4B ŞEMSİPAŞA/GAZİOSMANPAŞA"
+  },
+  {
+    "district": "GAZİOSMANPAŞA",
+    "neighborhood": "YENİ MAHALLE",
+    "street": "528. Sk.",
+    "number": "1",
+    "description": "528. Sk. No:1 A YENİ MAHALLE/GAZİOSMANPAŞA"
+  },
+  {
+    "district": "GAZİOSMANPAŞA",
+    "neighborhood": "YENİDOĞAN",
+    "street": "Nakkaş Sk.",
+    "number": "13",
+    "description": "Nakkaş Sk. No:13 YENİDOĞAN/GAZİOSMANPAŞA"
+  },
+  {
+    "district": "GAZİOSMANPAŞA",
+    "neighborhood": "YILDIZTABYA",
+    "street": "Yıldıztabya Cad.",
+    "number": "134",
+    "description": "Yıldıztabya Cad. No:134 C YILDIZTABYA/GAZİOSMANPAŞA"
+  },
+  {
+    "district": "GÜNGÖREN",
+    "neighborhood": "ABDURRAHMAN NAFİZ GÜRMAN",
+    "street": "Kınalıtepe Sk.",
+    "number": "13",
+    "description": "Kınalıtepe Sk. No:13 B ABDURRAHMAN NAFİZ GÜRMAN/GÜNGÖREN"
+  },
+  {
+    "district": "GÜNGÖREN",
+    "neighborhood": "AKINCILAR",
+    "street": "Taşçılar Sk.",
+    "number": "77",
+    "description": "Taşçılar Sk. No:77 A AKINCILAR/GÜNGÖREN"
+  },
+  {
+    "district": "GÜNGÖREN",
+    "neighborhood": "GENÇOSMAN",
+    "street": "Uzay Sk.",
+    "number": "29",
+    "description": "Uzay Sk. No:29 GENÇOSMAN/GÜNGÖREN"
+  },
+  {
+    "district": "GÜNGÖREN",
+    "neighborhood": "GÜNEŞTEPE",
+    "street": "Uğur Sk.",
+    "number": "19",
+    "description": "Uğur Sk. No:19 GÜNEŞTEPE/GÜNGÖREN"
+  },
+  {
+    "district": "GÜNGÖREN",
+    "neighborhood": "HAZNEDAR",
+    "street": "Marmara Cad.",
+    "number": "18",
+    "description": "Marmara Cad. No:18 HAZNEDAR/GÜNGÖREN"
+  },
+  {
+    "district": "GÜNGÖREN",
+    "neighborhood": "MAREŞAL ÇAKMAK",
+    "street": "Orhan Cad.",
+    "number": "7",
+    "description": "Orhan Cad. No:7 MAREŞAL ÇAKMAK/GÜNGÖREN"
+  },
+  {
+    "district": "GÜNGÖREN",
+    "neighborhood": "MEHMET NESİH ÖZMEN",
+    "street": "Çam Sk.",
+    "number": "21",
+    "description": "Çam Sk. No:21 MEHMET NESİH ÖZMEN/GÜNGÖREN"
+  },
+  {
+    "district": "GÜNGÖREN",
+    "neighborhood": "MERKEZ",
+    "street": "Bayraktar Sk.",
+    "number": "10",
+    "description": "Bayraktar Sk. No:10 MERKEZ/GÜNGÖREN"
+  },
+  {
+    "district": "GÜNGÖREN",
+    "neighborhood": "SANAYİ",
+    "street": "Murat Paşa Cad.",
+    "number": "31",
+    "description": "Murat Paşa Cad. No:31 SANAYİ/GÜNGÖREN"
+  },
+  {
+    "district": "GÜNGÖREN",
+    "neighborhood": "TOZKOPARAN",
+    "street": "Cevat Açıkalın Cad.",
+    "number": "6",
+    "description": "Cevat Açıkalın Cad. No:6 /1 TOZKOPARAN/GÜNGÖREN"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "19 MAYIS",
+    "street": "Sultan Sk.",
+    "number": "29",
+    "description": "Sultan Sk. No:29 19 MAYIS/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "ACIBADEM",
+    "street": "Defne Sk.",
+    "number": "4",
+    "description": "Defne Sk. No:4 ACIBADEM/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "BOSTANCI",
+    "street": "Bostan Tariki Sk. BOSTANCI/KADIKÖY",
+    "number": "",
+    "description": "Bostan Tariki Sk. BOSTANCI/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "CADDEBOSTAN",
+    "street": "Sarıgül Sk.",
+    "number": "18",
+    "description": "Sarıgül Sk. No:18 /1 CADDEBOSTAN/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "CAFERAĞA",
+    "street": "Şair Nefi Sk.",
+    "number": "26",
+    "description": "Şair Nefi Sk. No:26 CAFERAĞA/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "EĞİTİM",
+    "street": "Hızırbey Cad. EĞİTİM/KADIKÖY",
+    "number": "",
+    "description": "Hızırbey Cad. EĞİTİM/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "ERENKÖY",
+    "street": "Dr. Mithat Süer Sk.",
+    "number": "22",
+    "description": "Dr. Mithat Süer Sk. No:22 /1 ERENKÖY/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "FENERBAHÇE",
+    "street": "Fener Kalamış Cad.",
+    "number": "57",
+    "description": "Fener Kalamış Cad. No:57 /2 FENERBAHÇE/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "FENERYOLU",
+    "street": "Dostane Sk.",
+    "number": "12",
+    "description": "Dostane Sk. No:12 FENERYOLU/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "FİKİRTEPE",
+    "street": "Akçıra Sk. FİKİRTEPE/KADIKÖY",
+    "number": "",
+    "description": "Akçıra Sk. FİKİRTEPE/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "GÖZTEPE",
+    "street": "Yeşilbahar Sk. GÖZTEPE/KADIKÖY",
+    "number": "",
+    "description": "Yeşilbahar Sk. GÖZTEPE/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "HASANPAŞA",
+    "street": "Faik Bey Sk.",
+    "number": "11",
+    "description": "Faik Bey Sk. No:11 HASANPAŞA/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "KOŞUYOLU",
+    "street": "Mahmut Yesari Cad.",
+    "number": "50",
+    "description": "Mahmut Yesari Cad. No:50 /8 KOŞUYOLU/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "KOZYATAĞI",
+    "street": "Sarıkaya Sk.",
+    "number": "1",
+    "description": "Sarıkaya Sk. No:1 /1 KOZYATAĞI/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "MERDİVENKÖY",
+    "street": "Günaydın Sk.",
+    "number": "3",
+    "description": "Günaydın Sk. No:3 MERDİVENKÖY/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "OSMANAĞA",
+    "street": "Yoğurtçu Parkı Cad.",
+    "number": "1",
+    "description": "Yoğurtçu Parkı Cad. No:1 /5 OSMANAĞA/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "RASİMPAŞA",
+    "street": "Ayrılıkçeşme Sk.",
+    "number": "136",
+    "description": "Ayrılıkçeşme Sk. No:136 RASİMPAŞA/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "SAHRAYICEDİT",
+    "street": "Cebesoy Sk.",
+    "number": "2",
+    "description": "Cebesoy Sk. No:2 SAHRAYICEDİT/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "SUADİYE",
+    "street": "Yakamoz Sk.",
+    "number": "19",
+    "description": "Yakamoz Sk. No:19 SUADİYE/KADIKÖY"
+  },
+  {
+    "district": "KADIKÖY",
+    "neighborhood": "ZÜHTÜPAŞA",
+    "street": "Asım Us Sk.",
+    "number": "18",
+    "description": "Asım Us Sk. No:18 ZÜHTÜPAŞA/KADIKÖY"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "ÇAĞLAYAN",
+    "street": "Neşe Sk.",
+    "number": "10",
+    "description": "Neşe Sk. No:10 ÇAĞLAYAN/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "ÇELİKTEPE",
+    "street": "Kaptan Sk.",
+    "number": "1",
+    "description": "Kaptan Sk. No:1 /1 ÇELİKTEPE/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "EMNİYET EVLERİ",
+    "street": "Seyir Cad.",
+    "number": "1",
+    "description": "Seyir Cad. No:1 B EMNİYET EVLERİ/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "GÜLTEPE",
+    "street": "Arzu Çıkmazı",
+    "number": "4",
+    "description": "Arzu Çıkmazı No:4 A GÜLTEPE/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "GÜRSEL",
+    "street": "Eski Beşiktaş Cad.",
+    "number": "3",
+    "description": "Eski Beşiktaş Cad. No:3 /1B GÜRSEL/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "HAMİDİYE",
+    "street": "Karaman Sk.",
+    "number": "6",
+    "description": "Karaman Sk. No:6 HAMİDİYE/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "HARMANTEPE",
+    "street": "Dalyan Sk.",
+    "number": "24",
+    "description": "Dalyan Sk. No:24 HARMANTEPE/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "HÜRRİYET",
+    "street": "Dr. Cemil Bengü Cad.",
+    "number": "47",
+    "description": "Dr. Cemil Bengü Cad. No:47 HÜRRİYET/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "MEHMET AKİF ERSOY",
+    "street": "Etibank Cad.",
+    "number": "82",
+    "description": "Etibank Cad. No:82 /1 MEHMET AKİF ERSOY/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "MERKEZ",
+    "street": "Burcu Sk.",
+    "number": "16",
+    "description": "Burcu Sk. No:16 MERKEZ/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "NURTEPE",
+    "street": "Diyar Sk.",
+    "number": "2",
+    "description": "Diyar Sk. No:2 NURTEPE/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "ORTABAYIR",
+    "street": "Santral Cad.",
+    "number": "16",
+    "description": "Santral Cad. No:16 ORTABAYIR/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "SEYRANTEPE",
+    "street": "Çamözü Sk.",
+    "number": "9",
+    "description": "Çamözü Sk. No:9 SEYRANTEPE/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "SULTAN SELİM",
+    "street": "Şenkardeşler Sk.",
+    "number": "20",
+    "description": "Şenkardeşler Sk. No:20 B SULTAN SELİM/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "ŞİRİNTEPE",
+    "street": "Gümüşhane Cad.",
+    "number": "101",
+    "description": "Gümüşhane Cad. No:101 ŞİRİNTEPE/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "TALATPAŞA",
+    "street": "Çelebi Cad.",
+    "number": "51",
+    "description": "Çelebi Cad. No:51 TALATPAŞA/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "TELSİZLER",
+    "street": "Boğazkale Sk.",
+    "number": "2",
+    "description": "Boğazkale Sk. No:2 TELSİZLER/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "YAHYA KEMAL",
+    "street": "Talatpaşa Cad.",
+    "number": "393",
+    "description": "Talatpaşa Cad. No:393 -395B YAHYA KEMAL/KAĞITHANE"
+  },
+  {
+    "district": "KAĞITHANE",
+    "neighborhood": "YEŞİLCE",
+    "street": "Halil Rahman Cad.",
+    "number": "43",
+    "description": "Halil Rahman Cad. No:43 YEŞİLCE/KAĞITHANE"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "ATALAR",
+    "street": "Halitpaşa Cad.",
+    "number": "58",
+    "description": "Halitpaşa Cad. No:58 ATALAR/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "CEVİZLİ",
+    "street": "Denizer Cad.",
+    "number": "2",
+    "description": "Denizer Cad. No:2 CEVİZLİ/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "CUMHURİYET",
+    "street": "Seza Sk.",
+    "number": "15",
+    "description": "Seza Sk. No:15 CUMHURİYET/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "ÇAVUŞOĞLU",
+    "street": "Kültür Cad.",
+    "number": "23",
+    "description": "Kültür Cad. No:23 ÇAVUŞOĞLU/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "ESENTEPE",
+    "street": "Hakan Sk.",
+    "number": "8",
+    "description": "Hakan Sk. No:8 ESENTEPE/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "GÜMÜŞPINAR",
+    "street": "Yaprak Sk.",
+    "number": "2",
+    "description": "Yaprak Sk. No:2 A GÜMÜŞPINAR/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "HÜRRİYET",
+    "street": "Emek Cad.",
+    "number": "1",
+    "description": "Emek Cad. No:1 HÜRRİYET/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "KARLIKTEPE",
+    "street": "Şehit Aşkın Bora Sk.",
+    "number": "12",
+    "description": "Şehit Aşkın Bora Sk. No:12 KARLIKTEPE/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "KORDONBOYU",
+    "street": "Turgut Özal Bulvarı",
+    "number": "91",
+    "description": "Turgut Özal Bulvarı No:91 /1 KORDONBOYU/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "ORHANTEPE",
+    "street": "Üsküdar Cad. ORHANTEPE/KARTAL",
+    "number": "",
+    "description": "Üsküdar Cad. ORHANTEPE/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "ORTA",
+    "street": "Tiryaki Hasanpaşa Cad.",
+    "number": "8",
+    "description": "Tiryaki Hasanpaşa Cad. No:8 ORTA/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "PETROL İŞ",
+    "street": "İzci Sk.",
+    "number": "10",
+    "description": "İzci Sk. No:10 PETROL İŞ/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "SOĞANLIK YENİ",
+    "street": "Yahya Kemal Beyatlı Cad.",
+    "number": "14",
+    "description": "Yahya Kemal Beyatlı Cad. No:14 SOĞANLIK YENİ/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "UĞUR MUMCU",
+    "street": "Şeyh Şamil Cad.",
+    "number": "11",
+    "description": "Şeyh Şamil Cad. No:11 /1 UĞUR MUMCU/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "YAKACIK ÇARŞI",
+    "street": "Gökdemir Sk.",
+    "number": "2",
+    "description": "Gökdemir Sk. No:2 YAKACIK ÇARŞI/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "YALI",
+    "street": "Ayla Sk.",
+    "number": "8",
+    "description": "Ayla Sk. No:8 /1 YALI/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "YUKARI",
+    "street": "Dikey Sk.",
+    "number": "9",
+    "description": "Dikey Sk. No:9 YUKARI/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "YUNUS",
+    "street": "Yeşil Sk.",
+    "number": "30",
+    "description": "Yeşil Sk. No:30 YUNUS/KARTAL"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "ATAKENT",
+    "street": "19. Sk.",
+    "number": "3",
+    "description": "19. Sk. No:3 ATAKENT/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "ATATÜRK",
+    "street": "330. Sk.",
+    "number": "6",
+    "description": "330. Sk. No:6 ATATÜRK/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "BEŞYOL",
+    "street": "1. İnönü Cad.",
+    "number": "9",
+    "description": "1. İnönü Cad. No:9 BEŞYOL/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "CENNET",
+    "street": "2. Yavuz Selim Cad.",
+    "number": "22",
+    "description": "2. Yavuz Selim Cad. No:22 CENNET/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "FATİH",
+    "street": "Prof.Dr. Aziz Sancar Cad.",
+    "number": "29",
+    "description": "Prof.Dr. Aziz Sancar Cad. No:29 /1G FATİH/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "FEVZİ ÇAKMAK",
+    "street": "Akçalar Sk.",
+    "number": "38",
+    "description": "Akçalar Sk. No:38 FEVZİ ÇAKMAK/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "GÜLTEPE",
+    "street": "Bağlar Cad.",
+    "number": "71",
+    "description": "Bağlar Cad. No:71 GÜLTEPE/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "HALKALI MERKEZ",
+    "street": "Mehmetçik Sk.",
+    "number": "3",
+    "description": "Mehmetçik Sk. No:3 HALKALI MERKEZ/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "İNÖNÜ",
+    "street": "Maslak Çeşme Cad.",
+    "number": "102",
+    "description": "Maslak Çeşme Cad. No:102 İNÖNÜ/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "İSTASYON",
+    "street": "Kömürcü Yolu Cad.",
+    "number": "2",
+    "description": "Kömürcü Yolu Cad. No:2 /1 İSTASYON/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "KANARYA",
+    "street": "Bülbül Sk.",
+    "number": "15",
+    "description": "Bülbül Sk. No:15 KANARYA/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "KARTALTEPE",
+    "street": "Halkalı Cad.",
+    "number": "36",
+    "description": "Halkalı Cad. No:36 KARTALTEPE/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "KEMALPAŞA",
+    "street": "1. Arda Sk.",
+    "number": "2",
+    "description": "1. Arda Sk. No:2 /1 KEMALPAŞA/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "MEHMET AKİF",
+    "street": "2. Tolga Sk.",
+    "number": "1",
+    "description": "2. Tolga Sk. No:1 MEHMET AKİF/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "SÖĞÜTLÜ ÇEŞME",
+    "street": "Camialtı Sk.",
+    "number": "5",
+    "description": "Camialtı Sk. No:5 B SÖĞÜTLÜ ÇEŞME/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "TEVFİKBEY",
+    "street": "1. Karakol Sk.",
+    "number": "1",
+    "description": "1. Karakol Sk. No:1 -3 TEVFİKBEY/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "YARIMBURGAZ",
+    "street": "5. Fatih Cad.",
+    "number": "38",
+    "description": "5. Fatih Cad. No:38 YARIMBURGAZ/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "YENİ MAHALLE",
+    "street": "İnönü Cad.",
+    "number": "78",
+    "description": "İnönü Cad. No:78 /1A YENİ MAHALLE/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "YEŞİLOVA",
+    "street": "Tansel Cad.",
+    "number": "38",
+    "description": "Tansel Cad. No:38 D YEŞİLOVA/KÜÇÜKÇEKMECE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "ALTAYÇEŞME",
+    "street": "Kentli Sk.",
+    "number": "2",
+    "description": "Kentli Sk. No:2 ALTAYÇEŞME/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "ALTINTEPE",
+    "street": "Hüsniye Cad.",
+    "number": "9",
+    "description": "Hüsniye Cad. No:9 /1 ALTINTEPE/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "AYDINEVLER",
+    "street": "Selçukbey Cad.",
+    "number": "2",
+    "description": "Selçukbey Cad. No:2 AYDINEVLER/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "BAĞLARBAŞI",
+    "street": "Ahsen Çıkmazı",
+    "number": "6",
+    "description": "Ahsen Çıkmazı No:6 BAĞLARBAŞI/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "BAŞIBÜYÜK",
+    "street": "Başıbüyük Cad.",
+    "number": "90",
+    "description": "Başıbüyük Cad. No:90 BAŞIBÜYÜK/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "BÜYÜKBAKKALKÖY",
+    "street": "Selanikli Cad.",
+    "number": "19",
+    "description": "Selanikli Cad. No:19 BÜYÜKBAKKALKÖY/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "CEVİZLİ",
+    "street": "Gülnihal Sk.",
+    "number": "1",
+    "description": "Gülnihal Sk. No:1 CEVİZLİ/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "ÇINAR",
+    "street": "Sosyal Sk.",
+    "number": "11",
+    "description": "Sosyal Sk. No:11 A ÇINAR/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "ESENKENT",
+    "street": "Kani Paşa Cad.",
+    "number": "161",
+    "description": "Kani Paşa Cad. No:161 /1 ESENKENT/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "FEYZULLAH",
+    "street": "Yunus Emre Cad.",
+    "number": "9",
+    "description": "Yunus Emre Cad. No:9 /1 FEYZULLAH/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "FINDIKLI",
+    "street": "Işıltı Sk.",
+    "number": "20",
+    "description": "Işıltı Sk. No:20 /1A FINDIKLI/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "GİRNE",
+    "street": "Doğuşkent Cad.",
+    "number": "41",
+    "description": "Doğuşkent Cad. No:41 GİRNE/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "GÜLENSU",
+    "street": "Ayla Cad.",
+    "number": "105",
+    "description": "Ayla Cad. No:105 GÜLENSU/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "GÜLSUYU",
+    "street": "Martılar Çıkmazı",
+    "number": "17",
+    "description": "Martılar Çıkmazı No:17 GÜLSUYU/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "İDEALTEPE",
+    "street": "Rıfkı Tongsir Cad.",
+    "number": "52",
+    "description": "Rıfkı Tongsir Cad. No:52 İDEALTEPE/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "KÜÇÜKYALI MERKEZ",
+    "street": "Adile Hanım Sk.",
+    "number": "14",
+    "description": "Adile Hanım Sk. No:14 KÜÇÜKYALI MERKEZ/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "YALI",
+    "street": "Küçükyalı Cad.",
+    "number": "21",
+    "description": "Küçükyalı Cad. No:21 YALI/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "ZÜMRÜTEVLER",
+    "street": "Başaran Sk.",
+    "number": "2",
+    "description": "Başaran Sk. No:2 ZÜMRÜTEVLER/MALTEPE"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "AHMET YESEVİ",
+    "street": "Ayyüzlü Sk.",
+    "number": "14",
+    "description": "Ayyüzlü Sk. No:14 AHMET YESEVİ/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "BAHÇELİEVLER",
+    "street": "Adnan Menderes Bulvarı",
+    "number": "39",
+    "description": "Adnan Menderes Bulvarı No:39 BAHÇELİEVLER/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "BALLICA",
+    "street": "Sokullu Cad.",
+    "number": "38",
+    "description": "Sokullu Cad. No:38 BALLICA/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "BATI",
+    "street": "Vişne Sk.",
+    "number": "21",
+    "description": "Vişne Sk. No:21 /1 BATI/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "ÇAMÇEŞME",
+    "street": "Misakı Milli Cad.",
+    "number": "24",
+    "description": "Misakı Milli Cad. No:24 ÇAMÇEŞME/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "ÇAMLIK",
+    "street": "Yahya Kemal Beyatlı Cad.",
+    "number": "14",
+    "description": "Yahya Kemal Beyatlı Cad. No:14 ÇAMLIK/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "ÇINARDERE",
+    "street": "Ayazma Cad.",
+    "number": "10",
+    "description": "Ayazma Cad. No:10 ÇINARDERE/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "DOĞU",
+    "street": "Hat Boyu Cad.",
+    "number": "90",
+    "description": "Hat Boyu Cad. No:90 /1 DOĞU/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "DUMLUPINAR",
+    "street": "Mümessil Sk.",
+    "number": "10",
+    "description": "Mümessil Sk. No:10 DUMLUPINAR/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "EMİRLİ",
+    "street": "Şehiryolu Sk.",
+    "number": "1",
+    "description": "Şehiryolu Sk. No:1 EMİRLİ/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "ERTUĞRUL GAZİ",
+    "street": "Aydos Cad.",
+    "number": "106",
+    "description": "Aydos Cad. No:106 ERTUĞRUL GAZİ/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "ESENLER",
+    "street": "Düzevler Sk.",
+    "number": "8",
+    "description": "Düzevler Sk. No:8 ESENLER/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "ESENYALI",
+    "street": "Necmettin Erbakan Cad.",
+    "number": "80",
+    "description": "Necmettin Erbakan Cad. No:80 ESENYALI/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "FATİH",
+    "street": "Kuzu Sk.",
+    "number": "23",
+    "description": "Kuzu Sk. No:23 FATİH/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "FEVZİ ÇAKMAK",
+    "street": "Bilginler Sk.",
+    "number": "6",
+    "description": "Bilginler Sk. No:6 FEVZİ ÇAKMAK/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "GÖÇBEYLİ",
+    "street": "Torul Sk.",
+    "number": "28",
+    "description": "Torul Sk. No:28 GÖÇBEYLİ/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "GÜLLÜ BAĞLAR",
+    "street": "Gelinlik Sk.",
+    "number": "2",
+    "description": "Gelinlik Sk. No:2 GÜLLÜ BAĞLAR/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "GÜZELYALI",
+    "street": "Anadolu Cad.",
+    "number": "2",
+    "description": "Anadolu Cad. No:2 GÜZELYALI/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "HARMANDERE",
+    "street": "Emir Sultan Cad.",
+    "number": "7",
+    "description": "Emir Sultan Cad. No:7 B HARMANDERE/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "KAVAKPINAR",
+    "street": "Cemil Meriç Cad.",
+    "number": "95",
+    "description": "Cemil Meriç Cad. No:95 KAVAKPINAR/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "KAYNARCA",
+    "street": "Orta Asya Cad.",
+    "number": "45",
+    "description": "Orta Asya Cad. No:45 KAYNARCA/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "KURNA",
+    "street": "Anadolu Yolu Cad.",
+    "number": "2",
+    "description": "Anadolu Yolu Cad. No:2 KURNA/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "KURTDOĞMUŞ",
+    "street": "Cami Cad.",
+    "number": "1",
+    "description": "Cami Cad. No:1 A KURTDOĞMUŞ/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "KURTKÖY",
+    "street": "Soydaş Sk.",
+    "number": "3",
+    "description": "Soydaş Sk. No:3 KURTKÖY/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "ORHANGAZİ",
+    "street": "Enver Sk.",
+    "number": "1",
+    "description": "Enver Sk. No:1 A ORHANGAZİ/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "ORTA",
+    "street": "50. Yıl Cad. ORTA/PENDİK",
+    "number": "",
+    "description": "50. Yıl Cad. ORTA/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "RAMAZANOĞLU",
+    "street": "Balkan Sk.",
+    "number": "4",
+    "description": "Balkan Sk. No:4 RAMAZANOĞLU/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "SAPAN BAĞLARI",
+    "street": "Şehit Miralay Nazım Bey Cad.",
+    "number": "15",
+    "description": "Şehit Miralay Nazım Bey Cad. No:15 /1 SAPAN BAĞLARI/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "SÜLÜNTEPE",
+    "street": "Boğaç Sk.",
+    "number": "2",
+    "description": "Boğaç Sk. No:2 SÜLÜNTEPE/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "ŞEYHLİ",
+    "street": "Akşemseddin Cad.",
+    "number": "18",
+    "description": "Akşemseddin Cad. No:18 ŞEYHLİ/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "VELİBABA",
+    "street": "Yakacık Cad.",
+    "number": "35",
+    "description": "Yakacık Cad. No:35 /1 VELİBABA/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "YAYALAR",
+    "street": "Barbaros Hayrettinpaşa Cad.",
+    "number": "41",
+    "description": "Barbaros Hayrettinpaşa Cad. No:41 YAYALAR/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "YENİ",
+    "street": "Stadyum Sk.",
+    "number": "18",
+    "description": "Stadyum Sk. No:18 YENİ/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "YENİŞEHİR",
+    "street": "Millet Cad.",
+    "number": "20",
+    "description": "Millet Cad. No:20 YENİŞEHİR/PENDİK"
+  },
+  {
+    "district": "PENDİK",
+    "neighborhood": "YEŞİLBAĞLAR",
+    "street": "Sakarya Cad.",
+    "number": "33",
+    "description": "Sakarya Cad. No:33 YEŞİLBAĞLAR/PENDİK"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "ABDURRAHMANGAZİ",
+    "street": "Dedebayır Sk.",
+    "number": "8",
+    "description": "Dedebayır Sk. No:8 ABDURRAHMANGAZİ/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "AKPINAR",
+    "street": "Akarçeşme Sk.",
+    "number": "1",
+    "description": "Akarçeşme Sk. No:1 AKPINAR/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "ATATÜRK",
+    "street": "Yüce Sk.",
+    "number": "26",
+    "description": "Yüce Sk. No:26 ATATÜRK/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "EMEK",
+    "street": "Bengü Sk.",
+    "number": "31",
+    "description": "Bengü Sk. No:31 EMEK/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "EYÜP SULTAN",
+    "street": "Esma Sk.",
+    "number": "5",
+    "description": "Esma Sk. No:5 EYÜP SULTAN/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "FATİH",
+    "street": "Yakacık Cad.",
+    "number": "74",
+    "description": "Yakacık Cad. No:74 FATİH/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "HİLAL",
+    "street": "Şehit Abdurrahmangazi Cad.",
+    "number": "105",
+    "description": "Şehit Abdurrahmangazi Cad. No:105 HİLAL/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "İNÖNÜ",
+    "street": "Havuz Sk.",
+    "number": "25",
+    "description": "Havuz Sk. No:25 İNÖNÜ/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "KEMAL TÜRKLER",
+    "street": "Ekin Sk.",
+    "number": "6",
+    "description": "Ekin Sk. No:6 KEMAL TÜRKLER/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "MECLİS",
+    "street": "Cemal Gürsel Cad.",
+    "number": "128",
+    "description": "Cemal Gürsel Cad. No:128 A MECLİS/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "MERVE",
+    "street": "Anı Sk.",
+    "number": "2",
+    "description": "Anı Sk. No:2 MERVE/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "MEVLANA",
+    "street": "Kiraz Sk.",
+    "number": "18",
+    "description": "Kiraz Sk. No:18 MEVLANA/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "OSMANGAZİ",
+    "street": "Bilal-i Habeşi Cad.",
+    "number": "2",
+    "description": "Bilal-i Habeşi Cad. No:2 OSMANGAZİ/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "PAŞAKÖY",
+    "street": "Mesire Sk.",
+    "number": "6",
+    "description": "Mesire Sk. No:6 PAŞAKÖY/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "SAFA",
+    "street": "Takva Cad.",
+    "number": "11",
+    "description": "Takva Cad. No:11 SAFA/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "SARIGAZİ",
+    "street": "Topçular Cad.",
+    "number": "2",
+    "description": "Topçular Cad. No:2 SARIGAZİ/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "VEYSEL KARANİ",
+    "street": "Zaloğlu Rüstem Cad.",
+    "number": "18",
+    "description": "Zaloğlu Rüstem Cad. No:18 VEYSEL KARANİ/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "YENİDOĞAN",
+    "street": "Ömer Hayyam Cad.",
+    "number": "31",
+    "description": "Ömer Hayyam Cad. No:31 A YENİDOĞAN/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "YUNUS EMRE",
+    "street": "Yeditepe Sk.",
+    "number": "8",
+    "description": "Yeditepe Sk. No:8 YUNUS EMRE/SANCAKTEPE"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "AYAZAĞA",
+    "street": "Şehit Naci Canan Tuncer Sk.",
+    "number": "4",
+    "description": "Şehit Naci Canan Tuncer Sk. No:4 AYAZAĞA/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "BAHÇEKÖY KEMER",
+    "street": "Valide Sultan Cad. BAHÇEKÖY KEMER/SARIYER",
+    "number": "",
+    "description": "Valide Sultan Cad. BAHÇEKÖY KEMER/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "BAHÇEKÖY MERKEZ",
+    "street": "Balibey Sk.",
+    "number": "9",
+    "description": "Balibey Sk. No:9 BAHÇEKÖY MERKEZ/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "BAHÇEKÖY YENİMAHALLE",
+    "street": "Orta Selvi Sk.",
+    "number": "20",
+    "description": "Orta Selvi Sk. No:20 /1 BAHÇEKÖY YENİMAHALLE/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "BALTALİMANI",
+    "street": "Baltalimanı Çayır Cad.",
+    "number": "6",
+    "description": "Baltalimanı Çayır Cad. No:6 BALTALİMANI/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "BÜYÜKDERE",
+    "street": "Maltız Deresi Sk.",
+    "number": "16",
+    "description": "Maltız Deresi Sk. No:16 BÜYÜKDERE/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "CUMHURİYET",
+    "street": "Araba Yolu Cad.",
+    "number": "28",
+    "description": "Araba Yolu Cad. No:28 A CUMHURİYET/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "ÇAMLITEPE",
+    "street": "Ulu Cad.",
+    "number": "14",
+    "description": "Ulu Cad. No:14 ÇAMLITEPE/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "ÇAYIRBAŞI",
+    "street": "Atatürk Okulu Sk.",
+    "number": "1",
+    "description": "Atatürk Okulu Sk. No:1 /A ÇAYIRBAŞI/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "DARÜŞŞAFAKA",
+    "street": "Gazeteciler Sk.",
+    "number": "6",
+    "description": "Gazeteciler Sk. No:6 DARÜŞŞAFAKA/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "DEMİRCİKÖY",
+    "street": "Demirciköy Cad.",
+    "number": "72",
+    "description": "Demirciköy Cad. No:72 B DEMİRCİKÖY/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "EMİRGAN",
+    "street": "Doğru Muvakkithane Cad.",
+    "number": "6",
+    "description": "Doğru Muvakkithane Cad. No:6 /1 EMİRGAN/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "FATİH SULTAN MEHMET",
+    "street": "Özel Sk.",
+    "number": "18",
+    "description": "Özel Sk. No:18 FATİH SULTAN MEHMET/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "FERAHEVLER",
+    "street": "Muhtar Cad.",
+    "number": "6",
+    "description": "Muhtar Cad. No:6 FERAHEVLER/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "GARİPÇE",
+    "street": "Garipçe Cad.",
+    "number": "48",
+    "description": "Garipçe Cad. No:48 GARİPÇE/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "GÜMÜŞDERE",
+    "street": "Gümüşdere Cad.",
+    "number": "63",
+    "description": "Gümüşdere Cad. No:63 A GÜMÜŞDERE/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "HUZUR",
+    "street": "Gün Işığı Sk. HUZUR/SARIYER",
+    "number": "",
+    "description": "Gün Işığı Sk. HUZUR/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "İSTİNYE",
+    "street": "Nuripaşa Cad.",
+    "number": "1",
+    "description": "Nuripaşa Cad. No:1 İSTİNYE/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "KAZIM KARABEKİR PAŞA",
+    "street": "Fatoş Sk.",
+    "number": "22",
+    "description": "Fatoş Sk. No:22 KAZIM KARABEKİR PAŞA/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "KISIRKAYA",
+    "street": "Kısırkaya Cad.",
+    "number": "47",
+    "description": "Kısırkaya Cad. No:47 KISIRKAYA/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "KİREÇBURNU",
+    "street": "Araba Yolu Cad.",
+    "number": "217",
+    "description": "Araba Yolu Cad. No:217 KİREÇBURNU/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "KOCATAŞ",
+    "street": "Yeni Boğaziçi Cad.",
+    "number": "90",
+    "description": "Yeni Boğaziçi Cad. No:90 KOCATAŞ/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "KUMKÖY (KİLYOS)",
+    "street": "Turban Cad.",
+    "number": "8",
+    "description": "Turban Cad. No:8 KUMKÖY (KİLYOS)/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "MADEN",
+    "street": "Eski Kilyos Cad.",
+    "number": "7",
+    "description": "Eski Kilyos Cad. No:7 A MADEN/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "MASLAK",
+    "street": "Anka Sk.",
+    "number": "2",
+    "description": "Anka Sk. No:2 A/2 MASLAK/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "PINAR",
+    "street": "Çamlıbel Cad.",
+    "number": "39",
+    "description": "Çamlıbel Cad. No:39 B PINAR/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "POLİGON",
+    "street": "Poligon Cad.",
+    "number": "26",
+    "description": "Poligon Cad. No:26 POLİGON/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "PTT EVLERİ",
+    "street": "Kanuni Sultan Süleyman Cad.",
+    "number": "27",
+    "description": "Kanuni Sultan Süleyman Cad. No:27 B PTT EVLERİ/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "REŞİTPAŞA",
+    "street": "Zergerdan Sk.",
+    "number": "50",
+    "description": "Zergerdan Sk. No:50 A REŞİTPAŞA/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "RUMELİ KAVAĞI",
+    "street": "Kalyon Çıkmazı",
+    "number": "6",
+    "description": "Kalyon Çıkmazı No:6 RUMELİ KAVAĞI/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "RUMELİFENERİ",
+    "street": "Sancak Sk.",
+    "number": "4",
+    "description": "Sancak Sk. No:4 RUMELİFENERİ/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "SARIYER MERKEZ",
+    "street": "Meserburnu Cad.",
+    "number": "8",
+    "description": "Meserburnu Cad. No:8 SARIYER MERKEZ/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "SARIYER YENİMAHALLE",
+    "street": "Yürek Yakan Sk.",
+    "number": "2",
+    "description": "Yürek Yakan Sk. No:2 SARIYER YENİMAHALLE/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "TARABYA",
+    "street": "Dereiçi Sk.",
+    "number": "6",
+    "description": "Dereiçi Sk. No:6 TARABYA/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "USKUMRUKÖY",
+    "street": "Kadir Ağa Sk.",
+    "number": "2",
+    "description": "Kadir Ağa Sk. No:2 USKUMRUKÖY/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "YENİKÖY",
+    "street": "Yalı Sk.",
+    "number": "1",
+    "description": "Yalı Sk. No:1 YENİKÖY/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "ZEKERİYAKÖY",
+    "street": "Zekeriyaköy Cad.",
+    "number": "13",
+    "description": "Zekeriyaköy Cad. No:13 ZEKERİYAKÖY/SARIYER"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "AKÖREN",
+    "street": "Sağlık Cad.",
+    "number": "25",
+    "description": "Sağlık Cad. No:25 A AKÖREN/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "ALİBEY",
+    "street": "Murteza Yönet Sk.",
+    "number": "7",
+    "description": "Murteza Yönet Sk. No:7 ALİBEY/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "ALİPAŞA",
+    "street": "Derinyol Sk.",
+    "number": "20",
+    "description": "Derinyol Sk. No:20 ALİPAŞA/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "BEKİRLİ",
+    "street": "İncirli Cad.",
+    "number": "64",
+    "description": "İncirli Cad. No:64 D BEKİRLİ/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "BEYCİLER",
+    "street": "Gökyüzü Cad.",
+    "number": "44",
+    "description": "Gökyüzü Cad. No:44 B BEYCİLER/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "BÜYÜK ÇAVUŞLU",
+    "street": "Büyükçavuşlu Cad.",
+    "number": "46",
+    "description": "Büyükçavuşlu Cad. No:46 BÜYÜK ÇAVUŞLU/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "BÜYÜK KILIÇLI",
+    "street": "İmam Sk.",
+    "number": "1",
+    "description": "İmam Sk. No:1 /1 BÜYÜK KILIÇLI/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "BÜYÜK SİNEKLİ",
+    "street": "Akşemseddin Cad.",
+    "number": "230",
+    "description": "Akşemseddin Cad. No:230 BÜYÜK SİNEKLİ/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "ÇANTA SANCAKTEPE",
+    "street": "Büyük Önder Atatürk Cad.",
+    "number": "67",
+    "description": "Büyük Önder Atatürk Cad. No:67 ÇANTA SANCAKTEPE/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "ÇAYIRDERE",
+    "street": "Başöğretmen Cad.",
+    "number": "105",
+    "description": "Başöğretmen Cad. No:105 ÇAYIRDERE/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "ÇELTİK",
+    "street": "Çanta Cad.",
+    "number": "23",
+    "description": "Çanta Cad. No:23 B ÇELTİK/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "DANAMANDIRA",
+    "street": "Urallar Sk.",
+    "number": "2",
+    "description": "Urallar Sk. No:2 A DANAMANDIRA/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "DEĞİRMENKÖY FEVZİPAŞA",
+    "street": "Gazipaşa Cad.",
+    "number": "69",
+    "description": "Gazipaşa Cad. No:69 B DEĞİRMENKÖY FEVZİPAŞA/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "FATİH",
+    "street": "Piripaşa Sk.",
+    "number": "1",
+    "description": "Piripaşa Sk. No:1 /1 FATİH/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "FENER",
+    "street": "Cami Şerif Sk.",
+    "number": "19",
+    "description": "Cami Şerif Sk. No:19 A FENER/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "GAZİTEPE",
+    "street": "Velibey Cad.",
+    "number": "2",
+    "description": "Velibey Cad. No:2 C GAZİTEPE/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "GÜMÜŞYAKA",
+    "street": "Cahit Arf Cad.",
+    "number": "6",
+    "description": "Cahit Arf Cad. No:6 GÜMÜŞYAKA/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "KADIKÖY",
+    "street": "Kadıköy Bağları Cad.",
+    "number": "71",
+    "description": "Kadıköy Bağları Cad. No:71 KADIKÖY/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "KAVAKLI İSTİKLAL",
+    "street": "Kavaklı Cad.",
+    "number": "177",
+    "description": "Kavaklı Cad. No:177 KAVAKLI İSTİKLAL/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "KURFALLI",
+    "street": "Safranbolu Cad.",
+    "number": "5",
+    "description": "Safranbolu Cad. No:5 KURFALLI/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "KÜÇÜK KILIÇLI",
+    "street": "Hamamdere Cad.",
+    "number": "1",
+    "description": "Hamamdere Cad. No:1 KÜÇÜK KILIÇLI/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "KÜÇÜK SİNEKLİ",
+    "street": "Taşova Sk.",
+    "number": "21",
+    "description": "Taşova Sk. No:21 KÜÇÜK SİNEKLİ/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "ORTAKÖY",
+    "street": "Celal Bayar Cad.",
+    "number": "10",
+    "description": "Celal Bayar Cad. No:10 ORTAKÖY/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "PİRİ MEHMET PAŞA",
+    "street": "Başkomutan Cad.",
+    "number": "14",
+    "description": "Başkomutan Cad. No:14 PİRİ MEHMET PAŞA/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "SAYALAR",
+    "street": "Hacı Ömer Cad.",
+    "number": "29",
+    "description": "Hacı Ömer Cad. No:29 SAYALAR/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "SELİMPAŞA",
+    "street": "Lojmanlar Sk.",
+    "number": "14",
+    "description": "Lojmanlar Sk. No:14 SELİMPAŞA/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "SEMİZKUMLAR",
+    "street": "İdeal Sk.",
+    "number": "9",
+    "description": "İdeal Sk. No:9 SEMİZKUMLAR/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "SEYMEN",
+    "street": "Gazi Yiğit Cad.",
+    "number": "36",
+    "description": "Gazi Yiğit Cad. No:36 C SEYMEN/SİLİVRİ"
+  },
+  {
+    "district": "SİLİVRİ",
+    "neighborhood": "YOLÇATI",
+    "street": "Havuzlar Sk.",
+    "number": "3",
+    "description": "Havuzlar Sk. No:3 A YOLÇATI/SİLİVRİ"
+  },
+  {
+    "district": "SULTANBEYLİ",
+    "neighborhood": "ABDURRAHMANGAZİ",
+    "street": "Petrol Yolu Cad.",
+    "number": "156",
+    "description": "Petrol Yolu Cad. No:156 ABDURRAHMANGAZİ/SULTANBEYLİ"
+  },
+  {
+    "district": "SULTANBEYLİ",
+    "neighborhood": "ADİL",
+    "street": "Vahdet Cad.",
+    "number": "13",
+    "description": "Vahdet Cad. No:13 ADİL/SULTANBEYLİ"
+  },
+  {
+    "district": "SULTANBEYLİ",
+    "neighborhood": "AHMET YESEVİ",
+    "street": "Mücahit Cad.",
+    "number": "48",
+    "description": "Mücahit Cad. No:48 AHMET YESEVİ/SULTANBEYLİ"
+  },
+  {
+    "district": "SULTANBEYLİ",
+    "neighborhood": "AKŞEMSETTİN",
+    "street": "Birgül Sk.",
+    "number": "19",
+    "description": "Birgül Sk. No:19 AKŞEMSETTİN/SULTANBEYLİ"
+  },
+  {
+    "district": "SULTANBEYLİ",
+    "neighborhood": "BATTALGAZİ",
+    "street": "Sarısu Sk.",
+    "number": "5",
+    "description": "Sarısu Sk. No:5 BATTALGAZİ/SULTANBEYLİ"
+  },
+  {
+    "district": "SULTANBEYLİ",
+    "neighborhood": "FATİH",
+    "street": "Şalgamlı Cad.",
+    "number": "120",
+    "description": "Şalgamlı Cad. No:120 FATİH/SULTANBEYLİ"
+  },
+  {
+    "district": "SULTANBEYLİ",
+    "neighborhood": "HAMİDİYE",
+    "street": "Eyyubi Cad.",
+    "number": "41",
+    "description": "Eyyubi Cad. No:41 HAMİDİYE/SULTANBEYLİ"
+  },
+  {
+    "district": "SULTANBEYLİ",
+    "neighborhood": "HASANPAŞA",
+    "street": "Şehzade Sk.",
+    "number": "4",
+    "description": "Şehzade Sk. No:4 HASANPAŞA/SULTANBEYLİ"
+  },
+  {
+    "district": "SULTANBEYLİ",
+    "neighborhood": "MECİDİYE",
+    "street": "Kamer Çıkmazı",
+    "number": "2",
+    "description": "Kamer Çıkmazı No:2 A MECİDİYE/SULTANBEYLİ"
+  },
+  {
+    "district": "SULTANBEYLİ",
+    "neighborhood": "MEHMET AKİF",
+    "street": "Kuran Kursu Cad. MEHMET AKİF/SULTANBEYLİ",
+    "number": "",
+    "description": "Kuran Kursu Cad. MEHMET AKİF/SULTANBEYLİ"
+  },
+  {
+    "district": "SULTANBEYLİ",
+    "neighborhood": "MİMAR SİNAN",
+    "street": "Diyar Sk.",
+    "number": "13",
+    "description": "Diyar Sk. No:13 MİMAR SİNAN/SULTANBEYLİ"
+  },
+  {
+    "district": "SULTANBEYLİ",
+    "neighborhood": "NECİP FAZIL",
+    "street": "Trabzon Cad.",
+    "number": "49",
+    "description": "Trabzon Cad. No:49 NECİP FAZIL/SULTANBEYLİ"
+  },
+  {
+    "district": "SULTANBEYLİ",
+    "neighborhood": "ORHANGAZİ",
+    "street": "Karataş Sk.",
+    "number": "36",
+    "description": "Karataş Sk. No:36 ORHANGAZİ/SULTANBEYLİ"
+  },
+  {
+    "district": "SULTANBEYLİ",
+    "neighborhood": "TURGUT REİS",
+    "street": "Malazgirt Cad.",
+    "number": "27",
+    "description": "Malazgirt Cad. No:27 TURGUT REİS/SULTANBEYLİ"
+  },
+  {
+    "district": "SULTANBEYLİ",
+    "neighborhood": "YAVUZ SELİM",
+    "street": "Düstur Sk.",
+    "number": "49",
+    "description": "Düstur Sk. No:49 YAVUZ SELİM/SULTANBEYLİ"
+  },
+  {
+    "district": "SULTANGAZİ",
+    "neighborhood": "50. YIL",
+    "street": "2070. Sk.",
+    "number": "11",
+    "description": "2070. Sk. No:11 A 50. YIL/SULTANGAZİ"
+  },
+  {
+    "district": "SULTANGAZİ",
+    "neighborhood": "75. YIL",
+    "street": "1306. Sk.",
+    "number": "19",
+    "description": "1306. Sk. No:19 A 75. YIL/SULTANGAZİ"
+  },
+  {
+    "district": "SULTANGAZİ",
+    "neighborhood": "CEBECİ",
+    "street": "2467. Sk.",
+    "number": "4",
+    "description": "2467. Sk. No:4 CEBECİ/SULTANGAZİ"
+  },
+  {
+    "district": "SULTANGAZİ",
+    "neighborhood": "CUMHURİYET",
+    "street": "Emir Sultan Sk.",
+    "number": "22",
+    "description": "Emir Sultan Sk. No:22 CUMHURİYET/SULTANGAZİ"
+  },
+  {
+    "district": "SULTANGAZİ",
+    "neighborhood": "ESENTEPE",
+    "street": "2850. Sk.",
+    "number": "151",
+    "description": "2850. Sk. No:151 ESENTEPE/SULTANGAZİ"
+  },
+  {
+    "district": "SULTANGAZİ",
+    "neighborhood": "ESKİ HABİPLER",
+    "street": "Vefa Poyraz Cad.",
+    "number": "13",
+    "description": "Vefa Poyraz Cad. No:13 ESKİ HABİPLER/SULTANGAZİ"
+  },
+  {
+    "district": "SULTANGAZİ",
+    "neighborhood": "GAZİ",
+    "street": "1365. Sk.",
+    "number": "6",
+    "description": "1365. Sk. No:6 A GAZİ/SULTANGAZİ"
+  },
+  {
+    "district": "SULTANGAZİ",
+    "neighborhood": "HABİBLER",
+    "street": "2721. Sk.",
+    "number": "2",
+    "description": "2721. Sk. No:2 HABİBLER/SULTANGAZİ"
+  },
+  {
+    "district": "SULTANGAZİ",
+    "neighborhood": "İSMETPAŞA",
+    "street": "62. Sk.",
+    "number": "17",
+    "description": "62. Sk. No:17 İSMETPAŞA/SULTANGAZİ"
+  },
+  {
+    "district": "SULTANGAZİ",
+    "neighborhood": "MALKOÇOĞLU",
+    "street": "307. Sk.",
+    "number": "28",
+    "description": "307. Sk. No:28 MALKOÇOĞLU/SULTANGAZİ"
+  },
+  {
+    "district": "SULTANGAZİ",
+    "neighborhood": "SULTANÇİFTLİĞİ",
+    "street": "28. Sk.",
+    "number": "6",
+    "description": "28. Sk. No:6 SULTANÇİFTLİĞİ/SULTANGAZİ"
+  },
+  {
+    "district": "SULTANGAZİ",
+    "neighborhood": "UĞUR MUMCU",
+    "street": "2278. Sk.",
+    "number": "13",
+    "description": "2278. Sk. No:13 UĞUR MUMCU/SULTANGAZİ"
+  },
+  {
+    "district": "SULTANGAZİ",
+    "neighborhood": "YAYLA",
+    "street": "Yayla Bulvarı",
+    "number": "81",
+    "description": "Yayla Bulvarı No:81 A YAYLA/SULTANGAZİ"
+  },
+  {
+    "district": "SULTANGAZİ",
+    "neighborhood": "YUNUS EMRE",
+    "street": "1403/2. Sk.",
+    "number": "10",
+    "description": "1403/2. Sk. No:10 A YUNUS EMRE/SULTANGAZİ"
+  },
+  {
+    "district": "SULTANGAZİ",
+    "neighborhood": "ZÜBEYDE HANIM",
+    "street": "1293. Sk.",
+    "number": "1",
+    "description": "1293. Sk. No:1 -9 ZÜBEYDE HANIM/SULTANGAZİ"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "AĞAÇDERE",
+    "street": "Ağaçdere Cad.",
+    "number": "14",
+    "description": "Ağaçdere Cad. No:14 AĞAÇDERE/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "AĞVA MERKEZ",
+    "street": "Karaköy Sk.",
+    "number": "4",
+    "description": "Karaköy Sk. No:4 AĞVA MERKEZ/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "AHMETLİ",
+    "street": "Kızıl Toprak Cad.",
+    "number": "7",
+    "description": "Kızıl Toprak Cad. No:7 AHMETLİ/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "AKÇAKESE",
+    "street": "Akçakese Cad.",
+    "number": "70",
+    "description": "Akçakese Cad. No:70 B AKÇAKESE/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "ALACALI",
+    "street": "Muhtar Emin Yüksel Cad.",
+    "number": "6",
+    "description": "Muhtar Emin Yüksel Cad. No:6 ALACALI/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "AVCIKORU",
+    "street": "Dervişpaşa Cad.",
+    "number": "6",
+    "description": "Dervişpaşa Cad. No:6 A AVCIKORU/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "BALİBEY",
+    "street": "Cenk Sk.",
+    "number": "1",
+    "description": "Cenk Sk. No:1 BALİBEY/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "BIÇKIDERE",
+    "street": "Bıçkıdere Cad.",
+    "number": "13",
+    "description": "Bıçkıdere Cad. No:13 A BIÇKIDERE/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "BOZGOCA",
+    "street": "Bozgoca Cad.",
+    "number": "47",
+    "description": "Bozgoca Cad. No:47 A BOZGOCA/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "BUCAKLI",
+    "street": "Mekke Sk.",
+    "number": "2",
+    "description": "Mekke Sk. No:2 A BUCAKLI/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "ÇATAKLI",
+    "street": "Mehmet Akif Ersoy Cad.",
+    "number": "193",
+    "description": "Mehmet Akif Ersoy Cad. No:193 A ÇATAKLI/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "ÇAVUŞ",
+    "street": "Ayazma Cad.",
+    "number": "5",
+    "description": "Ayazma Cad. No:5 ÇAVUŞ/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "ÇAYIRBAŞI",
+    "street": "Yaşam Cad.",
+    "number": "66",
+    "description": "Yaşam Cad. No:66 A ÇAYIRBAŞI/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "ÇELEBİ",
+    "street": "Katip Çelebi Cad.",
+    "number": "45",
+    "description": "Katip Çelebi Cad. No:45 ÇELEBİ/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "ÇENGİLLİ",
+    "street": "Çengilli Cad.",
+    "number": "85",
+    "description": "Çengilli Cad. No:85 A ÇENGİLLİ/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "DARLIK",
+    "street": "Darlık Cad.",
+    "number": "3",
+    "description": "Darlık Cad. No:3 DARLIK/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "DEĞİRMENÇAYIRI",
+    "street": "Değirmen Çayırı Cad.",
+    "number": "3",
+    "description": "Değirmen Çayırı Cad. No:3 A DEĞİRMENÇAYIRI/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "DOĞANCILI",
+    "street": "Doğancılı Cad.",
+    "number": "17",
+    "description": "Doğancılı Cad. No:17 B DOĞANCILI/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "ERENLER",
+    "street": "Dersaadet Sk.",
+    "number": "19",
+    "description": "Dersaadet Sk. No:19 B ERENLER/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "ESENCELİ",
+    "street": "Aslandağı Sk.",
+    "number": "2",
+    "description": "Aslandağı Sk. No:2 ESENCELİ/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "GEREDELİ",
+    "street": "Mucize Sk.",
+    "number": "2",
+    "description": "Mucize Sk. No:2 GEREDELİ/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "GÖÇE",
+    "street": "Çetiner Sk.",
+    "number": "1",
+    "description": "Çetiner Sk. No:1 GÖÇE/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "GÖKMAŞLI",
+    "street": "Burunca Cad.",
+    "number": "16",
+    "description": "Burunca Cad. No:16 A GÖKMAŞLI/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "GÖKSU",
+    "street": "Tarım Sk. GÖKSU/ŞİLE",
+    "number": "",
+    "description": "Tarım Sk. GÖKSU/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "HACILLI",
+    "street": "Geziyolu Sk.",
+    "number": "3",
+    "description": "Geziyolu Sk. No:3 B HACILLI/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "HASANLI",
+    "street": "Değirmenci Sk.",
+    "number": "3",
+    "description": "Değirmenci Sk. No:3 A HASANLI/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "İMRENDERE",
+    "street": "İlim Sk.",
+    "number": "8",
+    "description": "İlim Sk. No:8 İMRENDERE/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "İMRENLİ",
+    "street": "İmrenli Cad.",
+    "number": "6",
+    "description": "İmrenli Cad. No:6 İMRENLİ/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "İSAKÖY",
+    "street": "Sahil Yolu Cad.",
+    "number": "5",
+    "description": "Sahil Yolu Cad. No:5 C İSAKÖY/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "KABAKOZ",
+    "street": "Hanedan Cad.",
+    "number": "18",
+    "description": "Hanedan Cad. No:18 A KABAKOZ/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "KADIKÖY",
+    "street": "Beyzade Sk.",
+    "number": "4",
+    "description": "Beyzade Sk. No:4 A KADIKÖY/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "KALEM",
+    "street": "Kalemköy Cad.",
+    "number": "44",
+    "description": "Kalemköy Cad. No:44 A KALEM/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "KARABEYLİ",
+    "street": "Hamarat Sk. KARABEYLİ/ŞİLE",
+    "number": "",
+    "description": "Hamarat Sk. KARABEYLİ/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "KARACAKÖY",
+    "street": "Karaca Ali Paşa Cad.",
+    "number": "79",
+    "description": "Karaca Ali Paşa Cad. No:79 /1 KARACAKÖY/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "KARAKİRAZ",
+    "street": "Levent Sk.",
+    "number": "5",
+    "description": "Levent Sk. No:5 C KARAKİRAZ/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "KARAMANDERE",
+    "street": "Evrim Cad.",
+    "number": "1",
+    "description": "Evrim Cad. No:1 B KARAMANDERE/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "KERVANSARAY",
+    "street": "Ekenek Sk.",
+    "number": "3",
+    "description": "Ekenek Sk. No:3 KERVANSARAY/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "KIZILCA",
+    "street": "Kızılcaköy Cad.",
+    "number": "20",
+    "description": "Kızılcaköy Cad. No:20 A KIZILCA/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "KORUCU",
+    "street": "Korucuköy Cad.",
+    "number": "16",
+    "description": "Korucuköy Cad. No:16 B KORUCU/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "KÖMÜRLÜK",
+    "street": "Kömürlük Cad.",
+    "number": "32",
+    "description": "Kömürlük Cad. No:32 B KÖMÜRLÜK/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "KUMBABA",
+    "street": "7 Ekim Cad.",
+    "number": "69",
+    "description": "7 Ekim Cad. No:69 KUMBABA/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "KURFALLI",
+    "street": "Milli Egemenlik Cad.",
+    "number": "35",
+    "description": "Milli Egemenlik Cad. No:35 KURFALLI/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "KURNA",
+    "street": "Kurna Cad.",
+    "number": "30",
+    "description": "Kurna Cad. No:30 B KURNA/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "MEŞRUTİYET",
+    "street": "Duyum Sk.",
+    "number": "4",
+    "description": "Duyum Sk. No:4 MEŞRUTİYET/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "ORUÇOĞLU",
+    "street": "Nurgül Sk.",
+    "number": "6",
+    "description": "Nurgül Sk. No:6 ORUÇOĞLU/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "OSMANKÖY",
+    "street": "Osmanköy Cad.",
+    "number": "36",
+    "description": "Osmanköy Cad. No:36 A OSMANKÖY/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "OVACIK",
+    "street": "Yılandere Sk.",
+    "number": "3",
+    "description": "Yılandere Sk. No:3 OVACIK/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "SAHİLKÖY",
+    "street": "İstanbul Cad.",
+    "number": "125",
+    "description": "İstanbul Cad. No:125 C SAHİLKÖY/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "SATMAZLI",
+    "street": "Dik Sk.",
+    "number": "9",
+    "description": "Dik Sk. No:9 SATMAZLI/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "SOFULAR",
+    "street": "Sofular Cad.",
+    "number": "45",
+    "description": "Sofular Cad. No:45 SOFULAR/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "SOĞULLU",
+    "street": "Rahman Sk.",
+    "number": "1",
+    "description": "Rahman Sk. No:1 A SOĞULLU/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "SORTULLU",
+    "street": "Sortullu Cad.",
+    "number": "32",
+    "description": "Sortullu Cad. No:32 A SORTULLU/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "ŞUAYİPLİ",
+    "street": "Şuayipli Cad.",
+    "number": "78",
+    "description": "Şuayipli Cad. No:78 /1 ŞUAYİPLİ/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "TEKE",
+    "street": "Teke Cad.",
+    "number": "16",
+    "description": "Teke Cad. No:16 B TEKE/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "ULUPELİT",
+    "street": "Ulupelit Cad.",
+    "number": "43",
+    "description": "Ulupelit Cad. No:43 ULUPELİT/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "ÜVEZLİ",
+    "street": "Esma (Çamlık) Sk.",
+    "number": "2",
+    "description": "Esma (Çamlık) Sk. No:2 ÜVEZLİ/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "YAKA",
+    "street": "Fikret Sk.",
+    "number": "4",
+    "description": "Fikret Sk. No:4 YAKA/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "YAYLALI",
+    "street": "Yaylalı Cad.",
+    "number": "19",
+    "description": "Yaylalı Cad. No:19 YAYLALI/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "YAZIMANAYIR",
+    "street": "Ozanlar Cad.",
+    "number": "42",
+    "description": "Ozanlar Cad. No:42 YAZIMANAYIR/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "YENİKÖY",
+    "street": "Yeniköy Cad.",
+    "number": "5",
+    "description": "Yeniköy Cad. No:5 YENİKÖY/ŞİLE"
+  },
+  {
+    "district": "ŞİLE",
+    "neighborhood": "YEŞİLVADİ",
+    "street": "Yeşilvadi Cad.",
+    "number": "45",
+    "description": "Yeşilvadi Cad. No:45 A YEŞİLVADİ/ŞİLE"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "19 MAYIS",
+    "street": "Dr. Şevketbey Sk.",
+    "number": "11",
+    "description": "Dr. Şevketbey Sk. No:11 19 MAYIS/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "BOZKURT",
+    "street": "Türkbeyi Sk.",
+    "number": "38",
+    "description": "Türkbeyi Sk. No:38 BOZKURT/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "CUMHURİYET",
+    "street": "Nehir Sk.",
+    "number": "4",
+    "description": "Nehir Sk. No:4 /1 CUMHURİYET/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "DUATEPE",
+    "street": "Şahadet Sk.",
+    "number": "27",
+    "description": "Şahadet Sk. No:27 DUATEPE/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "ERGENEKON",
+    "street": "Çimen Sk.",
+    "number": "117",
+    "description": "Çimen Sk. No:117 ERGENEKON/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "ESENTEPE",
+    "street": "Villa Cad.",
+    "number": "4",
+    "description": "Villa Cad. No:4 ESENTEPE/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "ESKİŞEHİR",
+    "street": "Değirmen Sk.",
+    "number": "31",
+    "description": "Değirmen Sk. No:31 ESKİŞEHİR/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "FERİKÖY",
+    "street": "Gediz Sk.",
+    "number": "35",
+    "description": "Gediz Sk. No:35 FERİKÖY/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "FULYA",
+    "street": "Bahçeler Sk.",
+    "number": "4",
+    "description": "Bahçeler Sk. No:4 FULYA/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "GÜLBAHAR",
+    "street": "Muhtar Sk.",
+    "number": "3",
+    "description": "Muhtar Sk. No:3 GÜLBAHAR/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "HALİDE EDİP ADIVAR",
+    "street": "Halide Edip Adıvar Cad.",
+    "number": "38",
+    "description": "Halide Edip Adıvar Cad. No:38 HALİDE EDİP ADIVAR/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "HALİL RIFAT PAŞA",
+    "street": "Erkmen Cad.",
+    "number": "4",
+    "description": "Erkmen Cad. No:4 HALİL RIFAT PAŞA/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "İZZET PAŞA",
+    "street": "Yeni Yol Cad.",
+    "number": "1",
+    "description": "Yeni Yol Cad. No:1 /1 İZZET PAŞA/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "KAPTANPAŞA",
+    "street": "Darülaceze Cad.",
+    "number": "35",
+    "description": "Darülaceze Cad. No:35 A KAPTANPAŞA/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "KUŞTEPE",
+    "street": "İnönü Cad.",
+    "number": "17",
+    "description": "İnönü Cad. No:17 KUŞTEPE/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "MAHMUT ŞEVKET PAŞA",
+    "street": "Mithat Paşa Cad.",
+    "number": "20",
+    "description": "Mithat Paşa Cad. No:20 MAHMUT ŞEVKET PAŞA/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "MECİDİYEKÖY",
+    "street": "Şehit Er Cihan Namlı Cad.",
+    "number": "16",
+    "description": "Şehit Er Cihan Namlı Cad. No:16 /1 MECİDİYEKÖY/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "MERKEZ",
+    "street": "İskenderoğlu Sk.",
+    "number": "27",
+    "description": "İskenderoğlu Sk. No:27 MERKEZ/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "MEŞRUTİYET",
+    "street": "Halaskargazi Cad.",
+    "number": "110",
+    "description": "Halaskargazi Cad. No:110 MEŞRUTİYET/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "PAŞA",
+    "street": "Ortanca Sk.",
+    "number": "24",
+    "description": "Ortanca Sk. No:24 PAŞA/ŞİŞLİ"
+  },
+  {
+    "district": "ŞİŞLİ",
+    "neighborhood": "TEŞVİKİYE",
+    "street": "Şakayık Sk.",
+    "number": "65",
+    "description": "Şakayık Sk. No:65 A TEŞVİKİYE/ŞİŞLİ"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "AKFIRAT",
+    "street": "16. Sk.",
+    "number": "4",
+    "description": "16. Sk. No:4 C AKFIRAT/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "ANADOLU",
+    "street": "Alsancak Cad.",
+    "number": "2",
+    "description": "Alsancak Cad. No:2 ANADOLU/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "AYDINLI",
+    "street": "Gürpınar Cad.",
+    "number": "30",
+    "description": "Gürpınar Cad. No:30 -1 AYDINLI/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "AYDINTEPE",
+    "street": "100. Yıl Cad.",
+    "number": "79",
+    "description": "100. Yıl Cad. No:79 AYDINTEPE/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "CAMİ",
+    "street": "Papaz Çeşme Cad.",
+    "number": "8",
+    "description": "Papaz Çeşme Cad. No:8 CAMİ/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "EVLİYA ÇELEBİ",
+    "street": "Müştak Sk.",
+    "number": "10",
+    "description": "Müştak Sk. No:10 EVLİYA ÇELEBİ/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "FATİH",
+    "street": "Avşar Sk.",
+    "number": "15",
+    "description": "Avşar Sk. No:15 FATİH/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "İÇMELER",
+    "street": "Fırat Sk.",
+    "number": "2",
+    "description": "Fırat Sk. No:2 İÇMELER/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "İSTASYON",
+    "street": "Hatboyu Cad.",
+    "number": "134",
+    "description": "Hatboyu Cad. No:134 /1 İSTASYON/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "MESCİT",
+    "street": "Turgut Özal Cad.",
+    "number": "1",
+    "description": "Turgut Özal Cad. No:1 MESCİT/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "MİMAR SİNAN",
+    "street": "Kalyon Sk.",
+    "number": "50",
+    "description": "Kalyon Sk. No:50 MİMAR SİNAN/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "ORHANLI",
+    "street": "Demokrasi Cad.",
+    "number": "60",
+    "description": "Demokrasi Cad. No:60 ORHANLI/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "ORTA",
+    "street": "Demokrasi Cad.",
+    "number": "168",
+    "description": "Demokrasi Cad. No:168 ORTA/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "POSTANE",
+    "street": "Tahaffuzhane Cad.",
+    "number": "3",
+    "description": "Tahaffuzhane Cad. No:3 POSTANE/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "ŞİFA",
+    "street": "Hürriyet Cad.",
+    "number": "78",
+    "description": "Hürriyet Cad. No:78 A ŞİFA/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "TEPEÖREN",
+    "street": "Eski Ankara Asfaltı Cad.",
+    "number": "150",
+    "description": "Eski Ankara Asfaltı Cad. No:150 TEPEÖREN/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "YAYLA",
+    "street": "Cengiz Topel Cad.",
+    "number": "38",
+    "description": "Cengiz Topel Cad. No:38 YAYLA/TUZLA"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "ADEM YAVUZ",
+    "street": "Dar Sk.",
+    "number": "2",
+    "description": "Dar Sk. No:2 ADEM YAVUZ/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "ALTINŞEHİR",
+    "street": "Kumru Cad.",
+    "number": "41",
+    "description": "Kumru Cad. No:41 ALTINŞEHİR/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "ARMAĞANEVLER",
+    "street": "Diriliş Cad.",
+    "number": "2",
+    "description": "Diriliş Cad. No:2 ARMAĞANEVLER/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "AŞAĞI DUDULLU",
+    "street": "Cami Cad.",
+    "number": "9",
+    "description": "Cami Cad. No:9 AŞAĞI DUDULLU/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "ATAKENT",
+    "street": "Burçak Sk.",
+    "number": "1",
+    "description": "Burçak Sk. No:1 ATAKENT/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "ATATÜRK",
+    "street": "Güneş Sk.",
+    "number": "21",
+    "description": "Güneş Sk. No:21 /1 ATATÜRK/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "CEMİL MERİÇ",
+    "street": "İstiklal Cad.",
+    "number": "28",
+    "description": "İstiklal Cad. No:28 CEMİL MERİÇ/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "ÇAKMAK",
+    "street": "Gurbet Sk.",
+    "number": "4",
+    "description": "Gurbet Sk. No:4 ÇAKMAK/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "ÇAMLIK",
+    "street": "İkbal Cad.",
+    "number": "110",
+    "description": "İkbal Cad. No:110 ÇAMLIK/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "DUMLUPINAR",
+    "street": "Malatya Cad.",
+    "number": "82",
+    "description": "Malatya Cad. No:82 DUMLUPINAR/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "ELMALIKENT",
+    "street": "Diyar Sk.",
+    "number": "30",
+    "description": "Diyar Sk. No:30 ELMALIKENT/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "ESENEVLER",
+    "street": "Kervan Sk.",
+    "number": "2",
+    "description": "Kervan Sk. No:2 ESENEVLER/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "ESENKENT",
+    "street": "Kurtuluş Cad.",
+    "number": "6",
+    "description": "Kurtuluş Cad. No:6 /1A ESENKENT/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "ESENŞEHİR",
+    "street": "Zambak Sk.",
+    "number": "28",
+    "description": "Zambak Sk. No:28 ESENŞEHİR/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "FATİH SULTAN MEHMET",
+    "street": "Poligon Cad.",
+    "number": "23",
+    "description": "Poligon Cad. No:23 FATİH SULTAN MEHMET/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "HEKİMBAŞI",
+    "street": "Küçüksu Cad. HEKİMBAŞI/ÜMRANİYE",
+    "number": "",
+    "description": "Küçüksu Cad. HEKİMBAŞI/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "HUZUR",
+    "street": "Aşık Şenlik Cad.",
+    "number": "6",
+    "description": "Aşık Şenlik Cad. No:6 B HUZUR/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "IHLAMURKUYU",
+    "street": "Petrolyolu Cad.",
+    "number": "75",
+    "description": "Petrolyolu Cad. No:75 IHLAMURKUYU/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "İNKILAP",
+    "street": "Hatip Cad.",
+    "number": "78",
+    "description": "Hatip Cad. No:78 İNKILAP/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "İSTİKLAL",
+    "street": "Hatboyu Cad.",
+    "number": "36",
+    "description": "Hatboyu Cad. No:36 İSTİKLAL/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "KAZIM KARABEKİR",
+    "street": "Ömür Sk.",
+    "number": "42",
+    "description": "Ömür Sk. No:42 KAZIM KARABEKİR/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "MADENLER",
+    "street": "Medeniyet Sk.",
+    "number": "2",
+    "description": "Medeniyet Sk. No:2 MADENLER/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "MEHMET AKİF",
+    "street": "Tezcan Cad.",
+    "number": "8",
+    "description": "Tezcan Cad. No:8 MEHMET AKİF/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "NAMIK KEMAL",
+    "street": "Cengiz Topel Cad.",
+    "number": "1",
+    "description": "Cengiz Topel Cad. No:1 NAMIK KEMAL/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "NECİP FAZIL",
+    "street": "Neval Sk.",
+    "number": "1",
+    "description": "Neval Sk. No:1 NECİP FAZIL/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "PARSELLER",
+    "street": "Nida Sk.",
+    "number": "11",
+    "description": "Nida Sk. No:11 PARSELLER/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "SARAY",
+    "street": "Dr. Adnan Büyükdeniz Cad.",
+    "number": "16",
+    "description": "Dr. Adnan Büyükdeniz Cad. No:16 SARAY/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "SİTE",
+    "street": "Atay Cad.",
+    "number": "100",
+    "description": "Atay Cad. No:100 SİTE/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "ŞERİFALİ",
+    "street": "İbrahim Hakkı Sk.",
+    "number": "18",
+    "description": "İbrahim Hakkı Sk. No:18 ŞERİFALİ/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "TANTAVİ",
+    "street": "Akın Sk.",
+    "number": "1",
+    "description": "Akın Sk. No:1 TANTAVİ/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "TATLISU",
+    "street": "Göksu Cad.",
+    "number": "35",
+    "description": "Göksu Cad. No:35 TATLISU/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "TEPEÜSTÜ",
+    "street": "Pınarbaşı Sk.",
+    "number": "24",
+    "description": "Pınarbaşı Sk. No:24 TEPEÜSTÜ/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "TOPAĞACI",
+    "street": "Topağacı Cad.",
+    "number": "8",
+    "description": "Topağacı Cad. No:8 TOPAĞACI/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "YAMANEVLER",
+    "street": "Şehit Hasan Elbenna Sk.",
+    "number": "3",
+    "description": "Şehit Hasan Elbenna Sk. No:3 YAMANEVLER/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "YENİŞEHİR",
+    "street": "3008. Cad.",
+    "number": "36",
+    "description": "3008. Cad. No:36 A YENİŞEHİR/ÜMRANİYE"
+  },
+  {
+    "district": "ÜMRANİYE",
+    "neighborhood": "YUKARI DUDULLU",
+    "street": "Göztepe Cad.",
+    "number": "7",
+    "description": "Göztepe Cad. No:7 YUKARI DUDULLU/ÜMRANİYE"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "ACIBADEM",
+    "street": "İlkbahar Sk.",
+    "number": "3",
+    "description": "İlkbahar Sk. No:3 ACIBADEM/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "AHMEDİYE",
+    "street": "Gündoğumu Cad.",
+    "number": "98",
+    "description": "Gündoğumu Cad. No:98 AHMEDİYE/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "ALTUNİZADE",
+    "street": "Haluk Türksoy Arkası Sk.",
+    "number": "6",
+    "description": "Haluk Türksoy Arkası Sk. No:6 /1 ALTUNİZADE/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "AZİZ MAHMUT HÜDAYİ",
+    "street": "Oymasaray Çıkmazı",
+    "number": "13",
+    "description": "Oymasaray Çıkmazı No:13 /1000 AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "BARBAROS",
+    "street": "Mareşal Sk.",
+    "number": "14",
+    "description": "Mareşal Sk. No:14 BARBAROS/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "BEYLERBEYİ",
+    "street": "Abdullahağa Hamamı Sk.",
+    "number": "17",
+    "description": "Abdullahağa Hamamı Sk. No:17 BEYLERBEYİ/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "BULGURLU",
+    "street": "Bulgurlu Cad. BULGURLU/ÜSKÜDAR",
+    "number": "",
+    "description": "Bulgurlu Cad. BULGURLU/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "BURHANİYE",
+    "street": "Nizamı Cedit Sk.",
+    "number": "2",
+    "description": "Nizamı Cedit Sk. No:2 BURHANİYE/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "CUMHURİYET",
+    "street": "Esatpaşa Cad.",
+    "number": "12",
+    "description": "Esatpaşa Cad. No:12 A CUMHURİYET/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "ÇENGELKÖY",
+    "street": "Tanrıverdi Sk.",
+    "number": "16",
+    "description": "Tanrıverdi Sk. No:16 /1 ÇENGELKÖY/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "FERAH",
+    "street": "Altıntaş Sk.",
+    "number": "6",
+    "description": "Altıntaş Sk. No:6 FERAH/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "İCADİYE",
+    "street": "Cemil Meriç Sk.",
+    "number": "2",
+    "description": "Cemil Meriç Sk. No:2 İCADİYE/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "KANDİLLİ",
+    "street": "Vaniköy Cad.",
+    "number": "103",
+    "description": "Vaniköy Cad. No:103 KANDİLLİ/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "KISIKLI",
+    "street": "Ferah Cad.",
+    "number": "32",
+    "description": "Ferah Cad. No:32 KISIKLI/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "KİRAZLITEPE",
+    "street": "Mehmet Akif Ersoy Cad.",
+    "number": "17",
+    "description": "Mehmet Akif Ersoy Cad. No:17 KİRAZLITEPE/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "KUZGUNCUK",
+    "street": "Meşruta Sk.",
+    "number": "1",
+    "description": "Meşruta Sk. No:1 KUZGUNCUK/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "KÜÇÜKÇAMLICA",
+    "street": "Çilehane Sk.",
+    "number": "1000",
+    "description": "Çilehane Sk. No:1000 KÜÇÜKÇAMLICA/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "KÜÇÜKSU",
+    "street": "Ömürtepe Yokuşu Sk.",
+    "number": "99",
+    "description": "Ömürtepe Yokuşu Sk. No:99 KÜÇÜKSU/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "MEHMET AKİF ERSOY",
+    "street": "Ayışığı Sk. MEHMET AKİF ERSOY/ÜSKÜDAR",
+    "number": "",
+    "description": "Ayışığı Sk. MEHMET AKİF ERSOY/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "MİMAR SİNAN",
+    "street": "Kassam Çeşme Sk.",
+    "number": "13",
+    "description": "Kassam Çeşme Sk. No:13 MİMAR SİNAN/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "MURATREİS",
+    "street": "Gazi Cad.",
+    "number": "39",
+    "description": "Gazi Cad. No:39 MURATREİS/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "SALACAK",
+    "street": "Paşakapısı Sk. SALACAK/ÜSKÜDAR",
+    "number": "",
+    "description": "Paşakapısı Sk. SALACAK/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "SELİMİYE",
+    "street": "Selimiye Kışla Cad.",
+    "number": "34",
+    "description": "Selimiye Kışla Cad. No:34 /2 SELİMİYE/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "SULTANTEPE",
+    "street": "Hızal Sk.",
+    "number": "2",
+    "description": "Hızal Sk. No:2 /1 SULTANTEPE/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "ÜNALAN",
+    "street": "Soyak Camii Sk.",
+    "number": "8",
+    "description": "Soyak Camii Sk. No:8 ÜNALAN/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "VALİDE-İ ATİK",
+    "street": "Çinili Camii Sk.",
+    "number": "24",
+    "description": "Çinili Camii Sk. No:24 VALİDE-İ ATİK/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "YAVUZTÜRK",
+    "street": "Karadeniz Cad.",
+    "number": "22",
+    "description": "Karadeniz Cad. No:22 /2 YAVUZTÜRK/ÜSKÜDAR"
+  },
+  {
+    "district": "ÜSKÜDAR",
+    "neighborhood": "ZEYNEP KAMİL",
+    "street": "Dr. Burhanettin Üstünel Sk.",
+    "number": "2",
+    "description": "Dr. Burhanettin Üstünel Sk. No:2 /6 ZEYNEP KAMİL/ÜSKÜDAR"
+  },
+  {
+    "district": "ZEYTİNBURNU",
+    "neighborhood": "BEŞTELSİZ",
+    "street": "124. Sk.",
+    "number": "2",
+    "description": "124. Sk. No:2 BEŞTELSİZ/ZEYTİNBURNU"
+  },
+  {
+    "district": "ZEYTİNBURNU",
+    "neighborhood": "ÇIRPICI",
+    "street": "Şener Sk.",
+    "number": "23",
+    "description": "Şener Sk. No:23 ÇIRPICI/ZEYTİNBURNU"
+  },
+  {
+    "district": "ZEYTİNBURNU",
+    "neighborhood": "GÖKALP",
+    "street": "Hasan Sevim Sk.",
+    "number": "7",
+    "description": "Hasan Sevim Sk. No:7 -9A GÖKALP/ZEYTİNBURNU"
+  },
+  {
+    "district": "ZEYTİNBURNU",
+    "neighborhood": "KAZLIÇEŞME",
+    "street": "Mehmet Akif Ersoy Sk.",
+    "number": "6",
+    "description": "Mehmet Akif Ersoy Sk. No:6 KAZLIÇEŞME/ZEYTİNBURNU"
+  },
+  {
+    "district": "ZEYTİNBURNU",
+    "neighborhood": "MALTEPE",
+    "street": "326. Sk.",
+    "number": "4",
+    "description": "326. Sk. No:4 A MALTEPE/ZEYTİNBURNU"
+  },
+  {
+    "district": "ZEYTİNBURNU",
+    "neighborhood": "MERKEZEFENDİ",
+    "street": "Sabri Ülker Sk.",
+    "number": "34",
+    "description": "Sabri Ülker Sk. No:34 MERKEZEFENDİ/ZEYTİNBURNU"
+  },
+  {
+    "district": "ZEYTİNBURNU",
+    "neighborhood": "NURİPAŞA",
+    "street": "Bekir Subaşı Sk.",
+    "number": "43",
+    "description": "Bekir Subaşı Sk. No:43 NURİPAŞA/ZEYTİNBURNU"
+  },
+  {
+    "district": "ZEYTİNBURNU",
+    "neighborhood": "SEYİTNİZAM",
+    "street": "G/13. Sk.",
+    "number": "2",
+    "description": "G/13. Sk. No:2 /1A SEYİTNİZAM/ZEYTİNBURNU"
+  },
+  {
+    "district": "ZEYTİNBURNU",
+    "neighborhood": "SÜMER",
+    "street": "Şehit Piyade Er Yaşar Yeşilkır Sk.",
+    "number": "8",
+    "description": "Şehit Piyade Er Yaşar Yeşilkır Sk. No:8 SÜMER/ZEYTİNBURNU"
+  },
+  {
+    "district": "ZEYTİNBURNU",
+    "neighborhood": "TELSİZ",
+    "street": "Fesleğen Sk.",
+    "number": "54",
+    "description": "Fesleğen Sk. No:54 TELSİZ/ZEYTİNBURNU"
+  },
+  {
+    "district": "ZEYTİNBURNU",
+    "neighborhood": "VELİEFENDİ",
+    "street": "Hakşinaz Sk.",
+    "number": "20",
+    "description": "Hakşinaz Sk. No:20 -22 VELİEFENDİ/ZEYTİNBURNU"
+  },
+  {
+    "district": "ZEYTİNBURNU",
+    "neighborhood": "YENİDOĞAN",
+    "street": "46. Sk.",
+    "number": "77",
+    "description": "46. Sk. No:77 -79 YENİDOĞAN/ZEYTİNBURNU"
   }
 ]

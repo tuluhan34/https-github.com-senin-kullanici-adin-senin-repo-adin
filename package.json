@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next dev",
     "lint": "eslint",
-    "prepare:upload": "powershell -NoProfile -Command \"if (Test-Path out) { Compress-Archive -Path out\\* -DestinationPath out-only.zip -Force }\""
+    "prepare:upload": "powershell -NoProfile -Command \"if (Test-Path out) { Compress-Archive -Path out\\* -DestinationPath out-only.zip -Force }\"",
+    "seo:daily": "node scripts/generate-daily-seo.js"
   },
   "dependencies": {
     "@vercel/og": "^0.11.1",
