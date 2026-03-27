@@ -67,11 +67,6 @@ type GoogleRouteEstimate = {
   directions: any;
 };
 
-type AddressSuggestion = {
-  placeId: string;
-  description: string;
-};
-
 const loadGoogleMaps = (apiKey: string) => {
   if (!apiKey) {
     return Promise.reject(new Error("Google Maps API anahtari yok."));
@@ -95,7 +90,7 @@ const loadGoogleMaps = (apiKey: string) => {
     }
 
     const script = document.createElement("script");
-    script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places&language=tr&region=TR&loading=async`;
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&language=tr&region=TR&loading=async`;
     script.async = true;
     script.defer = true;
     script.dataset.googleMapsLoader = "true";
@@ -114,55 +109,11 @@ const loadGoogleMaps = (apiKey: string) => {
   return window.__googleMapsLoaderPromise__;
 };
 
-const getAddressSuggestions = async (
-  apiKey: string,
-  input: string,
-): Promise<AddressSuggestion[]> => {
-  if (!apiKey || input.trim().length < 3) {
-    return [];
-  }
-
-  const maps = await loadGoogleMaps(apiKey);
-
-  if (!maps?.places?.AutocompleteService) {
-    return [];
-  }
-
-  return new Promise((resolve) => {
-    const autocompleteService = new maps.places.AutocompleteService();
-
-    autocompleteService.getPlacePredictions(
-      {
-        input,
-        componentRestrictions: { country: "tr" },
-        types: ["geocode"],
-      },
-      (predictions: any[] | null, status: string) => {
-        if (status !== maps.places.PlacesServiceStatus.OK || !predictions?.length) {
-          resolve([]);
-          return;
-        }
-
-        resolve(
-          predictions.slice(0, 5).map((prediction) => ({
-            placeId: prediction.place_id,
-            description: prediction.description,
-          })),
-        );
-      },
-    );
-  });
-};
-
 type AddressAutocompleteFieldProps = {
   label: string;
   placeholder: string;
   value: string;
   onChange: (value: string) => void;
-  onFocus: () => void;
-  onBlur: () => void;
-  suggestions: AddressSuggestion[];
-  onSelectSuggestion: (suggestion: AddressSuggestion) => void;
   helperText?: string;
 };
 
@@ -171,10 +122,6 @@ function AddressAutocompleteField({
   placeholder,
   value,
   onChange,
-  onFocus,
-  onBlur,
-  suggestions,
-  onSelectSuggestion,
   helperText,
 }: AddressAutocompleteFieldProps) {
   return (
@@ -186,28 +133,8 @@ function AddressAutocompleteField({
           placeholder={placeholder}
           value={value}
           onChange={(event) => onChange(event.target.value)}
-          onFocus={onFocus}
-          onBlur={onBlur}
           autoComplete="off"
         />
-
-        {suggestions.length ? (
-          <div className="absolute z-20 mt-2 w-full overflow-hidden rounded-2xl border border-zinc-700 bg-zinc-950 shadow-2xl shadow-black/40">
-            {suggestions.map((suggestion) => (
-              <button
-                key={suggestion.placeId}
-                type="button"
-                className="flex w-full items-start justify-start border-b border-zinc-800 px-4 py-3 text-left text-sm text-zinc-200 transition last:border-b-0 hover:bg-zinc-900 hover:text-white"
-                onMouseDown={(event) => {
-                  event.preventDefault();
-                  onSelectSuggestion(suggestion);
-                }}
-              >
-                {suggestion.description}
-              </button>
-            ))}
-          </div>
-        ) : null}
       </div>
       {helperText ? <span className="text-xs leading-5 text-zinc-400">{helperText}</span> : null}
     </label>
@@ -378,9 +305,6 @@ export function QuickOrderBox() {
   const [isEstimatingRoute, setIsEstimatingRoute] = useState(false);
   const [routeEstimateError, setRouteEstimateError] = useState("");
   const [isGoogleRouteActive, setIsGoogleRouteActive] = useState(false);
-  const [pickupSuggestions, setPickupSuggestions] = useState<AddressSuggestion[]>([]);
-  const [dropoffSuggestions, setDropoffSuggestions] = useState<AddressSuggestion[]>([]);
-  const [activeSuggestionField, setActiveSuggestionField] = useState<"pickup" | "dropoff" | null>(null);
 
   const mapContainerRef = useRef<HTMLDivElement | null>(null);
   const googleMapRef = useRef<any>(null);
@@ -443,60 +367,6 @@ export function QuickOrderBox() {
       end: projectedPoints[projectedPoints.length - 1],
     };
   }, [routeEstimate]);
-
-  useEffect(() => {
-    if (!mapsApiKey || pickup.trim().length < 3) {
-      setPickupSuggestions([]);
-      return;
-    }
-
-    let cancelled = false;
-    const timer = window.setTimeout(async () => {
-      try {
-        const suggestions = await getAddressSuggestions(mapsApiKey, pickup);
-
-        if (!cancelled) {
-          setPickupSuggestions(suggestions);
-        }
-      } catch {
-        if (!cancelled) {
-          setPickupSuggestions([]);
-        }
-      }
-    }, 220);
-
-    return () => {
-      cancelled = true;
-      window.clearTimeout(timer);
-    };
-  }, [pickup, mapsApiKey]);
-
-  useEffect(() => {
-    if (!mapsApiKey || dropoff.trim().length < 3) {
-      setDropoffSuggestions([]);
-      return;
-    }
-
-    let cancelled = false;
-    const timer = window.setTimeout(async () => {
-      try {
-        const suggestions = await getAddressSuggestions(mapsApiKey, dropoff);
-
-        if (!cancelled) {
-          setDropoffSuggestions(suggestions);
-        }
-      } catch {
-        if (!cancelled) {
-          setDropoffSuggestions([]);
-        }
-      }
-    }, 220);
-
-    return () => {
-      cancelled = true;
-      window.clearTimeout(timer);
-    };
-  }, [dropoff, mapsApiKey]);
 
   useEffect(() => {
     if (!canPreviewRoute) {
@@ -673,8 +543,8 @@ export function QuickOrderBox() {
         1 Dakikada Fiyat Al
       </h2>
       <p className="mt-2 text-sm leading-6 text-zinc-300">
-        Alış ve teslimat noktalarını yazın, adres önerilerinden seçim yapın, en kısa rota
-        bilgisini görün ve detayları doğrudan WhatsApp&apos;ta bize iletin.
+        Alış ve teslimat noktalarını yazın, en kısa rota bilgisini görün ve detayları doğrudan
+        WhatsApp&apos;ta bize iletin.
       </p>
 
       <form className="mt-5 grid gap-4" onSubmit={(event) => event.preventDefault()}>
@@ -689,15 +559,7 @@ export function QuickOrderBox() {
             placeholder="Örnek: Şişli, Mecidiyeköy"
             value={pickup}
             onChange={setPickup}
-            onFocus={() => setActiveSuggestionField("pickup")}
-            onBlur={() => window.setTimeout(() => setActiveSuggestionField((current) => (current === "pickup" ? null : current)), 120)}
-            suggestions={activeSuggestionField === "pickup" ? pickupSuggestions : []}
-            onSelectSuggestion={(suggestion) => {
-              setPickup(suggestion.description);
-              setPickupSuggestions([]);
-              setActiveSuggestionField(null);
-            }}
-            helperText={mapsApiKey ? "Google adres onerileriyle hizli secim yapabilirsiniz." : "Adresi ilce, mahalle ve sokak bilgisiyle net yazin."}
+            helperText="Musterinin yazdigi adres dogrudan rota hesabinda kullanilir."
           />
 
           <label className="grid gap-1 text-sm text-zinc-200">
@@ -742,15 +604,7 @@ export function QuickOrderBox() {
               placeholder="Örnek: Kadıköy, Fenerbahçe"
               value={dropoff}
               onChange={setDropoff}
-              onFocus={() => setActiveSuggestionField("dropoff")}
-              onBlur={() => window.setTimeout(() => setActiveSuggestionField((current) => (current === "dropoff" ? null : current)), 120)}
-              suggestions={activeSuggestionField === "dropoff" ? dropoffSuggestions : []}
-              onSelectSuggestion={(suggestion) => {
-                setDropoff(suggestion.description);
-                setDropoffSuggestions([]);
-                setActiveSuggestionField(null);
-              }}
-              helperText={mapsApiKey ? "Google adres onerileriyle hizli secim yapabilirsiniz." : "Adresi ilce, mahalle ve sokak bilgisiyle net yazin."}
+              helperText="Musterinin yazdigi adres dogrudan rota hesabinda kullanilir."
             />
 
             <label className="grid gap-1 text-sm text-zinc-200">

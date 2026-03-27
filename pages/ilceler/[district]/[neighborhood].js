@@ -2,18 +2,19 @@ import Head from "next/head";
 import Link from "next/link";
 import { getNeighborhoodBySlugs, neighborhoodPages } from "../../../lib/location-pages-data";
 
-const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || "";
+const COURIER_FALLBACK_IMAGE = "/images/courier-fallback.jpg";
+const MAP_FALLBACK_IMAGE = "/images/neighborhood-map-fallback.jpg";
 
 export default function NeighborhoodPage({ data }) {
   if (!data) {
     return null;
   }
 
+  const siteUrl = "https://www.34motokuryeistanbul.com";
+  const canonicalUrl = `${siteUrl}/ilceler/${data.districtSlug}/${data.neighborhoodSlug}/`;
   const locationLabel = `${data.neighborhood}, ${data.district}, Istanbul`;
-  const courierPhotoUrl = `https://source.unsplash.com/1600x900/?${encodeURIComponent(`istanbul courier delivery ${data.district} ${data.neighborhood}`)}`;
-  const streetViewUrl = API_KEY
-    ? `https://maps.googleapis.com/maps/api/streetview?size=1280x720&location=${encodeURIComponent(locationLabel)}&key=${API_KEY}`
-    : "";
+  const courierPhotoUrl = COURIER_FALLBACK_IMAGE;
+  const streetViewUrl = MAP_FALLBACK_IMAGE;
   const mapLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(locationLabel)}`;
   const faqs = data.faqs || [];
   const faqSchema = {
@@ -28,13 +29,38 @@ export default function NeighborhoodPage({ data }) {
       },
     })),
   };
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: data.h1,
+    serviceType: "Moto Kurye",
+    areaServed: locationLabel,
+    provider: {
+      "@type": "LocalBusiness",
+      name: "34 Moto Kurye Istanbul",
+      telephone: "+90 530 321 90 04",
+      url: siteUrl,
+    },
+    url: canonicalUrl,
+    description: data.metaDescription,
+  };
 
   return (
     <>
       <Head>
         <title>{data.seoTitle}</title>
         <meta name="description" content={data.metaDescription} />
+        <meta property="og:title" content={data.seoTitle} />
+        <meta property="og:description" content={data.metaDescription} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content={`${siteUrl}${courierPhotoUrl}`} />
+        <meta name="twitter:title" content={data.seoTitle} />
+        <meta name="twitter:description" content={data.metaDescription} />
+        <meta name="twitter:image" content={`${siteUrl}${courierPhotoUrl}`} />
+        <meta name="keywords" content={`${data.district}, ${data.neighborhood}, moto kurye, acil kurye, istanbul kurye`} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       </Head>
 
       <main className="home-shell">
@@ -46,14 +72,12 @@ export default function NeighborhoodPage({ data }) {
           </div>
 
           <article className="service-card service-detail-card">
-            {streetViewUrl ? (
-              <img
-                className="service-card-media"
-                src={streetViewUrl}
-                alt={`${data.neighborhood} mahallesi Google görüntüsü`}
-                loading="lazy"
-              />
-            ) : null}
+            <img
+              className="service-card-media"
+              src={streetViewUrl}
+              alt={`${data.neighborhood} mahallesi harita görseli`}
+              loading="lazy"
+            />
             <img
               className="service-card-media service-detail-media"
               src={courierPhotoUrl}

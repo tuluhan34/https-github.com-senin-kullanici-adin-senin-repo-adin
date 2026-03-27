@@ -7,6 +7,11 @@ export default function SeoIcerikDetay({ post }) {
     return null;
   }
 
+  const siteUrl = "https://www.34motokuryeistanbul.com";
+  const canonicalUrl = `${siteUrl}/seo-icerikler/${post.slug}/`;
+  const pageTitle = `${post.h1} | 34 Moto Kurye Istanbul`;
+  const pageDescription = post.intro;
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -19,13 +24,43 @@ export default function SeoIcerikDetay({ post }) {
       },
     })),
   };
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.h1,
+    description: pageDescription,
+    author: {
+      "@type": "Organization",
+      name: "34 Moto Kurye Istanbul",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "34 Moto Kurye Istanbul",
+    },
+    image: [
+      post.imageUrl?.startsWith("http") ? post.imageUrl : `${siteUrl}${post.imageUrl}`,
+    ],
+    datePublished: post.createdAt || post.dateKey,
+    dateModified: post.updatedAt || post.createdAt || post.dateKey,
+    mainEntityOfPage: canonicalUrl,
+    inLanguage: "tr-TR",
+  };
 
   return (
     <>
       <Head>
-        <title>{post.h1} | 34 Moto Kurye Istanbul</title>
-        <meta name="description" content={post.intro} />
+        <title>{pageTitle}</title>
+        <meta name="description" content={pageDescription} />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDescription} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content={post.imageUrl?.startsWith("http") ? post.imageUrl : `${siteUrl}${post.imageUrl}`} />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={pageDescription} />
+        <meta name="twitter:image" content={post.imageUrl?.startsWith("http") ? post.imageUrl : `${siteUrl}${post.imageUrl}`} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       </Head>
 
       <main className="home-shell">

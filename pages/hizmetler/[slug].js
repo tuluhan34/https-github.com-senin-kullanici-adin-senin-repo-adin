@@ -7,11 +7,39 @@ export default function ServiceDetailPage({ service }) {
     return null;
   }
 
+  const siteUrl = "https://www.34motokuryeistanbul.com";
+  const canonicalUrl = `${siteUrl}/hizmetler/${service.slug}/`;
+  const pageTitle = `${service.title} | 34 Moto Kurye İstanbul`;
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: service.title,
+    serviceType: service.title,
+    description: service.longDescription,
+    areaServed: "Istanbul",
+    provider: {
+      "@type": "LocalBusiness",
+      name: "34 Moto Kurye Istanbul",
+      telephone: "+90 530 321 90 04",
+      url: siteUrl,
+    },
+    url: canonicalUrl,
+  };
+
   return (
     <>
       <Head>
-        <title>{service.title} | 34 Moto Kurye İstanbul</title>
+        <title>{pageTitle}</title>
         <meta name="description" content={service.longDescription} />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={service.longDescription} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content={`${siteUrl}${service.image}`} />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={service.longDescription} />
+        <meta name="twitter:image" content={`${siteUrl}${service.image}`} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       </Head>
 
       <main className="home-shell">

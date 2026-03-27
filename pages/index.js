@@ -35,7 +35,7 @@ const loadGoogleMapsScript = () => {
 
   window.__gmapsPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}&libraries=places`;
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}`;
     script.async = true;
     script.defer = true;
     script.onload = () => resolve(window.google?.maps || null);
@@ -92,6 +92,8 @@ const buildWhatsappUrl = (
   customDuration,
   weightSize,
   photoName,
+  routeKm,
+  mapsDirectionUrl,
 ) => {
   const message = [
     "Merhaba, acil moto kurye talebi oluşturmak istiyorum.",
@@ -112,6 +114,10 @@ const buildWhatsappUrl = (
     `Musteri Belirttigi Sure: ${customDuration || "Belirtilmedi"}`,
     `Agirlik / Ebat: ${weightSize || "Belirtilmedi"}`,
     `Fotograf: ${photoName || "Yok"}`,
+    "",
+    "ROTA OZETI",
+    `Google Maps En Kisa Surus Mesafesi: ${routeKm && routeKm !== "-" ? routeKm : "Hesaplanamadi"}`,
+    `Google Maps Linki: ${mapsDirectionUrl || "Hazir degil"}`,
     "Müsait kurye ve fiyat bilgisi ile dönüş rica ederim.",
   ].join("\n");
 
@@ -154,10 +160,14 @@ export default function Home() {
   const mapCanvasRef = useRef(null);
   const mapRef = useRef(null);
   const directionsRendererRef = useRef(null);
-  const pickupInputRef = useRef(null);
-  const dropoffInputRef = useRef(null);
-  const pickupAutocompleteRef = useRef(null);
-  const dropoffAutocompleteRef = useRef(null);
+
+  const mapsDirectionUrl = useMemo(() => {
+    if (!pickupAddress || !dropoffAddress) {
+      return "https://www.google.com/maps";
+    }
+
+    return `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(pickupAddress)}&destination=${encodeURIComponent(dropoffAddress)}&travelmode=driving`;
+  }, [pickupAddress, dropoffAddress]);
 
   const whatsappUrl = useMemo(() => {
     return buildWhatsappUrl(
@@ -173,16 +183,10 @@ export default function Home() {
       customDuration,
       weightSize,
       photoName,
+      routeKm,
+      mapsDirectionUrl,
     );
-  }, [pickupAddress, senderName, senderPhone, dropoffAddress, recipientName, recipientPhone, courierType, shipmentType, deliverySpeed, customDuration, weightSize, photoName]);
-
-  const mapsDirectionUrl = useMemo(() => {
-    if (!pickupAddress || !dropoffAddress) {
-      return "https://www.google.com/maps";
-    }
-
-    return `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(pickupAddress)}&destination=${encodeURIComponent(dropoffAddress)}&travelmode=driving`;
-  }, [pickupAddress, dropoffAddress]);
+  }, [pickupAddress, senderName, senderPhone, dropoffAddress, recipientName, recipientPhone, courierType, shipmentType, deliverySpeed, customDuration, weightSize, photoName, routeKm, mapsDirectionUrl]);
 
   useEffect(() => {
     if (!GOOGLE_MAPS_API_KEY) {
@@ -220,46 +224,6 @@ export default function Home() {
       .catch(() => {
         setRouteInfo("Google Maps yüklenemedi. API ayarlarını kontrol edin.");
       });
-
-    return () => {
-      active = false;
-    };
-  }, []);
-
-  useEffect(() => {
-    if (!GOOGLE_MAPS_API_KEY) {
-      return;
-    }
-
-    let active = true;
-
-    loadGoogleMapsScript().then((maps) => {
-      if (!active || !maps?.places) {
-        return;
-      }
-
-      const options = {
-        componentRestrictions: { country: "tr" },
-        fields: ["formatted_address", "name"],
-        types: ["address"],
-      };
-
-      if (pickupInputRef.current && !pickupAutocompleteRef.current) {
-        pickupAutocompleteRef.current = new maps.places.Autocomplete(pickupInputRef.current, options);
-        pickupAutocompleteRef.current.addListener("place_changed", () => {
-          const place = pickupAutocompleteRef.current.getPlace();
-          setPickupAddress(place?.formatted_address || place?.name || pickupInputRef.current.value || "");
-        });
-      }
-
-      if (dropoffInputRef.current && !dropoffAutocompleteRef.current) {
-        dropoffAutocompleteRef.current = new maps.places.Autocomplete(dropoffInputRef.current, options);
-        dropoffAutocompleteRef.current.addListener("place_changed", () => {
-          const place = dropoffAutocompleteRef.current.getPlace();
-          setDropoffAddress(place?.formatted_address || place?.name || dropoffInputRef.current.value || "");
-        });
-      }
-    });
 
     return () => {
       active = false;
@@ -332,7 +296,7 @@ export default function Home() {
           <div className="topbar-actions">
             <Link className="mini-cta" href="/hizmetlerimiz">Hizmet Sayfaları</Link>
             <Link className="mini-cta" href="/seo-icerikler">Blog</Link>
-            <a className="mini-cta mini-cta-wa" href="https://wa.me/905303219004" target="_blank" rel="noreferrer">WhatsApp Destek</a>
+            <a className="mini-cta mini-cta-wa" href={whatsappUrl} target="_blank" rel="noreferrer">WhatsApp Destek</a>
             <a className="mini-cta" href="tel:05303219004">Arama Yap</a>
           </div>
         </header>
@@ -357,7 +321,6 @@ export default function Home() {
                   <label className="field">
                     <span>Adres</span>
                     <input
-                      ref={pickupInputRef}
                       type="text"
                       value={pickupAddress}
                       onChange={(event) => setPickupAddress(event.target.value)}
@@ -389,7 +352,6 @@ export default function Home() {
                   <label className="field">
                     <span>Adres</span>
                     <input
-                      ref={dropoffInputRef}
                       type="text"
                       value={dropoffAddress}
                       onChange={(event) => setDropoffAddress(event.target.value)}
@@ -580,7 +542,7 @@ export default function Home() {
       </main>
 
       <div className="floating-actions" aria-label="Iletisim">
-        <a className="fab fab-wa" href="https://wa.me/905303219004" target="_blank" rel="noreferrer">
+        <a className="fab fab-wa" href={whatsappUrl} target="_blank" rel="noreferrer">
           <span className="btn-icon"><WhatsAppIcon /></span>
           WhatsApp Destek
         </a>

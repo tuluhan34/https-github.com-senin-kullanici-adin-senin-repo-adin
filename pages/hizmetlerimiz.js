@@ -3,14 +3,33 @@ import Link from "next/link";
 import { servicesCatalog } from "../lib/services-catalog";
 
 export default function Hizmetlerimiz() {
+  const siteUrl = "https://www.34motokuryeistanbul.com";
+  const canonicalUrl = `${siteUrl}/hizmetlerimiz/`;
+  const title = "Hizmetlerimiz | 34 Moto Kurye İstanbul";
+  const description = "Kurumsal moto kurye hizmetlerimiz: acil kurye, express kurye, VIP kurye ve araçlı kurye çözümleri.";
+  const servicesSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: servicesCatalog.map((service, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: service.title,
+      url: `${siteUrl}/hizmetler/${service.slug}/`,
+    })),
+  };
+
   return (
     <>
       <Head>
-        <title>Hizmetlerimiz | 34 Moto Kurye İstanbul</title>
-        <meta
-          name="description"
-          content="Kurumsal moto kurye hizmetlerimiz: acil kurye, express kurye, VIP kurye ve araçlı kurye çözümleri."
-        />
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesSchema) }} />
       </Head>
 
       <main className="home-shell">

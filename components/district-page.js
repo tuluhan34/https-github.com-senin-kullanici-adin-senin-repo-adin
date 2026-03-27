@@ -3,15 +3,39 @@ import Link from "next/link";
 import { getNeighborhoodsByDistrictName } from "../lib/location-pages-data";
 
 export default function DistrictPage({ district }) {
+  const siteUrl = "https://www.34motokuryeistanbul.com";
+  const canonicalUrl = `${siteUrl}/${district.slug}/`;
   const title = `${district.name} Moto Kurye | Hizli ve Guvenli Teslimat`;
   const description = `${district.name} icinde acil moto kurye, ayni gun teslimat, evrak ve paket transferi. 05303219004 ile aninda kurye cagirabilirsiniz.`;
   const neighborhoods = getNeighborhoodsByDistrictName(district.name);
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: "Moto Kurye",
+    name: `${district.name} Moto Kurye Hizmeti`,
+    areaServed: `${district.name}, Istanbul`,
+    provider: {
+      "@type": "LocalBusiness",
+      name: "34 Moto Kurye Istanbul",
+      url: siteUrl,
+      telephone: "+90 530 321 90 04",
+    },
+    url: canonicalUrl,
+    description,
+  };
 
   return (
     <>
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       </Head>
 
       <main className="container district-page">

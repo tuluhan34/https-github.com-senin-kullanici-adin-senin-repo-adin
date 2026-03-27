@@ -1,0 +1,6232 @@
+[
+  {
+    "district": "ADALAR",
+    "neighborhood": "BURGAZADA",
+    "street": "├ç─▒narl─▒k Sk.",
+    "number": "11",
+    "description": "├ç─▒narl─▒k Sk. No:11 A BURGAZADA/ADALAR"
+  },
+  {
+    "district": "ADALAR",
+    "neighborhood": "HEYBEL─░ADA",
+    "street": "Erbay Sk.",
+    "number": "2",
+    "description": "Erbay Sk. No:2 HEYBEL─░ADA/ADALAR"
+  },
+  {
+    "district": "ADALAR",
+    "neighborhood": "KINALIADA",
+    "street": "Alsancak Cad.",
+    "number": "10",
+    "description": "Alsancak Cad. No:10 A KINALIADA/ADALAR"
+  },
+  {
+    "district": "ADALAR",
+    "neighborhood": "N─░ZAM",
+    "street": "Halikarnas Sk.",
+    "number": "1",
+    "description": "Halikarnas Sk. No:1 N─░ZAM/ADALAR"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "ADNAN MENDERES",
+    "street": "Egemen Cad.",
+    "number": "175",
+    "description": "Egemen Cad. No:175 ADNAN MENDERES/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "ANADOLU",
+    "street": "Mimar Sinan Cad.",
+    "number": "24",
+    "description": "Mimar Sinan Cad. No:24 A ANADOLU/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "ARNAVUTK├ûY MERKEZ",
+    "street": "Eski Edirne Asfalt─▒ Cad.",
+    "number": "1267",
+    "description": "Eski Edirne Asfalt─▒ Cad. No:1267 ARNAVUTK├ûY MERKEZ/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "ATAT├£RK",
+    "street": "Leyla Sk.",
+    "number": "62",
+    "description": "Leyla Sk. No:62 ATAT├£RK/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "BAKLALI",
+    "street": "Akkuzu Sk.",
+    "number": "16",
+    "description": "Akkuzu Sk. No:16 A BAKLALI/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "BALABAN",
+    "street": "Balaban Camii Sk.",
+    "number": "12",
+    "description": "Balaban Camii Sk. No:12 BALABAN/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "BO─ŞAZK├ûY ─░ST─░KLAL",
+    "street": "─░smet ─░n├Ân├╝ Cad.",
+    "number": "170",
+    "description": "─░smet ─░n├Ân├╝ Cad. No:170 BO─ŞAZK├ûY ─░ST─░KLAL/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "BOLLUCA",
+    "street": "Battalgazi Cad.",
+    "number": "14",
+    "description": "Battalgazi Cad. No:14/A BOLLUCA/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "BOYALIK",
+    "street": "Millet Cad.",
+    "number": "4",
+    "description": "Millet Cad. No:4 BOYALIK/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "├ç─░L─░NG─░R",
+    "street": "Koca ├ç─▒nar Sk.",
+    "number": "2",
+    "description": "Koca ├ç─▒nar Sk. No:2 C ├ç─░L─░NG─░R/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "DEL─░KL─░KAYA",
+    "street": "Kayaba┼ş─▒ Cad.",
+    "number": "13",
+    "description": "Kayaba┼ş─▒ Cad. No:13 DEL─░KL─░KAYA/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "DURSUNK├ûY",
+    "street": "Dursunk├Ây-Baklal─▒ Cad.",
+    "number": "3",
+    "description": "Dursunk├Ây-Baklal─▒ Cad. No:3 B DURSUNK├ûY/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "DURUSU",
+    "street": "Dar─▒ Ali Sk.",
+    "number": "1",
+    "description": "Dar─▒ Ali Sk. No:1 DURUSU/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "FAT─░H",
+    "street": "Palmiye Sk.",
+    "number": "22",
+    "description": "Palmiye Sk. No:22 FAT─░H/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "HACIMA┼ŞLI",
+    "street": "Sar─▒dede Sk.",
+    "number": "2",
+    "description": "Sar─▒dede Sk. No:2 HACIMA┼ŞLI/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "HADIMK├ûY",
+    "street": "Ayasofya Cad.",
+    "number": "6",
+    "description": "Ayasofya Cad. No:6 HADIMK├ûY/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "HARA├ç├çI",
+    "street": "Dolmabah├ğe Cad.",
+    "number": "1",
+    "description": "Dolmabah├ğe Cad. No:1 HARA├ç├çI/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "H─░CRET",
+    "street": "K─▒br─▒s Cad.",
+    "number": "362",
+    "description": "K─▒br─▒s Cad. No:362 /1 H─░CRET/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "─░MRAHOR",
+    "street": "Sevban Mehmet Cad.",
+    "number": "171",
+    "description": "Sevban Mehmet Cad. No:171 ─░MRAHOR/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "─░SLAMBEY",
+    "street": "Tu─ş├ğe Sk.",
+    "number": "2",
+    "description": "Tu─ş├ğe Sk. No:2 ─░SLAMBEY/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "KARABURUN",
+    "street": "Tahlisiye Cad.",
+    "number": "4",
+    "description": "Tahlisiye Cad. No:4 A KARABURUN/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "KARLIBAYIR",
+    "street": "Bayrak Cad.",
+    "number": "112",
+    "description": "Bayrak Cad. No:112 KARLIBAYIR/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "MARE┼ŞAL FEVZ─░ ├çAKMAK",
+    "street": "Fatih Cad.",
+    "number": "297",
+    "description": "Fatih Cad. No:297 MARE┼ŞAL FEVZ─░ ├çAKMAK/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "MAV─░G├ûL",
+    "street": "Ey├╝p Sultan Cad.",
+    "number": "1",
+    "description": "Ey├╝p Sultan Cad. No:1 MAV─░G├ûL/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "MEHMET AK─░F ERSOY",
+    "street": "Atat├╝rk Cad.",
+    "number": "75",
+    "description": "Atat├╝rk Cad. No:75 MEHMET AK─░F ERSOY/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "MUSTAFA KEMAL PA┼ŞA",
+    "street": "Be┼şaret Sk.",
+    "number": "1",
+    "description": "Be┼şaret Sk. No:1 MUSTAFA KEMAL PA┼ŞA/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "NENEHATUN",
+    "street": "K─▒br─▒s Cad.",
+    "number": "58",
+    "description": "K─▒br─▒s Cad. No:58 NENEHATUN/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "├ûMERL─░",
+    "street": "Had─▒mk├Ây-├ûmerli Cad.",
+    "number": "60",
+    "description": "Had─▒mk├Ây-├ûmerli Cad. No:60 ├ûMERL─░/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "SAZLIBOSNA",
+    "street": "K─▒r─▒m Cad.",
+    "number": "19",
+    "description": "K─▒r─▒m Cad. No:19 D SAZLIBOSNA/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "TA┼ŞOLUK",
+    "street": "Egemen Cad.",
+    "number": "33",
+    "description": "Egemen Cad. No:33 TA┼ŞOLUK/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "TAYAKADIN",
+    "street": "Tayakad─▒n-Yass─▒├Âren Cad.",
+    "number": "48",
+    "description": "Tayakad─▒n-Yass─▒├Âren Cad. No:48 TAYAKADIN/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "TERKOS",
+    "street": "Durusu-Yenik├Ây Cad.",
+    "number": "43",
+    "description": "Durusu-Yenik├Ây Cad. No:43 TERKOS/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "YASSI├ûREN",
+    "street": "Eski Edirne Asfalt─▒ Cad.",
+    "number": "1950",
+    "description": "Eski Edirne Asfalt─▒ Cad. No:1950 B YASSI├ûREN/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "YEN─░K├ûY",
+    "street": "─░─şde Sk.",
+    "number": "2",
+    "description": "─░─şde Sk. No:2 YEN─░K├ûY/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "YE┼Ş─░LBAYIR",
+    "street": "Cami Cad.",
+    "number": "7",
+    "description": "Cami Cad. No:7 YE┼Ş─░LBAYIR/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ARNAVUTK├ûY",
+    "neighborhood": "YUNUS EMRE",
+    "street": "30 A─şustos Cad.",
+    "number": "81",
+    "description": "30 A─şustos Cad. No:81 YUNUS EMRE/ARNAVUTK├ûY"
+  },
+  {
+    "district": "ATA┼ŞEH─░R",
+    "neighborhood": "A┼ŞIKVEYSEL",
+    "street": "3001. Cad.",
+    "number": "116",
+    "description": "3001. Cad. No:116 B A┼ŞIKVEYSEL/ATA┼ŞEH─░R"
+  },
+  {
+    "district": "ATA┼ŞEH─░R",
+    "neighborhood": "ATAT├£RK",
+    "street": "Meri├ğ Cad.",
+    "number": "10",
+    "description": "Meri├ğ Cad. No:10 /13 ATAT├£RK/ATA┼ŞEH─░R"
+  },
+  {
+    "district": "ATA┼ŞEH─░R",
+    "neighborhood": "BARBAROS",
+    "street": "Mimar Sinan Cad.",
+    "number": "98",
+    "description": "Mimar Sinan Cad. No:98 BARBAROS/ATA┼ŞEH─░R"
+  },
+  {
+    "district": "ATA┼ŞEH─░R",
+    "neighborhood": "ESATPA┼ŞA",
+    "street": "Alim Sk.",
+    "number": "2",
+    "description": "Alim Sk. No:2 ESATPA┼ŞA/ATA┼ŞEH─░R"
+  },
+  {
+    "district": "ATA┼ŞEH─░R",
+    "neighborhood": "FERHATPA┼ŞA",
+    "street": "Yeditepe Cad.",
+    "number": "80",
+    "description": "Yeditepe Cad. No:80 FERHATPA┼ŞA/ATA┼ŞEH─░R"
+  },
+  {
+    "district": "ATA┼ŞEH─░R",
+    "neighborhood": "FET─░H",
+    "street": "Kay─▒s─▒ Sk.",
+    "number": "2",
+    "description": "Kay─▒s─▒ Sk. No:2 FET─░H/ATA┼ŞEH─░R"
+  },
+  {
+    "district": "ATA┼ŞEH─░R",
+    "neighborhood": "─░├çERENK├ûY",
+    "street": "Uysal Sk.",
+    "number": "37",
+    "description": "Uysal Sk. No:37 ─░├çERENK├ûY/ATA┼ŞEH─░R"
+  },
+  {
+    "district": "ATA┼ŞEH─░R",
+    "neighborhood": "─░N├ûN├£",
+    "street": "Tu─ş Sk.",
+    "number": "16",
+    "description": "Tu─ş Sk. No:16 ─░N├ûN├£/ATA┼ŞEH─░R"
+  },
+  {
+    "district": "ATA┼ŞEH─░R",
+    "neighborhood": "KAYI┼ŞDA─ŞI",
+    "street": "Uslu Cad.",
+    "number": "73",
+    "description": "Uslu Cad. No:73 /1 KAYI┼ŞDA─ŞI/ATA┼ŞEH─░R"
+  },
+  {
+    "district": "ATA┼ŞEH─░R",
+    "neighborhood": "K├£├ç├£KBAKKALK├ûY",
+    "street": "Geziciler Sk.",
+    "number": "4",
+    "description": "Geziciler Sk. No:4 A K├£├ç├£KBAKKALK├ûY/ATA┼ŞEH─░R"
+  },
+  {
+    "district": "ATA┼ŞEH─░R",
+    "neighborhood": "MEVLANA",
+    "street": "Dursunbey Cad.",
+    "number": "6",
+    "description": "Dursunbey Cad. No:6 MEVLANA/ATA┼ŞEH─░R"
+  },
+  {
+    "district": "ATA┼ŞEH─░R",
+    "neighborhood": "M─░MAR S─░NAN",
+    "street": "Sakarya Cad.",
+    "number": "156",
+    "description": "Sakarya Cad. No:156 /1 M─░MAR S─░NAN/ATA┼ŞEH─░R"
+  },
+  {
+    "district": "ATA┼ŞEH─░R",
+    "neighborhood": "MUSTAFA KEMAL",
+    "street": "3095. Sk.",
+    "number": "4",
+    "description": "3095. Sk. No:4 MUSTAFA KEMAL/ATA┼ŞEH─░R"
+  },
+  {
+    "district": "ATA┼ŞEH─░R",
+    "neighborhood": "├ûRNEK",
+    "street": "Semerkant Cad.",
+    "number": "46",
+    "description": "Semerkant Cad. No:46 ├ûRNEK/ATA┼ŞEH─░R"
+  },
+  {
+    "district": "ATA┼ŞEH─░R",
+    "neighborhood": "YEN─░ ├çAMLICA",
+    "street": "Y─▒lmaz Sk.",
+    "number": "14",
+    "description": "Y─▒lmaz Sk. No:14/1 YEN─░ ├çAMLICA/ATA┼ŞEH─░R"
+  },
+  {
+    "district": "ATA┼ŞEH─░R",
+    "neighborhood": "YEN─░SAHRA",
+    "street": "T├╝rkaslan Sk.",
+    "number": "15",
+    "description": "T├╝rkaslan Sk. No:15 YEN─░SAHRA/ATA┼ŞEH─░R"
+  },
+  {
+    "district": "ATA┼ŞEH─░R",
+    "neighborhood": "YEN─░┼ŞEH─░R",
+    "street": "Baraj Yolu Cad.",
+    "number": "2",
+    "description": "Baraj Yolu Cad. No:2 /2 YEN─░┼ŞEH─░R/ATA┼ŞEH─░R"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "AMBARLI",
+    "street": "Dr. Sad─▒k Ahmet Cad.",
+    "number": "181",
+    "description": "Dr. Sad─▒k Ahmet Cad. No:181 AMBARLI/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "C─░HANG─░R",
+    "street": "Civa Cad.",
+    "number": "9",
+    "description": "Civa Cad. No:9 C─░HANG─░R/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "DEN─░ZK├û┼ŞKLER",
+    "street": "Muhtar Kaz─▒m Akg├╝l Cad.",
+    "number": "36",
+    "description": "Muhtar Kaz─▒m Akg├╝l Cad. No:36 DEN─░ZK├û┼ŞKLER/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "F─░RUZK├ûY",
+    "street": "Korut├╝rk Sk.",
+    "number": "5",
+    "description": "Korut├╝rk Sk. No:5 /2 F─░RUZK├ûY/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "G├£M├£┼ŞPALA",
+    "street": "H├╝seyin ├ûzkan Sk.",
+    "number": "4",
+    "description": "H├╝seyin ├ûzkan Sk. No:4 G├£M├£┼ŞPALA/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "MERKEZ",
+    "street": "Merkez Cami Sk.",
+    "number": "18",
+    "description": "Merkez Cami Sk. No:18 /1 MERKEZ/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "MUSTAFA KEMALPA┼ŞA",
+    "street": "K├Âro─şlu Sk.",
+    "number": "71",
+    "description": "K├Âro─şlu Sk. No:71 A MUSTAFA KEMALPA┼ŞA/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "TAHTAKALE",
+    "street": "Petrol Sk.",
+    "number": "1",
+    "description": "Petrol Sk. No:1 TAHTAKALE/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "├£N─░VERS─░TE",
+    "street": "Toker Karde┼şler Sk.",
+    "number": "3",
+    "description": "Toker Karde┼şler Sk. No:3 /1 ├£N─░VERS─░TE/AVCILAR"
+  },
+  {
+    "district": "AVCILAR",
+    "neighborhood": "YE┼Ş─░LKENT",
+    "street": "G-614 Sk.",
+    "number": "8",
+    "description": "G-614 Sk. No:8 YE┼Ş─░LKENT/AVCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "100. YIL",
+    "street": "K─▒┼şla Cad.",
+    "number": "105",
+    "description": "K─▒┼şla Cad. No:105 100. YIL/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "15 TEMMUZ",
+    "street": "┼Şehit Hidayet Y─▒lmaz Sk.",
+    "number": "6",
+    "description": "┼Şehit Hidayet Y─▒lmaz Sk. No:6 15 TEMMUZ/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "BA─ŞLAR",
+    "street": "41. Sk.",
+    "number": "5",
+    "description": "41. Sk. No:5 BA─ŞLAR/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "BARBAROS",
+    "street": "180. Sk.",
+    "number": "59",
+    "description": "180. Sk. No:59 BARBAROS/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "├çINAR",
+    "street": "856. Sk.",
+    "number": "14",
+    "description": "856. Sk. No:14 ├çINAR/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "DEM─░RKAPI",
+    "street": "1706. Sk.",
+    "number": "2",
+    "description": "1706. Sk. No:2 DEM─░RKAPI/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "FAT─░H",
+    "street": "Pazar Cad.",
+    "number": "80",
+    "description": "Pazar Cad. No:80 FAT─░H/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "FEVZ─░ ├çAKMAK",
+    "street": "2015. Sk.",
+    "number": "15",
+    "description": "2015. Sk. No:15 FEVZ─░ ├çAKMAK/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "G├ûZTEPE",
+    "street": "2371. Sk.",
+    "number": "16",
+    "description": "2371. Sk. No:16 G├ûZTEPE/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "G├£NE┼ŞL─░",
+    "street": "1293. Sk.",
+    "number": "17",
+    "description": "1293. Sk. No:17 G├£NE┼ŞL─░/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "H├£RR─░YET",
+    "street": "160. Sk.",
+    "number": "9",
+    "description": "160. Sk. No:9 H├£RR─░YET/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "─░N├ûN├£",
+    "street": "434. Sk.",
+    "number": "12",
+    "description": "434. Sk. No:12 ─░N├ûN├£/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "KEMALPA┼ŞA",
+    "street": "1926. Sk.",
+    "number": "13",
+    "description": "1926. Sk. No:13 KEMALPA┼ŞA/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "K─░RAZLI",
+    "street": "Kurtulu┼ş Cad.",
+    "number": "20",
+    "description": "Kurtulu┼ş Cad. No:20 K─░RAZLI/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "MAHMUTBEY",
+    "street": "Gazi Mustafa Kemal Cad.",
+    "number": "41",
+    "description": "Gazi Mustafa Kemal Cad. No:41 B MAHMUTBEY/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "MERKEZ",
+    "street": "673. Sk.",
+    "number": "26",
+    "description": "673. Sk. No:26 MERKEZ/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "SANCAKTEPE",
+    "street": "924. Sk.",
+    "number": "17",
+    "description": "924. Sk. No:17 SANCAKTEPE/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "YAVUZ SEL─░M",
+    "street": "969. Sk.",
+    "number": "6",
+    "description": "969. Sk. No:6 YAVUZ SEL─░M/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "YEN─░G├£N",
+    "street": "616. Sk.",
+    "number": "9",
+    "description": "616. Sk. No:9 YEN─░G├£N/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "YEN─░MAHALLE",
+    "street": "1540. Sk.",
+    "number": "18",
+    "description": "1540. Sk. No:18 YEN─░MAHALLE/BA─ŞCILAR"
+  },
+  {
+    "district": "BA─ŞCILAR",
+    "neighborhood": "YILDIZTEPE",
+    "street": "538. Sk.",
+    "number": "1",
+    "description": "538. Sk. No:1 YILDIZTEPE/BA─ŞCILAR"
+  },
+  {
+    "district": "BAH├çEL─░EVLER",
+    "neighborhood": "BAH├çEL─░EVLER",
+    "street": "Fevzi ├çakmak Cad.",
+    "number": "2",
+    "description": "Fevzi ├çakmak Cad. No:2 /1 BAH├çEL─░EVLER/BAH├çEL─░EVLER"
+  },
+  {
+    "district": "BAH├çEL─░EVLER",
+    "neighborhood": "CUMHUR─░YET",
+    "street": "K─▒br─▒s Cad.",
+    "number": "45",
+    "description": "K─▒br─▒s Cad. No:45 A CUMHUR─░YET/BAH├çEL─░EVLER"
+  },
+  {
+    "district": "BAH├çEL─░EVLER",
+    "neighborhood": "├çOBAN├çE┼ŞME",
+    "street": "Fatih Cad.",
+    "number": "51",
+    "description": "Fatih Cad. No:51 A ├çOBAN├çE┼ŞME/BAH├çEL─░EVLER"
+  },
+  {
+    "district": "BAH├çEL─░EVLER",
+    "neighborhood": "FEVZ─░ ├çAKMAK",
+    "street": "Y─▒ld─▒r─▒m Beyaz─▒t Cad.",
+    "number": "3",
+    "description": "Y─▒ld─▒r─▒m Beyaz─▒t Cad. No:3 /1 FEVZ─░ ├çAKMAK/BAH├çEL─░EVLER"
+  },
+  {
+    "district": "BAH├çEL─░EVLER",
+    "neighborhood": "H├£RR─░YET",
+    "street": "Mahmutbey Cad.",
+    "number": "39",
+    "description": "Mahmutbey Cad. No:39 H├£RR─░YET/BAH├çEL─░EVLER"
+  },
+  {
+    "district": "BAH├çEL─░EVLER",
+    "neighborhood": "KOCAS─░NAN MERKEZ",
+    "street": "Kocasinan Ba─şc─▒lar Yolu Cad.",
+    "number": "2",
+    "description": "Kocasinan Ba─şc─▒lar Yolu Cad. No:2 /2 KOCAS─░NAN MERKEZ/BAH├çEL─░EVLER"
+  },
+  {
+    "district": "BAH├çEL─░EVLER",
+    "neighborhood": "SO─ŞANLI",
+    "street": "Nevruz Sk.",
+    "number": "2",
+    "description": "Nevruz Sk. No:2 SO─ŞANLI/BAH├çEL─░EVLER"
+  },
+  {
+    "district": "BAH├çEL─░EVLER",
+    "neighborhood": "┼Ş─░R─░NEVLER",
+    "street": "Saray Cad.",
+    "number": "2",
+    "description": "Saray Cad. No:2 ┼Ş─░R─░NEVLER/BAH├çEL─░EVLER"
+  },
+  {
+    "district": "BAH├çEL─░EVLER",
+    "neighborhood": "YEN─░BOSNA MERKEZ",
+    "street": "29 Ekim Cad.",
+    "number": "30",
+    "description": "29 Ekim Cad. No:30 YEN─░BOSNA MERKEZ/BAH├çEL─░EVLER"
+  },
+  {
+    "district": "BAH├çEL─░EVLER",
+    "neighborhood": "ZAFER",
+    "street": "Vadi Sk.",
+    "number": "2",
+    "description": "Vadi Sk. No:2 /4 ZAFER/BAH├çEL─░EVLER"
+  },
+  {
+    "district": "BAKIRK├ûY",
+    "neighborhood": "ATAK├ûY 1. KISIM",
+    "street": "Ekrem Bey Sk.",
+    "number": "1",
+    "description": "Ekrem Bey Sk. No:1 ATAK├ûY 1. KISIM/BAKIRK├ûY"
+  },
+  {
+    "district": "BAKIRK├ûY",
+    "neighborhood": "ATAK├ûY 2-5-6. KISIM",
+    "street": "Dumlup─▒nar Sk.",
+    "number": "8",
+    "description": "Dumlup─▒nar Sk. No:8 ATAK├ûY 2-5-6. KISIM/BAKIRK├ûY"
+  },
+  {
+    "district": "BAKIRK├ûY",
+    "neighborhood": "ATAK├ûY 3-4-11. KISIM",
+    "street": "Cevat Dursuno─şlu Cad.",
+    "number": "1",
+    "description": "Cevat Dursuno─şlu Cad. No:1 /2 ATAK├ûY 3-4-11. KISIM/BAKIRK├ûY"
+  },
+  {
+    "district": "BAKIRK├ûY",
+    "neighborhood": "ATAK├ûY 7-8-9-10. KISIM",
+    "street": "Karanfil Sk.",
+    "number": "1",
+    "description": "Karanfil Sk. No:1 /1 ATAK├ûY 7-8-9-10. KISIM/BAKIRK├ûY"
+  },
+  {
+    "district": "BAKIRK├ûY",
+    "neighborhood": "BASINK├ûY",
+    "street": "Ahmet Cevdet ─░kdam Cad.",
+    "number": "27",
+    "description": "Ahmet Cevdet ─░kdam Cad. No:27 /1 BASINK├ûY/BAKIRK├ûY"
+  },
+  {
+    "district": "BAKIRK├ûY",
+    "neighborhood": "CEV─░ZL─░K",
+    "street": "Ebuziya Cad.",
+    "number": "71",
+    "description": "Ebuziya Cad. No:71 /1A CEV─░ZL─░K/BAKIRK├ûY"
+  },
+  {
+    "district": "BAKIRK├ûY",
+    "neighborhood": "KARTALTEPE",
+    "street": "Terakki Cad.",
+    "number": "1",
+    "description": "Terakki Cad. No:1 KARTALTEPE/BAKIRK├ûY"
+  },
+  {
+    "district": "BAKIRK├ûY",
+    "neighborhood": "OSMAN─░YE",
+    "street": "S─▒─ş─▒rtma├ğ Sk.",
+    "number": "2",
+    "description": "S─▒─ş─▒rtma├ğ Sk. No:2 OSMAN─░YE/BAKIRK├ûY"
+  },
+  {
+    "district": "BAKIRK├ûY",
+    "neighborhood": "SAKIZA─ŞACI",
+    "street": "Heyet Sk.",
+    "number": "11",
+    "description": "Heyet Sk. No:11 A SAKIZA─ŞACI/BAKIRK├ûY"
+  },
+  {
+    "district": "BAKIRK├ûY",
+    "neighborhood": "┼ŞENL─░KK├ûY",
+    "street": "Florya Cad.",
+    "number": "46",
+    "description": "Florya Cad. No:46 /1B ┼ŞENL─░KK├ûY/BAKIRK├ûY"
+  },
+  {
+    "district": "BAKIRK├ûY",
+    "neighborhood": "YEN─░MAHALLE",
+    "street": "Mektep Arkas─▒ Sk.",
+    "number": "17",
+    "description": "Mektep Arkas─▒ Sk. No:17 B YEN─░MAHALLE/BAKIRK├ûY"
+  },
+  {
+    "district": "BAKIRK├ûY",
+    "neighborhood": "YE┼Ş─░LK├ûY",
+    "street": "Serbesti Cad.",
+    "number": "12",
+    "description": "Serbesti Cad. No:12 /1 YE┼Ş─░LK├ûY/BAKIRK├ûY"
+  },
+  {
+    "district": "BAKIRK├ûY",
+    "neighborhood": "ZUHURATBABA",
+    "street": "Bak─▒r Sk.",
+    "number": "6",
+    "description": "Bak─▒r Sk. No:6 /5 ZUHURATBABA/BAKIRK├ûY"
+  },
+  {
+    "district": "BA┼ŞAK┼ŞEH─░R",
+    "neighborhood": "BAH├çE┼ŞEH─░R 1. KISIM",
+    "street": "Kemal Sunal Cad.",
+    "number": "23",
+    "description": "Kemal Sunal Cad. No:23 BAH├çE┼ŞEH─░R 1. KISIM/BA┼ŞAK┼ŞEH─░R"
+  },
+  {
+    "district": "BA┼ŞAK┼ŞEH─░R",
+    "neighborhood": "BAH├çE┼ŞEH─░R 2. KISIM",
+    "street": "Kelebek Sk.",
+    "number": "1",
+    "description": "Kelebek Sk. No:1 BAH├çE┼ŞEH─░R 2. KISIM/BA┼ŞAK┼ŞEH─░R"
+  },
+  {
+    "district": "BA┼ŞAK┼ŞEH─░R",
+    "neighborhood": "BA┼ŞAK",
+    "street": "Ertu─şrul Gazi Cad.",
+    "number": "22",
+    "description": "Ertu─şrul Gazi Cad. No:22 /3 BA┼ŞAK/BA┼ŞAK┼ŞEH─░R"
+  },
+  {
+    "district": "BA┼ŞAK┼ŞEH─░R",
+    "neighborhood": "BA┼ŞAK┼ŞEH─░R",
+    "street": "Prof. Dr. Necmettin Erbakan Cad.",
+    "number": "25",
+    "description": "Prof. Dr. Necmettin Erbakan Cad. No:25 /1 BA┼ŞAK┼ŞEH─░R/BA┼ŞAK┼ŞEH─░R"
+  },
+  {
+    "district": "BA┼ŞAK┼ŞEH─░R",
+    "neighborhood": "G├£VERC─░NTEPE",
+    "street": "G├╝lay Sk.",
+    "number": "71",
+    "description": "G├╝lay Sk. No:71 G├£VERC─░NTEPE/BA┼ŞAK┼ŞEH─░R"
+  },
+  {
+    "district": "BA┼ŞAK┼ŞEH─░R",
+    "neighborhood": "KAYABA┼ŞI",
+    "street": "Rabia Cad.",
+    "number": "5",
+    "description": "Rabia Cad. No:5 KAYABA┼ŞI/BA┼ŞAK┼ŞEH─░R"
+  },
+  {
+    "district": "BA┼ŞAK┼ŞEH─░R",
+    "neighborhood": "┼ŞAH─░NTEPE",
+    "street": "Kurban Sk.",
+    "number": "7",
+    "description": "Kurban Sk. No:7 ┼ŞAH─░NTEPE/BA┼ŞAK┼ŞEH─░R"
+  },
+  {
+    "district": "BA┼ŞAK┼ŞEH─░R",
+    "neighborhood": "┼ŞAMLAR",
+    "street": "23 Nisan Cad.",
+    "number": "14",
+    "description": "23 Nisan Cad. No:14 D ┼ŞAMLAR/BA┼ŞAK┼ŞEH─░R"
+  },
+  {
+    "district": "BA┼ŞAK┼ŞEH─░R",
+    "neighborhood": "Z─░YA G├ûKALP",
+    "street": "H├╝rriyet Bulvar─▒",
+    "number": "36",
+    "description": "H├╝rriyet Bulvar─▒ No:36 /1 Z─░YA G├ûKALP/BA┼ŞAK┼ŞEH─░R"
+  },
+  {
+    "district": "BAYRAMPA┼ŞA",
+    "neighborhood": "ALTINTEPS─░",
+    "street": "Kutlu Sk. ALTINTEPS─░/BAYRAMPA┼ŞA",
+    "number": "",
+    "description": "Kutlu Sk. ALTINTEPS─░/BAYRAMPA┼ŞA"
+  },
+  {
+    "district": "BAYRAMPA┼ŞA",
+    "neighborhood": "CEVATPA┼ŞA",
+    "street": "Adem Yavuz Cad.",
+    "number": "10",
+    "description": "Adem Yavuz Cad. No:10 CEVATPA┼ŞA/BAYRAMPA┼ŞA"
+  },
+  {
+    "district": "BAYRAMPA┼ŞA",
+    "neighborhood": "─░SMET PA┼ŞA",
+    "street": "Muhtarl─▒k ├ç─▒kmaz─▒ Sk.",
+    "number": "1",
+    "description": "Muhtarl─▒k ├ç─▒kmaz─▒ Sk. No:1 A ─░SMET PA┼ŞA/BAYRAMPA┼ŞA"
+  },
+  {
+    "district": "BAYRAMPA┼ŞA",
+    "neighborhood": "KARTALTEPE",
+    "street": "K├╝lt├╝r Sk.",
+    "number": "8",
+    "description": "K├╝lt├╝r Sk. No:8 KARTALTEPE/BAYRAMPA┼ŞA"
+  },
+  {
+    "district": "BAYRAMPA┼ŞA",
+    "neighborhood": "KOCATEPE",
+    "street": "28. Sk.",
+    "number": "4",
+    "description": "28. Sk. No:4 KOCATEPE/BAYRAMPA┼ŞA"
+  },
+  {
+    "district": "BAYRAMPA┼ŞA",
+    "neighborhood": "MURATPA┼ŞA",
+    "street": "Kamil Cad.",
+    "number": "114",
+    "description": "Kamil Cad. No:114 A MURATPA┼ŞA/BAYRAMPA┼ŞA"
+  },
+  {
+    "district": "BAYRAMPA┼ŞA",
+    "neighborhood": "ORTA",
+    "street": "Numuneba─ş─▒ Cad.",
+    "number": "11",
+    "description": "Numuneba─ş─▒ Cad. No:11 B ORTA/BAYRAMPA┼ŞA"
+  },
+  {
+    "district": "BAYRAMPA┼ŞA",
+    "neighborhood": "TERAZ─░DERE",
+    "street": "Egemen Sk.",
+    "number": "2",
+    "description": "Egemen Sk. No:2 /1A TERAZ─░DERE/BAYRAMPA┼ŞA"
+  },
+  {
+    "district": "BAYRAMPA┼ŞA",
+    "neighborhood": "VATAN",
+    "street": "Esenler Cad.",
+    "number": "22",
+    "description": "Esenler Cad. No:22 VATAN/BAYRAMPA┼ŞA"
+  },
+  {
+    "district": "BAYRAMPA┼ŞA",
+    "neighborhood": "YILDIRIM",
+    "street": "┼Şehit Kamil Balkan Cad.",
+    "number": "78",
+    "description": "┼Şehit Kamil Balkan Cad. No:78 YILDIRIM/BAYRAMPA┼ŞA"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "AKAT",
+    "street": "Haydar Aliyev Cad.",
+    "number": "3",
+    "description": "Haydar Aliyev Cad. No:3 AKAT/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "ARNAVUTK├ûY",
+    "street": "Sat─▒┼şmeydan─▒ Sk.",
+    "number": "27",
+    "description": "Sat─▒┼şmeydan─▒ Sk. No:27 ARNAVUTK├ûY/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "BALMUMCU",
+    "street": "Zincirlikuyu Yolu",
+    "number": "21",
+    "description": "Zincirlikuyu Yolu No:21 BALMUMCU/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "BEBEK",
+    "street": "Bebek Hamam─▒ Sk.",
+    "number": "8",
+    "description": "Bebek Hamam─▒ Sk. No:8 B BEBEK/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "C─░HANN├£MA",
+    "street": "Cihann├╝ma Sk.",
+    "number": "28",
+    "description": "Cihann├╝ma Sk. No:28 A C─░HANN├£MA/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "D─░K─░L─░TA┼Ş",
+    "street": "Camimeydan─▒ Sk. D─░K─░L─░TA┼Ş/BE┼Ş─░KTA┼Ş",
+    "number": "",
+    "description": "Camimeydan─▒ Sk. D─░K─░L─░TA┼Ş/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "ET─░LER",
+    "street": "Ahular Sk.",
+    "number": "19",
+    "description": "Ahular Sk. No:19 ET─░LER/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "GAYRETTEPE",
+    "street": "Fahri Gizden Sk.",
+    "number": "26",
+    "description": "Fahri Gizden Sk. No:26 GAYRETTEPE/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "KONAKLAR",
+    "street": "Faruk Nafiz ├çaml─▒bel Sk.",
+    "number": "1",
+    "description": "Faruk Nafiz ├çaml─▒bel Sk. No:1 KONAKLAR/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "KURU├çE┼ŞME",
+    "street": "K─▒rba├ğ Sk.",
+    "number": "38",
+    "description": "K─▒rba├ğ Sk. No:38 KURU├çE┼ŞME/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "K├£LT├£R",
+    "street": "Sekbanlar Cad.",
+    "number": "88",
+    "description": "Sekbanlar Cad. No:88 K├£LT├£R/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "LEVAZIM",
+    "street": "Koru Sk.",
+    "number": "7",
+    "description": "Koru Sk. No:7 /1 LEVAZIM/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "LEVENT",
+    "street": "Karanfil Sk.",
+    "number": "7",
+    "description": "Karanfil Sk. No:7 /1 LEVENT/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "MEC─░D─░YE",
+    "street": "Ambarl─▒dere Yolu",
+    "number": "5",
+    "description": "Ambarl─▒dere Yolu No:5 MEC─░D─░YE/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "N─░SBET─░YE",
+    "street": "Ahmet Adnan Saygun Cad.",
+    "number": "30",
+    "description": "Ahmet Adnan Saygun Cad. No:30 N─░SBET─░YE/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "ORTAK├ûY",
+    "street": "G├╝rc├╝k─▒z─▒ Sk.",
+    "number": "4",
+    "description": "G├╝rc├╝k─▒z─▒ Sk. No:4 ORTAK├ûY/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "S─░NANPA┼ŞA",
+    "street": "Kazan Sk.",
+    "number": "3",
+    "description": "Kazan Sk. No:3 S─░NANPA┼ŞA/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "T├£RKAL─░",
+    "street": "Ihlamurdere Cad.",
+    "number": "140",
+    "description": "Ihlamurdere Cad. No:140 T├£RKAL─░/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "ULUS",
+    "street": "Yelken Sk.",
+    "number": "2",
+    "description": "Yelken Sk. No:2 ULUS/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "V─░┼ŞNEZADE",
+    "street": "┼Şair Nedim Cad.",
+    "number": "53",
+    "description": "┼Şair Nedim Cad. No:53 V─░┼ŞNEZADE/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BE┼Ş─░KTA┼Ş",
+    "neighborhood": "YILDIZ",
+    "street": "├ç─▒ra─şan Cad.",
+    "number": "17",
+    "description": "├ç─▒ra─şan Cad. No:17 A YILDIZ/BE┼Ş─░KTA┼Ş"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ACARLAR",
+    "street": "Polonez Cad.",
+    "number": "18",
+    "description": "Polonez Cad. No:18 ACARLAR/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "AKBABA",
+    "street": "Mara┼ş Cad.",
+    "number": "76",
+    "description": "Mara┼ş Cad. No:76 AKBABA/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "AL─░BAHADIR",
+    "street": "Ordu Cad.",
+    "number": "5",
+    "description": "Ordu Cad. No:5 AL─░BAHADIR/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ANADOLU H─░SARI",
+    "street": "K├Ârfez Cad.",
+    "number": "6",
+    "description": "K├Ârfez Cad. No:6 ANADOLU H─░SARI/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ANADOLU KAVA─ŞI",
+    "street": "Mir┼şah Hamam Sk.",
+    "number": "4",
+    "description": "Mir┼şah Hamam Sk. No:4 ANADOLU KAVA─ŞI/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ANADOLUFENER─░",
+    "street": "Hicaz Cad.",
+    "number": "6",
+    "description": "Hicaz Cad. No:6 ANADOLUFENER─░/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "BAKLACI",
+    "street": "Fatih Cad.",
+    "number": "138",
+    "description": "Fatih Cad. No:138 BAKLACI/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "BOZHANE",
+    "street": "├çar┼ş─▒ Cad.",
+    "number": "6",
+    "description": "├çar┼ş─▒ Cad. No:6 B BOZHANE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "CUMHUR─░YET",
+    "street": "Muttalip Yavuz Cad.",
+    "number": "43",
+    "description": "Muttalip Yavuz Cad. No:43 CUMHUR─░YET/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "├çAMLIBAH├çE",
+    "street": "Ayd─▒n Reis Cad.",
+    "number": "17",
+    "description": "Ayd─▒n Reis Cad. No:17 ├çAMLIBAH├çE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "├çENGELDERE",
+    "street": "├çengeldere Cad.",
+    "number": "43",
+    "description": "├çengeldere Cad. No:43 /2 ├çENGELDERE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "├ç─░FTL─░K",
+    "street": "├çavu┼şba┼ş─▒ Cumhuriyet Cad.",
+    "number": "142",
+    "description": "├çavu┼şba┼ş─▒ Cumhuriyet Cad. No:142 ├ç─░FTL─░K/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "├çUBUKLU",
+    "street": "F─▒r─▒n Sk.",
+    "number": "14",
+    "description": "F─▒r─▒n Sk. No:14 ├çUBUKLU/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "DERESEK─░",
+    "street": "Karakulak Cad.",
+    "number": "62",
+    "description": "Karakulak Cad. No:62 DERESEK─░/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ELMALI",
+    "street": "Keser Cad.",
+    "number": "105",
+    "description": "Keser Cad. No:105 ELMALI/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "FAT─░H",
+    "street": "├çamoluk Sk. FAT─░H/BEYKOZ",
+    "number": "",
+    "description": "├çamoluk Sk. FAT─░H/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "G├ûKSU",
+    "street": "G├Âksu Cad.",
+    "number": "5",
+    "description": "G├Âksu Cad. No:5 G├ûKSU/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "G├ûLL├£",
+    "street": "Dereboyu Yolu",
+    "number": "6",
+    "description": "Dereboyu Yolu No:6 G├ûLL├£/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "G├ûRELE",
+    "street": "Bahri Ya┼şar Y─▒lmaz Cad.",
+    "number": "18",
+    "description": "Bahri Ya┼şar Y─▒lmaz Cad. No:18 G├ûRELE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "G├ûZTEPE",
+    "street": "G├Âksu Cad.",
+    "number": "70",
+    "description": "G├Âksu Cad. No:70 G├ûZTEPE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "G├£M├£┼ŞSUYU",
+    "street": "G├╝ldeste ├ç─▒kmaz─▒ G├£M├£┼ŞSUYU/BEYKOZ",
+    "number": "",
+    "description": "G├╝ldeste ├ç─▒kmaz─▒ G├£M├£┼ŞSUYU/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "─░NC─░RK├ûY",
+    "street": "K├Ây├Ân├╝ Cad.",
+    "number": "47",
+    "description": "K├Ây├Ân├╝ Cad. No:47 ─░NC─░RK├ûY/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "─░SHAKLI",
+    "street": "Balkan Cad.",
+    "number": "16",
+    "description": "Balkan Cad. No:16 ─░SHAKLI/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "KANLICA",
+    "street": "Halide Edip Ad─▒var Cad.",
+    "number": "1",
+    "description": "Halide Edip Ad─▒var Cad. No:1 A KANLICA/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "KAVACIK",
+    "street": "Havuzba┼ş─▒ Cad.",
+    "number": "2",
+    "description": "Havuzba┼ş─▒ Cad. No:2 /1 KAVACIK/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "KAYNARCA",
+    "street": "Y├╝zy─▒l Cad.",
+    "number": "14",
+    "description": "Y├╝zy─▒l Cad. No:14 C KAYNARCA/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "KILI├çLI",
+    "street": "A┼şa─ş─▒ Mahalle Cad.",
+    "number": "88",
+    "description": "A┼şa─ş─▒ Mahalle Cad. No:88 B KILI├çLI/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "MAHMUT┼ŞEVKETPA┼ŞA",
+    "street": "Prof. Dr. Aziz Sancar Cad.",
+    "number": "6",
+    "description": "Prof. Dr. Aziz Sancar Cad. No:6 /1 MAHMUT┼ŞEVKETPA┼ŞA/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "MERKEZ",
+    "street": "Mehmet Yavuz Cad.",
+    "number": "42",
+    "description": "Mehmet Yavuz Cad. No:42 MERKEZ/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "├û─Ş├£MCE",
+    "street": "Seniye ─░smail Han─▒m Cad.",
+    "number": "44",
+    "description": "Seniye ─░smail Han─▒m Cad. No:44 B ├û─Ş├£MCE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "├ûRNEKK├ûY",
+    "street": "Tepetarla Cad.",
+    "number": "8",
+    "description": "Tepetarla Cad. No:8 ├ûRNEKK├ûY/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "PA┼ŞABAH├çE",
+    "street": "Beyaz Erguvan Cad.",
+    "number": "3",
+    "description": "Beyaz Erguvan Cad. No:3 PA┼ŞABAH├çE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "PA┼ŞAMANDIRA",
+    "street": "Demirkap─▒ Cad.",
+    "number": "5",
+    "description": "Demirkap─▒ Cad. No:5 /4 PA┼ŞAMANDIRA/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "POLONEZK├ûY",
+    "street": "Seyri Cad.",
+    "number": "2",
+    "description": "Seyri Cad. No:2 B POLONEZK├ûY/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "POYRAZK├ûY",
+    "street": "Canayak─▒n Cad.",
+    "number": "2",
+    "description": "Canayak─▒n Cad. No:2 B POYRAZK├ûY/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "R─░VA",
+    "street": "┼Şehit Mehmet Ali ┼Şener Cad.",
+    "number": "16",
+    "description": "┼Şehit Mehmet Ali ┼Şener Cad. No:16 R─░VA/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "R├£ZGARLIBAH├çE",
+    "street": "Seyfi Baba Sk.",
+    "number": "29",
+    "description": "Seyfi Baba Sk. No:29 A R├£ZGARLIBAH├çE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "TOKATK├ûY",
+    "street": "Sultan Aziz Cad.",
+    "number": "31",
+    "description": "Sultan Aziz Cad. No:31 F TOKATK├ûY/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "YALIK├ûY",
+    "street": "Motorcu Sk. YALIK├ûY/BEYKOZ",
+    "number": "",
+    "description": "Motorcu Sk. YALIK├ûY/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "YAVUZ SEL─░M",
+    "street": "Dutdere Cad.",
+    "number": "5",
+    "description": "Dutdere Cad. No:5 A YAVUZ SEL─░M/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "YEN─░ MAHALLE",
+    "street": "Dr.├ûmer Besim Pa┼şa Cad.",
+    "number": "57",
+    "description": "Dr.├ûmer Besim Pa┼şa Cad. No:57 YEN─░ MAHALLE/BEYKOZ"
+  },
+  {
+    "district": "BEYKOZ",
+    "neighborhood": "ZERZAVAT├çI",
+    "street": "┼Şehit Cengiz Cad.",
+    "number": "36",
+    "description": "┼Şehit Cengiz Cad. No:36 B ZERZAVAT├çI/BEYKOZ"
+  },
+  {
+    "district": "BEYL─░KD├£Z├£",
+    "neighborhood": "ADNAN KAHVEC─░",
+    "street": "Erenler Cad. ADNAN KAHVEC─░/BEYL─░KD├£Z├£",
+    "number": "",
+    "description": "Erenler Cad. ADNAN KAHVEC─░/BEYL─░KD├£Z├£"
+  },
+  {
+    "district": "BEYL─░KD├£Z├£",
+    "neighborhood": "BARI┼Ş",
+    "street": "Sakarya Cad.",
+    "number": "21",
+    "description": "Sakarya Cad. No:21 BARI┼Ş/BEYL─░KD├£Z├£"
+  },
+  {
+    "district": "BEYL─░KD├£Z├£",
+    "neighborhood": "B├£Y├£K┼ŞEH─░R",
+    "street": "┼Şehit K. U─şur G├╝rsoy Sk.",
+    "number": "4",
+    "description": "┼Şehit K. U─şur G├╝rsoy Sk. No:4 B├£Y├£K┼ŞEH─░R/BEYL─░KD├£Z├£"
+  },
+  {
+    "district": "BEYL─░KD├£Z├£",
+    "neighborhood": "CUMHUR─░YET",
+    "street": "Atat├╝rk Bulvar─▒",
+    "number": "11",
+    "description": "Atat├╝rk Bulvar─▒ No:11 CUMHUR─░YET/BEYL─░KD├£Z├£"
+  },
+  {
+    "district": "BEYL─░KD├£Z├£",
+    "neighborhood": "DEREA─ŞZI",
+    "street": "G├╝ldal─▒ Sk.",
+    "number": "8",
+    "description": "G├╝ldal─▒ Sk. No:8 DEREA─ŞZI/BEYL─░KD├£Z├£"
+  },
+  {
+    "district": "BEYL─░KD├£Z├£",
+    "neighborhood": "G├£RPINAR",
+    "street": "Millet Cad.",
+    "number": "19",
+    "description": "Millet Cad. No:19 C G├£RPINAR/BEYL─░KD├£Z├£"
+  },
+  {
+    "district": "BEYL─░KD├£Z├£",
+    "neighborhood": "KAVAKLI",
+    "street": "├çay Sk.",
+    "number": "6",
+    "description": "├çay Sk. No:6 KAVAKLI/BEYL─░KD├£Z├£"
+  },
+  {
+    "district": "BEYL─░KD├£Z├£",
+    "neighborhood": "MARMARA",
+    "street": "H├╝rriyet Bulvar─▒",
+    "number": "60",
+    "description": "H├╝rriyet Bulvar─▒ No:60 /1 MARMARA/BEYL─░KD├£Z├£"
+  },
+  {
+    "district": "BEYL─░KD├£Z├£",
+    "neighborhood": "SAH─░L",
+    "street": "Aktoprak Cad.",
+    "number": "67",
+    "description": "Aktoprak Cad. No:67 SAH─░L/BEYL─░KD├£Z├£"
+  },
+  {
+    "district": "BEYL─░KD├£Z├£",
+    "neighborhood": "YAKUPLU",
+    "street": "Hakimiyet Cad.",
+    "number": "25",
+    "description": "Hakimiyet Cad. No:25 YAKUPLU/BEYL─░KD├£Z├£"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "ARAP CAM─░",
+    "street": "Arap Kayyum Sk.",
+    "number": "23",
+    "description": "Arap Kayyum Sk. No:23 ARAP CAM─░/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "ASMALI MESC─░T",
+    "street": "─░stiklal Cad.",
+    "number": "166",
+    "description": "─░stiklal Cad. No:166 ASMALI MESC─░T/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "BEDRETT─░N",
+    "street": "Havuz Sk.",
+    "number": "2",
+    "description": "Havuz Sk. No:2 BEDRETT─░N/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "BEREKETZADE",
+    "street": "F─▒r├ğac─▒ Sk.",
+    "number": "4",
+    "description": "F─▒r├ğac─▒ Sk. No:4 BEREKETZADE/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "BOSTAN",
+    "street": "Fesle─şen Sk.",
+    "number": "21",
+    "description": "Fesle─şen Sk. No:21 BOSTAN/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "B├£LB├£L",
+    "street": "G├Âlba┼ş─▒ Sk.",
+    "number": "18",
+    "description": "G├Âlba┼ş─▒ Sk. No:18 B├£LB├£L/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "CAM─░─░KEB─░R",
+    "street": "├çaydanl─▒k Sk.",
+    "number": "6",
+    "description": "├çaydanl─▒k Sk. No:6 CAM─░─░KEB─░R/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "C─░HANG─░R",
+    "street": "Cihangir Cad.",
+    "number": "19",
+    "description": "Cihangir Cad. No:19 C─░HANG─░R/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "├çATMA MESC─░T",
+    "street": "Tepeba┼ş─▒ Cad.",
+    "number": "9",
+    "description": "Tepeba┼ş─▒ Cad. No:9 ├çATMA MESC─░T/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "├çUKUR",
+    "street": "├çukur Sk.",
+    "number": "37",
+    "description": "├çukur Sk. No:37 A ├çUKUR/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "EMEKYEMEZ",
+    "street": "Y├╝ksek Minare Sk.",
+    "number": "8",
+    "description": "Y├╝ksek Minare Sk. No:8 A EMEKYEMEZ/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "EVL─░YA ├çELEB─░",
+    "street": "Refik Saydam Cad.",
+    "number": "23",
+    "description": "Refik Saydam Cad. No:23 EVL─░YA ├çELEB─░/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "FET─░HTEPE",
+    "street": "Cami Sk.",
+    "number": "2",
+    "description": "Cami Sk. No:2 A FET─░HTEPE/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "F─░RUZA─ŞA",
+    "street": "Kadiriler Yoku┼şu Sk.",
+    "number": "35",
+    "description": "Kadiriler Yoku┼şu Sk. No:35 A F─░RUZA─ŞA/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "G├£M├£┼ŞSUYU",
+    "street": "Saray Arkas─▒ Sk.",
+    "number": "45",
+    "description": "Saray Arkas─▒ Sk. No:45 G├£M├£┼ŞSUYU/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "HACIAHMET",
+    "street": "Fadil Arif Sk.",
+    "number": "10",
+    "description": "Fadil Arif Sk. No:10 HACIAHMET/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "HACIM─░M─░",
+    "street": "Karaba┼ş Mektebi Sk.",
+    "number": "11",
+    "description": "Karaba┼ş Mektebi Sk. No:11 HACIM─░M─░/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "HALICIO─ŞLU",
+    "street": "Muhibban Sk.",
+    "number": "30",
+    "description": "Muhibban Sk. No:30 B HALICIO─ŞLU/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "H├£SEY─░NA─ŞA",
+    "street": "Halas Sk.",
+    "number": "7",
+    "description": "Halas Sk. No:7 H├£SEY─░NA─ŞA/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "─░ST─░KLAL",
+    "street": "Piyalepa┼şa Bulvar─▒",
+    "number": "14",
+    "description": "Piyalepa┼şa Bulvar─▒ No:14 ─░ST─░KLAL/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "KADIMEHMET EFEND─░",
+    "street": "Bahriye Hastanesi Arka Sk.",
+    "number": "2",
+    "description": "Bahriye Hastanesi Arka Sk. No:2 KADIMEHMET EFEND─░/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "KAMER HATUN",
+    "street": "Tarlaba┼ş─▒ Bulvar─▒",
+    "number": "270",
+    "description": "Tarlaba┼ş─▒ Bulvar─▒ No:270 /1 KAMER HATUN/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "KAPTANPA┼ŞA",
+    "street": "Yay Sk.",
+    "number": "22",
+    "description": "Yay Sk. No:22 KAPTANPA┼ŞA/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "KAT─░PMUSTAFA ├çELEB─░",
+    "street": "Ma├ğ ├ç─▒kmaz─▒",
+    "number": "1",
+    "description": "Ma├ğ ├ç─▒kmaz─▒ No:1 KAT─░PMUSTAFA ├çELEB─░/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "KE├çEC─░ P─░R─░",
+    "street": "Ke├ğeci Piri Cami Sk.",
+    "number": "30",
+    "description": "Ke├ğeci Piri Cami Sk. No:30 A KE├çEC─░ P─░R─░/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "KILI├çAL─░ PA┼ŞA",
+    "street": "Akarsu Yoku┼şu",
+    "number": "45",
+    "description": "Akarsu Yoku┼şu No:45 B KILI├çAL─░ PA┼ŞA/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "KOCATEPE",
+    "street": "Dolapdere Taksim Cad.",
+    "number": "20",
+    "description": "Dolapdere Taksim Cad. No:20 KOCATEPE/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "KULAKSIZ",
+    "street": "Kulaks─▒z Ya─şhanesi Aral─▒─ş─▒",
+    "number": "3",
+    "description": "Kulaks─▒z Ya─şhanesi Aral─▒─ş─▒ No:3 A KULAKSIZ/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "K├£├ç├£K P─░YALE",
+    "street": "Fi┼şekhane Deresi Cad. K├£├ç├£K P─░YALE/BEYO─ŞLU",
+    "number": "",
+    "description": "Fi┼şekhane Deresi Cad. K├£├ç├£K P─░YALE/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "├ûMER AVN─░",
+    "street": "Beyt├╝lmalc─▒ Sk.",
+    "number": "3",
+    "description": "Beyt├╝lmalc─▒ Sk. No:3 C ├ûMER AVN─░/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "├ûRNEKTEPE",
+    "street": "Papatya Sk.",
+    "number": "1",
+    "description": "Papatya Sk. No:1 ├ûRNEKTEPE/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "P─░R─░PA┼ŞA",
+    "street": "Keten Sk.",
+    "number": "2",
+    "description": "Keten Sk. No:2 P─░R─░PA┼ŞA/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "P─░YALEPA┼ŞA",
+    "street": "Sa─şl─▒k Oca─ş─▒ Sk.",
+    "number": "8",
+    "description": "Sa─şl─▒k Oca─ş─▒ Sk. No:8 P─░YALEPA┼ŞA/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "SURUR─░ MEHMET EFEND─░",
+    "street": "Keramet Sk.",
+    "number": "23",
+    "description": "Keramet Sk. No:23 SURUR─░ MEHMET EFEND─░/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "S├£TL├£CE",
+    "street": "Tavc─▒ Sk.",
+    "number": "35",
+    "description": "Tavc─▒ Sk. No:35 S├£TL├£CE/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "YAHYA KAHYA",
+    "street": "Sipahi F─▒r─▒n─▒ Sk.",
+    "number": "2",
+    "description": "Sipahi F─▒r─▒n─▒ Sk. No:2 YAHYA KAHYA/BEYO─ŞLU"
+  },
+  {
+    "district": "BEYO─ŞLU",
+    "neighborhood": "YEN─░┼ŞEH─░R",
+    "street": "Babada─ş Sk.",
+    "number": "1",
+    "description": "Babada─ş Sk. No:1 YEN─░┼ŞEH─░R/BEYO─ŞLU"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "19 MAYIS",
+    "street": "Osmangazi Cad.",
+    "number": "19",
+    "description": "Osmangazi Cad. No:19 19 MAYIS/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "AHMED─░YE",
+    "street": "Ayd─▒n 1 Sk.",
+    "number": "4",
+    "description": "Ayd─▒n 1 Sk. No:4 /1 AHMED─░YE/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "ALKENT 2000",
+    "street": "Yeditepe Cad.",
+    "number": "1",
+    "description": "Yeditepe Cad. No:1 B ALKENT 2000/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "ATAT├£RK",
+    "street": "Serinp─▒nar Cad.",
+    "number": "6",
+    "description": "Serinp─▒nar Cad. No:6 /1 ATAT├£RK/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "BAH├çEL─░EVLER",
+    "street": "Ayd─▒nlar Cad.",
+    "number": "292",
+    "description": "Ayd─▒nlar Cad. No:292 BAH├çEL─░EVLER/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "CELAL─░YE",
+    "street": "┼Şerefbey Cad.",
+    "number": "2",
+    "description": "┼Şerefbey Cad. No:2 A CELAL─░YE/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "CUMHUR─░YET",
+    "street": "┼Şafak Sk.",
+    "number": "4",
+    "description": "┼Şafak Sk. No:4 /1 CUMHUR─░YET/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "├çAKMAKLI",
+    "street": "Buyruk Sk.",
+    "number": "2",
+    "description": "Buyruk Sk. No:2 /1 ├çAKMAKLI/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "D─░ZDAR─░YE",
+    "street": "├ç─▒nar 1 Sk.",
+    "number": "10",
+    "description": "├ç─▒nar 1 Sk. No:10 D─░ZDAR─░YE/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "EK─░NOBA",
+    "street": "Z├╝lal Sk.",
+    "number": "6",
+    "description": "Z├╝lal Sk. No:6 EK─░NOBA/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "FAT─░H",
+    "street": "Cengiz Topel Cad.",
+    "number": "19",
+    "description": "Cengiz Topel Cad. No:19 FAT─░H/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "G├£ZELCE",
+    "street": "G├╝ne┼ş Cad.",
+    "number": "17",
+    "description": "G├╝ne┼ş Cad. No:17 G├£ZELCE/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "KAM─░LOBA",
+    "street": "Selanik Cad.",
+    "number": "2",
+    "description": "Selanik Cad. No:2 KAM─░LOBA/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "KARAA─ŞA├ç",
+    "street": "Dostluk Cad.",
+    "number": "38",
+    "description": "Dostluk Cad. No:38 KARAA─ŞA├ç/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "KUMBURGAZ",
+    "street": "S├╝nd├╝z Sk.",
+    "number": "8",
+    "description": "S├╝nd├╝z Sk. No:8 KUMBURGAZ/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "M─░MAR S─░NAN",
+    "street": "Liman Sk.",
+    "number": "6",
+    "description": "Liman Sk. No:6 M─░MAR S─░NAN/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "M─░MAROBA",
+    "street": "U─şur Mumcu Cad.",
+    "number": "2",
+    "description": "U─şur Mumcu Cad. No:2 /1 M─░MAROBA/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "MURAT ├çESME",
+    "street": "Palanga Sk.",
+    "number": "4",
+    "description": "Palanga Sk. No:4 MURAT ├çESME/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "PINARTEPE",
+    "street": "Ak├ğada─ş Sk.",
+    "number": "3",
+    "description": "Ak├ğada─ş Sk. No:3 PINARTEPE/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "S─░NANOBA",
+    "street": "Mustafa Kemal Bulvar─▒",
+    "number": "45",
+    "description": "Mustafa Kemal Bulvar─▒ No:45 S─░NANOBA/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "T├£RKOBA",
+    "street": "Atat├╝rk 2 Cad.",
+    "number": "258",
+    "description": "Atat├╝rk 2 Cad. No:258 T├£RKOBA/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "ULUS",
+    "street": "Havuzalt─▒ Sk.",
+    "number": "10",
+    "description": "Havuzalt─▒ Sk. No:10 ULUS/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "B├£Y├£K├çEKMECE",
+    "neighborhood": "YEN─░MAHALLE",
+    "street": "Ayd─▒nlar Cad.",
+    "number": "1",
+    "description": "Ayd─▒nlar Cad. No:1 /1 YEN─░MAHALLE/B├£Y├£K├çEKMECE"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "AKALAN",
+    "street": "Demokrasi Cad.",
+    "number": "3",
+    "description": "Demokrasi Cad. No:3 AKALAN/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "AYDINLAR",
+    "street": "Mimar Sinan Cad.",
+    "number": "3",
+    "description": "Mimar Sinan Cad. No:3 AYDINLAR/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "BAH┼ŞAY─░┼Ş",
+    "street": "├çanakkale Cad.",
+    "number": "1",
+    "description": "├çanakkale Cad. No:1 BAH┼ŞAY─░┼Ş/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "BA┼ŞAK",
+    "street": "Ba┼ş├Â─şretmen Cad.",
+    "number": "1",
+    "description": "Ba┼ş├Â─şretmen Cad. No:1 C BA┼ŞAK/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "BELGRAT",
+    "street": "Mesken Sk.",
+    "number": "5",
+    "description": "Mesken Sk. No:5 D BELGRAT/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "CELEPK├ûY",
+    "street": "Mimar Sk.",
+    "number": "19",
+    "description": "Mimar Sk. No:19 C CELEPK├ûY/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "├çAKIL",
+    "street": "Yunus Emre Cad.",
+    "number": "5",
+    "description": "Yunus Emre Cad. No:5 A ├çAKIL/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "├çANAK├çA",
+    "street": "Karacak├Ây Cad.",
+    "number": "168",
+    "description": "Karacak├Ây Cad. No:168 ├çANAK├çA/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "├ç─░FTL─░KK├ûY",
+    "street": "Ihlamur Cad.",
+    "number": "2",
+    "description": "Ihlamur Cad. No:2 ├ç─░FTL─░KK├ûY/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "DA─ŞYEN─░CE",
+    "street": "Karacak├Ây Cad.",
+    "number": "421",
+    "description": "Karacak├Ây Cad. No:421  B DA─ŞYEN─░CE/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "ELBASAN",
+    "street": "Kooperatif Cad.",
+    "number": "3",
+    "description": "Kooperatif Cad. No:3  A ELBASAN/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "FAT─░H",
+    "street": "Gazi Mustafa Kemal Cad.",
+    "number": "63",
+    "description": "Gazi Mustafa Kemal Cad. No:63 FAT─░H/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "G├ûK├çEAL─░",
+    "street": "G├Âk├ğeali Cad.",
+    "number": "224",
+    "description": "G├Âk├ğeali Cad. No:224 G├ûK├çEAL─░/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "G├£M├£┼ŞPINAR",
+    "street": "├ûnder Atat├╝rk Cad.",
+    "number": "23",
+    "description": "├ûnder Atat├╝rk Cad. No:23 G├£M├£┼ŞPINAR/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "HALLA├çLI",
+    "street": "Hac─▒ Y─▒lmaz Sk.",
+    "number": "4",
+    "description": "Hac─▒ Y─▒lmaz Sk. No:4  A HALLA├çLI/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "H─░SARBEYL─░",
+    "street": "Karakartal Cad.",
+    "number": "55",
+    "description": "Karakartal Cad. No:55  B H─░SARBEYL─░/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "─░HSAN─░YE",
+    "street": "Gazi Mustafa Kemalpa┼şa Cad.",
+    "number": "23",
+    "description": "Gazi Mustafa Kemalpa┼şa Cad. No:23 A ─░HSAN─░YE/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "─░NCE─Ş─░Z",
+    "street": "Arif Nihat Asya Cad.",
+    "number": "11",
+    "description": "Arif Nihat Asya Cad. No:11 ─░NCE─Ş─░Z/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "─░ZZETT─░N",
+    "street": "Sencer Sk.",
+    "number": "9",
+    "description": "Sencer Sk. No:9 /1A ─░ZZETT─░N/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "KABAK├çA",
+    "street": "Ak┼şemseddin Cad.",
+    "number": "5",
+    "description": "Ak┼şemseddin Cad. No:5  A KABAK├çA/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "KALE─░├ç─░",
+    "street": "Cevdet Bar─▒n Cad.",
+    "number": "25",
+    "description": "Cevdet Bar─▒n Cad. No:25 KALE─░├ç─░/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "KALFA",
+    "street": "Ba┼şakk├Ây Cad.",
+    "number": "5",
+    "description": "Ba┼şakk├Ây Cad. No:5  D KALFA/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "KARACAK├ûY MERKEZ",
+    "street": "Mustafa Kemalpa┼şa Cad.",
+    "number": "9",
+    "description": "Mustafa Kemalpa┼şa Cad. No:9 KARACAK├ûY MERKEZ/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "KARAMANDERE",
+    "street": "M├╝r┼şit ├ç─▒kmaz─▒",
+    "number": "2",
+    "description": "M├╝r┼şit ├ç─▒kmaz─▒ No:2 KARAMANDERE/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "KESTANEL─░K",
+    "street": "Karacak├Ây Cad.",
+    "number": "58",
+    "description": "Karacak├Ây Cad. No:58 KESTANEL─░K/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "KIZILCAAL─░",
+    "street": "Orkide Sk.",
+    "number": "13",
+    "description": "Orkide Sk. No:13  C KIZILCAAL─░/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "MURATBEY MERKEZ",
+    "street": "Hayrabolu Cad.",
+    "number": "76",
+    "description": "Hayrabolu Cad. No:76 A MURATBEY MERKEZ/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "NAKKA┼Ş",
+    "street": "├çar┼ş─▒ Cad.",
+    "number": "13",
+    "description": "├çar┼ş─▒ Cad. No:13 A NAKKA┼Ş/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "OKLALI",
+    "street": "Eski Edirne Asfalt─▒ Cad.",
+    "number": "2195",
+    "description": "Eski Edirne Asfalt─▒ Cad. No:2195  D OKLALI/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "ORMANLI",
+    "street": "Bo─şa├ğhan Sk.",
+    "number": "2",
+    "description": "Bo─şa├ğhan Sk. No:2 ORMANLI/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "OVAYEN─░CE",
+    "street": "├çatalca Cad.",
+    "number": "224",
+    "description": "├çatalca Cad. No:224 B OVAYEN─░CE/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "├ûRC├£NL├£",
+    "street": "├ûzkan Sk.",
+    "number": "4",
+    "description": "├ûzkan Sk. No:4 C ├ûRC├£NL├£/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "├ûRENC─░K",
+    "street": "Kavak Sk.",
+    "number": "2",
+    "description": "Kavak Sk. No:2 ├ûRENC─░K/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "SUBA┼ŞI",
+    "street": "G├Âk├ğeali Cad.",
+    "number": "337",
+    "description": "G├Âk├ğeali Cad. No:337  H SUBA┼ŞI/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "YALIK├ûY",
+    "street": "29 Ekim Cad.",
+    "number": "1",
+    "description": "29 Ekim Cad. No:1  E YALIK├ûY/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "YAYLACIK",
+    "street": "Rezene Sk.",
+    "number": "9",
+    "description": "Rezene Sk. No:9 YAYLACIK/├çATALCA"
+  },
+  {
+    "district": "├çATALCA",
+    "neighborhood": "YAZLIK",
+    "street": "Botanik Sk.",
+    "number": "2",
+    "description": "Botanik Sk. No:2 B YAZLIK/├çATALCA"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "ALEMDA─Ş",
+    "street": "138. Sk.",
+    "number": "3",
+    "description": "138. Sk. No:3 ALEMDA─Ş/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "AYDINLAR",
+    "street": "Eylem Sk.",
+    "number": "10",
+    "description": "Eylem Sk. No:10 -12 AYDINLAR/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "CUMHUR─░YET",
+    "street": "G├╝lnar Sk.",
+    "number": "19",
+    "description": "G├╝lnar Sk. No:19 CUMHUR─░YET/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "├çAMLIK",
+    "street": "Bilgen Sk.",
+    "number": "10",
+    "description": "Bilgen Sk. No:10 ├çAMLIK/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "├çATALME┼ŞE",
+    "street": "Saray Cad.",
+    "number": "245",
+    "description": "Saray Cad. No:245 ├çATALME┼ŞE/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "EK┼Ş─░O─ŞLU",
+    "street": "Turgut ├ûzal Cad.",
+    "number": "132",
+    "description": "Turgut ├ûzal Cad. No:132 EK┼Ş─░O─ŞLU/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "G├£NG├ûREN",
+    "street": "Vakar Sk.",
+    "number": "7",
+    "description": "Vakar Sk. No:7 G├£NG├ûREN/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "HAM─░D─░YE",
+    "street": "Y─▒ld─▒z Sk.",
+    "number": "59",
+    "description": "Y─▒ld─▒z Sk. No:59 HAM─░D─░YE/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "H├£SEY─░NL─░",
+    "street": "Mustafa Kemal Pa┼şa Cad.",
+    "number": "1",
+    "description": "Mustafa Kemal Pa┼şa Cad. No:1 H├£SEY─░NL─░/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "K─░RAZLIDERE",
+    "street": "G├╝m├╝┼ş Sk.",
+    "number": "14",
+    "description": "G├╝m├╝┼ş Sk. No:14 A K─░RAZLIDERE/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "KO├çULLU",
+    "street": "Ko├ğullu Cad.",
+    "number": "25",
+    "description": "Ko├ğullu Cad. No:25 KO├çULLU/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "MEHMET AK─░F",
+    "street": "Erge Sk.",
+    "number": "28",
+    "description": "Erge Sk. No:28 MEHMET AK─░F/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "MERKEZ",
+    "street": "┼Ş├╝kr├╝ Kaya Sk.",
+    "number": "1",
+    "description": "┼Ş├╝kr├╝ Kaya Sk. No:1 /1 MERKEZ/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "M─░MAR S─░NAN",
+    "street": "Selim Dede Cad.",
+    "number": "47",
+    "description": "Selim Dede Cad. No:47 M─░MAR S─░NAN/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "N─░┼ŞANTEPE",
+    "street": "Pazar Sk.",
+    "number": "15",
+    "description": "Pazar Sk. No:15 N─░┼ŞANTEPE/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "├ûMERL─░",
+    "street": "├ûmerli Cad.",
+    "number": "36",
+    "description": "├ûmerli Cad. No:36 B ├ûMERL─░/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "RE┼ŞAD─░YE",
+    "street": "Re┼şadiye Cad.",
+    "number": "205",
+    "description": "Re┼şadiye Cad. No:205 RE┼ŞAD─░YE/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "SIRAPINAR",
+    "street": "Beykoz Cad.",
+    "number": "67",
+    "description": "Beykoz Cad. No:67 SIRAPINAR/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "SO─ŞUKPINAR",
+    "street": "Canan Sk.",
+    "number": "27",
+    "description": "Canan Sk. No:27 SO─ŞUKPINAR/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "SULTAN├ç─░FTL─░─Ş─░",
+    "street": "Kemen├ğe Sk.",
+    "number": "10",
+    "description": "Kemen├ğe Sk. No:10 SULTAN├ç─░FTL─░─Ş─░/├çEKMEK├ûY"
+  },
+  {
+    "district": "├çEKMEK├ûY",
+    "neighborhood": "TA┼ŞDELEN",
+    "street": "┼Şehit Kubilay Cad.",
+    "number": "3",
+    "description": "┼Şehit Kubilay Cad. No:3 TA┼ŞDELEN/├çEKMEK├ûY"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "15 TEMMUZ",
+    "street": "┼Şehit Sava┼ş Koyun Altge├ğidi",
+    "number": "419",
+    "description": "┼Şehit Sava┼ş Koyun Altge├ğidi No:419 A 15 TEMMUZ/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "B─░RL─░K",
+    "street": "845. Sk.",
+    "number": "1",
+    "description": "845. Sk. No:1 B─░RL─░K/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "├ç─░FTE HAVUZLAR",
+    "street": "Sebil Sk.",
+    "number": "1",
+    "description": "Sebil Sk. No:1 ├ç─░FTE HAVUZLAR/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "FAT─░H",
+    "street": "241. Sk.",
+    "number": "1",
+    "description": "241. Sk. No:1 FAT─░H/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "FEVZ─░ ├çAKMAK",
+    "street": "1118. Sk.",
+    "number": "17",
+    "description": "1118. Sk. No:17 C FEVZ─░ ├çAKMAK/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "HAVAALANI",
+    "street": "Ta┼şoca─ş─▒ Cad.",
+    "number": "62",
+    "description": "Ta┼şoca─ş─▒ Cad. No:62 A HAVAALANI/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "KEMER",
+    "street": "┼Şahinbey Cad.",
+    "number": "25",
+    "description": "┼Şahinbey Cad. No:25 A KEMER/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "MENDERES",
+    "street": "End├╝l├╝s Cad.",
+    "number": "9",
+    "description": "End├╝l├╝s Cad. No:9 A MENDERES/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "M─░MAR S─░NAN",
+    "street": "94. Sk.",
+    "number": "32",
+    "description": "94. Sk. No:32 M─░MAR S─░NAN/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "N─░NE HATUN",
+    "street": "134. Sk.",
+    "number": "4",
+    "description": "134. Sk. No:4 N─░NE HATUN/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "ORU├çRE─░S",
+    "street": "562. Sk.",
+    "number": "13",
+    "description": "562. Sk. No:13 ORU├çRE─░S/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "TUNA",
+    "street": "Tuna Cad.",
+    "number": "30",
+    "description": "Tuna Cad. No:30 TUNA/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "TURGUT RE─░S",
+    "street": "Cengiz Topel Cad.",
+    "number": "52",
+    "description": "Cengiz Topel Cad. No:52 -56 TURGUT RE─░S/ESENLER"
+  },
+  {
+    "district": "ESENLER",
+    "neighborhood": "YAVUZ SEL─░M",
+    "street": "Mehmet├ğik Sk.",
+    "number": "40",
+    "description": "Mehmet├ğik Sk. No:40 A YAVUZ SEL─░M/ESENLER"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "AK├çABURGAZ",
+    "street": "Halil Fahri Orman Cad.",
+    "number": "8",
+    "description": "Halil Fahri Orman Cad. No:8 AK├çABURGAZ/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "AKEVLER",
+    "street": "Fatih Sultan Mehmet Cad.",
+    "number": "89",
+    "description": "Fatih Sultan Mehmet Cad. No:89 AKEVLER/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "AK┼ŞEMSEDD─░N",
+    "street": "A┼ş─▒k Mahsuni ┼Şerif Cad.",
+    "number": "68",
+    "description": "A┼ş─▒k Mahsuni ┼Şerif Cad. No:68 /2 AK┼ŞEMSEDD─░N/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "ARDI├çLI",
+    "street": "792. Sk.",
+    "number": "20",
+    "description": "792. Sk. No:20 ARDI├çLI/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "A┼ŞIK VEYSEL",
+    "street": "Resneli Niyazi Sk.",
+    "number": "2",
+    "description": "Resneli Niyazi Sk. No:2 A A┼ŞIK VEYSEL/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "ATAT├£RK",
+    "street": "Adnan Menderes Cad.",
+    "number": "17",
+    "description": "Adnan Menderes Cad. No:17 /1 ATAT├£RK/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "BA─ŞLAR├çE┼ŞME",
+    "street": "1175. Sk.",
+    "number": "43",
+    "description": "1175. Sk. No:43 BA─ŞLAR├çE┼ŞME/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "BALIKYOLU",
+    "street": "470. Sk.",
+    "number": "1",
+    "description": "470. Sk. No:1 /1 BALIKYOLU/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "BARBAROS HAYRETT─░N PA┼ŞA",
+    "street": "2274. Sk.",
+    "number": "5",
+    "description": "2274. Sk. No:5 BARBAROS HAYRETT─░N PA┼ŞA/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "BATTALGAZ─░",
+    "street": "┼Şubat Sk.",
+    "number": "1",
+    "description": "┼Şubat Sk. No:1 BATTALGAZ─░/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "CUMHUR─░YET",
+    "street": "1986. Sk.",
+    "number": "3",
+    "description": "1986. Sk. No:3 CUMHUR─░YET/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "├çINAR",
+    "street": "1462. Sk.",
+    "number": "20",
+    "description": "1462. Sk. No:20 ├çINAR/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "FAT─░H",
+    "street": "947. Sk.",
+    "number": "7",
+    "description": "947. Sk. No:7 /1 FAT─░H/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "G├ûKEVLER",
+    "street": "545. Sk.",
+    "number": "1",
+    "description": "545. Sk. No:1 A G├ûKEVLER/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "G├£ZELYURT",
+    "street": "2113. Sk.",
+    "number": "1",
+    "description": "2113. Sk. No:1 G├£ZELYURT/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "H├£RR─░YET",
+    "street": "Leylek Sk.",
+    "number": "20",
+    "description": "Leylek Sk. No:20 H├£RR─░YET/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "─░NC─░RTEPE",
+    "street": "240. Sk.",
+    "number": "44",
+    "description": "240. Sk. No:44 ─░NC─░RTEPE/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "─░N├ûN├£",
+    "street": "373. Sk.",
+    "number": "5",
+    "description": "373. Sk. No:5 ─░N├ûN├£/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "─░ST─░KLAL",
+    "street": "Sanat Sk.",
+    "number": "72",
+    "description": "Sanat Sk. No:72 ─░ST─░KLAL/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "KOZA",
+    "street": "1638. Sk.",
+    "number": "3",
+    "description": "1638. Sk. No:3 J KOZA/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "MEHMET AK─░F ERSOY",
+    "street": "2051. Sk.",
+    "number": "1",
+    "description": "2051. Sk. No:1 MEHMET AK─░F ERSOY/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "MEHTER├çE┼ŞME",
+    "street": "Hac─▒ Bayram Veli Cad.",
+    "number": "120",
+    "description": "Hac─▒ Bayram Veli Cad. No:120 MEHTER├çE┼ŞME/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "MEVLANA",
+    "street": "├çelebi Mehmet Cad.",
+    "number": "21",
+    "description": "├çelebi Mehmet Cad. No:21 MEVLANA/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "NEC─░P FAZIL KISAK├£REK",
+    "street": "F─▒rt─▒na Sk.",
+    "number": "4",
+    "description": "F─▒rt─▒na Sk. No:4 NEC─░P FAZIL KISAK├£REK/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "ORHAN GAZ─░",
+    "street": "1646. Sk.",
+    "number": "7",
+    "description": "1646. Sk. No:7 /4 ORHAN GAZ─░/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "OSMANGAZ─░",
+    "street": "Ye┼şilda─ş Sk. OSMANGAZ─░/ESENYURT",
+    "number": "",
+    "description": "Ye┼şilda─ş Sk. OSMANGAZ─░/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "PINAR",
+    "street": "1290. Sk.",
+    "number": "12",
+    "description": "1290. Sk. No:12 PINAR/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "P─░R─░ RE─░S",
+    "street": "2059. Sk.",
+    "number": "3",
+    "description": "2059. Sk. No:3 /1 P─░R─░ RE─░S/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "SAADETDERE",
+    "street": "7. Sk.",
+    "number": "35",
+    "description": "7. Sk. No:35 SAADETDERE/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "SELAHADD─░N EYYUB─░",
+    "street": "1551. Sk. SELAHADD─░N EYYUB─░/ESENYURT",
+    "number": "",
+    "description": "1551. Sk. SELAHADD─░N EYYUB─░/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "SULTAN─░YE",
+    "street": "624. Sk.",
+    "number": "29",
+    "description": "624. Sk. No:29 SULTAN─░YE/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "S├£LEYMAN─░YE",
+    "street": "778. Sk.",
+    "number": "16",
+    "description": "778. Sk. No:16 S├£LEYMAN─░YE/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "┼ŞEH─░TLER",
+    "street": "2610. Sk.",
+    "number": "28",
+    "description": "2610. Sk. No:28 -30 ┼ŞEH─░TLER/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "TURGUT ├ûZAL",
+    "street": "Orkide Cad. TURGUT ├ûZAL/ESENYURT",
+    "number": "",
+    "description": "Orkide Cad. TURGUT ├ûZAL/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "├£├çEVLER",
+    "street": "910. Sk.",
+    "number": "16",
+    "description": "910. Sk. No:16 ├£├çEVLER/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "YE┼Ş─░LKENT",
+    "street": "1880. Sk.",
+    "number": "75",
+    "description": "1880. Sk. No:75 /1 YE┼Ş─░LKENT/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "YUNUS EMRE",
+    "street": "285. Sk.",
+    "number": "14",
+    "description": "285. Sk. No:14 YUNUS EMRE/ESENYURT"
+  },
+  {
+    "district": "ESENYURT",
+    "neighborhood": "ZAFER",
+    "street": "115. Sk.",
+    "number": "8",
+    "description": "115. Sk. No:8 ZAFER/ESENYURT"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "A─ŞA├çLI",
+    "street": "A─şa├ğl─▒ K├Ây Yolu Sk.",
+    "number": "42",
+    "description": "A─şa├ğl─▒ K├Ây Yolu Sk. No:42 A A─ŞA├çLI/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "AKPINAR",
+    "street": "Manyas Sk.",
+    "number": "7",
+    "description": "Manyas Sk. No:7 D AKPINAR/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "AK┼ŞEMSETT─░N",
+    "street": "Alperen Cad.",
+    "number": "41",
+    "description": "Alperen Cad. No:41 A AK┼ŞEMSETT─░N/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "AL─░BEYK├ûY",
+    "street": "Nam─▒k Kemal Cad.",
+    "number": "79",
+    "description": "Nam─▒k Kemal Cad. No:79 A AL─░BEYK├ûY/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "├çIR├çIR",
+    "street": "Derei├ği Sk.",
+    "number": "21",
+    "description": "Derei├ği Sk. No:21 ├çIR├çIR/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "├ç─░FTALAN",
+    "street": "Ye┼şilova Sk.",
+    "number": "43",
+    "description": "Ye┼şilova Sk. No:43 ├ç─░FTALAN/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "DEFTERDAR",
+    "street": "Fethi ├çelebi Cad.",
+    "number": "1",
+    "description": "Fethi ├çelebi Cad. No:1 /1B DEFTERDAR/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "EMN─░YETTEPE",
+    "street": "Top├ğular Yoku┼şu",
+    "number": "3",
+    "description": "Top├ğular Yoku┼şu No:3 EMN─░YETTEPE/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "ESENTEPE",
+    "street": "Y─▒ld─▒ztabya Alibeyk├Ây Cad.",
+    "number": "51",
+    "description": "Y─▒ld─▒ztabya Alibeyk├Ây Cad. No:51 ESENTEPE/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "G├ûKT├£RK MERKEZ",
+    "street": "Nehir Sk. G├ûKT├£RK MERKEZ/EY├£PSULTAN",
+    "number": "",
+    "description": "Nehir Sk. G├ûKT├£RK MERKEZ/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "G├£ZELTEPE",
+    "street": "Mare┼şal Fevzi ├çakmak Cad.",
+    "number": "106",
+    "description": "Mare┼şal Fevzi ├çakmak Cad. No:106 G├£ZELTEPE/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "I┼ŞIKLAR",
+    "street": "I┼ş─▒klar ─░stanbul Cad.",
+    "number": "60",
+    "description": "I┼ş─▒klar ─░stanbul Cad. No:60 B I┼ŞIKLAR/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "─░HSAN─░YE",
+    "street": "Derbent Sk.",
+    "number": "7",
+    "description": "Derbent Sk. No:7 ─░HSAN─░YE/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "─░SLAMBEY",
+    "street": "─░slambey Bostan─▒ Sk.",
+    "number": "11",
+    "description": "─░slambey Bostan─▒ Sk. No:11 /1 ─░SLAMBEY/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "KARADOLAP",
+    "street": "├ç─▒kr─▒k Sk. KARADOLAP/EY├£PSULTAN",
+    "number": "",
+    "description": "├ç─▒kr─▒k Sk. KARADOLAP/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "MERKEZ",
+    "street": "─░dris K├Â┼şk├╝ Cad.",
+    "number": "36",
+    "description": "─░dris K├Â┼şk├╝ Cad. No:36 A MERKEZ/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "M─░THATPA┼ŞA",
+    "street": "┼Şehit Sinan ┼Şen Cad.",
+    "number": "46",
+    "description": "┼Şehit Sinan ┼Şen Cad. No:46 A M─░THATPA┼ŞA/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "N─░┼ŞANCI",
+    "street": "Abdurrahman ┼Şerefbey Cad.",
+    "number": "22",
+    "description": "Abdurrahman ┼Şerefbey Cad. No:22 N─░┼ŞANCI/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "ODAYER─░",
+    "street": "Sel├ğukbey Sk. ODAYER─░/EY├£PSULTAN",
+    "number": "",
+    "description": "Sel├ğukbey Sk. ODAYER─░/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "P─░R─░N├ç├ç─░",
+    "street": "┼Şehit Sava┼ş Koyun Altge├ğidi",
+    "number": "4",
+    "description": "┼Şehit Sava┼ş Koyun Altge├ğidi No:4 C P─░R─░N├ç├ç─░/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "RAM─░ CUMA",
+    "street": "Re┼şadiye Cad.",
+    "number": "1",
+    "description": "Re┼şadiye Cad. No:1 RAM─░ CUMA/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "RAM─░ YEN─░",
+    "street": "Kuru G─▒da 12. Sk.",
+    "number": "3",
+    "description": "Kuru G─▒da 12. Sk. No:3 RAM─░ YEN─░/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "SAKARYA",
+    "street": "T├╝rbe Cad.",
+    "number": "12",
+    "description": "T├╝rbe Cad. No:12 SAKARYA/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "S─░LAHTARA─ŞA",
+    "street": "Muhsin Yaz─▒c─▒o─şlu Cad.",
+    "number": "65",
+    "description": "Muhsin Yaz─▒c─▒o─şlu Cad. No:65 /1 S─░LAHTARA─ŞA/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "TOP├çULAR",
+    "street": "┼Şehit Kubilay Sk.",
+    "number": "12",
+    "description": "┼Şehit Kubilay Sk. No:12 TOP├çULAR/EY├£PSULTAN"
+  },
+  {
+    "district": "EY├£PSULTAN",
+    "neighborhood": "YE┼Ş─░LPINAR",
+    "street": "Samsun Sk.",
+    "number": "2",
+    "description": "Samsun Sk. No:2 A YE┼Ş─░LPINAR/EY├£PSULTAN"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "AKSARAY",
+    "street": "K├╝├ğ├╝k Langa Aral─▒─ş─▒ Cad.",
+    "number": "23",
+    "description": "K├╝├ğ├╝k Langa Aral─▒─ş─▒ Cad. No:23 AKSARAY/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "AK┼ŞEMSETT─░N",
+    "street": "Sar─▒g├╝zel Cad.",
+    "number": "126",
+    "description": "Sar─▒g├╝zel Cad. No:126 AK┼ŞEMSETT─░N/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "ALEMDAR",
+    "street": "Hoca R├╝stem Sk.",
+    "number": "6",
+    "description": "Hoca R├╝stem Sk. No:6 /1 ALEMDAR/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "AL─░ KU┼Ş├çU",
+    "street": "Ba┼şimam Sk.",
+    "number": "17",
+    "description": "Ba┼şimam Sk. No:17 AL─░ KU┼Ş├çU/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "AT─░KAL─░",
+    "street": "Ni┼şanca Aral─▒─ş─▒ ├ç─▒kmaz─▒",
+    "number": "10",
+    "description": "Ni┼şanca Aral─▒─ş─▒ ├ç─▒kmaz─▒ No:10 /1 AT─░KAL─░/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "AYVANSARAY",
+    "street": "Vaiz Sk.",
+    "number": "36",
+    "description": "Vaiz Sk. No:36 AYVANSARAY/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "BALAT",
+    "street": "Sultan Selim Cad.",
+    "number": "10",
+    "description": "Sultan Selim Cad. No:10 BALAT/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "BEYAZIT",
+    "street": "├çad─▒rc─▒lar Cad. BEYAZIT/FAT─░H",
+    "number": "",
+    "description": "├çad─▒rc─▒lar Cad. BEYAZIT/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "B─░NB─░RD─░REK",
+    "street": "Piyer Loti Cad.",
+    "number": "16",
+    "description": "Piyer Loti Cad. No:16 B─░NB─░RD─░REK/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "CANKURTARAN",
+    "street": "Cankurtaran Meydan─▒",
+    "number": "1",
+    "description": "Cankurtaran Meydan─▒ No:1 CANKURTARAN/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "CERRAHPA┼ŞA",
+    "street": "Koca Mustafapa┼şa Cad.",
+    "number": "62",
+    "description": "Koca Mustafapa┼şa Cad. No:62 CERRAHPA┼ŞA/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "C─░BAL─░",
+    "street": "Esrar Dede Sk.",
+    "number": "1",
+    "description": "Esrar Dede Sk. No:1 C─░BAL─░/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "DEM─░RTA┼Ş",
+    "street": "K─▒ble ├çe┼şme Cad.",
+    "number": "30",
+    "description": "K─▒ble ├çe┼şme Cad. No:30 DEM─░RTA┼Ş/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "DERV─░┼Ş AL─░",
+    "street": "Salma Tomruk Cad.",
+    "number": "6",
+    "description": "Salma Tomruk Cad. No:6 /1 DERV─░┼Ş AL─░/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "HACI KADIN",
+    "street": "Hac─▒ Kad─▒n 1. Cad.",
+    "number": "5",
+    "description": "Hac─▒ Kad─▒n 1. Cad. No:5 HACI KADIN/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "HASEK─░ SULTAN",
+    "street": "Mehter Sk.",
+    "number": "1",
+    "description": "Mehter Sk. No:1 HASEK─░ SULTAN/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "HIRKA-─░ ┼ŞER─░F",
+    "street": "Kabakulak 2. ├ç─▒kmaz─▒",
+    "number": "3",
+    "description": "Kabakulak 2. ├ç─▒kmaz─▒ No:3 HIRKA-─░ ┼ŞER─░F/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "HOCAPA┼ŞA",
+    "street": "Hocapa┼şa Camii Sk.",
+    "number": "11",
+    "description": "Hocapa┼şa Camii Sk. No:11 HOCAPA┼ŞA/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "─░SKENDERPA┼ŞA",
+    "street": "├ûks├╝zler Sk.",
+    "number": "3",
+    "description": "├ûks├╝zler Sk. No:3 ─░SKENDERPA┼ŞA/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "KALENDERHANE",
+    "street": "Cemal Yener Tosyal─▒ Cad.",
+    "number": "36",
+    "description": "Cemal Yener Tosyal─▒ Cad. No:36 KALENDERHANE/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "KARAG├£MR├£K",
+    "street": "T├╝rkistan Sk.",
+    "number": "31",
+    "description": "T├╝rkistan Sk. No:31 KARAG├£MR├£K/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "KAT─░P KASIM",
+    "street": "Mermerciler Cad.",
+    "number": "2",
+    "description": "Mermerciler Cad. No:2 KAT─░P KASIM/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "KEMALPA┼ŞA",
+    "street": "Park Yolu KEMALPA┼ŞA/FAT─░H",
+    "number": "",
+    "description": "Park Yolu KEMALPA┼ŞA/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "K├£├ç├£K AYASOFYA",
+    "street": "Kasap Osman Sk.",
+    "number": "2",
+    "description": "Kasap Osman Sk. No:2 K├£├ç├£K AYASOFYA/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "MERCAN",
+    "street": "Tacirhane Sk.",
+    "number": "16",
+    "description": "Tacirhane Sk. No:16 MERCAN/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "MEVLANAKAPI",
+    "street": "G├╝m├╝┼ş ├çay─▒r─▒ Sk.",
+    "number": "17",
+    "description": "G├╝m├╝┼ş ├çay─▒r─▒ Sk. No:17 MEVLANAKAPI/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "M─░MAR HAYRETT─░N",
+    "street": "Gedikpa┼şa Cad.",
+    "number": "27",
+    "description": "Gedikpa┼şa Cad. No:27 /4 M─░MAR HAYRETT─░N/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "M─░MAR KEMALETT─░N",
+    "street": "┼Şair Fitnat Sk.",
+    "number": "1",
+    "description": "┼Şair Fitnat Sk. No:1 /1 M─░MAR KEMALETT─░N/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "MOLLA G├£RAN─░",
+    "street": "Adnan Menderes Vatan Bulvar─▒",
+    "number": "45",
+    "description": "Adnan Menderes Vatan Bulvar─▒ No:45 MOLLA G├£RAN─░/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "MOLLA H├£SREV",
+    "street": "Katip ├çelebi Cad.",
+    "number": "36",
+    "description": "Katip ├çelebi Cad. No:36 MOLLA H├£SREV/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "MUHS─░NE HATUN",
+    "street": "Telli Odalar Sk.",
+    "number": "20",
+    "description": "Telli Odalar Sk. No:20 MUHS─░NE HATUN/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "N─░┼ŞANCA",
+    "street": "Hem┼şehri Sk.",
+    "number": "40",
+    "description": "Hem┼şehri Sk. No:40 N─░┼ŞANCA/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "R├£STEMPA┼ŞA",
+    "street": "Kal├ğ─▒n Sk.",
+    "number": "2",
+    "description": "Kal├ğ─▒n Sk. No:2 R├£STEMPA┼ŞA/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "SARA├ç ─░SHAK",
+    "street": "Mithatpa┼şa Cad.",
+    "number": "33",
+    "description": "Mithatpa┼şa Cad. No:33 SARA├ç ─░SHAK/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "SEYY─░D ├ûMER",
+    "street": "Mismarc─▒ 1. Sk.",
+    "number": "12",
+    "description": "Mismarc─▒ 1. Sk. No:12 SEYY─░D ├ûMER/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "SULTAN AHMET",
+    "street": "Akb─▒y─▒k De─şirmeni Sk.",
+    "number": "42",
+    "description": "Akb─▒y─▒k De─şirmeni Sk. No:42 A SULTAN AHMET/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "SURUR─░",
+    "street": "Bezciler Sk.",
+    "number": "2",
+    "description": "Bezciler Sk. No:2 SURUR─░/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "S├£LEYMAN─░YE",
+    "street": "Avnipa┼şa Sk.",
+    "number": "4",
+    "description": "Avnipa┼şa Sk. No:4 B S├£LEYMAN─░YE/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "S├£MB├£L EFEND─░",
+    "street": "Koca Mustafapa┼şa Cad.",
+    "number": "151",
+    "description": "Koca Mustafapa┼şa Cad. No:151 S├£MB├£L EFEND─░/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "┼ŞEHREM─░N─░",
+    "street": "Mimar Kas─▒m Cad.",
+    "number": "54",
+    "description": "Mimar Kas─▒m Cad. No:54 B ┼ŞEHREM─░N─░/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "┼ŞEHSUVAR BEY",
+    "street": "Kad─▒rga Meydan─▒ Sk.",
+    "number": "2",
+    "description": "Kad─▒rga Meydan─▒ Sk. No:2 ┼ŞEHSUVAR BEY/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "TAHTAKALE",
+    "street": "Tahtakale Karakolu Sk.",
+    "number": "5",
+    "description": "Tahtakale Karakolu Sk. No:5 TAHTAKALE/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "TOPKAPI",
+    "street": "Un De─şirmeni Sk.",
+    "number": "1",
+    "description": "Un De─şirmeni Sk. No:1 TOPKAPI/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "YAVUZ S─░NAN",
+    "street": "Tahsildar Sk.",
+    "number": "12",
+    "description": "Tahsildar Sk. No:12 YAVUZ S─░NAN/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "YAVUZ SULTAN SEL─░M",
+    "street": "Kara Sar─▒kl─▒ Sk.",
+    "number": "25",
+    "description": "Kara Sar─▒kl─▒ Sk. No:25 A YAVUZ SULTAN SEL─░M/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "YED─░KULE",
+    "street": "Hac─▒ Evhaddin Cad.",
+    "number": "69",
+    "description": "Hac─▒ Evhaddin Cad. No:69 YED─░KULE/FAT─░H"
+  },
+  {
+    "district": "FAT─░H",
+    "neighborhood": "ZEYREK",
+    "street": "├érifzade Sk.",
+    "number": "2",
+    "description": "├érifzade Sk. No:2 ZEYREK/FAT─░H"
+  },
+  {
+    "district": "GAZ─░OSMANPA┼ŞA",
+    "neighborhood": "BA─ŞLARBA┼ŞI",
+    "street": "Su ├çi├ğe─şi Sk.",
+    "number": "2",
+    "description": "Su ├çi├ğe─şi Sk. No:2 A BA─ŞLARBA┼ŞI/GAZ─░OSMANPA┼ŞA"
+  },
+  {
+    "district": "GAZ─░OSMANPA┼ŞA",
+    "neighborhood": "BARBAROS HAYRETT─░N PA┼ŞA",
+    "street": "Mimar Sinan Cad.",
+    "number": "3",
+    "description": "Mimar Sinan Cad. No:3 A BARBAROS HAYRETT─░N PA┼ŞA/GAZ─░OSMANPA┼ŞA"
+  },
+  {
+    "district": "GAZ─░OSMANPA┼ŞA",
+    "neighborhood": "FEVZ─░ ├çAKMAK",
+    "street": "Gebzeli Cad.",
+    "number": "18",
+    "description": "Gebzeli Cad. No:18 B FEVZ─░ ├çAKMAK/GAZ─░OSMANPA┼ŞA"
+  },
+  {
+    "district": "GAZ─░OSMANPA┼ŞA",
+    "neighborhood": "H├£RR─░YET",
+    "street": "322. Sk.",
+    "number": "6",
+    "description": "322. Sk. No:6 H├£RR─░YET/GAZ─░OSMANPA┼ŞA"
+  },
+  {
+    "district": "GAZ─░OSMANPA┼ŞA",
+    "neighborhood": "KARADEN─░Z",
+    "street": "Menderes Cad.",
+    "number": "1",
+    "description": "Menderes Cad. No:1 KARADEN─░Z/GAZ─░OSMANPA┼ŞA"
+  },
+  {
+    "district": "GAZ─░OSMANPA┼ŞA",
+    "neighborhood": "KARAYOLLARI",
+    "street": "Fatih Cad.",
+    "number": "2",
+    "description": "Fatih Cad. No:2 KARAYOLLARI/GAZ─░OSMANPA┼ŞA"
+  },
+  {
+    "district": "GAZ─░OSMANPA┼ŞA",
+    "neighborhood": "KARLITEPE",
+    "street": "G├Â├ğmenler Sk.",
+    "number": "21",
+    "description": "G├Â├ğmenler Sk. No:21 KARLITEPE/GAZ─░OSMANPA┼ŞA"
+  },
+  {
+    "district": "GAZ─░OSMANPA┼ŞA",
+    "neighborhood": "KAZIM KARABEK─░R",
+    "street": "919. Sk.",
+    "number": "20",
+    "description": "919. Sk. No:20 KAZIM KARABEK─░R/GAZ─░OSMANPA┼ŞA"
+  },
+  {
+    "district": "GAZ─░OSMANPA┼ŞA",
+    "neighborhood": "MERKEZ",
+    "street": "Cumhuriyet Meydan─▒",
+    "number": "20",
+    "description": "Cumhuriyet Meydan─▒ No:20 E2 MERKEZ/GAZ─░OSMANPA┼ŞA"
+  },
+  {
+    "district": "GAZ─░OSMANPA┼ŞA",
+    "neighborhood": "MEVLANA",
+    "street": "832. Sk.",
+    "number": "30",
+    "description": "832. Sk. No:30 MEVLANA/GAZ─░OSMANPA┼ŞA"
+  },
+  {
+    "district": "GAZ─░OSMANPA┼ŞA",
+    "neighborhood": "SARIG├ûL",
+    "street": "Nazl─▒ Sk.",
+    "number": "16",
+    "description": "Nazl─▒ Sk. No:16 A SARIG├ûL/GAZ─░OSMANPA┼ŞA"
+  },
+  {
+    "district": "GAZ─░OSMANPA┼ŞA",
+    "neighborhood": "┼ŞEMS─░PA┼ŞA",
+    "street": "15. Sk.",
+    "number": "2",
+    "description": "15. Sk. No:2 -4B ┼ŞEMS─░PA┼ŞA/GAZ─░OSMANPA┼ŞA"
+  },
+  {
+    "district": "GAZ─░OSMANPA┼ŞA",
+    "neighborhood": "YEN─░ MAHALLE",
+    "street": "528. Sk.",
+    "number": "1",
+    "description": "528. Sk. No:1 A YEN─░ MAHALLE/GAZ─░OSMANPA┼ŞA"
+  },
+  {
+    "district": "GAZ─░OSMANPA┼ŞA",
+    "neighborhood": "YEN─░DO─ŞAN",
+    "street": "Nakka┼ş Sk.",
+    "number": "13",
+    "description": "Nakka┼ş Sk. No:13 YEN─░DO─ŞAN/GAZ─░OSMANPA┼ŞA"
+  },
+  {
+    "district": "GAZ─░OSMANPA┼ŞA",
+    "neighborhood": "YILDIZTABYA",
+    "street": "Y─▒ld─▒ztabya Cad.",
+    "number": "134",
+    "description": "Y─▒ld─▒ztabya Cad. No:134 C YILDIZTABYA/GAZ─░OSMANPA┼ŞA"
+  },
+  {
+    "district": "G├£NG├ûREN",
+    "neighborhood": "ABDURRAHMAN NAF─░Z G├£RMAN",
+    "street": "K─▒nal─▒tepe Sk.",
+    "number": "13",
+    "description": "K─▒nal─▒tepe Sk. No:13 B ABDURRAHMAN NAF─░Z G├£RMAN/G├£NG├ûREN"
+  },
+  {
+    "district": "G├£NG├ûREN",
+    "neighborhood": "AKINCILAR",
+    "street": "Ta┼ş├ğ─▒lar Sk.",
+    "number": "77",
+    "description": "Ta┼ş├ğ─▒lar Sk. No:77 A AKINCILAR/G├£NG├ûREN"
+  },
+  {
+    "district": "G├£NG├ûREN",
+    "neighborhood": "GEN├çOSMAN",
+    "street": "Uzay Sk.",
+    "number": "29",
+    "description": "Uzay Sk. No:29 GEN├çOSMAN/G├£NG├ûREN"
+  },
+  {
+    "district": "G├£NG├ûREN",
+    "neighborhood": "G├£NE┼ŞTEPE",
+    "street": "U─şur Sk.",
+    "number": "19",
+    "description": "U─şur Sk. No:19 G├£NE┼ŞTEPE/G├£NG├ûREN"
+  },
+  {
+    "district": "G├£NG├ûREN",
+    "neighborhood": "HAZNEDAR",
+    "street": "Marmara Cad.",
+    "number": "18",
+    "description": "Marmara Cad. No:18 HAZNEDAR/G├£NG├ûREN"
+  },
+  {
+    "district": "G├£NG├ûREN",
+    "neighborhood": "MARE┼ŞAL ├çAKMAK",
+    "street": "Orhan Cad.",
+    "number": "7",
+    "description": "Orhan Cad. No:7 MARE┼ŞAL ├çAKMAK/G├£NG├ûREN"
+  },
+  {
+    "district": "G├£NG├ûREN",
+    "neighborhood": "MEHMET NES─░H ├ûZMEN",
+    "street": "├çam Sk.",
+    "number": "21",
+    "description": "├çam Sk. No:21 MEHMET NES─░H ├ûZMEN/G├£NG├ûREN"
+  },
+  {
+    "district": "G├£NG├ûREN",
+    "neighborhood": "MERKEZ",
+    "street": "Bayraktar Sk.",
+    "number": "10",
+    "description": "Bayraktar Sk. No:10 MERKEZ/G├£NG├ûREN"
+  },
+  {
+    "district": "G├£NG├ûREN",
+    "neighborhood": "SANAY─░",
+    "street": "Murat Pa┼şa Cad.",
+    "number": "31",
+    "description": "Murat Pa┼şa Cad. No:31 SANAY─░/G├£NG├ûREN"
+  },
+  {
+    "district": "G├£NG├ûREN",
+    "neighborhood": "TOZKOPARAN",
+    "street": "Cevat A├ğ─▒kal─▒n Cad.",
+    "number": "6",
+    "description": "Cevat A├ğ─▒kal─▒n Cad. No:6 /1 TOZKOPARAN/G├£NG├ûREN"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "19 MAYIS",
+    "street": "Sultan Sk.",
+    "number": "29",
+    "description": "Sultan Sk. No:29 19 MAYIS/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "ACIBADEM",
+    "street": "Defne Sk.",
+    "number": "4",
+    "description": "Defne Sk. No:4 ACIBADEM/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "BOSTANCI",
+    "street": "Bostan Tariki Sk. BOSTANCI/KADIK├ûY",
+    "number": "",
+    "description": "Bostan Tariki Sk. BOSTANCI/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "CADDEBOSTAN",
+    "street": "Sar─▒g├╝l Sk.",
+    "number": "18",
+    "description": "Sar─▒g├╝l Sk. No:18 /1 CADDEBOSTAN/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "CAFERA─ŞA",
+    "street": "┼Şair Nefi Sk.",
+    "number": "26",
+    "description": "┼Şair Nefi Sk. No:26 CAFERA─ŞA/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "E─Ş─░T─░M",
+    "street": "H─▒z─▒rbey Cad. E─Ş─░T─░M/KADIK├ûY",
+    "number": "",
+    "description": "H─▒z─▒rbey Cad. E─Ş─░T─░M/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "ERENK├ûY",
+    "street": "Dr. Mithat S├╝er Sk.",
+    "number": "22",
+    "description": "Dr. Mithat S├╝er Sk. No:22 /1 ERENK├ûY/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "FENERBAH├çE",
+    "street": "Fener Kalam─▒┼ş Cad.",
+    "number": "57",
+    "description": "Fener Kalam─▒┼ş Cad. No:57 /2 FENERBAH├çE/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "FENERYOLU",
+    "street": "Dostane Sk.",
+    "number": "12",
+    "description": "Dostane Sk. No:12 FENERYOLU/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "F─░K─░RTEPE",
+    "street": "Ak├ğ─▒ra Sk. F─░K─░RTEPE/KADIK├ûY",
+    "number": "",
+    "description": "Ak├ğ─▒ra Sk. F─░K─░RTEPE/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "G├ûZTEPE",
+    "street": "Ye┼şilbahar Sk. G├ûZTEPE/KADIK├ûY",
+    "number": "",
+    "description": "Ye┼şilbahar Sk. G├ûZTEPE/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "HASANPA┼ŞA",
+    "street": "Faik Bey Sk.",
+    "number": "11",
+    "description": "Faik Bey Sk. No:11 HASANPA┼ŞA/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "KO┼ŞUYOLU",
+    "street": "Mahmut Yesari Cad.",
+    "number": "50",
+    "description": "Mahmut Yesari Cad. No:50 /8 KO┼ŞUYOLU/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "KOZYATA─ŞI",
+    "street": "Sar─▒kaya Sk.",
+    "number": "1",
+    "description": "Sar─▒kaya Sk. No:1 /1 KOZYATA─ŞI/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "MERD─░VENK├ûY",
+    "street": "G├╝nayd─▒n Sk.",
+    "number": "3",
+    "description": "G├╝nayd─▒n Sk. No:3 MERD─░VENK├ûY/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "OSMANA─ŞA",
+    "street": "Yo─şurt├ğu Park─▒ Cad.",
+    "number": "1",
+    "description": "Yo─şurt├ğu Park─▒ Cad. No:1 /5 OSMANA─ŞA/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "RAS─░MPA┼ŞA",
+    "street": "Ayr─▒l─▒k├ğe┼şme Sk.",
+    "number": "136",
+    "description": "Ayr─▒l─▒k├ğe┼şme Sk. No:136 RAS─░MPA┼ŞA/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "SAHRAYICED─░T",
+    "street": "Cebesoy Sk.",
+    "number": "2",
+    "description": "Cebesoy Sk. No:2 SAHRAYICED─░T/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "SUAD─░YE",
+    "street": "Yakamoz Sk.",
+    "number": "19",
+    "description": "Yakamoz Sk. No:19 SUAD─░YE/KADIK├ûY"
+  },
+  {
+    "district": "KADIK├ûY",
+    "neighborhood": "Z├£HT├£PA┼ŞA",
+    "street": "As─▒m Us Sk.",
+    "number": "18",
+    "description": "As─▒m Us Sk. No:18 Z├£HT├£PA┼ŞA/KADIK├ûY"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "├çA─ŞLAYAN",
+    "street": "Ne┼şe Sk.",
+    "number": "10",
+    "description": "Ne┼şe Sk. No:10 ├çA─ŞLAYAN/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "├çEL─░KTEPE",
+    "street": "Kaptan Sk.",
+    "number": "1",
+    "description": "Kaptan Sk. No:1 /1 ├çEL─░KTEPE/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "EMN─░YET EVLER─░",
+    "street": "Seyir Cad.",
+    "number": "1",
+    "description": "Seyir Cad. No:1 B EMN─░YET EVLER─░/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "G├£LTEPE",
+    "street": "Arzu ├ç─▒kmaz─▒",
+    "number": "4",
+    "description": "Arzu ├ç─▒kmaz─▒ No:4 A G├£LTEPE/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "G├£RSEL",
+    "street": "Eski Be┼şikta┼ş Cad.",
+    "number": "3",
+    "description": "Eski Be┼şikta┼ş Cad. No:3 /1B G├£RSEL/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "HAM─░D─░YE",
+    "street": "Karaman Sk.",
+    "number": "6",
+    "description": "Karaman Sk. No:6 HAM─░D─░YE/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "HARMANTEPE",
+    "street": "Dalyan Sk.",
+    "number": "24",
+    "description": "Dalyan Sk. No:24 HARMANTEPE/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "H├£RR─░YET",
+    "street": "Dr. Cemil Beng├╝ Cad.",
+    "number": "47",
+    "description": "Dr. Cemil Beng├╝ Cad. No:47 H├£RR─░YET/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "MEHMET AK─░F ERSOY",
+    "street": "Etibank Cad.",
+    "number": "82",
+    "description": "Etibank Cad. No:82 /1 MEHMET AK─░F ERSOY/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "MERKEZ",
+    "street": "Burcu Sk.",
+    "number": "16",
+    "description": "Burcu Sk. No:16 MERKEZ/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "NURTEPE",
+    "street": "Diyar Sk.",
+    "number": "2",
+    "description": "Diyar Sk. No:2 NURTEPE/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "ORTABAYIR",
+    "street": "Santral Cad.",
+    "number": "16",
+    "description": "Santral Cad. No:16 ORTABAYIR/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "SEYRANTEPE",
+    "street": "├çam├Âz├╝ Sk.",
+    "number": "9",
+    "description": "├çam├Âz├╝ Sk. No:9 SEYRANTEPE/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "SULTAN SEL─░M",
+    "street": "┼Şenkarde┼şler Sk.",
+    "number": "20",
+    "description": "┼Şenkarde┼şler Sk. No:20 B SULTAN SEL─░M/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "┼Ş─░R─░NTEPE",
+    "street": "G├╝m├╝┼şhane Cad.",
+    "number": "101",
+    "description": "G├╝m├╝┼şhane Cad. No:101 ┼Ş─░R─░NTEPE/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "TALATPA┼ŞA",
+    "street": "├çelebi Cad.",
+    "number": "51",
+    "description": "├çelebi Cad. No:51 TALATPA┼ŞA/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "TELS─░ZLER",
+    "street": "Bo─şazkale Sk.",
+    "number": "2",
+    "description": "Bo─şazkale Sk. No:2 TELS─░ZLER/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "YAHYA KEMAL",
+    "street": "Talatpa┼şa Cad.",
+    "number": "393",
+    "description": "Talatpa┼şa Cad. No:393 -395B YAHYA KEMAL/KA─ŞITHANE"
+  },
+  {
+    "district": "KA─ŞITHANE",
+    "neighborhood": "YE┼Ş─░LCE",
+    "street": "Halil Rahman Cad.",
+    "number": "43",
+    "description": "Halil Rahman Cad. No:43 YE┼Ş─░LCE/KA─ŞITHANE"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "ATALAR",
+    "street": "Halitpa┼şa Cad.",
+    "number": "58",
+    "description": "Halitpa┼şa Cad. No:58 ATALAR/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "CEV─░ZL─░",
+    "street": "Denizer Cad.",
+    "number": "2",
+    "description": "Denizer Cad. No:2 CEV─░ZL─░/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "CUMHUR─░YET",
+    "street": "Seza Sk.",
+    "number": "15",
+    "description": "Seza Sk. No:15 CUMHUR─░YET/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "├çAVU┼ŞO─ŞLU",
+    "street": "K├╝lt├╝r Cad.",
+    "number": "23",
+    "description": "K├╝lt├╝r Cad. No:23 ├çAVU┼ŞO─ŞLU/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "ESENTEPE",
+    "street": "Hakan Sk.",
+    "number": "8",
+    "description": "Hakan Sk. No:8 ESENTEPE/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "G├£M├£┼ŞPINAR",
+    "street": "Yaprak Sk.",
+    "number": "2",
+    "description": "Yaprak Sk. No:2 A G├£M├£┼ŞPINAR/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "H├£RR─░YET",
+    "street": "Emek Cad.",
+    "number": "1",
+    "description": "Emek Cad. No:1 H├£RR─░YET/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "KARLIKTEPE",
+    "street": "┼Şehit A┼şk─▒n Bora Sk.",
+    "number": "12",
+    "description": "┼Şehit A┼şk─▒n Bora Sk. No:12 KARLIKTEPE/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "KORDONBOYU",
+    "street": "Turgut ├ûzal Bulvar─▒",
+    "number": "91",
+    "description": "Turgut ├ûzal Bulvar─▒ No:91 /1 KORDONBOYU/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "ORHANTEPE",
+    "street": "├£sk├╝dar Cad. ORHANTEPE/KARTAL",
+    "number": "",
+    "description": "├£sk├╝dar Cad. ORHANTEPE/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "ORTA",
+    "street": "Tiryaki Hasanpa┼şa Cad.",
+    "number": "8",
+    "description": "Tiryaki Hasanpa┼şa Cad. No:8 ORTA/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "PETROL ─░┼Ş",
+    "street": "─░zci Sk.",
+    "number": "10",
+    "description": "─░zci Sk. No:10 PETROL ─░┼Ş/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "SO─ŞANLIK YEN─░",
+    "street": "Yahya Kemal Beyatl─▒ Cad.",
+    "number": "14",
+    "description": "Yahya Kemal Beyatl─▒ Cad. No:14 SO─ŞANLIK YEN─░/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "U─ŞUR MUMCU",
+    "street": "┼Şeyh ┼Şamil Cad.",
+    "number": "11",
+    "description": "┼Şeyh ┼Şamil Cad. No:11 /1 U─ŞUR MUMCU/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "YAKACIK ├çAR┼ŞI",
+    "street": "G├Âkdemir Sk.",
+    "number": "2",
+    "description": "G├Âkdemir Sk. No:2 YAKACIK ├çAR┼ŞI/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "YALI",
+    "street": "Ayla Sk.",
+    "number": "8",
+    "description": "Ayla Sk. No:8 /1 YALI/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "YUKARI",
+    "street": "Dikey Sk.",
+    "number": "9",
+    "description": "Dikey Sk. No:9 YUKARI/KARTAL"
+  },
+  {
+    "district": "KARTAL",
+    "neighborhood": "YUNUS",
+    "street": "Ye┼şil Sk.",
+    "number": "30",
+    "description": "Ye┼şil Sk. No:30 YUNUS/KARTAL"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "ATAKENT",
+    "street": "19. Sk.",
+    "number": "3",
+    "description": "19. Sk. No:3 ATAKENT/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "ATAT├£RK",
+    "street": "330. Sk.",
+    "number": "6",
+    "description": "330. Sk. No:6 ATAT├£RK/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "BE┼ŞYOL",
+    "street": "1. ─░n├Ân├╝ Cad.",
+    "number": "9",
+    "description": "1. ─░n├Ân├╝ Cad. No:9 BE┼ŞYOL/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "CENNET",
+    "street": "2. Yavuz Selim Cad.",
+    "number": "22",
+    "description": "2. Yavuz Selim Cad. No:22 CENNET/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "FAT─░H",
+    "street": "Prof.Dr. Aziz Sancar Cad.",
+    "number": "29",
+    "description": "Prof.Dr. Aziz Sancar Cad. No:29 /1G FAT─░H/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "FEVZ─░ ├çAKMAK",
+    "street": "Ak├ğalar Sk.",
+    "number": "38",
+    "description": "Ak├ğalar Sk. No:38 FEVZ─░ ├çAKMAK/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "G├£LTEPE",
+    "street": "Ba─şlar Cad.",
+    "number": "71",
+    "description": "Ba─şlar Cad. No:71 G├£LTEPE/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "HALKALI MERKEZ",
+    "street": "Mehmet├ğik Sk.",
+    "number": "3",
+    "description": "Mehmet├ğik Sk. No:3 HALKALI MERKEZ/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "─░N├ûN├£",
+    "street": "Maslak ├çe┼şme Cad.",
+    "number": "102",
+    "description": "Maslak ├çe┼şme Cad. No:102 ─░N├ûN├£/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "─░STASYON",
+    "street": "K├Âm├╝rc├╝ Yolu Cad.",
+    "number": "2",
+    "description": "K├Âm├╝rc├╝ Yolu Cad. No:2 /1 ─░STASYON/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "KANARYA",
+    "street": "B├╝lb├╝l Sk.",
+    "number": "15",
+    "description": "B├╝lb├╝l Sk. No:15 KANARYA/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "KARTALTEPE",
+    "street": "Halkal─▒ Cad.",
+    "number": "36",
+    "description": "Halkal─▒ Cad. No:36 KARTALTEPE/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "KEMALPA┼ŞA",
+    "street": "1. Arda Sk.",
+    "number": "2",
+    "description": "1. Arda Sk. No:2 /1 KEMALPA┼ŞA/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "MEHMET AK─░F",
+    "street": "2. Tolga Sk.",
+    "number": "1",
+    "description": "2. Tolga Sk. No:1 MEHMET AK─░F/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "S├û─Ş├£TL├£ ├çE┼ŞME",
+    "street": "Camialt─▒ Sk.",
+    "number": "5",
+    "description": "Camialt─▒ Sk. No:5 B S├û─Ş├£TL├£ ├çE┼ŞME/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "TEVF─░KBEY",
+    "street": "1. Karakol Sk.",
+    "number": "1",
+    "description": "1. Karakol Sk. No:1 -3 TEVF─░KBEY/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "YARIMBURGAZ",
+    "street": "5. Fatih Cad.",
+    "number": "38",
+    "description": "5. Fatih Cad. No:38 YARIMBURGAZ/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "YEN─░ MAHALLE",
+    "street": "─░n├Ân├╝ Cad.",
+    "number": "78",
+    "description": "─░n├Ân├╝ Cad. No:78 /1A YEN─░ MAHALLE/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "K├£├ç├£K├çEKMECE",
+    "neighborhood": "YE┼Ş─░LOVA",
+    "street": "Tansel Cad.",
+    "number": "38",
+    "description": "Tansel Cad. No:38 D YE┼Ş─░LOVA/K├£├ç├£K├çEKMECE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "ALTAY├çE┼ŞME",
+    "street": "Kentli Sk.",
+    "number": "2",
+    "description": "Kentli Sk. No:2 ALTAY├çE┼ŞME/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "ALTINTEPE",
+    "street": "H├╝sniye Cad.",
+    "number": "9",
+    "description": "H├╝sniye Cad. No:9 /1 ALTINTEPE/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "AYDINEVLER",
+    "street": "Sel├ğukbey Cad.",
+    "number": "2",
+    "description": "Sel├ğukbey Cad. No:2 AYDINEVLER/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "BA─ŞLARBA┼ŞI",
+    "street": "Ahsen ├ç─▒kmaz─▒",
+    "number": "6",
+    "description": "Ahsen ├ç─▒kmaz─▒ No:6 BA─ŞLARBA┼ŞI/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "BA┼ŞIB├£Y├£K",
+    "street": "Ba┼ş─▒b├╝y├╝k Cad.",
+    "number": "90",
+    "description": "Ba┼ş─▒b├╝y├╝k Cad. No:90 BA┼ŞIB├£Y├£K/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "B├£Y├£KBAKKALK├ûY",
+    "street": "Selanikli Cad.",
+    "number": "19",
+    "description": "Selanikli Cad. No:19 B├£Y├£KBAKKALK├ûY/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "CEV─░ZL─░",
+    "street": "G├╝lnihal Sk.",
+    "number": "1",
+    "description": "G├╝lnihal Sk. No:1 CEV─░ZL─░/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "├çINAR",
+    "street": "Sosyal Sk.",
+    "number": "11",
+    "description": "Sosyal Sk. No:11 A ├çINAR/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "ESENKENT",
+    "street": "Kani Pa┼şa Cad.",
+    "number": "161",
+    "description": "Kani Pa┼şa Cad. No:161 /1 ESENKENT/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "FEYZULLAH",
+    "street": "Yunus Emre Cad.",
+    "number": "9",
+    "description": "Yunus Emre Cad. No:9 /1 FEYZULLAH/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "FINDIKLI",
+    "street": "I┼ş─▒lt─▒ Sk.",
+    "number": "20",
+    "description": "I┼ş─▒lt─▒ Sk. No:20 /1A FINDIKLI/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "G─░RNE",
+    "street": "Do─şu┼şkent Cad.",
+    "number": "41",
+    "description": "Do─şu┼şkent Cad. No:41 G─░RNE/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "G├£LENSU",
+    "street": "Ayla Cad.",
+    "number": "105",
+    "description": "Ayla Cad. No:105 G├£LENSU/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "G├£LSUYU",
+    "street": "Mart─▒lar ├ç─▒kmaz─▒",
+    "number": "17",
+    "description": "Mart─▒lar ├ç─▒kmaz─▒ No:17 G├£LSUYU/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "─░DEALTEPE",
+    "street": "R─▒fk─▒ Tongsir Cad.",
+    "number": "52",
+    "description": "R─▒fk─▒ Tongsir Cad. No:52 ─░DEALTEPE/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "K├£├ç├£KYALI MERKEZ",
+    "street": "Adile Han─▒m Sk.",
+    "number": "14",
+    "description": "Adile Han─▒m Sk. No:14 K├£├ç├£KYALI MERKEZ/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "YALI",
+    "street": "K├╝├ğ├╝kyal─▒ Cad.",
+    "number": "21",
+    "description": "K├╝├ğ├╝kyal─▒ Cad. No:21 YALI/MALTEPE"
+  },
+  {
+    "district": "MALTEPE",
+    "neighborhood": "Z├£MR├£TEVLER",
+    "street": "Ba┼şaran Sk.",
+    "number": "2",
+    "description": "Ba┼şaran Sk. No:2 Z├£MR├£TEVLER/MALTEPE"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "AHMET YESEV─░",
+    "street": "Ayy├╝zl├╝ Sk.",
+    "number": "14",
+    "description": "Ayy├╝zl├╝ Sk. No:14 AHMET YESEV─░/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "BAH├çEL─░EVLER",
+    "street": "Adnan Menderes Bulvar─▒",
+    "number": "39",
+    "description": "Adnan Menderes Bulvar─▒ No:39 BAH├çEL─░EVLER/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "BALLICA",
+    "street": "Sokullu Cad.",
+    "number": "38",
+    "description": "Sokullu Cad. No:38 BALLICA/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "BATI",
+    "street": "Vi┼şne Sk.",
+    "number": "21",
+    "description": "Vi┼şne Sk. No:21 /1 BATI/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "├çAM├çE┼ŞME",
+    "street": "Misak─▒ Milli Cad.",
+    "number": "24",
+    "description": "Misak─▒ Milli Cad. No:24 ├çAM├çE┼ŞME/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "├çAMLIK",
+    "street": "Yahya Kemal Beyatl─▒ Cad.",
+    "number": "14",
+    "description": "Yahya Kemal Beyatl─▒ Cad. No:14 ├çAMLIK/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "├çINARDERE",
+    "street": "Ayazma Cad.",
+    "number": "10",
+    "description": "Ayazma Cad. No:10 ├çINARDERE/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "DO─ŞU",
+    "street": "Hat Boyu Cad.",
+    "number": "90",
+    "description": "Hat Boyu Cad. No:90 /1 DO─ŞU/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "DUMLUPINAR",
+    "street": "M├╝messil Sk.",
+    "number": "10",
+    "description": "M├╝messil Sk. No:10 DUMLUPINAR/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "EM─░RL─░",
+    "street": "┼Şehiryolu Sk.",
+    "number": "1",
+    "description": "┼Şehiryolu Sk. No:1 EM─░RL─░/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "ERTU─ŞRUL GAZ─░",
+    "street": "Aydos Cad.",
+    "number": "106",
+    "description": "Aydos Cad. No:106 ERTU─ŞRUL GAZ─░/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "ESENLER",
+    "street": "D├╝zevler Sk.",
+    "number": "8",
+    "description": "D├╝zevler Sk. No:8 ESENLER/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "ESENYALI",
+    "street": "Necmettin Erbakan Cad.",
+    "number": "80",
+    "description": "Necmettin Erbakan Cad. No:80 ESENYALI/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "FAT─░H",
+    "street": "Kuzu Sk.",
+    "number": "23",
+    "description": "Kuzu Sk. No:23 FAT─░H/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "FEVZ─░ ├çAKMAK",
+    "street": "Bilginler Sk.",
+    "number": "6",
+    "description": "Bilginler Sk. No:6 FEVZ─░ ├çAKMAK/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "G├û├çBEYL─░",
+    "street": "Torul Sk.",
+    "number": "28",
+    "description": "Torul Sk. No:28 G├û├çBEYL─░/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "G├£LL├£ BA─ŞLAR",
+    "street": "Gelinlik Sk.",
+    "number": "2",
+    "description": "Gelinlik Sk. No:2 G├£LL├£ BA─ŞLAR/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "G├£ZELYALI",
+    "street": "Anadolu Cad.",
+    "number": "2",
+    "description": "Anadolu Cad. No:2 G├£ZELYALI/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "HARMANDERE",
+    "street": "Emir Sultan Cad.",
+    "number": "7",
+    "description": "Emir Sultan Cad. No:7 B HARMANDERE/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "KAVAKPINAR",
+    "street": "Cemil Meri├ğ Cad.",
+    "number": "95",
+    "description": "Cemil Meri├ğ Cad. No:95 KAVAKPINAR/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "KAYNARCA",
+    "street": "Orta Asya Cad.",
+    "number": "45",
+    "description": "Orta Asya Cad. No:45 KAYNARCA/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "KURNA",
+    "street": "Anadolu Yolu Cad.",
+    "number": "2",
+    "description": "Anadolu Yolu Cad. No:2 KURNA/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "KURTDO─ŞMU┼Ş",
+    "street": "Cami Cad.",
+    "number": "1",
+    "description": "Cami Cad. No:1 A KURTDO─ŞMU┼Ş/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "KURTK├ûY",
+    "street": "Soyda┼ş Sk.",
+    "number": "3",
+    "description": "Soyda┼ş Sk. No:3 KURTK├ûY/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "ORHANGAZ─░",
+    "street": "Enver Sk.",
+    "number": "1",
+    "description": "Enver Sk. No:1 A ORHANGAZ─░/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "ORTA",
+    "street": "50. Y─▒l Cad. ORTA/PEND─░K",
+    "number": "",
+    "description": "50. Y─▒l Cad. ORTA/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "RAMAZANO─ŞLU",
+    "street": "Balkan Sk.",
+    "number": "4",
+    "description": "Balkan Sk. No:4 RAMAZANO─ŞLU/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "SAPAN BA─ŞLARI",
+    "street": "┼Şehit Miralay Naz─▒m Bey Cad.",
+    "number": "15",
+    "description": "┼Şehit Miralay Naz─▒m Bey Cad. No:15 /1 SAPAN BA─ŞLARI/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "S├£L├£NTEPE",
+    "street": "Bo─şa├ğ Sk.",
+    "number": "2",
+    "description": "Bo─şa├ğ Sk. No:2 S├£L├£NTEPE/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "┼ŞEYHL─░",
+    "street": "Ak┼şemseddin Cad.",
+    "number": "18",
+    "description": "Ak┼şemseddin Cad. No:18 ┼ŞEYHL─░/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "VEL─░BABA",
+    "street": "Yakac─▒k Cad.",
+    "number": "35",
+    "description": "Yakac─▒k Cad. No:35 /1 VEL─░BABA/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "YAYALAR",
+    "street": "Barbaros Hayrettinpa┼şa Cad.",
+    "number": "41",
+    "description": "Barbaros Hayrettinpa┼şa Cad. No:41 YAYALAR/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "YEN─░",
+    "street": "Stadyum Sk.",
+    "number": "18",
+    "description": "Stadyum Sk. No:18 YEN─░/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "YEN─░┼ŞEH─░R",
+    "street": "Millet Cad.",
+    "number": "20",
+    "description": "Millet Cad. No:20 YEN─░┼ŞEH─░R/PEND─░K"
+  },
+  {
+    "district": "PEND─░K",
+    "neighborhood": "YE┼Ş─░LBA─ŞLAR",
+    "street": "Sakarya Cad.",
+    "number": "33",
+    "description": "Sakarya Cad. No:33 YE┼Ş─░LBA─ŞLAR/PEND─░K"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "ABDURRAHMANGAZ─░",
+    "street": "Dedebay─▒r Sk.",
+    "number": "8",
+    "description": "Dedebay─▒r Sk. No:8 ABDURRAHMANGAZ─░/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "AKPINAR",
+    "street": "Akar├ğe┼şme Sk.",
+    "number": "1",
+    "description": "Akar├ğe┼şme Sk. No:1 AKPINAR/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "ATAT├£RK",
+    "street": "Y├╝ce Sk.",
+    "number": "26",
+    "description": "Y├╝ce Sk. No:26 ATAT├£RK/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "EMEK",
+    "street": "Beng├╝ Sk.",
+    "number": "31",
+    "description": "Beng├╝ Sk. No:31 EMEK/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "EY├£P SULTAN",
+    "street": "Esma Sk.",
+    "number": "5",
+    "description": "Esma Sk. No:5 EY├£P SULTAN/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "FAT─░H",
+    "street": "Yakac─▒k Cad.",
+    "number": "74",
+    "description": "Yakac─▒k Cad. No:74 FAT─░H/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "H─░LAL",
+    "street": "┼Şehit Abdurrahmangazi Cad.",
+    "number": "105",
+    "description": "┼Şehit Abdurrahmangazi Cad. No:105 H─░LAL/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "─░N├ûN├£",
+    "street": "Havuz Sk.",
+    "number": "25",
+    "description": "Havuz Sk. No:25 ─░N├ûN├£/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "KEMAL T├£RKLER",
+    "street": "Ekin Sk.",
+    "number": "6",
+    "description": "Ekin Sk. No:6 KEMAL T├£RKLER/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "MECL─░S",
+    "street": "Cemal G├╝rsel Cad.",
+    "number": "128",
+    "description": "Cemal G├╝rsel Cad. No:128 A MECL─░S/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "MERVE",
+    "street": "An─▒ Sk.",
+    "number": "2",
+    "description": "An─▒ Sk. No:2 MERVE/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "MEVLANA",
+    "street": "Kiraz Sk.",
+    "number": "18",
+    "description": "Kiraz Sk. No:18 MEVLANA/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "OSMANGAZ─░",
+    "street": "Bilal-i Habe┼şi Cad.",
+    "number": "2",
+    "description": "Bilal-i Habe┼şi Cad. No:2 OSMANGAZ─░/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "PA┼ŞAK├ûY",
+    "street": "Mesire Sk.",
+    "number": "6",
+    "description": "Mesire Sk. No:6 PA┼ŞAK├ûY/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "SAFA",
+    "street": "Takva Cad.",
+    "number": "11",
+    "description": "Takva Cad. No:11 SAFA/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "SARIGAZ─░",
+    "street": "Top├ğular Cad.",
+    "number": "2",
+    "description": "Top├ğular Cad. No:2 SARIGAZ─░/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "VEYSEL KARAN─░",
+    "street": "Zalo─şlu R├╝stem Cad.",
+    "number": "18",
+    "description": "Zalo─şlu R├╝stem Cad. No:18 VEYSEL KARAN─░/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "YEN─░DO─ŞAN",
+    "street": "├ûmer Hayyam Cad.",
+    "number": "31",
+    "description": "├ûmer Hayyam Cad. No:31 A YEN─░DO─ŞAN/SANCAKTEPE"
+  },
+  {
+    "district": "SANCAKTEPE",
+    "neighborhood": "YUNUS EMRE",
+    "street": "Yeditepe Sk.",
+    "number": "8",
+    "description": "Yeditepe Sk. No:8 YUNUS EMRE/SANCAKTEPE"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "AYAZA─ŞA",
+    "street": "┼Şehit Naci Canan Tuncer Sk.",
+    "number": "4",
+    "description": "┼Şehit Naci Canan Tuncer Sk. No:4 AYAZA─ŞA/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "BAH├çEK├ûY KEMER",
+    "street": "Valide Sultan Cad. BAH├çEK├ûY KEMER/SARIYER",
+    "number": "",
+    "description": "Valide Sultan Cad. BAH├çEK├ûY KEMER/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "BAH├çEK├ûY MERKEZ",
+    "street": "Balibey Sk.",
+    "number": "9",
+    "description": "Balibey Sk. No:9 BAH├çEK├ûY MERKEZ/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "BAH├çEK├ûY YEN─░MAHALLE",
+    "street": "Orta Selvi Sk.",
+    "number": "20",
+    "description": "Orta Selvi Sk. No:20 /1 BAH├çEK├ûY YEN─░MAHALLE/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "BALTAL─░MANI",
+    "street": "Baltaliman─▒ ├çay─▒r Cad.",
+    "number": "6",
+    "description": "Baltaliman─▒ ├çay─▒r Cad. No:6 BALTAL─░MANI/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "B├£Y├£KDERE",
+    "street": "Malt─▒z Deresi Sk.",
+    "number": "16",
+    "description": "Malt─▒z Deresi Sk. No:16 B├£Y├£KDERE/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "CUMHUR─░YET",
+    "street": "Araba Yolu Cad.",
+    "number": "28",
+    "description": "Araba Yolu Cad. No:28 A CUMHUR─░YET/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "├çAMLITEPE",
+    "street": "Ulu Cad.",
+    "number": "14",
+    "description": "Ulu Cad. No:14 ├çAMLITEPE/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "├çAYIRBA┼ŞI",
+    "street": "Atat├╝rk Okulu Sk.",
+    "number": "1",
+    "description": "Atat├╝rk Okulu Sk. No:1 /A ├çAYIRBA┼ŞI/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "DAR├£┼Ş┼ŞAFAKA",
+    "street": "Gazeteciler Sk.",
+    "number": "6",
+    "description": "Gazeteciler Sk. No:6 DAR├£┼Ş┼ŞAFAKA/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "DEM─░RC─░K├ûY",
+    "street": "Demircik├Ây Cad.",
+    "number": "72",
+    "description": "Demircik├Ây Cad. No:72 B DEM─░RC─░K├ûY/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "EM─░RGAN",
+    "street": "Do─şru Muvakkithane Cad.",
+    "number": "6",
+    "description": "Do─şru Muvakkithane Cad. No:6 /1 EM─░RGAN/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "FAT─░H SULTAN MEHMET",
+    "street": "├ûzel Sk.",
+    "number": "18",
+    "description": "├ûzel Sk. No:18 FAT─░H SULTAN MEHMET/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "FERAHEVLER",
+    "street": "Muhtar Cad.",
+    "number": "6",
+    "description": "Muhtar Cad. No:6 FERAHEVLER/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "GAR─░P├çE",
+    "street": "Garip├ğe Cad.",
+    "number": "48",
+    "description": "Garip├ğe Cad. No:48 GAR─░P├çE/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "G├£M├£┼ŞDERE",
+    "street": "G├╝m├╝┼şdere Cad.",
+    "number": "63",
+    "description": "G├╝m├╝┼şdere Cad. No:63 A G├£M├£┼ŞDERE/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "HUZUR",
+    "street": "G├╝n I┼ş─▒─ş─▒ Sk. HUZUR/SARIYER",
+    "number": "",
+    "description": "G├╝n I┼ş─▒─ş─▒ Sk. HUZUR/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "─░ST─░NYE",
+    "street": "Nuripa┼şa Cad.",
+    "number": "1",
+    "description": "Nuripa┼şa Cad. No:1 ─░ST─░NYE/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "KAZIM KARABEK─░R PA┼ŞA",
+    "street": "Fato┼ş Sk.",
+    "number": "22",
+    "description": "Fato┼ş Sk. No:22 KAZIM KARABEK─░R PA┼ŞA/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "KISIRKAYA",
+    "street": "K─▒s─▒rkaya Cad.",
+    "number": "47",
+    "description": "K─▒s─▒rkaya Cad. No:47 KISIRKAYA/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "K─░RE├çBURNU",
+    "street": "Araba Yolu Cad.",
+    "number": "217",
+    "description": "Araba Yolu Cad. No:217 K─░RE├çBURNU/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "KOCATA┼Ş",
+    "street": "Yeni Bo─şazi├ği Cad.",
+    "number": "90",
+    "description": "Yeni Bo─şazi├ği Cad. No:90 KOCATA┼Ş/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "KUMK├ûY (K─░LYOS)",
+    "street": "Turban Cad.",
+    "number": "8",
+    "description": "Turban Cad. No:8 KUMK├ûY (K─░LYOS)/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "MADEN",
+    "street": "Eski Kilyos Cad.",
+    "number": "7",
+    "description": "Eski Kilyos Cad. No:7 A MADEN/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "MASLAK",
+    "street": "Anka Sk.",
+    "number": "2",
+    "description": "Anka Sk. No:2 A/2 MASLAK/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "PINAR",
+    "street": "├çaml─▒bel Cad.",
+    "number": "39",
+    "description": "├çaml─▒bel Cad. No:39 B PINAR/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "POL─░GON",
+    "street": "Poligon Cad.",
+    "number": "26",
+    "description": "Poligon Cad. No:26 POL─░GON/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "PTT EVLER─░",
+    "street": "Kanuni Sultan S├╝leyman Cad.",
+    "number": "27",
+    "description": "Kanuni Sultan S├╝leyman Cad. No:27 B PTT EVLER─░/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "RE┼Ş─░TPA┼ŞA",
+    "street": "Zergerdan Sk.",
+    "number": "50",
+    "description": "Zergerdan Sk. No:50 A RE┼Ş─░TPA┼ŞA/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "RUMEL─░ KAVA─ŞI",
+    "street": "Kalyon ├ç─▒kmaz─▒",
+    "number": "6",
+    "description": "Kalyon ├ç─▒kmaz─▒ No:6 RUMEL─░ KAVA─ŞI/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "RUMEL─░FENER─░",
+    "street": "Sancak Sk.",
+    "number": "4",
+    "description": "Sancak Sk. No:4 RUMEL─░FENER─░/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "SARIYER MERKEZ",
+    "street": "Meserburnu Cad.",
+    "number": "8",
+    "description": "Meserburnu Cad. No:8 SARIYER MERKEZ/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "SARIYER YEN─░MAHALLE",
+    "street": "Y├╝rek Yakan Sk.",
+    "number": "2",
+    "description": "Y├╝rek Yakan Sk. No:2 SARIYER YEN─░MAHALLE/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "TARABYA",
+    "street": "Derei├ği Sk.",
+    "number": "6",
+    "description": "Derei├ği Sk. No:6 TARABYA/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "USKUMRUK├ûY",
+    "street": "Kadir A─şa Sk.",
+    "number": "2",
+    "description": "Kadir A─şa Sk. No:2 USKUMRUK├ûY/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "YEN─░K├ûY",
+    "street": "Yal─▒ Sk.",
+    "number": "1",
+    "description": "Yal─▒ Sk. No:1 YEN─░K├ûY/SARIYER"
+  },
+  {
+    "district": "SARIYER",
+    "neighborhood": "ZEKER─░YAK├ûY",
+    "street": "Zekeriyak├Ây Cad.",
+    "number": "13",
+    "description": "Zekeriyak├Ây Cad. No:13 ZEKER─░YAK├ûY/SARIYER"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "AK├ûREN",
+    "street": "Sa─şl─▒k Cad.",
+    "number": "25",
+    "description": "Sa─şl─▒k Cad. No:25 A AK├ûREN/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "AL─░BEY",
+    "street": "Murteza Y├Ânet Sk.",
+    "number": "7",
+    "description": "Murteza Y├Ânet Sk. No:7 AL─░BEY/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "AL─░PA┼ŞA",
+    "street": "Derinyol Sk.",
+    "number": "20",
+    "description": "Derinyol Sk. No:20 AL─░PA┼ŞA/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "BEK─░RL─░",
+    "street": "─░ncirli Cad.",
+    "number": "64",
+    "description": "─░ncirli Cad. No:64 D BEK─░RL─░/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "BEYC─░LER",
+    "street": "G├Âky├╝z├╝ Cad.",
+    "number": "44",
+    "description": "G├Âky├╝z├╝ Cad. No:44 B BEYC─░LER/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "B├£Y├£K ├çAVU┼ŞLU",
+    "street": "B├╝y├╝k├ğavu┼şlu Cad.",
+    "number": "46",
+    "description": "B├╝y├╝k├ğavu┼şlu Cad. No:46 B├£Y├£K ├çAVU┼ŞLU/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "B├£Y├£K KILI├çLI",
+    "street": "─░mam Sk.",
+    "number": "1",
+    "description": "─░mam Sk. No:1 /1 B├£Y├£K KILI├çLI/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "B├£Y├£K S─░NEKL─░",
+    "street": "Ak┼şemseddin Cad.",
+    "number": "230",
+    "description": "Ak┼şemseddin Cad. No:230 B├£Y├£K S─░NEKL─░/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "├çANTA SANCAKTEPE",
+    "street": "B├╝y├╝k ├ûnder Atat├╝rk Cad.",
+    "number": "67",
+    "description": "B├╝y├╝k ├ûnder Atat├╝rk Cad. No:67 ├çANTA SANCAKTEPE/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "├çAYIRDERE",
+    "street": "Ba┼ş├Â─şretmen Cad.",
+    "number": "105",
+    "description": "Ba┼ş├Â─şretmen Cad. No:105 ├çAYIRDERE/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "├çELT─░K",
+    "street": "├çanta Cad.",
+    "number": "23",
+    "description": "├çanta Cad. No:23 B ├çELT─░K/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "DANAMANDIRA",
+    "street": "Urallar Sk.",
+    "number": "2",
+    "description": "Urallar Sk. No:2 A DANAMANDIRA/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "DE─Ş─░RMENK├ûY FEVZ─░PA┼ŞA",
+    "street": "Gazipa┼şa Cad.",
+    "number": "69",
+    "description": "Gazipa┼şa Cad. No:69 B DE─Ş─░RMENK├ûY FEVZ─░PA┼ŞA/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "FAT─░H",
+    "street": "Piripa┼şa Sk.",
+    "number": "1",
+    "description": "Piripa┼şa Sk. No:1 /1 FAT─░H/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "FENER",
+    "street": "Cami ┼Şerif Sk.",
+    "number": "19",
+    "description": "Cami ┼Şerif Sk. No:19 A FENER/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "GAZ─░TEPE",
+    "street": "Velibey Cad.",
+    "number": "2",
+    "description": "Velibey Cad. No:2 C GAZ─░TEPE/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "G├£M├£┼ŞYAKA",
+    "street": "Cahit Arf Cad.",
+    "number": "6",
+    "description": "Cahit Arf Cad. No:6 G├£M├£┼ŞYAKA/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "KADIK├ûY",
+    "street": "Kad─▒k├Ây Ba─şlar─▒ Cad.",
+    "number": "71",
+    "description": "Kad─▒k├Ây Ba─şlar─▒ Cad. No:71 KADIK├ûY/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "KAVAKLI ─░ST─░KLAL",
+    "street": "Kavakl─▒ Cad.",
+    "number": "177",
+    "description": "Kavakl─▒ Cad. No:177 KAVAKLI ─░ST─░KLAL/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "KURFALLI",
+    "street": "Safranbolu Cad.",
+    "number": "5",
+    "description": "Safranbolu Cad. No:5 KURFALLI/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "K├£├ç├£K KILI├çLI",
+    "street": "Hamamdere Cad.",
+    "number": "1",
+    "description": "Hamamdere Cad. No:1 K├£├ç├£K KILI├çLI/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "K├£├ç├£K S─░NEKL─░",
+    "street": "Ta┼şova Sk.",
+    "number": "21",
+    "description": "Ta┼şova Sk. No:21 K├£├ç├£K S─░NEKL─░/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "ORTAK├ûY",
+    "street": "Celal Bayar Cad.",
+    "number": "10",
+    "description": "Celal Bayar Cad. No:10 ORTAK├ûY/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "P─░R─░ MEHMET PA┼ŞA",
+    "street": "Ba┼şkomutan Cad.",
+    "number": "14",
+    "description": "Ba┼şkomutan Cad. No:14 P─░R─░ MEHMET PA┼ŞA/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "SAYALAR",
+    "street": "Hac─▒ ├ûmer Cad.",
+    "number": "29",
+    "description": "Hac─▒ ├ûmer Cad. No:29 SAYALAR/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "SEL─░MPA┼ŞA",
+    "street": "Lojmanlar Sk.",
+    "number": "14",
+    "description": "Lojmanlar Sk. No:14 SEL─░MPA┼ŞA/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "SEM─░ZKUMLAR",
+    "street": "─░deal Sk.",
+    "number": "9",
+    "description": "─░deal Sk. No:9 SEM─░ZKUMLAR/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "SEYMEN",
+    "street": "Gazi Yi─şit Cad.",
+    "number": "36",
+    "description": "Gazi Yi─şit Cad. No:36 C SEYMEN/S─░L─░VR─░"
+  },
+  {
+    "district": "S─░L─░VR─░",
+    "neighborhood": "YOL├çATI",
+    "street": "Havuzlar Sk.",
+    "number": "3",
+    "description": "Havuzlar Sk. No:3 A YOL├çATI/S─░L─░VR─░"
+  },
+  {
+    "district": "SULTANBEYL─░",
+    "neighborhood": "ABDURRAHMANGAZ─░",
+    "street": "Petrol Yolu Cad.",
+    "number": "156",
+    "description": "Petrol Yolu Cad. No:156 ABDURRAHMANGAZ─░/SULTANBEYL─░"
+  },
+  {
+    "district": "SULTANBEYL─░",
+    "neighborhood": "AD─░L",
+    "street": "Vahdet Cad.",
+    "number": "13",
+    "description": "Vahdet Cad. No:13 AD─░L/SULTANBEYL─░"
+  },
+  {
+    "district": "SULTANBEYL─░",
+    "neighborhood": "AHMET YESEV─░",
+    "street": "M├╝cahit Cad.",
+    "number": "48",
+    "description": "M├╝cahit Cad. No:48 AHMET YESEV─░/SULTANBEYL─░"
+  },
+  {
+    "district": "SULTANBEYL─░",
+    "neighborhood": "AK┼ŞEMSETT─░N",
+    "street": "Birg├╝l Sk.",
+    "number": "19",
+    "description": "Birg├╝l Sk. No:19 AK┼ŞEMSETT─░N/SULTANBEYL─░"
+  },
+  {
+    "district": "SULTANBEYL─░",
+    "neighborhood": "BATTALGAZ─░",
+    "street": "Sar─▒su Sk.",
+    "number": "5",
+    "description": "Sar─▒su Sk. No:5 BATTALGAZ─░/SULTANBEYL─░"
+  },
+  {
+    "district": "SULTANBEYL─░",
+    "neighborhood": "FAT─░H",
+    "street": "┼Şalgaml─▒ Cad.",
+    "number": "120",
+    "description": "┼Şalgaml─▒ Cad. No:120 FAT─░H/SULTANBEYL─░"
+  },
+  {
+    "district": "SULTANBEYL─░",
+    "neighborhood": "HAM─░D─░YE",
+    "street": "Eyyubi Cad.",
+    "number": "41",
+    "description": "Eyyubi Cad. No:41 HAM─░D─░YE/SULTANBEYL─░"
+  },
+  {
+    "district": "SULTANBEYL─░",
+    "neighborhood": "HASANPA┼ŞA",
+    "street": "┼Şehzade Sk.",
+    "number": "4",
+    "description": "┼Şehzade Sk. No:4 HASANPA┼ŞA/SULTANBEYL─░"
+  },
+  {
+    "district": "SULTANBEYL─░",
+    "neighborhood": "MEC─░D─░YE",
+    "street": "Kamer ├ç─▒kmaz─▒",
+    "number": "2",
+    "description": "Kamer ├ç─▒kmaz─▒ No:2 A MEC─░D─░YE/SULTANBEYL─░"
+  },
+  {
+    "district": "SULTANBEYL─░",
+    "neighborhood": "MEHMET AK─░F",
+    "street": "Kuran Kursu Cad. MEHMET AK─░F/SULTANBEYL─░",
+    "number": "",
+    "description": "Kuran Kursu Cad. MEHMET AK─░F/SULTANBEYL─░"
+  },
+  {
+    "district": "SULTANBEYL─░",
+    "neighborhood": "M─░MAR S─░NAN",
+    "street": "Diyar Sk.",
+    "number": "13",
+    "description": "Diyar Sk. No:13 M─░MAR S─░NAN/SULTANBEYL─░"
+  },
+  {
+    "district": "SULTANBEYL─░",
+    "neighborhood": "NEC─░P FAZIL",
+    "street": "Trabzon Cad.",
+    "number": "49",
+    "description": "Trabzon Cad. No:49 NEC─░P FAZIL/SULTANBEYL─░"
+  },
+  {
+    "district": "SULTANBEYL─░",
+    "neighborhood": "ORHANGAZ─░",
+    "street": "Karata┼ş Sk.",
+    "number": "36",
+    "description": "Karata┼ş Sk. No:36 ORHANGAZ─░/SULTANBEYL─░"
+  },
+  {
+    "district": "SULTANBEYL─░",
+    "neighborhood": "TURGUT RE─░S",
+    "street": "Malazgirt Cad.",
+    "number": "27",
+    "description": "Malazgirt Cad. No:27 TURGUT RE─░S/SULTANBEYL─░"
+  },
+  {
+    "district": "SULTANBEYL─░",
+    "neighborhood": "YAVUZ SEL─░M",
+    "street": "D├╝stur Sk.",
+    "number": "49",
+    "description": "D├╝stur Sk. No:49 YAVUZ SEL─░M/SULTANBEYL─░"
+  },
+  {
+    "district": "SULTANGAZ─░",
+    "neighborhood": "50. YIL",
+    "street": "2070. Sk.",
+    "number": "11",
+    "description": "2070. Sk. No:11 A 50. YIL/SULTANGAZ─░"
+  },
+  {
+    "district": "SULTANGAZ─░",
+    "neighborhood": "75. YIL",
+    "street": "1306. Sk.",
+    "number": "19",
+    "description": "1306. Sk. No:19 A 75. YIL/SULTANGAZ─░"
+  },
+  {
+    "district": "SULTANGAZ─░",
+    "neighborhood": "CEBEC─░",
+    "street": "2467. Sk.",
+    "number": "4",
+    "description": "2467. Sk. No:4 CEBEC─░/SULTANGAZ─░"
+  },
+  {
+    "district": "SULTANGAZ─░",
+    "neighborhood": "CUMHUR─░YET",
+    "street": "Emir Sultan Sk.",
+    "number": "22",
+    "description": "Emir Sultan Sk. No:22 CUMHUR─░YET/SULTANGAZ─░"
+  },
+  {
+    "district": "SULTANGAZ─░",
+    "neighborhood": "ESENTEPE",
+    "street": "2850. Sk.",
+    "number": "151",
+    "description": "2850. Sk. No:151 ESENTEPE/SULTANGAZ─░"
+  },
+  {
+    "district": "SULTANGAZ─░",
+    "neighborhood": "ESK─░ HAB─░PLER",
+    "street": "Vefa Poyraz Cad.",
+    "number": "13",
+    "description": "Vefa Poyraz Cad. No:13 ESK─░ HAB─░PLER/SULTANGAZ─░"
+  },
+  {
+    "district": "SULTANGAZ─░",
+    "neighborhood": "GAZ─░",
+    "street": "1365. Sk.",
+    "number": "6",
+    "description": "1365. Sk. No:6 A GAZ─░/SULTANGAZ─░"
+  },
+  {
+    "district": "SULTANGAZ─░",
+    "neighborhood": "HAB─░BLER",
+    "street": "2721. Sk.",
+    "number": "2",
+    "description": "2721. Sk. No:2 HAB─░BLER/SULTANGAZ─░"
+  },
+  {
+    "district": "SULTANGAZ─░",
+    "neighborhood": "─░SMETPA┼ŞA",
+    "street": "62. Sk.",
+    "number": "17",
+    "description": "62. Sk. No:17 ─░SMETPA┼ŞA/SULTANGAZ─░"
+  },
+  {
+    "district": "SULTANGAZ─░",
+    "neighborhood": "MALKO├çO─ŞLU",
+    "street": "307. Sk.",
+    "number": "28",
+    "description": "307. Sk. No:28 MALKO├çO─ŞLU/SULTANGAZ─░"
+  },
+  {
+    "district": "SULTANGAZ─░",
+    "neighborhood": "SULTAN├ç─░FTL─░─Ş─░",
+    "street": "28. Sk.",
+    "number": "6",
+    "description": "28. Sk. No:6 SULTAN├ç─░FTL─░─Ş─░/SULTANGAZ─░"
+  },
+  {
+    "district": "SULTANGAZ─░",
+    "neighborhood": "U─ŞUR MUMCU",
+    "street": "2278. Sk.",
+    "number": "13",
+    "description": "2278. Sk. No:13 U─ŞUR MUMCU/SULTANGAZ─░"
+  },
+  {
+    "district": "SULTANGAZ─░",
+    "neighborhood": "YAYLA",
+    "street": "Yayla Bulvar─▒",
+    "number": "81",
+    "description": "Yayla Bulvar─▒ No:81 A YAYLA/SULTANGAZ─░"
+  },
+  {
+    "district": "SULTANGAZ─░",
+    "neighborhood": "YUNUS EMRE",
+    "street": "1403/2. Sk.",
+    "number": "10",
+    "description": "1403/2. Sk. No:10 A YUNUS EMRE/SULTANGAZ─░"
+  },
+  {
+    "district": "SULTANGAZ─░",
+    "neighborhood": "Z├£BEYDE HANIM",
+    "street": "1293. Sk.",
+    "number": "1",
+    "description": "1293. Sk. No:1 -9 Z├£BEYDE HANIM/SULTANGAZ─░"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "A─ŞA├çDERE",
+    "street": "A─şa├ğdere Cad.",
+    "number": "14",
+    "description": "A─şa├ğdere Cad. No:14 A─ŞA├çDERE/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "A─ŞVA MERKEZ",
+    "street": "Karak├Ây Sk.",
+    "number": "4",
+    "description": "Karak├Ây Sk. No:4 A─ŞVA MERKEZ/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "AHMETL─░",
+    "street": "K─▒z─▒l Toprak Cad.",
+    "number": "7",
+    "description": "K─▒z─▒l Toprak Cad. No:7 AHMETL─░/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "AK├çAKESE",
+    "street": "Ak├ğakese Cad.",
+    "number": "70",
+    "description": "Ak├ğakese Cad. No:70 B AK├çAKESE/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "ALACALI",
+    "street": "Muhtar Emin Y├╝ksel Cad.",
+    "number": "6",
+    "description": "Muhtar Emin Y├╝ksel Cad. No:6 ALACALI/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "AVCIKORU",
+    "street": "Dervi┼şpa┼şa Cad.",
+    "number": "6",
+    "description": "Dervi┼şpa┼şa Cad. No:6 A AVCIKORU/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "BAL─░BEY",
+    "street": "Cenk Sk.",
+    "number": "1",
+    "description": "Cenk Sk. No:1 BAL─░BEY/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "BI├çKIDERE",
+    "street": "B─▒├ğk─▒dere Cad.",
+    "number": "13",
+    "description": "B─▒├ğk─▒dere Cad. No:13 A BI├çKIDERE/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "BOZGOCA",
+    "street": "Bozgoca Cad.",
+    "number": "47",
+    "description": "Bozgoca Cad. No:47 A BOZGOCA/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "BUCAKLI",
+    "street": "Mekke Sk.",
+    "number": "2",
+    "description": "Mekke Sk. No:2 A BUCAKLI/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "├çATAKLI",
+    "street": "Mehmet Akif Ersoy Cad.",
+    "number": "193",
+    "description": "Mehmet Akif Ersoy Cad. No:193 A ├çATAKLI/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "├çAVU┼Ş",
+    "street": "Ayazma Cad.",
+    "number": "5",
+    "description": "Ayazma Cad. No:5 ├çAVU┼Ş/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "├çAYIRBA┼ŞI",
+    "street": "Ya┼şam Cad.",
+    "number": "66",
+    "description": "Ya┼şam Cad. No:66 A ├çAYIRBA┼ŞI/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "├çELEB─░",
+    "street": "Katip ├çelebi Cad.",
+    "number": "45",
+    "description": "Katip ├çelebi Cad. No:45 ├çELEB─░/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "├çENG─░LL─░",
+    "street": "├çengilli Cad.",
+    "number": "85",
+    "description": "├çengilli Cad. No:85 A ├çENG─░LL─░/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "DARLIK",
+    "street": "Darl─▒k Cad.",
+    "number": "3",
+    "description": "Darl─▒k Cad. No:3 DARLIK/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "DE─Ş─░RMEN├çAYIRI",
+    "street": "De─şirmen ├çay─▒r─▒ Cad.",
+    "number": "3",
+    "description": "De─şirmen ├çay─▒r─▒ Cad. No:3 A DE─Ş─░RMEN├çAYIRI/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "DO─ŞANCILI",
+    "street": "Do─şanc─▒l─▒ Cad.",
+    "number": "17",
+    "description": "Do─şanc─▒l─▒ Cad. No:17 B DO─ŞANCILI/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "ERENLER",
+    "street": "Dersaadet Sk.",
+    "number": "19",
+    "description": "Dersaadet Sk. No:19 B ERENLER/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "ESENCEL─░",
+    "street": "Aslanda─ş─▒ Sk.",
+    "number": "2",
+    "description": "Aslanda─ş─▒ Sk. No:2 ESENCEL─░/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "GEREDEL─░",
+    "street": "Mucize Sk.",
+    "number": "2",
+    "description": "Mucize Sk. No:2 GEREDEL─░/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "G├û├çE",
+    "street": "├çetiner Sk.",
+    "number": "1",
+    "description": "├çetiner Sk. No:1 G├û├çE/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "G├ûKMA┼ŞLI",
+    "street": "Burunca Cad.",
+    "number": "16",
+    "description": "Burunca Cad. No:16 A G├ûKMA┼ŞLI/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "G├ûKSU",
+    "street": "Tar─▒m Sk. G├ûKSU/┼Ş─░LE",
+    "number": "",
+    "description": "Tar─▒m Sk. G├ûKSU/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "HACILLI",
+    "street": "Geziyolu Sk.",
+    "number": "3",
+    "description": "Geziyolu Sk. No:3 B HACILLI/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "HASANLI",
+    "street": "De─şirmenci Sk.",
+    "number": "3",
+    "description": "De─şirmenci Sk. No:3 A HASANLI/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "─░MRENDERE",
+    "street": "─░lim Sk.",
+    "number": "8",
+    "description": "─░lim Sk. No:8 ─░MRENDERE/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "─░MRENL─░",
+    "street": "─░mrenli Cad.",
+    "number": "6",
+    "description": "─░mrenli Cad. No:6 ─░MRENL─░/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "─░SAK├ûY",
+    "street": "Sahil Yolu Cad.",
+    "number": "5",
+    "description": "Sahil Yolu Cad. No:5 C ─░SAK├ûY/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "KABAKOZ",
+    "street": "Hanedan Cad.",
+    "number": "18",
+    "description": "Hanedan Cad. No:18 A KABAKOZ/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "KADIK├ûY",
+    "street": "Beyzade Sk.",
+    "number": "4",
+    "description": "Beyzade Sk. No:4 A KADIK├ûY/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "KALEM",
+    "street": "Kalemk├Ây Cad.",
+    "number": "44",
+    "description": "Kalemk├Ây Cad. No:44 A KALEM/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "KARABEYL─░",
+    "street": "Hamarat Sk. KARABEYL─░/┼Ş─░LE",
+    "number": "",
+    "description": "Hamarat Sk. KARABEYL─░/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "KARACAK├ûY",
+    "street": "Karaca Ali Pa┼şa Cad.",
+    "number": "79",
+    "description": "Karaca Ali Pa┼şa Cad. No:79 /1 KARACAK├ûY/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "KARAK─░RAZ",
+    "street": "Levent Sk.",
+    "number": "5",
+    "description": "Levent Sk. No:5 C KARAK─░RAZ/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "KARAMANDERE",
+    "street": "Evrim Cad.",
+    "number": "1",
+    "description": "Evrim Cad. No:1 B KARAMANDERE/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "KERVANSARAY",
+    "street": "Ekenek Sk.",
+    "number": "3",
+    "description": "Ekenek Sk. No:3 KERVANSARAY/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "KIZILCA",
+    "street": "K─▒z─▒lcak├Ây Cad.",
+    "number": "20",
+    "description": "K─▒z─▒lcak├Ây Cad. No:20 A KIZILCA/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "KORUCU",
+    "street": "Korucuk├Ây Cad.",
+    "number": "16",
+    "description": "Korucuk├Ây Cad. No:16 B KORUCU/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "K├ûM├£RL├£K",
+    "street": "K├Âm├╝rl├╝k Cad.",
+    "number": "32",
+    "description": "K├Âm├╝rl├╝k Cad. No:32 B K├ûM├£RL├£K/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "KUMBABA",
+    "street": "7 Ekim Cad.",
+    "number": "69",
+    "description": "7 Ekim Cad. No:69 KUMBABA/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "KURFALLI",
+    "street": "Milli Egemenlik Cad.",
+    "number": "35",
+    "description": "Milli Egemenlik Cad. No:35 KURFALLI/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "KURNA",
+    "street": "Kurna Cad.",
+    "number": "30",
+    "description": "Kurna Cad. No:30 B KURNA/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "ME┼ŞRUT─░YET",
+    "street": "Duyum Sk.",
+    "number": "4",
+    "description": "Duyum Sk. No:4 ME┼ŞRUT─░YET/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "ORU├çO─ŞLU",
+    "street": "Nurg├╝l Sk.",
+    "number": "6",
+    "description": "Nurg├╝l Sk. No:6 ORU├çO─ŞLU/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "OSMANK├ûY",
+    "street": "Osmank├Ây Cad.",
+    "number": "36",
+    "description": "Osmank├Ây Cad. No:36 A OSMANK├ûY/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "OVACIK",
+    "street": "Y─▒landere Sk.",
+    "number": "3",
+    "description": "Y─▒landere Sk. No:3 OVACIK/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "SAH─░LK├ûY",
+    "street": "─░stanbul Cad.",
+    "number": "125",
+    "description": "─░stanbul Cad. No:125 C SAH─░LK├ûY/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "SATMAZLI",
+    "street": "Dik Sk.",
+    "number": "9",
+    "description": "Dik Sk. No:9 SATMAZLI/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "SOFULAR",
+    "street": "Sofular Cad.",
+    "number": "45",
+    "description": "Sofular Cad. No:45 SOFULAR/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "SO─ŞULLU",
+    "street": "Rahman Sk.",
+    "number": "1",
+    "description": "Rahman Sk. No:1 A SO─ŞULLU/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "SORTULLU",
+    "street": "Sortullu Cad.",
+    "number": "32",
+    "description": "Sortullu Cad. No:32 A SORTULLU/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "┼ŞUAY─░PL─░",
+    "street": "┼Şuayipli Cad.",
+    "number": "78",
+    "description": "┼Şuayipli Cad. No:78 /1 ┼ŞUAY─░PL─░/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "TEKE",
+    "street": "Teke Cad.",
+    "number": "16",
+    "description": "Teke Cad. No:16 B TEKE/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "ULUPEL─░T",
+    "street": "Ulupelit Cad.",
+    "number": "43",
+    "description": "Ulupelit Cad. No:43 ULUPEL─░T/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "├£VEZL─░",
+    "street": "Esma (├çaml─▒k) Sk.",
+    "number": "2",
+    "description": "Esma (├çaml─▒k) Sk. No:2 ├£VEZL─░/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "YAKA",
+    "street": "Fikret Sk.",
+    "number": "4",
+    "description": "Fikret Sk. No:4 YAKA/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "YAYLALI",
+    "street": "Yaylal─▒ Cad.",
+    "number": "19",
+    "description": "Yaylal─▒ Cad. No:19 YAYLALI/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "YAZIMANAYIR",
+    "street": "Ozanlar Cad.",
+    "number": "42",
+    "description": "Ozanlar Cad. No:42 YAZIMANAYIR/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "YEN─░K├ûY",
+    "street": "Yenik├Ây Cad.",
+    "number": "5",
+    "description": "Yenik├Ây Cad. No:5 YEN─░K├ûY/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░LE",
+    "neighborhood": "YE┼Ş─░LVAD─░",
+    "street": "Ye┼şilvadi Cad.",
+    "number": "45",
+    "description": "Ye┼şilvadi Cad. No:45 A YE┼Ş─░LVAD─░/┼Ş─░LE"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "19 MAYIS",
+    "street": "Dr. ┼Şevketbey Sk.",
+    "number": "11",
+    "description": "Dr. ┼Şevketbey Sk. No:11 19 MAYIS/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "BOZKURT",
+    "street": "T├╝rkbeyi Sk.",
+    "number": "38",
+    "description": "T├╝rkbeyi Sk. No:38 BOZKURT/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "CUMHUR─░YET",
+    "street": "Nehir Sk.",
+    "number": "4",
+    "description": "Nehir Sk. No:4 /1 CUMHUR─░YET/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "DUATEPE",
+    "street": "┼Şahadet Sk.",
+    "number": "27",
+    "description": "┼Şahadet Sk. No:27 DUATEPE/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "ERGENEKON",
+    "street": "├çimen Sk.",
+    "number": "117",
+    "description": "├çimen Sk. No:117 ERGENEKON/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "ESENTEPE",
+    "street": "Villa Cad.",
+    "number": "4",
+    "description": "Villa Cad. No:4 ESENTEPE/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "ESK─░┼ŞEH─░R",
+    "street": "De─şirmen Sk.",
+    "number": "31",
+    "description": "De─şirmen Sk. No:31 ESK─░┼ŞEH─░R/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "FER─░K├ûY",
+    "street": "Gediz Sk.",
+    "number": "35",
+    "description": "Gediz Sk. No:35 FER─░K├ûY/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "FULYA",
+    "street": "Bah├ğeler Sk.",
+    "number": "4",
+    "description": "Bah├ğeler Sk. No:4 FULYA/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "G├£LBAHAR",
+    "street": "Muhtar Sk.",
+    "number": "3",
+    "description": "Muhtar Sk. No:3 G├£LBAHAR/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "HAL─░DE ED─░P ADIVAR",
+    "street": "Halide Edip Ad─▒var Cad.",
+    "number": "38",
+    "description": "Halide Edip Ad─▒var Cad. No:38 HAL─░DE ED─░P ADIVAR/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "HAL─░L RIFAT PA┼ŞA",
+    "street": "Erkmen Cad.",
+    "number": "4",
+    "description": "Erkmen Cad. No:4 HAL─░L RIFAT PA┼ŞA/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "─░ZZET PA┼ŞA",
+    "street": "Yeni Yol Cad.",
+    "number": "1",
+    "description": "Yeni Yol Cad. No:1 /1 ─░ZZET PA┼ŞA/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "KAPTANPA┼ŞA",
+    "street": "Dar├╝laceze Cad.",
+    "number": "35",
+    "description": "Dar├╝laceze Cad. No:35 A KAPTANPA┼ŞA/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "KU┼ŞTEPE",
+    "street": "─░n├Ân├╝ Cad.",
+    "number": "17",
+    "description": "─░n├Ân├╝ Cad. No:17 KU┼ŞTEPE/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "MAHMUT ┼ŞEVKET PA┼ŞA",
+    "street": "Mithat Pa┼şa Cad.",
+    "number": "20",
+    "description": "Mithat Pa┼şa Cad. No:20 MAHMUT ┼ŞEVKET PA┼ŞA/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "MEC─░D─░YEK├ûY",
+    "street": "┼Şehit Er Cihan Naml─▒ Cad.",
+    "number": "16",
+    "description": "┼Şehit Er Cihan Naml─▒ Cad. No:16 /1 MEC─░D─░YEK├ûY/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "MERKEZ",
+    "street": "─░skendero─şlu Sk.",
+    "number": "27",
+    "description": "─░skendero─şlu Sk. No:27 MERKEZ/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "ME┼ŞRUT─░YET",
+    "street": "Halaskargazi Cad.",
+    "number": "110",
+    "description": "Halaskargazi Cad. No:110 ME┼ŞRUT─░YET/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "PA┼ŞA",
+    "street": "Ortanca Sk.",
+    "number": "24",
+    "description": "Ortanca Sk. No:24 PA┼ŞA/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "┼Ş─░┼ŞL─░",
+    "neighborhood": "TE┼ŞV─░K─░YE",
+    "street": "┼Şakay─▒k Sk.",
+    "number": "65",
+    "description": "┼Şakay─▒k Sk. No:65 A TE┼ŞV─░K─░YE/┼Ş─░┼ŞL─░"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "AKFIRAT",
+    "street": "16. Sk.",
+    "number": "4",
+    "description": "16. Sk. No:4 C AKFIRAT/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "ANADOLU",
+    "street": "Alsancak Cad.",
+    "number": "2",
+    "description": "Alsancak Cad. No:2 ANADOLU/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "AYDINLI",
+    "street": "G├╝rp─▒nar Cad.",
+    "number": "30",
+    "description": "G├╝rp─▒nar Cad. No:30 -1 AYDINLI/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "AYDINTEPE",
+    "street": "100. Y─▒l Cad.",
+    "number": "79",
+    "description": "100. Y─▒l Cad. No:79 AYDINTEPE/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "CAM─░",
+    "street": "Papaz ├çe┼şme Cad.",
+    "number": "8",
+    "description": "Papaz ├çe┼şme Cad. No:8 CAM─░/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "EVL─░YA ├çELEB─░",
+    "street": "M├╝┼ştak Sk.",
+    "number": "10",
+    "description": "M├╝┼ştak Sk. No:10 EVL─░YA ├çELEB─░/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "FAT─░H",
+    "street": "Av┼şar Sk.",
+    "number": "15",
+    "description": "Av┼şar Sk. No:15 FAT─░H/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "─░├çMELER",
+    "street": "F─▒rat Sk.",
+    "number": "2",
+    "description": "F─▒rat Sk. No:2 ─░├çMELER/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "─░STASYON",
+    "street": "Hatboyu Cad.",
+    "number": "134",
+    "description": "Hatboyu Cad. No:134 /1 ─░STASYON/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "MESC─░T",
+    "street": "Turgut ├ûzal Cad.",
+    "number": "1",
+    "description": "Turgut ├ûzal Cad. No:1 MESC─░T/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "M─░MAR S─░NAN",
+    "street": "Kalyon Sk.",
+    "number": "50",
+    "description": "Kalyon Sk. No:50 M─░MAR S─░NAN/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "ORHANLI",
+    "street": "Demokrasi Cad.",
+    "number": "60",
+    "description": "Demokrasi Cad. No:60 ORHANLI/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "ORTA",
+    "street": "Demokrasi Cad.",
+    "number": "168",
+    "description": "Demokrasi Cad. No:168 ORTA/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "POSTANE",
+    "street": "Tahaffuzhane Cad.",
+    "number": "3",
+    "description": "Tahaffuzhane Cad. No:3 POSTANE/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "┼Ş─░FA",
+    "street": "H├╝rriyet Cad.",
+    "number": "78",
+    "description": "H├╝rriyet Cad. No:78 A ┼Ş─░FA/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "TEPE├ûREN",
+    "street": "Eski Ankara Asfalt─▒ Cad.",
+    "number": "150",
+    "description": "Eski Ankara Asfalt─▒ Cad. No:150 TEPE├ûREN/TUZLA"
+  },
+  {
+    "district": "TUZLA",
+    "neighborhood": "YAYLA",
+    "street": "Cengiz Topel Cad.",
+    "number": "38",
+    "description": "Cengiz Topel Cad. No:38 YAYLA/TUZLA"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "ADEM YAVUZ",
+    "street": "Dar Sk.",
+    "number": "2",
+    "description": "Dar Sk. No:2 ADEM YAVUZ/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "ALTIN┼ŞEH─░R",
+    "street": "Kumru Cad.",
+    "number": "41",
+    "description": "Kumru Cad. No:41 ALTIN┼ŞEH─░R/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "ARMA─ŞANEVLER",
+    "street": "Dirili┼ş Cad.",
+    "number": "2",
+    "description": "Dirili┼ş Cad. No:2 ARMA─ŞANEVLER/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "A┼ŞA─ŞI DUDULLU",
+    "street": "Cami Cad.",
+    "number": "9",
+    "description": "Cami Cad. No:9 A┼ŞA─ŞI DUDULLU/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "ATAKENT",
+    "street": "Bur├ğak Sk.",
+    "number": "1",
+    "description": "Bur├ğak Sk. No:1 ATAKENT/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "ATAT├£RK",
+    "street": "G├╝ne┼ş Sk.",
+    "number": "21",
+    "description": "G├╝ne┼ş Sk. No:21 /1 ATAT├£RK/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "CEM─░L MER─░├ç",
+    "street": "─░stiklal Cad.",
+    "number": "28",
+    "description": "─░stiklal Cad. No:28 CEM─░L MER─░├ç/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "├çAKMAK",
+    "street": "Gurbet Sk.",
+    "number": "4",
+    "description": "Gurbet Sk. No:4 ├çAKMAK/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "├çAMLIK",
+    "street": "─░kbal Cad.",
+    "number": "110",
+    "description": "─░kbal Cad. No:110 ├çAMLIK/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "DUMLUPINAR",
+    "street": "Malatya Cad.",
+    "number": "82",
+    "description": "Malatya Cad. No:82 DUMLUPINAR/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "ELMALIKENT",
+    "street": "Diyar Sk.",
+    "number": "30",
+    "description": "Diyar Sk. No:30 ELMALIKENT/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "ESENEVLER",
+    "street": "Kervan Sk.",
+    "number": "2",
+    "description": "Kervan Sk. No:2 ESENEVLER/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "ESENKENT",
+    "street": "Kurtulu┼ş Cad.",
+    "number": "6",
+    "description": "Kurtulu┼ş Cad. No:6 /1A ESENKENT/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "ESEN┼ŞEH─░R",
+    "street": "Zambak Sk.",
+    "number": "28",
+    "description": "Zambak Sk. No:28 ESEN┼ŞEH─░R/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "FAT─░H SULTAN MEHMET",
+    "street": "Poligon Cad.",
+    "number": "23",
+    "description": "Poligon Cad. No:23 FAT─░H SULTAN MEHMET/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "HEK─░MBA┼ŞI",
+    "street": "K├╝├ğ├╝ksu Cad. HEK─░MBA┼ŞI/├£MRAN─░YE",
+    "number": "",
+    "description": "K├╝├ğ├╝ksu Cad. HEK─░MBA┼ŞI/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "HUZUR",
+    "street": "A┼ş─▒k ┼Şenlik Cad.",
+    "number": "6",
+    "description": "A┼ş─▒k ┼Şenlik Cad. No:6 B HUZUR/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "IHLAMURKUYU",
+    "street": "Petrolyolu Cad.",
+    "number": "75",
+    "description": "Petrolyolu Cad. No:75 IHLAMURKUYU/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "─░NKILAP",
+    "street": "Hatip Cad.",
+    "number": "78",
+    "description": "Hatip Cad. No:78 ─░NKILAP/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "─░ST─░KLAL",
+    "street": "Hatboyu Cad.",
+    "number": "36",
+    "description": "Hatboyu Cad. No:36 ─░ST─░KLAL/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "KAZIM KARABEK─░R",
+    "street": "├ûm├╝r Sk.",
+    "number": "42",
+    "description": "├ûm├╝r Sk. No:42 KAZIM KARABEK─░R/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "MADENLER",
+    "street": "Medeniyet Sk.",
+    "number": "2",
+    "description": "Medeniyet Sk. No:2 MADENLER/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "MEHMET AK─░F",
+    "street": "Tezcan Cad.",
+    "number": "8",
+    "description": "Tezcan Cad. No:8 MEHMET AK─░F/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "NAMIK KEMAL",
+    "street": "Cengiz Topel Cad.",
+    "number": "1",
+    "description": "Cengiz Topel Cad. No:1 NAMIK KEMAL/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "NEC─░P FAZIL",
+    "street": "Neval Sk.",
+    "number": "1",
+    "description": "Neval Sk. No:1 NEC─░P FAZIL/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "PARSELLER",
+    "street": "Nida Sk.",
+    "number": "11",
+    "description": "Nida Sk. No:11 PARSELLER/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "SARAY",
+    "street": "Dr. Adnan B├╝y├╝kdeniz Cad.",
+    "number": "16",
+    "description": "Dr. Adnan B├╝y├╝kdeniz Cad. No:16 SARAY/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "S─░TE",
+    "street": "Atay Cad.",
+    "number": "100",
+    "description": "Atay Cad. No:100 S─░TE/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "┼ŞER─░FAL─░",
+    "street": "─░brahim Hakk─▒ Sk.",
+    "number": "18",
+    "description": "─░brahim Hakk─▒ Sk. No:18 ┼ŞER─░FAL─░/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "TANTAV─░",
+    "street": "Ak─▒n Sk.",
+    "number": "1",
+    "description": "Ak─▒n Sk. No:1 TANTAV─░/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "TATLISU",
+    "street": "G├Âksu Cad.",
+    "number": "35",
+    "description": "G├Âksu Cad. No:35 TATLISU/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "TEPE├£ST├£",
+    "street": "P─▒narba┼ş─▒ Sk.",
+    "number": "24",
+    "description": "P─▒narba┼ş─▒ Sk. No:24 TEPE├£ST├£/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "TOPA─ŞACI",
+    "street": "Topa─şac─▒ Cad.",
+    "number": "8",
+    "description": "Topa─şac─▒ Cad. No:8 TOPA─ŞACI/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "YAMANEVLER",
+    "street": "┼Şehit Hasan Elbenna Sk.",
+    "number": "3",
+    "description": "┼Şehit Hasan Elbenna Sk. No:3 YAMANEVLER/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "YEN─░┼ŞEH─░R",
+    "street": "3008. Cad.",
+    "number": "36",
+    "description": "3008. Cad. No:36 A YEN─░┼ŞEH─░R/├£MRAN─░YE"
+  },
+  {
+    "district": "├£MRAN─░YE",
+    "neighborhood": "YUKARI DUDULLU",
+    "street": "G├Âztepe Cad.",
+    "number": "7",
+    "description": "G├Âztepe Cad. No:7 YUKARI DUDULLU/├£MRAN─░YE"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "ACIBADEM",
+    "street": "─░lkbahar Sk.",
+    "number": "3",
+    "description": "─░lkbahar Sk. No:3 ACIBADEM/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "AHMED─░YE",
+    "street": "G├╝ndo─şumu Cad.",
+    "number": "98",
+    "description": "G├╝ndo─şumu Cad. No:98 AHMED─░YE/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "ALTUN─░ZADE",
+    "street": "Haluk T├╝rksoy Arkas─▒ Sk.",
+    "number": "6",
+    "description": "Haluk T├╝rksoy Arkas─▒ Sk. No:6 /1 ALTUN─░ZADE/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "AZ─░Z MAHMUT H├£DAY─░",
+    "street": "Oymasaray ├ç─▒kmaz─▒",
+    "number": "13",
+    "description": "Oymasaray ├ç─▒kmaz─▒ No:13 /1000 AZ─░Z MAHMUT H├£DAY─░/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "BARBAROS",
+    "street": "Mare┼şal Sk.",
+    "number": "14",
+    "description": "Mare┼şal Sk. No:14 BARBAROS/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "BEYLERBEY─░",
+    "street": "Abdullaha─şa Hamam─▒ Sk.",
+    "number": "17",
+    "description": "Abdullaha─şa Hamam─▒ Sk. No:17 BEYLERBEY─░/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "BULGURLU",
+    "street": "Bulgurlu Cad. BULGURLU/├£SK├£DAR",
+    "number": "",
+    "description": "Bulgurlu Cad. BULGURLU/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "BURHAN─░YE",
+    "street": "Nizam─▒ Cedit Sk.",
+    "number": "2",
+    "description": "Nizam─▒ Cedit Sk. No:2 BURHAN─░YE/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "CUMHUR─░YET",
+    "street": "Esatpa┼şa Cad.",
+    "number": "12",
+    "description": "Esatpa┼şa Cad. No:12 A CUMHUR─░YET/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "├çENGELK├ûY",
+    "street": "Tanr─▒verdi Sk.",
+    "number": "16",
+    "description": "Tanr─▒verdi Sk. No:16 /1 ├çENGELK├ûY/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "FERAH",
+    "street": "Alt─▒nta┼ş Sk.",
+    "number": "6",
+    "description": "Alt─▒nta┼ş Sk. No:6 FERAH/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "─░CAD─░YE",
+    "street": "Cemil Meri├ğ Sk.",
+    "number": "2",
+    "description": "Cemil Meri├ğ Sk. No:2 ─░CAD─░YE/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "KAND─░LL─░",
+    "street": "Vanik├Ây Cad.",
+    "number": "103",
+    "description": "Vanik├Ây Cad. No:103 KAND─░LL─░/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "KISIKLI",
+    "street": "Ferah Cad.",
+    "number": "32",
+    "description": "Ferah Cad. No:32 KISIKLI/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "K─░RAZLITEPE",
+    "street": "Mehmet Akif Ersoy Cad.",
+    "number": "17",
+    "description": "Mehmet Akif Ersoy Cad. No:17 K─░RAZLITEPE/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "KUZGUNCUK",
+    "street": "Me┼şruta Sk.",
+    "number": "1",
+    "description": "Me┼şruta Sk. No:1 KUZGUNCUK/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "K├£├ç├£K├çAMLICA",
+    "street": "├çilehane Sk.",
+    "number": "1000",
+    "description": "├çilehane Sk. No:1000 K├£├ç├£K├çAMLICA/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "K├£├ç├£KSU",
+    "street": "├ûm├╝rtepe Yoku┼şu Sk.",
+    "number": "99",
+    "description": "├ûm├╝rtepe Yoku┼şu Sk. No:99 K├£├ç├£KSU/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "MEHMET AK─░F ERSOY",
+    "street": "Ay─▒┼ş─▒─ş─▒ Sk. MEHMET AK─░F ERSOY/├£SK├£DAR",
+    "number": "",
+    "description": "Ay─▒┼ş─▒─ş─▒ Sk. MEHMET AK─░F ERSOY/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "M─░MAR S─░NAN",
+    "street": "Kassam ├çe┼şme Sk.",
+    "number": "13",
+    "description": "Kassam ├çe┼şme Sk. No:13 M─░MAR S─░NAN/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "MURATRE─░S",
+    "street": "Gazi Cad.",
+    "number": "39",
+    "description": "Gazi Cad. No:39 MURATRE─░S/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "SALACAK",
+    "street": "Pa┼şakap─▒s─▒ Sk. SALACAK/├£SK├£DAR",
+    "number": "",
+    "description": "Pa┼şakap─▒s─▒ Sk. SALACAK/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "SEL─░M─░YE",
+    "street": "Selimiye K─▒┼şla Cad.",
+    "number": "34",
+    "description": "Selimiye K─▒┼şla Cad. No:34 /2 SEL─░M─░YE/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "SULTANTEPE",
+    "street": "H─▒zal Sk.",
+    "number": "2",
+    "description": "H─▒zal Sk. No:2 /1 SULTANTEPE/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "├£NALAN",
+    "street": "Soyak Camii Sk.",
+    "number": "8",
+    "description": "Soyak Camii Sk. No:8 ├£NALAN/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "VAL─░DE-─░ AT─░K",
+    "street": "├çinili Camii Sk.",
+    "number": "24",
+    "description": "├çinili Camii Sk. No:24 VAL─░DE-─░ AT─░K/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "YAVUZT├£RK",
+    "street": "Karadeniz Cad.",
+    "number": "22",
+    "description": "Karadeniz Cad. No:22 /2 YAVUZT├£RK/├£SK├£DAR"
+  },
+  {
+    "district": "├£SK├£DAR",
+    "neighborhood": "ZEYNEP KAM─░L",
+    "street": "Dr. Burhanettin ├£st├╝nel Sk.",
+    "number": "2",
+    "description": "Dr. Burhanettin ├£st├╝nel Sk. No:2 /6 ZEYNEP KAM─░L/├£SK├£DAR"
+  },
+  {
+    "district": "ZEYT─░NBURNU",
+    "neighborhood": "BE┼ŞTELS─░Z",
+    "street": "124. Sk.",
+    "number": "2",
+    "description": "124. Sk. No:2 BE┼ŞTELS─░Z/ZEYT─░NBURNU"
+  },
+  {
+    "district": "ZEYT─░NBURNU",
+    "neighborhood": "├çIRPICI",
+    "street": "┼Şener Sk.",
+    "number": "23",
+    "description": "┼Şener Sk. No:23 ├çIRPICI/ZEYT─░NBURNU"
+  },
+  {
+    "district": "ZEYT─░NBURNU",
+    "neighborhood": "G├ûKALP",
+    "street": "Hasan Sevim Sk.",
+    "number": "7",
+    "description": "Hasan Sevim Sk. No:7 -9A G├ûKALP/ZEYT─░NBURNU"
+  },
+  {
+    "district": "ZEYT─░NBURNU",
+    "neighborhood": "KAZLI├çE┼ŞME",
+    "street": "Mehmet Akif Ersoy Sk.",
+    "number": "6",
+    "description": "Mehmet Akif Ersoy Sk. No:6 KAZLI├çE┼ŞME/ZEYT─░NBURNU"
+  },
+  {
+    "district": "ZEYT─░NBURNU",
+    "neighborhood": "MALTEPE",
+    "street": "326. Sk.",
+    "number": "4",
+    "description": "326. Sk. No:4 A MALTEPE/ZEYT─░NBURNU"
+  },
+  {
+    "district": "ZEYT─░NBURNU",
+    "neighborhood": "MERKEZEFEND─░",
+    "street": "Sabri ├£lker Sk.",
+    "number": "34",
+    "description": "Sabri ├£lker Sk. No:34 MERKEZEFEND─░/ZEYT─░NBURNU"
+  },
+  {
+    "district": "ZEYT─░NBURNU",
+    "neighborhood": "NUR─░PA┼ŞA",
+    "street": "Bekir Suba┼ş─▒ Sk.",
+    "number": "43",
+    "description": "Bekir Suba┼ş─▒ Sk. No:43 NUR─░PA┼ŞA/ZEYT─░NBURNU"
+  },
+  {
+    "district": "ZEYT─░NBURNU",
+    "neighborhood": "SEY─░TN─░ZAM",
+    "street": "G/13. Sk.",
+    "number": "2",
+    "description": "G/13. Sk. No:2 /1A SEY─░TN─░ZAM/ZEYT─░NBURNU"
+  },
+  {
+    "district": "ZEYT─░NBURNU",
+    "neighborhood": "S├£MER",
+    "street": "┼Şehit Piyade Er Ya┼şar Ye┼şilk─▒r Sk.",
+    "number": "8",
+    "description": "┼Şehit Piyade Er Ya┼şar Ye┼şilk─▒r Sk. No:8 S├£MER/ZEYT─░NBURNU"
+  },
+  {
+    "district": "ZEYT─░NBURNU",
+    "neighborhood": "TELS─░Z",
+    "street": "Fesle─şen Sk.",
+    "number": "54",
+    "description": "Fesle─şen Sk. No:54 TELS─░Z/ZEYT─░NBURNU"
+  },
+  {
+    "district": "ZEYT─░NBURNU",
+    "neighborhood": "VEL─░EFEND─░",
+    "street": "Hak┼şinaz Sk.",
+    "number": "20",
+    "description": "Hak┼şinaz Sk. No:20 -22 VEL─░EFEND─░/ZEYT─░NBURNU"
+  },
+  {
+    "district": "ZEYT─░NBURNU",
+    "neighborhood": "YEN─░DO─ŞAN",
+    "street": "46. Sk.",
+    "number": "77",
+    "description": "46. Sk. No:77 -79 YEN─░DO─ŞAN/ZEYT─░NBURNU"
+  }
+]

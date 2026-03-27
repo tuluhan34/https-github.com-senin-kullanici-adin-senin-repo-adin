@@ -3,24 +3,18 @@
 34 Moto Kurye İstanbul, Istanbul genelinde 7/24 moto kurye ve acil kurye hizmeti sunar.
 
 ## Official Site
-- https://34motokuryeistanbul.com/
+- https://www.34motokuryeistanbul.com/
 
 ## Core Pages
-- https://34motokuryeistanbul.com/hizmetler
-- https://34motokuryeistanbul.com/galeri
-- https://34motokuryeistanbul.com/blog
-- https://34motokuryeistanbul.com/privacy
-- https://34motokuryeistanbul.com/terms
-- https://34motokuryeistanbul.com/cookies
+- https://www.34motokuryeistanbul.com/
+- https://www.34motokuryeistanbul.com/hizmetlerimiz/
+- https://www.34motokuryeistanbul.com/seo-icerikler/
 
 ## Service Pages
-- https://34motokuryeistanbul.com/hizmetler/moto-kurye
-- https://34motokuryeistanbul.com/hizmetler/acil-kurye
-- https://34motokuryeistanbul.com/hizmetler/vip-kurye
-- https://34motokuryeistanbul.com/hizmetler/gece-kurye
-- https://34motokuryeistanbul.com/hizmetler/aracli-kurye
-- https://34motokuryeistanbul.com/hizmetler/ekspres-kurye
-- https://34motokuryeistanbul.com/hizmetler/vale-ozel-sofor
+- https://www.34motokuryeistanbul.com/hizmetler/acil-moto-kurye/
+- https://www.34motokuryeistanbul.com/hizmetler/express-kurye/
+- https://www.34motokuryeistanbul.com/hizmetler/vip-kurye/
+- https://www.34motokuryeistanbul.com/hizmetler/aracli-kurye/
 
 ## Contact
 - Tel: +90 530 321 90 04
@@ -28,4 +22,4 @@
 
 ## Crawl Notes
 - Public pages may be indexed and summarized by AI and search systems.
-- Canonical URLs should prefer https://34motokuryeistanbul.com/.
+- Canonical URLs should prefer https://www.34motokuryeistanbul.com/.

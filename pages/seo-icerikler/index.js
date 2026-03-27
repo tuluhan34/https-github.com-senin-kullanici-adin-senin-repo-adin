@@ -3,14 +3,30 @@ import Link from "next/link";
 import { readSeoDailyStore } from "../../lib/seo-daily-store";
 
 export default function SeoIcerikListesi({ posts }) {
+  const siteUrl = "https://www.34motokuryeistanbul.com";
+  const canonicalUrl = `${siteUrl}/seo-icerikler/`;
+  const title = "Gunluk Blog | 34 Moto Kurye Istanbul";
+  const description = "Gunluk uretilen organik kurye icerikleri: Istanbul ilce ve mahalle bazli blog ve hizmet metin arsivi.";
+  const blogSchema = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    name: "34 Moto Kurye Istanbul Blog",
+    url: canonicalUrl,
+    inLanguage: "tr-TR",
+  };
+
   return (
     <>
       <Head>
-        <title>Gunluk Blog | 34 Moto Kurye Istanbul</title>
-        <meta
-          name="description"
-          content="Gunluk uretilen organik kurye icerikleri: Istanbul ilce ve mahalle bazli blog ve hizmet metin arsivi."
-        />
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }} />
       </Head>
 
       <main className="home-shell">
