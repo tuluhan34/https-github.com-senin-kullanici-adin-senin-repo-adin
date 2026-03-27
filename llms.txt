@@ -1,0 +1,25 @@
+# 34 Moto Kurye İstanbul
+
+34 Moto Kurye İstanbul, Istanbul genelinde 7/24 moto kurye ve acil kurye hizmeti sunar.
+
+## Official Site
+- https://www.34motokuryeistanbul.com/
+
+## Core Pages
+- https://www.34motokuryeistanbul.com/
+- https://www.34motokuryeistanbul.com/hizmetlerimiz/
+- https://www.34motokuryeistanbul.com/seo-icerikler/
+
+## Service Pages
+- https://www.34motokuryeistanbul.com/hizmetler/acil-moto-kurye/
+- https://www.34motokuryeistanbul.com/hizmetler/express-kurye/
+- https://www.34motokuryeistanbul.com/hizmetler/vip-kurye/
+- https://www.34motokuryeistanbul.com/hizmetler/aracli-kurye/
+
+## Contact
+- Tel: +90 530 321 90 04
+- WhatsApp: https://wa.me/905303219004
+
+## Crawl Notes
+- Public pages may be indexed and summarized by AI and search systems.
+- Canonical URLs should prefer https://www.34motokuryeistanbul.com/.

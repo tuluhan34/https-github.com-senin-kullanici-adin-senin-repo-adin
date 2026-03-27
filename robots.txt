@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Primary indexing targets
+Allow: /hizmetler/
+Allow: /ilceler/
+Allow: /seo-icerikler/
+
+# Crawlers can skip heavy framework internals
+Disallow: /_next/
+
+Sitemap: https://www.34motokuryeistanbul.com/sitemap.xml
+Host: www.34motokuryeistanbul.com

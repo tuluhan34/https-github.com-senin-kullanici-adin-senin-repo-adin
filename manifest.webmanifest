@@ -1,0 +1,17 @@
+{
+  "name": "34 Executive Courier Istanbul",
+  "short_name": "34 Executive",
+  "description": "Premium courier service focused on trust, speed, and precision.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0B0C",
+  "theme_color": "#0B0B0C",
+  "icons": [
+    {
+      "src": "/brand/34motokuryeistanbul-google-logo.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

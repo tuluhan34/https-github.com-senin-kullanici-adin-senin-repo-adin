@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fhizmetler\u002F[slug]","\u002Filceler\u002F[district]\u002F[neighborhood]","\u002Fseo-icerikler","\u002Fseo-icerikler\u002F[slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
