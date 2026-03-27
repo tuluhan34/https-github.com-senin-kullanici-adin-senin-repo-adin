@@ -88,8 +88,8 @@ jobs:
           set -euo pipefail
 
           start_ts="$(date +%s)"
-          max_seconds=1100
-          max_attempts=120
+          max_seconds=1140
+          max_attempts=180
 
           host_input="$CPANEL_FTP_HOST"
           host_input="${host_input#ftp://}"
@@ -121,7 +121,7 @@ jobs:
           )
 
           protocols=(ftp ftps sftp)
-          ports=(21 22)
+          ports=(21 22 990)
           if [ -n "$explicit_port" ]; then
             ports=("$explicit_port" "${ports[@]}")
           fi
@@ -190,7 +190,7 @@ jobs:
 
                 # Fast preflight: if login/listing fails, skip all remote path attempts.
                 set +e
-                timeout 18s lftp -u "$ftp_user","$CPANEL_FTP_PASSWORD" "$protocol://$host:$port" -e "set cmd:fail-exit yes; set net:timeout 8; set net:max-retries 1; set net:reconnect-interval-base 2; set ssl:verify-certificate no; set sftp:auto-confirm yes; cls; bye" >/dev/null 2>&1
+                timeout 24s lftp -u "$ftp_user","$CPANEL_FTP_PASSWORD" "$protocol://$host:$port" -e "set cmd:fail-exit yes; set ftp:passive-mode yes; set net:timeout 12; set net:max-retries 1; set net:reconnect-interval-base 2; set ssl:verify-certificate no; set ssl:check-hostname no; set sftp:auto-confirm yes; cls; bye" >/dev/null 2>&1
                 preflight_code=$?
                 set -e
 
@@ -202,7 +202,7 @@ jobs:
                 for remote_path in "${remote_paths[@]}"; do
                   echo "  -> Deploying to remote path: $remote_path"
                   set +e
-                  timeout 45s lftp -u "$ftp_user","$CPANEL_FTP_PASSWORD" "$protocol://$host:$port" -e "set cmd:fail-exit yes; set net:timeout 8; set net:max-retries 1; set net:reconnect-interval-base 2; set ssl:verify-certificate no; set sftp:auto-confirm yes; mkdir -p $remote_path; mirror -R --delete --verbose=1 out/ $remote_path; bye"
+                  timeout 70s lftp -u "$ftp_user","$CPANEL_FTP_PASSWORD" "$protocol://$host:$port" -e "set cmd:fail-exit yes; set ftp:passive-mode yes; set net:timeout 12; set net:max-retries 1; set net:reconnect-interval-base 2; set ssl:verify-certificate no; set ssl:check-hostname no; set sftp:auto-confirm yes; mkdir -p $remote_path; mirror -R --delete --verbose=1 out/ $remote_path; bye"
                   code=$?
                   set -e
 
